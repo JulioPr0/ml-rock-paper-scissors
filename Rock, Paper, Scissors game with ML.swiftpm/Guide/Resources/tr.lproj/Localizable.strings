@@ -1,0 +1,651 @@
+/* Title of Guidebook */
+"GuideBook..title" = "Makine Öğrenimine Giriş";
+
+/* The title of the Welcome Message for the GuideBook */
+"GuideBook..WelcomeMessageGet Started with Machine Learning..title" = "Makine Öğrenimine Giriş";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..WelcomeMessageGet Started with Machine Learning..Paragraph0" = "Merhaba! Bu örnekte bir Taş, Kâğıt, Makas oyununu tam bir makine öğrenimi (ML) uygulamasına dönüştüreceksin.";
+
+/* Title of step named Get Started with Machine Learning */
+"GuideBook..Guide0..StepGet Started with Machine Learning..title" = "Makine Öğrenimine Giriş";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..Paragraph1" = "![](ML-intro@2x.png)";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..Paragraph2" = "Taş, Kâğıt, Makas oyununu daha önce hiç oynadın mı? Her biri diğerini yenen üç eylemden birini seçtiğin bir oyundur:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..UnorderedList0..Paragraph3" = "Taş ✊ makası ✌️ yener";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..UnorderedList0..Paragraph4" = "Kâğıt ✋ taşı ✊ yener";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..UnorderedList0..Paragraph5" = "Makas ✌️ kâğıdı ✋ yener";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..Paragraph6" = "Kurallar, bir bilgisayara oynamayı öğretebilecek kadar kolaydır. Ancak iPad’ine veya Mac’ine ✊, ✋ veya ✌️ gibi el pozlarını tanımayı öğretmek ne kadar bir iş gerektirir?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..Paragraph7" = "Bu örnekte var olan bir Taş, Kâğıt, Makas oyununu alacak ve onu bir kameranın ve bir [makine öğrenimi modelinin](glossary://machine%20learning%20model) yardımıyla, gücünü makine öğreniminden alan harika bir oyuna yükselteceksin. Başlama zamanı!";
+
+/* title of the guide button */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..GuideButtonStart Walkthrough..title" = "Kılavuzu Başlat";
+
+/* accessibility description for guide button */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..GuideButtonStart Walkthrough..description" = "Düğme için erişilebilirlik açıklaması";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..title" = "Oyun mantığını tamamlama";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..title" = "Oyun mantığının geri kalanını ekleme 🕹";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Paragraph8" = "Swift’te Taş, Kâğıt, Makas oyunu yaratmayı öğren.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page0..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page0..Paragraph9" = "Önizlemende temel Taş, Kâğıt, Makas oyununu görebilirsin. Oyunun bu sürümünde sol ve sağ ok düğmelerini kullanarak hareketini seçebilirsin.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page0..Paragraph10" = "Bir hareket yapmak için iPad’in veya Mac’in için Oyna’ya dokun. Birkaç saniyeni ayır ve oyunu dene.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page0..Paragraph11" = "Oyunla ilgili bir sorun fark ettin mi?";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page1..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page1..Paragraph12" = "Oyun kurallarının biraz bozulduğunu fark etmişsindir! Endişelenme, bunu birazdan düzelteceksin.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page2..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page2..Paragraph13" = "Taş, Kâğıt, Makas oyun [görüntün](glossary://view) olan ve oyun durumunu, sonuçları, hareketini ve bilgisayarın hareketini takip eden `RPSGameView`, `GameModel` adında bir [veri modeli](glossary://data%20model) kullanıyor.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page2..Paragraph14" = "Sonra, oyunun mantığını `GameModel`’da kuracaksın.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page3..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page3..Paragraph15" = "Oyun kuralları, `GameModel` [ilk değer atayıcısının](glossary://initialization) içinde belirlenir.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page3..Paragraph16" = "Bu koda göz atmak için biraz zaman ayır. Her kod satırının ne yaptığını tahmin edebilir misin?";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page4..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page4..Paragraph17" = "Öncelikle kod, Taş ✊, Kâğıt ✋ ve Makas ✌️ için üç farklı `GameMove` [örneği](glossary://instance) yaratır.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page4..Paragraph18" = "`GameMove` bir ad, simge ve yenebileceği diğer hareketlerden oluşan bir dizi içerir. Bu, bir `GameMove`’un başka bir `GameMove`’u yenip yenemeyeceğini bulmanı sağlar ve `.win`, `.lose` veya `.tie` sonucunu döndürür.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page4..Paragraph19" = "`rock`, `paper` ve `scissors` hareketlerinin simgelerini değiştirmeyi dene ve nasıl değiştiğini görmek için oyunu yeniden oyna.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page5..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page5..Paragraph20" = "Sonra, oyunun kuralları hangi hareketin hangi hareketi yeneceğini belirler.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page5..Paragraph21" = "Koda bakarsan kodda yalnızca taşın makası yenme mantığı olduğunu göreceksin. Oyunun bu kadar bozuk olmasının nedeni budur. 🤪";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page5..Paragraph22" = "`paper` ve `scissors` kurallarını eklemek için bu kod parçacığını ekle:";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page5..CodeBlock0" = "/*#-code-walkthrough(gameModel.customizeRules)*/\npaper.beats([rock])\nscissors.beats([paper])\n/*#-code-walkthrough(gameModel.customizeRules)*/\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page5..Paragraph23" = "Oyunu yeniden oynamayı dene ve bunun oyunun mantığını düzeltip düzeltmediğine bak.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page6..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page6..Paragraph24" = "Bu kuralları özelleştirme konusunda yaratıcılığını gösterirken tamamen özgürsün! Taşın ✊ en iyi hareket olmasını ve kâğıdı ve makası yenmesini ister misin?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page6..Paragraph25" = "Öyleyse hangi hareketin diğerlerini yeneceğini değiştirerek mantığı değiştirmeyi dene. Bu, oyunu nasıl değiştirdi?";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page6..CodeBlock1" = "rock.beats([scissors, paper])\n";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page7..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page7..Paragraph26" = "Peki ya her şeyi yenen yeni bir hareket eklersen?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page7..Paragraph27" = "Kendin yeni bir hareket eklemeyi dene ve oyunu istediğin gibi özelleştir:";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page7..CodeBlock2" = "let panda = GameMove(name: \"panda\", icon: \"🐼\")\npanda.beats([rock,paper,scissors])\nvalidMoves[panda.name] = panda\n";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page8..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page8..Paragraph28" = "Oyununu ayarlamayı bitirdikten sonra kuralları yeniden temel Taş, Kâğıt, Makas oyun mantığına değiştir.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page8..Paragraph29" = "İlk değer atayıcıdaki kodun tümünü bu kodla değiştir:";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page8..CodeBlock3" = "let rock = GameMove(name: \"taş\", icon: \"✊\")\nlet paper = GameMove(name: \"kâğıt\", icon: \"✋\")\nlet scissors = GameMove(name: \"makas\", icon: \"✌️\")\n\nrock.beats([scissors])\npaper.beats([rock])\nscissors.beats([paper])\n\nvalidMoves[rock.name] = rock\nvalidMoves[paper.name] = paper\nvalidMoves[scissors.name] = scissors\n";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page9..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page9..Paragraph30" = "Kendi Taş, Kâğıt, Makas oyununu yaratma hakkında daha fazla ayrıntı için [Taş, Kâğıt, Makas](x-com-apple-playgrounds://projects?contentId=com.apple.playgrounds.rockpaperscissors.edition4) oyun alanı kitabına bak.";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..title" = "Hareketleri tanımak için makine öğrenimini kullanma";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..title" = "Makine öğreniminin temellerini öğrenme";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Paragraph31" = "Makine öğreniminin verileri kullanarak nasıl tahminde bulunduğunu öğren.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page10..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page10..Paragraph32" = "[Makine öğrenimi](glossary://machine%20learning), iPad\'iniz veya Mac\'iniz gibi bilgisayarlara çok fazla örnek veya veri vererek onlara bilgiye ve deneyime dayanan tahminlerde bulunmayı “öğretme” işlemidir.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page10..Paragraph33" = "İnsanlar çok zeki oldukları için (🧠) çok az el pozu görüp ✊ ile ✌️ arasındaki farkı hemen söyleyebilir. Ancak bir bilgisayarın bunları doğru bir şekilde belirleyebilmesi için çok fazla örnek gerekir.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page10..Paragraph34" = "İnsan beyninin zahmetsizce gerçekleştirebilmesinin aksine bir bilgisayarın böyle el pozlarının anlamlı özelliklerini belirlemesi ve ayırt etmesi için çok fazla veri gerekir.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page11..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page11..Paragraph35" = "Uygulamanda makine öğrenimini kullanmak için [CreateML](doc://com.apple.documentation/documentation/createml) ve [CoreML](doc://com.apple.documentation/documentation/coreml) framework’lerini kullanacaksın.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page12..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page12..Paragraph36" = "Taş, Kâğıt, Makas uygulaman, kamerada gösterilen farklı el pozlarını tanımak için görüntü [sınıflandırmasını](glossary://classification) kullanır.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page12..Paragraph37" = "“Sınıflandırma”, bir veri kümesindeki örnekleri farklı gruplar hâlinde kategorize eden bir makine öğrenimi algoritması türüdür. Kameradan gelen görüntü akışındaki farklı el pozlarını (✊, ✋ ve ✌️) sınıflandırmak için [MLHandPoseClassifier](doc://com.apple.documentation/documentation/createml/mlhandposeclassifier) kullanacaksın.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page13..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page13..Paragraph38" = "Bir [makine öğrenimi modeli](glossary://machine%20learning%20model) yaratmak için sınıflandırıcına çok fazla veri (bu durumda görüntüler) vermen gerekir. Makine öğrenimi modeline farklı şeyleri tanımayı öğrettiğin için buna modelin [eğitimi](glossary://training) adı verilir.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page14..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page14..Paragraph39" = "Makine öğrenimi modelini makinenin beyni ve belirli bir örüntü türü (bu durumda el pozları) hakkında bildiği bilgilerin tümü olarak düşünebilirsin.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page15..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page15..Paragraph40" = "Bir makine öğrenimi modeli, giriş olarak bilgi alır, sonra da bu bilginin temsil ettiği, deneyime dayalı bir tahmin üretir. Buna [tahmin](glossary://prediction) denir.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page16..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page16..Paragraph41" = "Taş, Kâğıt, Makas oyununda el pozları arasındaki farkları düşün.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page16..Paragraph42" = "Örneğin taş pozu (✊) ile makas pozu (✌️) arasındaki önemli farklardan biri tüm ✌️ pozlarında işaret parmağı ve orta parmak yukarıda gösterilir, ✊ pozunda ise yukarıda bir parmak yoktur. Görme bozukluğu olmayan kişiler bu bilgileri gözlerini kullanarak görsel bir şekilde işleyebilir.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page16..Paragraph43" = "Bilgisayarlar da buna benzer ve bilgileri görsel olarak işleyebilir ama bilgiyi bir el veya ağaç yerine 2B piksel dizisi olarak görür.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page17..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page17..Paragraph44" = "Uygulamandaki kamera makinenin gözleridir. Kameradan gelen görüntü verilerini `HandPoseMLModel` için giriş olarak kullanabilirsin. Makine öğrenimi modelin, farklı türlerde el pozlarını belirlemek için bu verileri kullanır.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page18..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page18..Paragraph45" = "[Vision Framework](doc://com.apple.documentation/documentation/vision), uygulamanın kameradan gelen görüntü verilerini makine öğrenimi modelinin anlayabileceği bir şeye dönüştürmesini kolaylaştırır.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page19..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page19..Paragraph46" = "Kameradaki kare her güncellendiğinde uygulaman, karenin piksel arabelleğinden [VNHumanHandPoseObservations](doc://com.apple.documentation/documentation/vision/vnhumanhandposeobservation) gözlemlerini toplar.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page20..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page20..Paragraph47" = "[Vision](doc://com.apple.documentation/documentation/vision) da bu gözlemlerden bir [MLMultiArray](doc://com.apple.documentation/documentation/coreml/mlmultiarray) seçip çıkarır.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page20..Paragraph48" = "Bir `MLMultiArray` örneği, (bu durumda) belli başlı el eklemleriyle eşlenen konum koordinatları sunar ve ML modeline kendini eğitmek için kullanabileceği el konumu verilerinden oluşan zengin bir küme verir.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page21..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page21..Paragraph49" = "Taş, Kâğıt, Makas oyununda model başarılı bir şekilde bir giriş alırsa bir etiket çıkışı ile birlikte o etiketin [güvenilirliğini](glossary://confidence) veya olasılığını alırsın. Örneğin bir ✌️ hareketiyle poz vermeyi seçersen model bunu yüzde 80 makas, yüzde 15 taş ve yüzde 5 kâğıt olarak yorumlayabilir. 🤷‍♀️";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..Paragraph50" = "Görüntü sınıflandırmanın dışında, makine öğrenimini günlük hayatta da kullanabilirsin.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..Paragraph51" = "İşte birkaç örnek; aklına başka örnekler geliyor mu?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..UnorderedList1..Paragraph52" = "Apple aygıtlarında Face ID ve Touch ID";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..UnorderedList1..Paragraph53" = "Siri gibi sesli yardımcılar";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..UnorderedList1..Paragraph54" = "Yayın servislerinde sunulan öneriler";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..UnorderedList1..Paragraph55" = "Fotoğraflar uygulamasındaki “Sizin İçin” sekmesi";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..title" = "Makine öğrenimi modelini eğitme";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Paragraph56" = "Kendi makine öğrenimi modelini yaratmak için önceden var olan bir veri kümesini kullan.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page23..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page23..Paragraph57" = "Şimdi sıra ilk makine öğrenimi modelini eğitmede!";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page23..Paragraph58" = "Modeli eğitmek için etiketli el pozu görüntülerinin önceden var olan bir veri kümesini kullanarak başlayacaksın.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page24..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page24..OrderedList0..Paragraph59" = "Önizlemende, var olan bir [eğitim veri kümesini](glossary://training%20dataset) seç. Eğitim veri kümesi, modelin, tahminlerini oluşturmak için eğitildiği veri kümesidir. Bu durumda veri kümesi, çeşitli el pozlarını gösteren görüntülerin bir koleksiyonudur.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page24..OrderedList0..Paragraph60" = "Makine öğrenimi modeline bir ad ver (örneğin `firstMLModel`).";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page24..OrderedList0..Paragraph61" = "İsteğe bağlı olarak, eğitim veri kümesinin altındaki seçiciyi kullanarak var olan bir [doğrulama veri kümesini](glossary://validation%20dataset) seç. Doğrulama veri kümesi, modeli eğitmek için kullanılmaz. Bunun yerine, modelin tahminlerinin ne kadar iyi olduğununa dair tahminde bulunmak için kullanılır.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page24..Paragraph62" = "Veri kümesindeki görüntülere bakmak istersen her bir veri kümesi hücresine dokun. Bu, o el pozu veri kümesindeki görüntü ızgarasında dolaşmanı sağlar.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page25..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page25..Paragraph63" = "Artık eğitim veri kümesini seçtiğine ve makine öğrenimi modelini adlandırdığına göre önizlemenin sağ üst köşesinde Eğit’e dokun.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page25..Paragraph64" = "Önemli: Bu önizlemeyi veya şu anki dosyayı kaynak düzenleyicide görünür durumda bırakma, aksi takdirde eğitim oturumundaki ilerlemeyi kaybedebilirsin.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page25..Paragraph65" = "Eğitim oturumunun süresi, eğitim veri kümesindeki görüntü sayısına bağlıdır. Sabırlı ol, bu işlem uzun sürebilir! 21 görüntüden oluşan bir eğitim veri kümesiyle aygıtına bağlı olarak 2 ila 5 dakika arasında sürebilir.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page26..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page26..Paragraph66" = "Eğitim oturumu sırasında konsolda bazı ölçümler görürsün. Kaynak düzenleyicinin sol alt köşesindeki düğmeye dokunarak konsolu aç ve modelin kendini nasıl eğittiği ve doğruluğunu test ettiği ile ilgili daha iyi bir fikir sahibi olmak için işlem ölçümlerini gözden geçir.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page27..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page27..Paragraph67" = "Eğitim oturumu bittikten ve siz modeli kaydettikten sonra sıra modelini gerçek bir Taş, Kâğıt, Makas oyununda test etmeye geldi!";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..title" = "Makine öğrenimi modelini oyuna entegre etme";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Paragraph68" = "Modelini gerçek zamanlı olarak test et!";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page28..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page28..Paragraph69" = "Makine öğrenimi modelini test etmek için normal Taş, Kâğıt, Makas oyununu, kullandığın el pozunu belirlemek için makine öğrenimini kullanan oyunla değiştir.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page29..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page29..Paragraph70" = "Var olan `GameView.environmentObject(appModel)` kodunu şu kodla değiştir:";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page29..CodeBlock4" = "MLGameView()\n    .environmentObject(appModel)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page29..Paragraph71" = "Var olan, vurgulanmış `GameView()` kodunu sildiğinden emin ol; aksi takdirde oyunu gösteren birden fazla pencere görürsün.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page30..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page30..Paragraph72" = "Şu anda Taş, Kâğıt, Makas oyunu yerleşik, saptanmış makine öğrenimi modelini kendi modeli olarak kullanır. Az önce yarattığını kullanmak için şu kodu ekle:";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page30..CodeBlock5" = ".task {\n    await appModel.useLastTrainedModel()\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page31..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page31..Paragraph73" = "Oynat düğmesini etkinleştirmek için kameraya bir el pozu göster. Kameranın sağ alt köşesine bakarsan makine öğrenimi modelinin sen elini hareket ettirdikçe gerçek zamanlı olarak hareketini tahmin ettiği bir görüntü göreceksin.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page31..Paragraph74" = "Oynamaya hazır olduğunda Oyna’ya dokunarak hareketini kilitle; bilgisayar da bir hareket oluşturur. İyi eğlenceler, birkaç oyun oynamayı dene!";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page32..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page32..Paragraph75" = "Makine Öğrenimi bazlı Taş, Kâğıt, Makas oyununu birkaç kez oynadıktan sonra şu soruları yanıtlamaya çalış:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page32..UnorderedList2..Paragraph76" = "Model el pozlarını doğru tanıyor mu?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page32..UnorderedList2..Paragraph77" = "Hangi el pozunu tanımada en iyi gibi görünüyor?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page32..UnorderedList2..Paragraph78" = "Hangi el pozlarını tanımada zorluk çekiyor?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page32..Paragraph79" = "Sonra, makine öğrenimi modelini iyileştirmeyi ve modelindeki hataları ayıklamayı öğreneceksin.";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..title" = "Makine öğrenimi modelindeki hataları ayıklama";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..title" = "Düğümlerden oluşan bir katman çizerek kameranın gördüğünü görme";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Paragraph80" = "[Vision framework’ün](doc://com.apple.documentation/documentation/vision) seçip çıkardığı düğümlerin 2B dizisini görselleştir.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page33..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page33..Paragraph81" = "Modelindeki hataları ayıklamaya başlamadan önce modelinin tahminlerini oluşturmak için kullandığı verilerle ilgili daha fazla ayrıntı öğrenmek yararlı olur.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page33..Paragraph82" = "Bunu yapmak için [Vision framework’ün](doc://com.apple.documentation/documentation/vision) görüntü verilerini yorumlarken oluşturduğu düğümlerin 2B dizisini görselleştireceksin. Görselleştirdiğin düğümler elindeki eklemlerle eşlenir. ✋";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page34..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page34..Paragraph83" = "Bu görselleştirmeyi yaratmak için Vision’ın bir görüntü karesinden seçip çıkardığı `MLMultiArray`’i alıp kamera vizörünün üstüne yerleştirilmiş bir katmandaki koordinatlara dönüştüreceksin.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page35..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page35..Paragraph84" = "`showNodes` değeri `true` iken düğüm görselleştirmeyi göstermek için bu [katmanı](doc://com.apple.documentation/documentation/SwiftUI/View/overlay(alignment:content:)) `ViewFinderView` koduna ekle:";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page35..CodeBlock6" = ".overlay(alignment: .center)  {\n    if showNodes {\n        HandPoseNodeOverlay(size: previewImageSize,\n                            points: handJointPoints)\n    }\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..Paragraph85" = "Kod parçacığını ekledikten sonra elini kameranın önüne koymayı dene ve düğümlerin elinle nasıl eşlendiğine dikkat et:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..UnorderedList3..Paragraph86" = "Düğümler doğru mu? Bunlar elindeki eklemlerle eşleşiyor mu?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..UnorderedList3..Paragraph87" = "El olmayan diğer nesnelerde düğümler görüyor musun? Sence bunlar ne?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..UnorderedList3..Paragraph88" = "İki elini de aynı kareye koymayı dene. Düğümler nereye yerleştiriliyor?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..UnorderedList3..Paragraph89" = "Elini hareket ettirirken bu düğümlerin konumları ile ilgili bir şey fark ettin mi?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..Paragraph90" = "Makine öğrenimi modelinin hangi pozun gösterildiğini tahmin etmek için kullandığı verilerin canlı bir görselleştirmesini görüyorsun.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..Paragraph91" = "Görüntüde elinin kısmen örtülü olduğunu varsay. Bu el pozuna yönelik tahminlerinin doğruluğu sence ne olur? Bir sonraki görev, makine öğrenimi modelini değerlendirmek ve modeldeki hataları ayıklamak için `DebugModeView`’u kullanır.";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..title" = "Modelini test etme";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Paragraph92" = "Makine öğrenimi modelin farklı el pozlarını doğru bir şekilde belirliyor mu?";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page37..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page37..Paragraph93" = "Makine öğrenimi modelini değerlendirmek ve modelindeki hataları ayıklamak için`DebugModeView`’u kullanabilirsin.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page38..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page38..Paragraph94" = "Bu görüntüde, bir kamera görüntüsü ile birlikte makine öğrenimi modelinin [tahminlerinde](glossary://prediction) ne kadar güvenilir olduğunu gerçek zamanlı olarak görselleştiren bir çubuk [grafik](doc://com.apple.documentation/documentation/charts) olacak.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page38..Paragraph95" = "Önizlemede, kameraya doğru birkaç farklı el pozu tut ve tahminin nasıl değiştiğine dikkat et. En güvenilir poz hangisi?";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page39..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page39..Paragraph96" = "Aşağıdaki soruları yanıtlamayı dene:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page39..UnorderedList4..Paragraph97" = "Kameraya bir Kâğıt pozu (✋) gösterip elini 90 derece döndürdüğünde çubuk grafiği nasıl değişiyor?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page39..UnorderedList4..Paragraph98" = "Elini kameraya yaklaştırdığında veya uzaklaştırdığında ne oluyor?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page39..Paragraph99" = "Makine öğrenimi modelinin tahmin doğruluğunun ona verdiğin eğitim verilerine bağlı olduğunu unutma. Bir saniye dur ve kullandığın eğitim verilerine dönüp bak. Bu tür görüntülerin örnekleri var mı? Yoksa model bunların ne olduğunu doğru bir şekilde tahmin edemeyebilir.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page40..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page40..Paragraph100" = "Modelini kullanmaya bile başlamadan önce bu sorunları yakalamanın bir yolu, doğrulama veri kümesinin bir parçası olarak bu [uç durumları](glossary://edge%20case) sağlamaktır.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page40..Paragraph101" = "Bu, yanlış etiketlenmiş verileri makine öğrenimi sürecinin erken aşamalarında bulmanın harika bir yoludur. Modelinin eğitim örneklerini sadece ezberlemeyip aynı zamanda görüntülediğin el işaretlerini doğru bir şekilde tahmin edebilmesini de sağlar.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page40..Paragraph102" = "Gelecekteki makine öğrenimi modeli geliştirmeleri için kendi veri kümelerini yaratırken bu uç durumları düşün.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page41..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page41..Paragraph103" = "Modelinle ilgili hataları ayıklarken bazı kamera koşullarının da (ışık, açı veya odak gibi) modelinin tahminlerini etkilediğini keşfedeceksin.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page41..Paragraph104" = "Eğitim veri kümeni yeniden düşün: Işık, kamera açıları ve odak ayarları konusunda bir çeşitlilik var mı? Yoksa modelin, bir ortamın belirli bir kurulumuna [aşırı uyum](glossary://overfitting) göstermiş olabilir.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page42..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page42..Paragraph105" = "Modelin senin için iyi çalışıyor ama bir arkadaşın için iyi çalışmıyor olabilir. Bu da [aşırı uyumun](glossary://overfitting) bir sonucu olabilir.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page42..Paragraph106" = "Örneğin makine öğrenimi modelin, bir ten rengini diğerinden daha iyi tanıyıp bazı el pozlarının başka ten renklerindeki pozlardan daha doğru tahmin edilmesine neden olabilir. Bu, bir bilgi türünü diğerine tercih ettiği için yanlılık olarak bilinir.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page43..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page43..Paragraph107" = "Modelin yalnızca bu oyunu etkiliyor ama ya bu Taş, Kâğıt, Makas oyununu dünyanın her yerindeki iPhone’larda gerçekleştiriyor olsaydın ne olurdu? Aşırı uyumdan kaynaklanan adaletsiz yanlılık, herkesin kullanımına yönelik sistemlerde ciddi bir sorundur.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page43..Paragraph108" = "Kendi veri kümelerini yaratırken ve makine öğrenimi modelini eğitirken yanlılıktan nasıl kaçınacağını düşünsen iyi olur.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page44..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page44..Paragraph109" = "Yanlılığı azaltmanın bazı yolları şunlardır:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page44..UnorderedList5..Paragraph110" = "Eğitim ve doğrulama veri kümelerinde çok çeşit olduğundan ve bir gruba veya duruma [aşırı uyum](glossary://overfitting) göstermediğinden emin ol.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page44..UnorderedList5..Paragraph111" = "Kullanıcılarının karşılaşabileceği uç durumları düşün ve bunların üzerine eğil.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page44..UnorderedList5..Paragraph112" = "Makine öğrenimi modeli geliştirmenin tekrarlı bir süreç olduğunu unutma. Birden fazla veri kümesi yarat ve daha fazla makine öğrenimi modeli eğit! Modelinin uygulama için yeteri kadar iyi olup olmadığına sen karar ver.";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..title" = "Kendi makine öğrenimi veri kümeni yaratma";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..title" = "Modelin için verileri toplama ve düzenleme";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Paragraph113" = "Bir makine öğrenimi modeli için kendi veri kümeni yaratma ipuçları.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page45..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page45..Paragraph114" = "Bilgisayarlar, yeterince örnek verilirse verilerdeki örüntüleri bulmada harikadır. Bir el pozu makine öğrenimi modeli yaratmak için birçok el görüntüsüne ihtiyacın olacak.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page45..Paragraph115" = "El pozu görüntülerini toplayacak ve bunları oyunundaki hareketlerle etiketleyeceksin: Taş ✊, Kâğıt ✋ ve Makas ✌️. Bu etiketli görüntüler, makinenin “beyninin” gördüğü tek örneklerdir, bu yüzden bunların her el pozu görünüşünü temsil ettiğinden emin ol.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..Paragraph116" = "Makine öğrenimi mühendislerinin sıklıkla veri kümelerini gözden geçirip bunların iyi kalitede veri kümeleri olduğundan emin olmaları gerekir. Bu işleme [veri temizleme](glossary://data%20cleaning) denir ve makine öğrenimi modelinin performansını önemli ölçüde etkilediğinden makine öğreniminin en önemli adımlarından biridir.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..Paragraph117" = "El pozu makine öğrenimi modelinin verilerini temizleme örnekleri arasında şunlar sayılabilir:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..UnorderedList6..Paragraph118" = "Görüntüde el pozu olduğundan emin olma";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..UnorderedList6..Paragraph119" = "El pozunun kameraya çok uzak olmadığından ve karede çok yakın görünmediğinden emin olma";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..UnorderedList6..Paragraph120" = "Görüntülerinin yanlış etiketlenmediğinden (örneğin bir taş görüntüsünün yanlışlıkla makas olarak etiketlenmesi) emin olma";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..UnorderedList6..Paragraph121" = "Veri kümesinde yinelen fotoğraf olmadığından emin olma";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..UnorderedList6..Paragraph122" = "Her el hareketi için yaklaşık aynı sayıda görüntü olduğundan emin olma";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..title" = "Eğitim veri kümenin büyüklüğünü yapay olarak artırma";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page47..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page47..Paragraph123" = "Modeli eğitmek için çok fazla görüntü kullanmayı planlamıyorsan sorun değil. Eğitim veri kümeni artırmanın bir yolu, [görüntü artırma seçeneklerini](doc://com.apple.documentation/documentation/createml/mlimageclassifier/imageaugmentationoptions) kullanmaktır. Eğitim oturumundan önce bu seçenekler (`.rotate`, `.translate` ve `.horizontallyFlip` gibi) eklendiğinde kullandığın her bir seçenek için dört yeni görüntü yaratılır. Örneğin `.rotate` seçeneği kullanıldığında dört yeni görüntü oluşturulur ve yeni görüntülere rasgele döndürme açısı uygulanır.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page48..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page48..Paragraph124" = "Eğitim verilerini bu üç seçeneği ekleyerek artırabilirsin: `.rotate`, `.translate`, `.horizontallyFlip`.";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page48..CodeBlock7" = "/*#-code-walkthrough(imageAugment.addedCode)*/\naugmentationParameters.insert(.rotate)\naugmentationParameters.insert(.translate)\naugmentationParameters.insert(.horizontallyFlip)\n/*#-code-walkthrough(imageAugment.addedCode)*/\n";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page49..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page49..Paragraph125" = "Artık yeni bir makine öğrenimi modeli eğittiğinde eğitim oturumun, modelin tahminlerini iyileştirmek için bu artırmaları otomatik olarak kullanır.";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..title" = "Kendi veri kümeni toplama";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Paragraph126" = "Kendi el pozu görüntülerini kullanarak bir makine öğrenimi modelini kişiselleştir.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page50..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page50..Paragraph127" = "Önizlemede, yeni bir veri kümesi yaratmak için sağ üst köşedeki Ekle (+) düğmesine dokun. Bu, yeni bir eğitim görüntüsü açar.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page51..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page51..Paragraph128" = "Her bir kategoriyi tıklayarak yeni veri kümesine yeni görüntü ekleyebilirsin. Fotoğraf arşivindeki görüntülere erişebilmek amacıyla bir fotoğraf seçici ([PhotosPicker](doc://com.apple.documentation/documentation/photokit/photospicker)) görüntüsü açmak için Ekle düğmesine dokun.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page51..Paragraph129" = "Her bir kategori için en az yedi görüntü seçin.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page52..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page52..Paragraph130" = "Biraz zaman ayırıp veri kümeni gözden geçir ve verilerini temizleme konusunda bir önceki kılavuzda verilen ipuçlarını anımsa. Eğitim kümesinden silmen gereken bir görüntü bulabilecek misin? Sağ üst köşedeki Düzenle düğmesine dokunarak her bir kategorinin veri kümesindeki görüntüleri silebilirsin.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page53..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page53..Paragraph131" = "Veri kümenden memnunsan eğitim görüntüsünün metin alanında makine öğrenimi modeline bir ad ver.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page53..Paragraph132" = "Şimdi yeni bir makine öğrenimi modelini eğitmek için Eğit düğmesine dokun!";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcompareModels..title" = "Makine öğrenimi modellerini karşılaştırma";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcompareModels..Paragraph133" = "Artık kullanabileceğin üç makine öğrenimi modeli var. Bunları tek tek test et ve aralarındaki benzerlikleri ve farklılıkları gözlemle.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcompareModels..Page54..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcompareModels..Page54..Paragraph134" = "Hangi modelleri kullanabileceğini görmek için “Makine Öğrenimi Modelleri” düğmesine dokun. Birden fazla makine öğrenimi modeli listeleniyorsa seçili olmayan birine dokun ve modelin performansını görmek için hata ayıklama görüntüsüne dön.";
+

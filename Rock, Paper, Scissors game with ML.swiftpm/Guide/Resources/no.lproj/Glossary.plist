@@ -1,0 +1,2676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>Alpha</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Alfa, eller *alfakanal*, angir hvor ugjennomsiktig en farge er langs et intervall fra `0` (helt gjennomsiktig) til `1` (helt ugjennomsiktig). Alfainformasjonen er et tall av typen Double (desimaltall) i intervallet fra 0 til 1.</string>
+				<key>Title</key>
+				<string>alfa</string>
+			</dict>
+		</dict>
+		<key>Boolean</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En type som har en verdi som er enten `true` eller `false`. For eksempel gir `9 &lt; 7` den boolske verdien `false` fordi `9` ikke er mindre enn `7`.
+```
+var isRunning = false
+```</string>
+				<key>Title</key>
+				<string>Boolsk</string>
+			</dict>
+		</dict>
+		<key>Double</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En type som lagrer tall med en desimalkomponent, for eksempel 3.14. Obs! Swift Playgrounds bruker punktum (.) i stedet for komma (,) som desimaltegn.</string>
+				<key>Title</key>
+				<string>Double</string>
+			</dict>
+		</dict>
+		<key>ForEach</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En struktur som [itererer](glossary://iteration) over en [samling](glossary://collection) med data (for eksempel en matrise) for å opprette visninger for hvert element i samlingen. 
+
+`ForEach`-strukturen krever at alle elementer har en `id`, enten uttrykkelig i [initialisereren](glossary://initialization) `ForEach` eller ved å være i overensstemmelse med protokollen `Identifiable`. Dette innebærer at SwiftUI kan identifisere og oppdatere alle visninger som genereres fra `ForEach` frittstående fra hverandre.
+
+```
+ForEach(symbols) { symbol in 
+    Text(symbol.name)
+}
+```
+</string>
+				<key>Title</key>
+				<string>ForEach</string>
+			</dict>
+		</dict>
+		<key>Int</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En type som lagrer et heltall, dvs. et tall uten desimal, som `10` eller `-42`.</string>
+				<key>Title</key>
+				<string>Int</string>
+			</dict>
+		</dict>
+		<key>String</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En type som lagrer en serie med tegn, for eksempel `"hei verden"` eller `"dansende katter"`.</string>
+				<key>Title</key>
+				<string>String</string>
+			</dict>
+		</dict>
+		<key>Swift</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Apples programmeringsspråk som brukes til å skrive apper for iPhone, iPad, Mac, Apple Watch og Apple TV.</string>
+				<key>Title</key>
+				<string>Swift</string>
+			</dict>
+		</dict>
+		<key>SwiftUI</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>SwiftUI er en moderne måte å deklarere brukergrensesnitt for alle Apple-plattformer på. Det har visninger, kontroller og layoutstrukturer for å deklarere appens brukergrensesnitt. Rammeverket tilbyr hendelseshåndterere for å levere trykk, bevegelser og andre typer inndata til appen og verktøy for å administrere dataflyten fra appens modeller ned til visningene og kontrollene som brukerne ser og samhandler med.</string>
+				<key>Title</key>
+				<string>SwiftUI</string>
+			</dict>
+		</dict>
+		<key>absolute value</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Den usignerte verdien for et tall. For eksempel er 12 absoluttverdien for -12, og 23.4 er absoluttverdien for 23.4.</string>
+				<key>Title</key>
+				<string>absoluttverdi</string>
+			</dict>
+		</dict>
+		<key>abstraction</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En forenklet versjon av en mer kompleks sak.   En abstraksjon skjuler detaljer slik at det blir enklere å tenke på og kombinere ulike kodesnutter.   For eksempel er en [type](glossary://type) en abstraksjon som skjuler oppsett, egenskaper og metoder for en instans av den typen.</string>
+				<key>Title</key>
+				<string>abstraksjon</string>
+			</dict>
+		</dict>
+		<key>accelerometer</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En sensor som måler enhetens akselerasjon i tre dimensjoner: oppover og nedover, fremover og bakover samt venstre og høyre.
+
+Når enheten ligger på en flat overflate i liggende retning, måler bevegelser oppover og nedover akselerasjonen langs z-aksen, bevegelser mot høyre og venstre måler akselerasjonen langs y-aksen og bevegelser fremover og bakover måler akselerasjonen langs x-aksen.</string>
+				<key>Title</key>
+				<string>akselerometer</string>
+			</dict>
+		</dict>
+		<key>adopt</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>For å adoptere en protokoll tilbyr en type et sett av sine egne implementeringer for protokollens krav, for eksempel de tilhørende oppførte metodene og egenskapene.</string>
+				<key>Title</key>
+				<string>adoptere</string>
+			</dict>
+		</dict>
+		<key>algorithm</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Et sett med trinnvise instruksjoner eller regler for å løse et problem. For eksempel kan en liste over trinnene som kreves for å lage en kopp te, betraktes som en algoritme.</string>
+				<key>Title</key>
+				<string>algoritme</string>
+			</dict>
+		</dict>
+		<key>append</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Å legge til på slutten av noe. Du kan for eksempel tilføye en streng på slutten av en annen streng eller tilføye et objekt i en matrise med objekter.
+</string>
+				<key>Title</key>
+				<string>tilføye</string>
+			</dict>
+		</dict>
+		<key>application</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Programvare, som består av kode, som gjør det mulig å utføre bestemte oppgaver. Du kan for eksempel bruke Meldinger-appen til å sende og motta meldinger.</string>
+				<key>Title</key>
+				<string>app</string>
+			</dict>
+		</dict>
+		<key>argument</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En inndataverdi som overføres til en funksjon for å tilpasse oppførselen dens. I for eksempel funksjonskallet `move(distance: 3)` er tallet `3` et argument som angir hvor mange mellomrom som skal flyttes.</string>
+				<key>Title</key>
+				<string>argument</string>
+			</dict>
+		</dict>
+		<key>arithmetic operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Et symbol, som `+`, `-`, `*` eller `/`, som utfører en grunnleggende matematisk beregning av ett eller flere tall. `42 / 7` og `17 - 5` er eksempler der aritmetiske operatorer brukes.</string>
+				<key>Title</key>
+				<string>aritmetisk operator</string>
+			</dict>
+		</dict>
+		<key>array</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En samling som lagrer en liste med objekter av samme type i rekkefølge. Det samme objektet kan vises flere ganger på forskjellige steder. 
+
+I koden under er `highScores` en matrise med [heltall](glossary://Int), og `greetings` er en matrise med [strenger](glossary://String).
+```
+let highScores = [37, 34, 29, 29, 26]
+let greetings = ["hi", "bye", "good day"]
+```</string>
+				<key>Title</key>
+				<string>matrise</string>
+			</dict>
+		</dict>
+		<key>aspect ratio</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Forholdet mellom høyden og bredden for et bilde på skjermen.
+
+For eksempel vil et bilde med størrelsesforholdet 2:1 være dobbelt så bredt som det er høyt. Et bilde med størrelsesforholdet 1:1 har lik bredde og høyde.</string>
+				<key>Title</key>
+				<string>størrelsesforhold</string>
+			</dict>
+		</dict>
+		<key>asset</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Ressurser er bilder, lyder og andre objekter som appen din bruker. Du kan importere ressurser til Swift Playgrounds fra andre apper, for eksempel Filer og Bilder.</string>
+				<key>Title</key>
+				<string>ressurs</string>
+			</dict>
+		</dict>
+		<key>assignment</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En handling som fastsetter verdien for en variabel eller konstant.</string>
+				<key>Title</key>
+				<string>tildeling</string>
+			</dict>
+		</dict>
+		<key>assignment operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Symbolet `=` brukes til å angi verdien for en variabel. For eksempel angir `greeting = "hei"` at verdien for `greeting` er `"hei"`.</string>
+				<key>Title</key>
+				<string>tildelingsoperator</string>
+			</dict>
+		</dict>
+		<key>asynchronous process</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En kodeblokk som kan kjøres mens resten av appen eller programmet fortsetter å kjøres. I motsetning til en synkron prosess, som blokkerer programmer fra å kjøres før de er klare, kan en asynkron prosess kjøres samtidig med resten av appkoden.</string>
+				<key>Title</key>
+				<string>asynkron prosess</string>
+			</dict>
+		</dict>
+		<key>asynchronous stream</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En [sekvens](glossary://sequence) med verdier som ikke er tilgjengelige samtidig, men som genereres ved tidsintervaller som en strøm med verdier. Hvis du vil iterere over en asynkron strøm, må du vente på hver nye verdi før du utfører operasjoner på den.
+				
+En asynkron strøm brukes ofte for data som ankommer over tid, for eksempel seismisk aktivitet eller videorammer.</string>
+				<key>Title</key>
+				<string>asynkron strøm</string>
+			</dict>
+		</dict>
+		<key>binding</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Legg til [egenskapsinnpakningen](glossary://property%20wrapper) `@Binding` for å opprette en dobbeltsidig forbindelse mellom en egenskap som lagrer data, og en visning som viser og endrer data. En binding kobler en egenskap til en sannhetskilde som lagres et annet sted, i stedet for å lagre data direkte. 
+
+For eksempel kan en knapp som veksler mellom avspilling og pause, opprette en binding til en egenskap i [beholdervisningen](glossary://container) sin ved hjelp av egenskapsinnpakningen `@Binding`.
+</string>
+				<key>Title</key>
+				<string>binding</string>
+			</dict>
+		</dict>
+		<key>body</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Det er i visningsinnholdet i en [visning](glossary://view) at du oppgir visningens innhold, som består av minst én [innebygd visning](glossary://built-in%20view) som SwiftUI leverer, eller valgfrie [sammenstilte visninger](glossary://composed%20view) som du allerede har opprettet.</string>
+				<key>Title</key>
+				<string>visningsinnhold</string>
+			</dict>
+		</dict>
+		<key>bounds</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>I en matrise er dette verdiområdet som en indeks for matrisen kan ha. Matrisen `[17, 42, 95]` kan for eksempel ha indeksverdier fra 0 til 2. Grensekontroll er prosessen som verifiserer at en indeksverdi er innenfor grensene for en matrise.</string>
+				<key>Title</key>
+				<string>grenser</string>
+			</dict>
+		</dict>
+		<key>brightness</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Mengden lys som kommer inn i kameraet i intervallet fra `0` (ikke noe lys) til `1` (fullt lys). Lysstyrken er et tall av typen [Double](glossary://Double) (et desimaltall) fra `0` til `1`.</string>
+				<key>Title</key>
+				<string>lysstyrke</string>
+			</dict>
+		</dict>
+		<key>bug</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En kodefeil som forhindrer at en app kjøres som forventet. 
+</string>
+				<key>Title</key>
+				<string>bugg</string>
+			</dict>
+		</dict>
+		<key>built-in view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En [visning](glossary://view) som leveres av [SwiftUI](glossary://SwiftUI)-rammeverket, for eksempel en `Button`-, `Text`- eller `Image`-visning. Innebygde visninger brukes som byggesteiner for å skape mer komplekse [sammenstilte visninger](glossary://composed%20view) i [brukergrensesnittet](glossary://user%20interface).</string>
+				<key>Title</key>
+				<string>innebygd visning</string>
+			</dict>
+		</dict>
+		<key>bundle</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En app lagrer koden sin sammen med eventuelle ressurser den trenger – datafiler, bilder, lyder – i en pakke. Hver app har en hovedpakke og kan ha andre navngitte pakker. En pakke er en mappe på en disk, og ressursene i den er organisert i veldefinerte undermapper. Pakkestrukturen varierer avhengig av plattformen og pakketype.</string>
+				<key>Title</key>
+				<string>pakke</string>
+			</dict>
+		</dict>
+		<key>call</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Å kalle en funksjon i kode innebærer å si at funksjonen skal kjøre og utføre handlingene som er definert i den.</string>
+				<key>Title</key>
+				<string>kall</string>
+			</dict>
+		</dict>
+		<key>callback</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Noen ganger må kanskje en funksjon eller et objekt sende en callback for å levere data eller fortelle at noe viktig har skjedd under kjøringen. Du gjør dette mulig ved å overføre en funksjon, eller et [delegert](glossary://delegate) objekt, som en callback kan sendes gjennom.
+
+Callback er et verktøy som vanligvis brukes til å håndtere [asynkrone](glossary://asynchronous%20process) prosesser.</string>
+				<key>Title</key>
+				<string>callback</string>
+			</dict>
+		</dict>
+		<key>chaining</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En teknikk for å [kalle](glossary://call) en serie med [funksjoner](glossary://function) der hver funksjon returnerer et objekt, som i sin tur bearbeides av neste funksjon. Funksjonskallene lenkes sammen i ett uttrykk. 
+				
+Du kan for eksempel lenke SwiftUI-[modifikatorer](glossary://modifier) siden en modifikator er en [metode](glossary://method) som tar en [visning](glossary://view), gjør noen endringer og returnerer en annen visning.</string>
+				<key>Title</key>
+				<string>lenking</string>
+			</dict>
+		</dict>
+		<key>class</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En klasse er en beholder for kode som fungerer som en blåkopi når du vil lage flere [instanser](glossary://instance) av samme type ting. Akkurat som en blåkopi kan definere funksjoner og oppførsler hos et objekt, for eksempel en sykkel, definerer en klasse disse som [egenskaper](glossary://property) og [metoder](glossary://method).
+
+Når du lager en ny instans av klassen, inneholder denne instansen alle egenskapene og metodene som defineres i blåkopien. Alle instanser deler de samme egenskapene og metodene, men du kan endre verdiene i disse egenskapene hver for seg, noe som innebærer at du kan tilpasse hver instans du lager eller initierer fra klassen. En sykkelklasse kan for eksempel ha en fargeegenskap, slik at du kan opprette en rød eller blå sykkel.
+
+En klasse ligner på en [struktur](glossary://structure), men er forskjellig på to viktige måter: en klasse er en [referansetype](glossary://reference%20type) – den kopieres alltid som en referanse, og en klasse kan arve definisjonen sin fra en annen klasse.</string>
+				<key>Title</key>
+				<string>klasse</string>
+			</dict>
+		</dict>
+		<key>classification</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Innen maskinlæring er en klassifikasjon en algoritme som lærer fra et merket datasett og bruker det den lærer, til å klassifisere nye observasjoner.
+
+En hunderaseklassifiserer trenes for eksempel opp med merkede bilder av hunderaser. Hvis du viser denne klassifisereren et nytt bilde av en hund, kan den klassifisere denne inndataen som en av disse rasene.</string>
+				<key>Title</key>
+				<string>klassifikasjon</string>
+			</dict>
+		</dict>
+		<key>closed range</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Et intervall fra en nedre grense opptil og inkludert en øvre grense.
+
+I Swift kan verdien for intervallet 1–3 skrives som 1...3. I dette tilfellet inkluderer intervallet den nedre grensen på 1, og det går til og med den øvre grensen på 3.
+```
+let closedRange = 1...3
+for i in closedRange { 
+	print(i) // 1 2 3
+}
+```</string>
+				<key>Title</key>
+				<string>lukket intervall</string>
+			</dict>
+		</dict>
+		<key>closure</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Closure-blokker er [funksjoner](glossary://function) som kjøres på stedet, uten at det er nødvendig med et navn.
+					
+```
+scene.setOnStartHandler {
+    // Closure-blokkens visningsinnhold
+}
+```
+                    
+Closure-blokker kan registrere og lagre referanser til valgfrie konstanter og variabler fra den konteksten der de defineres. Dette kalles å stenge over disse konstantene og variablene.</string>
+				<key>Title</key>
+				<string>closure-blokk</string>
+			</dict>
+		</dict>
+		<key>code comment</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En kodekommentar er en metode som programmerere bruker til å dokumentere koden sin.   Du starter en enkeltlinjekommentar med to skråstreker etterfulgt av et mellomrom, for eksempel «// Dette er min kommentar.».   Når du kjører koden, kjøres ikke kodekommentarene.</string>
+				<key>Title</key>
+				<string>kodekommentar</string>
+			</dict>
+		</dict>
+		<key>code expression</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En kodesnutt som kan evalueres for å returnere en verdi. For eksempel hvis `months` er en matrise som inneholder 12 objekter, kommer kodeuttrykket `months.count - 1` til å returnere verdien `11`.</string>
+				<key>Title</key>
+				<string>kodeuttrykk</string>
+			</dict>
+		</dict>
+		<key>coding</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Å komponere kommandoer, kodestrukturer og algoritmer for å lage en app.</string>
+				<key>Title</key>
+				<string>koding</string>
+			</dict>
+		</dict>
+		<key>collection</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En datastruktur, for eksempel en [matrise](glossary://array) eller et [intervall](glossary://range), som brukes til å lagre mange datadeler. 
+```
+let heights = [1, 5, 7]
+let closedRange = 1...8
+```</string>
+				<key>Title</key>
+				<string>samling</string>
+			</dict>
+		</dict>
+		<key>command</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kode som ber en app om å utføre en bestemt handling. </string>
+				<key>Title</key>
+				<string>kommando</string>
+			</dict>
+		</dict>
+		<key>comment out</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Du kan forhindre at en kodelinje kjøres ved å forvandle den til en [kodekommentar](glossary://code%20comment). Du gjør dette ved å legge til `//` foran en valgfri kodelinje. For eksempel:
+                
+`// level.run()`</string>
+				<key>Title</key>
+				<string>kommentere ut</string>
+			</dict>
+		</dict>
+		<key>comparison operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Et symbol, som `==`, `!=`, `&lt;`, `&gt;`, `&lt;=` eller `&gt;=`, som brukes til å sammenligne to verdier. En sammenligningsoperator kan brukes i en betingelse i et `if`-uttrykk eller en `while`-løkke for å returnere en boolsk verdi som angir om en sammenligning er `true`. For eksempel: `6 &gt; 8` sammenligner `6` med `8` og returnerer `false`.</string>
+				<key>Title</key>
+				<string>sammenligningsoperator</string>
+			</dict>
+		</dict>
+		<key>compiler error</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kompilatorfeil skyldes unøyaktigheter i koden. Du ser feil som et rødt punkt i den venstre margen og på verktøylinjen.</string>
+				<key>Title</key>
+				<string>kompilatorfeil</string>
+			</dict>
+		</dict>
+		<key>composed view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En [visning](glossary://view) opprettet ved å kombinere én eller flere [innebygde](glossary://built-in%20view) eller sammenstilte visninger.
+</string>
+				<key>Title</key>
+				<string>sammenstilt visning</string>
+			</dict>
+		</dict>
+		<key>composition</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Prosessen med å kombinere små deler av en app for å bygge større deler som er enklere å arbeide med og forstå.</string>
+				<key>Title</key>
+				<string>komposisjon</string>
+			</dict>
+		</dict>
+		<key>compound assignment operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En operator som kombinerer tildeling (angir verdien for en variabel) med en annen operasjon, for eksempel addisjon eller subtraksjon. Hvis for eksempel den gjeldende verdien for `a` er `1` og du bruker `a += 3`, legges `3` sammen med `1` og summen tildeles til `a`, slik at verdien på `a` nå er `4`.</string>
+				<key>Title</key>
+				<string>sammensatt tildelingsoperator</string>
+			</dict>
+		</dict>
+		<key>computed property</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En beregnet egenskap vil, i stedet for å lagre en verdi direkte, kalkulere en verdi som er basert på den gjeldende statusen til andre relaterte verdier når de hentes. 
+
+I eksempelet nedenfor er `area` en beregnet egenskap, mens `width` og `height` er lagrede egenskaper:
+
+```
+struct RectangleCalculator { 
+    var width = 10.0
+    var height = 10.0
+    
+    var area : Double { 
+        return width * height
+    }
+} 
+```</string>
+				<key>Title</key>
+				<string>beregnet egenskap</string>
+			</dict>
+		</dict>
+		<key>condition</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>I en [betinget kode](glossary://conditional%20code)-blokk, for eksempel et [if-uttrykk](glossary://if%20statement), er betingelsen en [boolsk](glossary://Boolean) verdi som bestemmer om koden i blokken skal kjøres eler ikke. 
+
+Hvis betingelsen er `true`, kjøres kodeblokken. Hvis den er `false`, hoppes den betingede koden over.
+```
+let x = 4
+
+if x &lt; 5 { 
+	// Betingelsen er sann, koden i if-blokken kjøres. 
+}
+
+if x &gt; 5 { 
+	// Betingelsen er usann, koden i if-blokken kjøres ikke. 
+}
+```</string>
+				<key>Title</key>
+				<string>betingelse</string>
+			</dict>
+		</dict>
+		<key>conditional code</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kode som bare kjøres når bestemte betingelser er oppfylt. For eksempel inneholder [if-uttrykk](glossary://if%20statement) og [while-løkker](glossary://while%20loop) betinget kode som bare kjøres hvis eller mens en betingelse er `true`.
+```
+if x &gt; 5 { 
+	// Koden kjøres bare hvis x er større enn 5
+}
+```</string>
+				<key>Title</key>
+				<string>betinget kode</string>
+			</dict>
+		</dict>
+		<key>confidence</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Innen maskinlæring er konfidens sannsynligheten til en maskinlæringsmodells [prediksjon](glossary://prediction). Konfidensen til en prediksjon gir innsikt i hvor godt maskinlæringsmodellen presterer.</string>
+				<key>Title</key>
+				<string>konfidens</string>
+			</dict>
+		</dict>
+		<key>conform</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En type sies å stemme overens med en protokoll når den har sin egen implementering av den protokollens krav.</string>
+				<key>Title</key>
+				<string>stemme overens</string>
+			</dict>
+		</dict>
+		<key>console</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Et sted der du kan vise debuggingsutdata fra koden mens den kjøres. Når du kaller `print(_:)` i koden, vises verdien du overfører, i konsollen.</string>
+				<key>Title</key>
+				<string>konsoll</string>
+			</dict>
+		</dict>
+		<key>constant</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En navngitt beholder som lagrer en verdi som ikke kan endres.</string>
+				<key>Title</key>
+				<string>konstant</string>
+			</dict>
+		</dict>
+		<key>container</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En beholder er en visning som inneholder andre visninger inni seg.</string>
+				<key>Title</key>
+				<string>beholder</string>
+			</dict>
+		</dict>
+		<key>coordinates</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Et sett med tall som unikt fastsetter en posisjon i rommet. For eksempel er (100, -200) koordinatene for et punkt i et 2D-rom, der x-koordinaten er 100 og y-koordinaten er -200.</string>
+				<key>Title</key>
+				<string>koordinater</string>
+			</dict>
+		</dict>
+		<key>data</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Informasjon som behandles eller lagres av en datamaskin og skiller seg fra koden som samhandler med den.</string>
+				<key>Title</key>
+				<string>data</string>
+			</dict>
+		</dict>
+		<key>data cleaning</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Prosessen med å gjennomgå et datasett og fjerne eller endre eventuelle data som er feil, ufullstendige, dupliserte eller feil formatert.
+
+Datarydding kan forbedre nøyaktigheten til en maskinlæringsmodell ved å sørge for at den bare [trenes opp](glossary://training) med de mest relevante og riktige dataene som er tilgjengelig.</string>
+				<key>Title</key>
+				<string>datarydding</string>
+			</dict>
+		</dict>
+		<key>data flow</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Hvordan data beveger seg gjennom appen, og hvordan forandringer i disse dataene fører til forandringer av statusen eller grensesnittet i appen.</string>
+				<key>Title</key>
+				<string>dataflyt</string>
+			</dict>
+		</dict>
+		<key>data model</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En koderepresentasjon av dataene som brukes i appen og som gjenspeiler dataorganiseringen. [Brukergrensesnittet](glossary://user%20interface) ditt kan vise data fra datamodellen og samhandle med den for å endre dataene. Datamodellen din fungerer som en [sannhetskilde](glossary://source%20of%20truth) for appen.</string>
+				<key>Title</key>
+				<string>datamodell</string>
+			</dict>
+		</dict>
+		<key>data separation</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Konseptet at en apps [datamodell](glossary://data%20model) bør defineres separat fra [brukergrensesnittet](glossary://user%20interface) som brukes til å vise og samhandle med disse dataene. Dataseparering gjør det mulig å endre datamodellen og brukergrensesnittet uavhengig av hverandre, noe som gjør det enklere å forstå hvordan appen fungerer og øker appens testbarhet.</string>
+				<key>Title</key>
+				<string>dataseparering</string>
+			</dict>
+		</dict>
+		<key>debug</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Å finne og fikse feil i kode som forhindrer at en app kjører som den skal. </string>
+				<key>Title</key>
+				<string>debugging</string>
+			</dict>
+		</dict>
+		<key>declaration</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En kodesnutt som lager noe nytt i appen, for eksempel en funksjon, variabel eller tilpasset type. For eksempel så deklarerer `let planet = "Earth"` en ny konstant, `planet`, og gir den verdien `"Earth"`.
+
+Koden nedenfor deklarerer en variabel, `data`, av typen `AppData`, men den gir den ingen innledende verdi.
+
+```
+var data : AppData
+```</string>
+				<key>Title</key>
+				<string>deklarasjon</string>
+			</dict>
+		</dict>
+		<key>decode</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Å forvandle data fra et effektivt lagringsformat, for eksempel JSON, til et format som er enklere å arbeide med i kode.</string>
+				<key>Title</key>
+				<string>dekode</string>
+			</dict>
+		</dict>
+		<key>decomposition</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Prosessen med å dele opp et stort problem i mindre, mer letthåndterlige deler.</string>
+				<key>Title</key>
+				<string>oppdeling</string>
+			</dict>
+		</dict>
+		<key>decrement</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Å minske et tall med en heltallsverdi, ofte med 1.</string>
+				<key>Title</key>
+				<string>minske</string>
+			</dict>
+		</dict>
+		<key>define</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Å oppgi en eksplisitt verdi eller oppførsel i en ny kodesnutt, for eksempel en funksjon, variabel eller tilpasset type. Du kan for eksempel definere en funksjon ved å angi et sett med kommandoer inni funksjonen som forteller hva den skal gjøre.</string>
+				<key>Title</key>
+				<string>definere</string>
+			</dict>
+		</dict>
+		<key>delegate</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Et spesielt objekt som leveres til et annet objekt for å varsle deg når viktige hendelser inntreffer. Det delegerte objektet stemmer vanligvis overens med en [protokoll](glossary://protocol) med funksjoner som kan kalles for å kommunisere tilbake til koden din. Når en delegert funksjon kalles, kalles det en delegert [callback](glossary://callback).
+
+Delegering er et vanlig mønster som brukes til å kommunisere mellom objekter, spesielt i [asynkrone](glossary://asynchronous%20process) prosesser.</string>
+				<key>Title</key>
+				<string>delegere</string>
+			</dict>
+		</dict>
+		<key>destination view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Visningen som vises etter at en [bruker](glossary://user) har klikket eller trykket på en `NavigationLink` inni en `NavigationStack` eller `NavigationSplitView`.</string>
+				<key>Title</key>
+				<string>målvisning</string>
+			</dict>
+		</dict>
+		<key>dot notation</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En type syntaks som brukes til å få tilgang til egenskaper eller kalle metodene i en instans. `expert.toggleSwitch()` kaller for eksempel metoden `toggleSwitch()` i instansen `expert`.</string>
+				<key>Title</key>
+				<string>punktnotasjon</string>
+			</dict>
+		</dict>
+		<key>edge case</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En situasjon, enten forutsett eller uforutsett, som oppstår i sjeldne tilfeller eller ved ekstreme tilfeller i en driftsparameter. 
+
+Når du for eksempel bygger en iPad-app og appen krasjer når du oppdaterer enhetens språk til et språk som bruker skript som går fra høyre til venstre, som arabisk. </string>
+				<key>Title</key>
+				<string>hjørnetilfelle</string>
+			</dict>
+		</dict>
+		<key>efficiency</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En måling på hvor god en kodesnutt er på å utføre sitt tiltenkte formål raskt, samtidig som den bruker så få ressurser (som minne eller strøm) som mulig.</string>
+				<key>Title</key>
+				<string>effektivitet</string>
+			</dict>
+		</dict>
+		<key>element</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Et objekt i en [samling](glossary://collection), for eksempel en [matrise](glossary:///array) eller et [intervall](glossary://range).
+
+```
+let letters = ["a", "b", "c"] // "a" er det første elementet, "b" er det andre, og "c" er det tredje. 
+```</string>
+				<key>Title</key>
+				<string>element</string>
+			</dict>
+		</dict>
+		<key>else block</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Den siste kodeblokken i et `if`-uttrykk. `else`-blokken kjøres hvis alle andre betingelser i `if`-uttrykket er `false`.
+
+```
+if hopper.isFacingStep { 
+	// if-blokk
+} else if hopper.isFacingUpdraft { 
+	// else if-blokk
+} else { 
+	// else-blokk
+}
+```</string>
+				<key>Title</key>
+				<string>else-blokk</string>
+			</dict>
+		</dict>
+		<key>else if block</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En kodeblokk i et `if`-uttrykk, som brukes til å undersøke en betingelse som ikke undersøkes av [if-blokken](glossary://if%20block) eller andre `else if`-blokker.
+
+```
+if hopper.isFacingStep { 
+	// if-blokk
+} else if hopper.isFacingUpdraft { 
+	// else if-blokk
+} else { 
+	// else-blokk
+}
+``</string>
+				<key>Title</key>
+				<string>else if-blokk</string>
+			</dict>
+		</dict>
+		<key>encode</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Å forvandle data fra et format som er enkelt å jobbe med i kode, til et effektivt lagringsformat, for eksempel JSON.</string>
+				<key>Title</key>
+				<string>kode</string>
+			</dict>
+		</dict>
+		<key>enumeration</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En type som definerer et sett med nærliggende verdier som kalles *tilfeller*.
+
+ For eksempel definerer `Direction` oppregningstilfeller for hver himmelretning: `north`, `south`, `east` og `west`. 
+```
+enum Direction { 
+	case north, south, east, west
+}
+```
+ Når en oppregning [overføres](glossary://pass%20in), velger du alltid bare ett av tilfellene, for eksempel:
+ ```
+ moveIn(direction: .north)
+```</string>
+				<key>Title</key>
+				<string>oppregning</string>
+			</dict>
+		</dict>
+		<key>environment</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En visnings miljø gir tilgang til en definert samling med verdier. Noen av disse gjenspeiler automatisk systemstatus, brukerinnstillinger eller visningsstatus. Noen eksempler er fargeoppsett, tekststil eller fokusstatus for visningen. Andre inneholder praktiske standardverdier, for eksempel en linjegrense for tekstfelter. Du kan lese miljøverdier ved å åpne dem via [egenskapsinnpakningen](glossary://property%20wrapper) `@Environment`. Du finner en fullstendig liste med miljøverdier [her](doc://com.apple.documentation/documentation/swiftui/environmentvalues).</string>
+				<key>Title</key>
+				<string>miljø</string>
+			</dict>
+		</dict>
+		<key>environment object</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Legg til [egenskapsinnpakningen](glossary://property%20wrapper) `@EnvironmentObject` for å deklarere en observerbar objektegenskap som leveres av en beholder eller arvet visning. Hvis du deklarerer en egenskap som et miljøobjekt, må du sørge for å angi en tilsvarende modellinstans av en arvet visning ved å kalle den tilhørende modifikatoren `environmentObject(_:)`.</string>
+				<key>Title</key>
+				<string>miljøobjekt</string>
+			</dict>
+		</dict>
+		<key>event</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En handling som kan oppdages av et dataprogram. Inndata, som å trykke på en knapp eller rotere skjermen, utløser en hendelse.</string>
+				<key>Title</key>
+				<string>hendelse</string>
+			</dict>
+		</dict>
+		<key>event handler</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En funksjon som kalles når en hendelse har inntruffet, for å håndtere hendelsen.</string>
+				<key>Title</key>
+				<string>hendelseshåndterer</string>
+			</dict>
+		</dict>
+		<key>extension</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En måte å legge til ny funksjonalitet i en eksisterende [type](glossary://type) på, for eksempel en [klasse](glossary://class), [struktur](glossary://structure), [oppregning](glossary://enumeration) eller [protokoll](glossary://protocol).
+
+Med en utvidelse kan du legge til [metoder](glossary://method) og [egenskaper](glossary://property) i en eksisterende type. Koden under legger til metoden `cubed()` og egenskapen `isOdd` i typen `Int`:
+
+```
+extension Int { 
+	func cubed() -&gt; Int { 
+        return self * self * self
+    }
+    
+    var isOdd : Bool { 
+        return self % 2 == 1
+    }
+}
+
+let two : Int = 2
+print(two.cubed()) // 8
+print(two.isOdd) // false
+```</string>
+				<key>Title</key>
+				<string>utvidelse</string>
+			</dict>
+		</dict>
+		<key>filtering</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Behandle data i en samling eller datastruktur for å lage et nytt sett med data.</string>
+				<key>Title</key>
+				<string>filtrering</string>
+			</dict>
+		</dict>
+		<key>focus state</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En verdi som representerer en visnings mulighet til å motta brukerinndata, for eksempel å skrive inn i et tekstfelt. Bruk [egenskapsinnpakningen](glossary://property%20wrapper) `@FocusState` sammen med modifikatorene `focused(_:equals:)` og `focused(_:)` for å lage en visning der fokusverdien oppdateres automatisk basert på brukerinteraksjon og kan også være programmatisk fokusert eller ufokusert på et bestemt tidspunkt.</string>
+				<key>Title</key>
+				<string>fokusstatus</string>
+			</dict>
+		</dict>
+		<key>font</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Et sett med teksttegn med en spesifikk designstil, vekt og størrelse. En fonts designstil kalles for *skriftsnitt*, og variasjoner av denne designen danner en *skriftsnittfamilie*. HelveticaNeue er for eksempel en skriftsnitt, og 10-punkters HelveticaNeue-Bold er en font.</string>
+				<key>Title</key>
+				<string>font</string>
+			</dict>
+		</dict>
+		<key>for loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En blokk med gjentatt kode som kjøres et bestemt antall ganger. 
+
+En løkken kan [iterere](glossary://iterate) over alle [samlinger](glossary://collection) med data, for eksempel et [intervall](glossary://range%20value) eller en [matrise](glossary://array), ved å kjøre løkkeblokken for hvert element i samlingen.
+
+I eksempelet under definerer løkken løkkevariabelen `value`, som gir tilgang til verdien for det aktuelle elementet i samlingen:
+```
+for value in 1...4 { 
+	byte.moveForward()
+	byte.jump(height: value)
+}
+```</string>
+				<key>Title</key>
+				<string>for-løkke</string>
+			</dict>
+		</dict>
+		<key>framework</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Et rammeverk er en katalog som inneholder delte ressurser. Disse ressursene kan omfatte kildefiler, bildefiler, lokaliserte strenger, referansedokumentasjon med mer i én pakke. Flere apper kan bruke alle disse ressursene samtidig. Systemet laster dem inn i minnet ved behov og deler kopien med ressurser blant alle appene når det er mulig.</string>
+				<key>Title</key>
+				<string>rammeverk</string>
+			</dict>
+		</dict>
+		<key>full function name</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Det fullstendige navnet på en funksjon, inkludert navnene på parametrene adskilt med kolon (`:`), for eksempel, `move(to:duration:)`.</string>
+				<key>Title</key>
+				<string>fullstendig funksjonsnavn</string>
+			</dict>
+		</dict>
+		<key>function</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En navngitt kodeblokk som kjøres når den [kalles](glossary://call) med navnet sitt. Data i form av [parametre](glossary://parameter) kan overføres til en funksjon som også kan [returnere](glossary://return) data når koden er ferdig med å kjøre. En funksjon som defineres inni en type, kalles en [metode](glossary://method).
+
+Under finner du et eksempel på en funksjonsdefinisjon for `turnRight()`. Du kan kalle denne koden ved å skrive `turnRight()`, og da vil `turnLeft()` kjøres tre ganger når koden kjøres.
+
+```
+func turnRight() { 
+	turnLeft()
+	turnLeft()
+	turnLeft()
+}
+```</string>
+				<key>Title</key>
+				<string>funksjon</string>
+			</dict>
+		</dict>
+		<key>function definition</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En funksjonsdefinisjon beskriver hva en funksjon gjør, hva den forventer å motta, og hva den returnerer når den er ferdig.</string>
+				<key>Title</key>
+				<string>funksjonsdefinisjon</string>
+			</dict>
+		</dict>
+		<key>fuzzy autocomplete</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En metode for automatisk fullføring av kode som bruker et omtrentlig strengsøk for å finne matchende variabler, konstanter, typer og andre symboler. Et omtrentlig strengsøk er ikke nøyaktig, men det finner relevante treff basert på tegnene du skriver. 
+
+Hvis du for eksempel søker etter en [visningsmodifikator](glossary://modifier) som har noe å gjøre med «scale», kan du bare begynne å skrive `.scale`, noe som returnerer alternativer for automatisk fullføring som begynner med `.scale`, for eksempel `.scaledToFill` og `.scaleEffect`, men du får også med ’omtrentlige’ treff som `.imageScale` og `.grayscale`.
+</string>
+				<key>Title</key>
+				<string>omtrentlig automatisk fullføring</string>
+			</dict>
+		</dict>
+		<key>g</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En måleenhet for akselerasjon, eller kraft per masseenhet. Én g, eller g-kraft, tilsvarer tyngdekraftens akselerasjon på jorden, som er omtrent 9,8 meter per sekund opphøyd i annen.</string>
+				<key>Title</key>
+				<string>g</string>
+			</dict>
+		</dict>
+		<key>global function</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En funksjon som er tilgjengelig fra alle filer i prosjektet.</string>
+				<key>Title</key>
+				<string>global funksjon</string>
+			</dict>
+		</dict>
+		<key>global scope</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Symboler som er tilgjengelige fra koden i alle kildefiler i samme [modul](glossary://module). Alle instanser, typer eller funksjoner som defineres på toppnivået i en kildefil, har som standard et globalt omfang. </string>
+				<key>Title</key>
+				<string>globalt omfang</string>
+			</dict>
+		</dict>
+		<key>global variable</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En variabel som er tilgjengelig fra alle filer i prosjektet.</string>
+				<key>Title</key>
+				<string>global variabel</string>
+			</dict>
+		</dict>
+		<key>grayscale</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Et intervall av grå nyanser fra hvitt til svart.</string>
+				<key>Title</key>
+				<string>gråtoner</string>
+			</dict>
+		</dict>
+		<key>gyroscope</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En sensor som måler enhetens retning i tre dimensjoner: hellingen fra framsiden til baksiden, hellingen fra venstre til høyre og rotasjonen rundt midtpunktet.</string>
+				<key>Title</key>
+				<string>gyroskop</string>
+			</dict>
+		</dict>
+		<key>half open range</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Et halvåpent intervall fra en nedre grense opptil, men ikke inkludert en øvre grense.
+
+I Swift kan verdien for intervallet 1–3 skrives som 1..&lt;4. I dette tilfellet inkluderer intervallet den nedre grensen på 1, og det teller opptil, men ikke inkludert verdien 4.
+```
+let halfOpenRange = 1..&lt;4
+for i in halfOpenRange { 
+	print(i) // 1 2 3
+}
+```</string>
+				<key>Title</key>
+				<string>halvåpent intervall</string>
+			</dict>
+		</dict>
+		<key>hertz</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Hertz (Hz) er én syklus per sekund. Når det gjelder lydvibrasjoner, er 1 Hz én lydbølge per sekund. Mennesker kan høre lyd mellom 20 Hz og 16 000 Hz.</string>
+				<key>Title</key>
+				<string>hertz</string>
+			</dict>
+		</dict>
+		<key>hue</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Tonen for en farge på fargehjulet. Dette er en Double (desimaltall) i intervallet fra `0` til `1`.</string>
+				<key>Title</key>
+				<string>fargetone</string>
+			</dict>
+		</dict>
+		<key>if block</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Den første kodeblokken i et `if`-uttrykk. `if`-blokken kjøres hvis betingelsen i `if`-uttrykket er `true`.
+```
+if blu.isFacingStep { 
+	blu.jump()
+}
+```</string>
+				<key>Title</key>
+				<string>if-blokk</string>
+			</dict>
+		</dict>
+		<key>if statement</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En kodestruktur som brukes til å kjøre kode basert på én eller flere betingelser. Den første kodeblokken i et `if`-uttrykk er `if`-blokken.
+```
+if blu.isFacingStep { 
+	blu.jump()
+}
+```
+ Et `if`-uttrykk kan også inneholde andre blokker med ytterligere kontroller, for eksempel en `else`-blokk og en `else if`-blokk.
+```
+if blu.isFacingStep { 
+	blu.jump()
+} else if blu.isFacingHole { 
+	blu.shapeShift(into: .bridge)
+} else { 
+	blu.moveForward()
+}
+```</string>
+				<key>Title</key>
+				<string>if-uttrykk</string>
+			</dict>
+		</dict>
+		<key>import</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>I Swift gir en `import`-[deklarasjon](glossary://declaration) deg tilgang til symboler – for eksempel typer, funksjoner, egenskaper og metoder – som defineres utenfor den gjeldende filen. Du kan importere symbolene i en [modul](glossary://module) eller et [rammeverk](glossary://framework) som [SwiftUI](doc://com.apple.documentation/documentation/swiftui) eller [CoreMotion](doc://com.apple.documentation/documentation/coremotion). Hvis du for eksempel vil bruke SwiftUI-rammeverket, plasserer du følgende deklarasjon øverst i filen: 
+
+```
+import SwiftUI
+```
+</string>
+				<key>Title</key>
+				<string>importer</string>
+			</dict>
+		</dict>
+		<key>increment</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Øker et tall med en heltallsverdi, ofte med 1.</string>
+				<key>Title</key>
+				<string>øke</string>
+			</dict>
+		</dict>
+		<key>index</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Et tall som representerer plasseringen av et objekt i en [matrise](glossary://array).</string>
+				<key>Title</key>
+				<string>indeks</string>
+			</dict>
+		</dict>
+		<key>index out of range error</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En feil som forårsakes av å forsøke å bruke en matrise med en indeks som ligger utenfor matrisens intervall. Indeksen `2` ligger for eksempel utenfor intervallet for følgende matrise: `[17, 42]`.</string>
+				<key>Title</key>
+				<string>indeks utenfor matrisen-feil</string>
+			</dict>
+		</dict>
+		<key>initialization</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Å opprette en ny instans av en type, noe som omfatter å angi innledende verdier for egenskaper hos typen.</string>
+				<key>Title</key>
+				<string>initiering</string>
+			</dict>
+		</dict>
+		<key>initializer</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kall en initialiserer for å opprette en ny [instans](glossary://instance) av en type. Initialisereren må sørge for at alle egenskaper i typen har innledende verdier, og den inneholder ofte annen oppsettkode.</string>
+				<key>Title</key>
+				<string>initialiserer</string>
+			</dict>
+		</dict>
+		<key>inner loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En gjentakende kodeblokk (en løkke) som er nøstet inni en annen (utvendig) løkke.</string>
+				<key>Title</key>
+				<string>innvendig løkke</string>
+			</dict>
+		</dict>
+		<key>instance</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En verdi for en bestemt [type](glossary://type). I for eksempel `let motion = MotionSensor()` er `motion` en instans av typen `MotionSensor`.</string>
+				<key>Title</key>
+				<string>instans</string>
+			</dict>
+		</dict>
+		<key>integer</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Et heltall, for eksempel `2` eller `-5`.</string>
+				<key>Title</key>
+				<string>heltall</string>
+			</dict>
+		</dict>
+		<key>iterate</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Å gjenta en kodeblokk for hvert [element](glossary://element) i en [samling](glossary://collection), for eksempel en matrise eller et intervall.
+
+I eksempelet under itererer for-løkken gjennom `days`-matrisen og skriver ut én ukedag om gangen:
+```
+let days = ["Monday", "Tuesday", "Wednesday"]
+
+for value in days { 
+	print(value)
+}
+
+// Første iterasjon skriver ut "Monday"
+// Andre iterasjon skriver ut "Tuesday"
+// Tredje iterasjon skriver ut "Wednesday"
+```</string>
+				<key>Title</key>
+				<string>iterere</string>
+			</dict>
+		</dict>
+		<key>iteration</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Å gjenta en prosess, for eksempel å utføre samme handling på hvert objekt i en matrise.</string>
+				<key>Title</key>
+				<string>iterasjon</string>
+			</dict>
+		</dict>
+		<key>label</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Den visuelle representasjonen av et UI-element som er opprettet som en [visning](glossary://view).
+
+Mange [innebygde visninger](glossary://built-in%20view) i SwiftUI har både en etikett (en visuell representasjon) og andre tilpasningspunkter, for eksempel en [målvisning](glossary://destination%20view) for en `NavigationLink` eller en [callback](glossary://callback)-handling for en `Button`.</string>
+				<key>Title</key>
+				<string>etikett</string>
+			</dict>
+		</dict>
+		<key>lag</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En reduksjon i appens hastighet eller svartid som et resultat av behandlingsbehov, behandlingskraft eller begge deler.</string>
+				<key>Title</key>
+				<string>forsinkelse</string>
+			</dict>
+		</dict>
+		<key>leading edge</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Den ledende kanten, når det brukes til å referere til innhold inni en visning, refererer til den horisontale posisjonen for starten av innholdet. Posisjonen til den ledende kanten er avhengig av innstillingene dine og baserer seg vanligvis på lands- og språkinnstillingene.
+                    For eksempel er den ledende kanten til venstre for språk som leses fra venstre til høyre, som engelsk eller norsk. Språk som leses fra høyre til venstre, som arabisk eller hebraisk, har den ledende kanten til høyre.</string>
+				<key>Title</key>
+				<string>ledende kant</string>
+			</dict>
+		</dict>
+		<key>literal</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Litteraler gjør det mulig å integrere bilder og farge direkte i koden ved hjelp av bildebiblioteket eller fargevelgeren. Litteraler er de faktiske verdiene til dataene dine som representeres i originalformat direkte i redigereren.</string>
+				<key>Title</key>
+				<string>litteral</string>
+			</dict>
+		</dict>
+		<key>local scope</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Et lokalt omfang dannes på hvert nytt nivå i kodeorganisasjonen under det [globale omfanget](glossary://global%20scope). For eksempel danner en ny [type](glossary://type) et nytt lokalt omfang, og funksjoner og kodeblokker inni denne typen danner sitt eget nivå av [omfang](glossary://scope). Avhengig av hvor et symbol deklareres, er det bare tilgjengelig fra kode som finnes på samme eller lavere omfangsnivå.
+
+Hvis en variabel for eksempel defineres inni en type, er denne variabelen tilgjengelig i alle funksjoner og kodeblokker inni typen. Derimot er en konstant som defineres inni en metode, bare tilgjengelig inni metodens definisjon.</string>
+				<key>Title</key>
+				<string>lokalt omfang</string>
+			</dict>
+		</dict>
+		<key>logical AND operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Et symbol (`&amp;&amp;`) som kombinerer to boolske verdier der begge verdiene må være sanne for at den overordnede koden skal være sann. For eksempel er `a &amp;&amp; b` bare sant når både `a` og `b` er `true`.</string>
+				<key>Title</key>
+				<string>logisk OG-operator</string>
+			</dict>
+		</dict>
+		<key>logical NOT operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Et symbol (`!`) som inverterer den boolske verdien til en kodesnutt. For eksempel er `!a` `false` hvis `a` er `true`.</string>
+				<key>Title</key>
+				<string>logisk IKKE-operator</string>
+			</dict>
+		</dict>
+		<key>logical OR operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Et symbol (`||`) som kombinerer to boolske verdier der bare én verdi må være sann for at den overordnede koden skal være sann. For eksempel er `a || b` sant når enten `a` eller `b` er `true` (eller når `true` gjelder for begge).</string>
+				<key>Title</key>
+				<string>logisk ELLER-operator</string>
+			</dict>
+		</dict>
+		<key>logical operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Et symbol, for eksempel `&amp;&amp;`, `||` eller `!`, som endrer eller kombinerer de boolske, logiske verdiene `true` og `false`.</string>
+				<key>Title</key>
+				<string>logisk operator</string>
+			</dict>
+		</dict>
+		<key>loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En kodeblokk som gjentas et bestemt antall ganger (for eksempel en `for`-løkke) eller til en betingelse oppfylles (for eksempel en `while`-løkke).</string>
+				<key>Title</key>
+				<string>løkke</string>
+			</dict>
+		</dict>
+		<key>loop variable</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>I en [for-løkke](glossary://for%20loop) er dette verdien for elementet i [samlingen](glossary://collection) som du [itererer](glosssary://iterate) over.
+
+En løkkevariabel lagrer denne verdien, slik at du kan bruke den i `for`-løkken. 
+
+I disse eksemplene er `value` og `letter` løkkevariabler:
+```
+for value in 1...4 { 
+	print(value) // 1 2 3 4
+}
+
+for letter in ["c", "o", "d", "e"] { 
+	print(letter) // c o d e 
+}
+```</string>
+				<key>Title</key>
+				<string>løkkevariabel</string>
+			</dict>
+		</dict>
+		<key>lower bound</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>I et [intervall](glossary://range) er dette startverdien som det telles opp fra.
+
+```
+let closedRange = 1...5 // Nedre grense er 1, øvre grense er 5
+for i in closedRange { 
+	print(i) // 1 2 3 4 5
+}
+```</string>
+				<key>Title</key>
+				<string>nedre grense</string>
+			</dict>
+		</dict>
+		<key>machine learning</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En gren av informatikk som fokuserer på å utvikle [algoritmer](glossary://algorithm) som bruker store mengder data til å lære maskiner hvordan de lærer og forbedrer en bestemt prosess. 
+
+For eksempel: Å lære en maskin å gjenkjenne en bestemt type blomst ved å bruke en bilde[klassifiserer](glossary://classification) og gi den et stort datasett med blomsterbilder.</string>
+				<key>Title</key>
+				<string>maskinlæring</string>
+			</dict>
+		</dict>
+		<key>machine learning model</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En type [datamodell](glossary://data%20model) du oppretter ved å anvende en maskinlærings[algoritme](glossary://algorithm) på et [treningsdatasett](glossary://training%20dataset). Maskinlæringsmodeller, eller ML-modeller, brukes til å lage [prediksjoner](glossary://prediction) fra en inndatakilde.</string>
+				<key>Title</key>
+				<string>maskinlæringsmodell</string>
+			</dict>
+		</dict>
+		<key>magnitude</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Størrelsen på en verdi uansett om den er positiv eller negativ. Dette kalles også [absoluttverdien](glossary://absolute%value) for et tall. 
+
+For eksempel, magnituden av `5` og `-5` er begge `5`.</string>
+				<key>Title</key>
+				<string>magnitude</string>
+			</dict>
+		</dict>
+		<key>memory</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Delen av en datamaskin som lagrer koden for en app og dataene den bruker, enten midlertidig eller permanent.</string>
+				<key>Title</key>
+				<string>minne</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Tilleggsinformasjon om data. Et bilde kan for eksempel inneholde metadata om stedet det ble tatt.</string>
+				<key>Title</key>
+				<string>metadata</string>
+			</dict>
+		</dict>
+		<key>method</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En navngitt kodeblokk som kjøres når den [kalles](glossary://call) med navnet sitt. 
+
+En metode er en [funksjon](glossary://function), men den defineres i en [type](glossary://type). 
+
+Denne koden kaller metoden `moveForward()` fra [instansen](glossary://instance) `byte`:
+```
+let byte = Byte()
+
+byte.moveForward()
+```</string>
+				<key>Title</key>
+				<string>metode</string>
+			</dict>
+		</dict>
+		<key>miter</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En type sammenføyning mellom to stiplede linjer der hjørnene er skarpe i stedet for avrundede eller med skråkant.</string>
+				<key>Title</key>
+				<string>gjæring</string>
+			</dict>
+		</dict>
+		<key>modifier</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>I SwiftUI brukes en modifikator for å tilpasse en visnings utseende eller oppførsel.
+
+					I koden under endrer modifikatoren `foregroundColor` fargen på `Rectangle`-visningen til blå.
+					```
+					Rectangle()
+							.foregroundColor(.blue)
+					```
+
+					For å gjøre det enklere å lese modifikatorer plasseres hver modifikator på sin egen linje under visningen den modifiserer. I dette eksempelet brukes modifikatoren `foregroundColor(.blue)` først, og deretter modifikatoren `border(.green)`.
+					```
+					Rectangle()
+							.foregroundColor(.blue)
+							.border(.green)
+					```
+					
+					Siden modifikatorene brukes i den rekkefølgen de står, kan visningens utseende eller oppførsel endres hvis rekkefølgen byttes. 
+				</string>
+				<key>Title</key>
+				<string>modifikator</string>
+			</dict>
+		</dict>
+		<key>modularity</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Prinsippet om å skille appen inn i frittstående deler som hver og en inneholder alt den delen trenger for å utføre én funksjon for appen, for eksempel å vise én del av grensesnittet eller å lagre appdata.
+
+Modularitet er et viktig prinsipp for å lage apper fordi det hjelper deg med å forstå og arbeide med ulike deler av funksjonalitet. Det innebærer at du enklere kan oppdage hvor noe har blitt feil når appen har en bugg.</string>
+				<key>Title</key>
+				<string>modulær</string>
+			</dict>
+		</dict>
+		<key>module</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Én enhet av kodedistribusjon – et [rammeverk](glossary://framework) eller en app som er bygd og levert som én enhet og kan importeres av en annen modul med Swifts [import](glossary://import)-nøkkelord.</string>
+				<key>Title</key>
+				<string>modul</string>
+			</dict>
+		</dict>
+		<key>modulo operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Et symbol (`%`) som returnerer divisjonsresten etter at et tall er delt på et annet. For eksempel returnerer `17 % 5` tallet `2`.</string>
+				<key>Title</key>
+				<string>modulæroperator</string>
+			</dict>
+		</dict>
+		<key>navigation bar</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Med et navigeringsgrensesnitt kan du gjøre ett valg per skjerm til du når et mål. Hvis du vil gå til et annet mål, må du gå tilbake steg for steg eller begynne på nytt og gjøre andre valg. Navigeringslinjen øverst på skjermen viser en tittel som hjelper deg med å huske hvor du er, og den inneholder en tilbakeknapp så du kan gå tilbake til den forrige skjermen.</string>
+				<key>Title</key>
+				<string>navigeringslinje</string>
+			</dict>
+		</dict>
+		<key>navigation link</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En [innebygd visning](glossary://built-in%20view) i SwiftUI som navigerer til en [målvisning](glossary://destination%20view) når en bruker trykker på den. En navigeringslenke har også en [etikett](glossary://label) som bestemmer det visuelle utseendet.</string>
+				<key>Title</key>
+				<string>navigeringslenke</string>
+			</dict>
+		</dict>
+		<key>nest</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Å plassere én gjentakende kodeblokk, for eksempel en løkke, inni en annen.</string>
+				<key>Title</key>
+				<string>nøste</string>
+			</dict>
+		</dict>
+		<key>normalization</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Prosessen med å skalere et sett med data slik at de skalerte verdiene havner mellom `0` og `1`.</string>
+				<key>Title</key>
+				<string>normalisering</string>
+			</dict>
+		</dict>
+		<key>observable object</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Når en klasse [stemmer overens](glossary://conform) med protokollen `ObservableObject`, fører alle forandringer av de publiserte verdiene til at alle visninger som bruker disse verdiene, oppdateres automatisk så de gjenspeiler endringene.</string>
+				<key>Title</key>
+				<string>observerbart objekt</string>
+			</dict>
+		</dict>
+		<key>observe</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Å overvåke et objekt for en [endring i statusen](glossary://state%20change).</string>
+				<key>Title</key>
+				<string>observere</string>
+			</dict>
+		</dict>
+		<key>observed object</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Inni en [visning](glossary://view) ser SwiftUI etter endringer av hvilke som helst [egenskaper](glossary://property) som bruker [egenskapsinnpakningen](glossary://property%20wrapper) `@ObservedObject`. Hvis verdien endres, oppdaterer SwiftUI visningen.
+
+Typen av en observert objektegenskap må [stemme overens](glossary://conform) med protokollen `ObservableObject`.
+				</string>
+				<key>Title</key>
+				<string>observert objekt</string>
+			</dict>
+		</dict>
+		<key>observer</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Når det gjelder et [observerbart objekt](glossary://observable%20object), er en observatør en visning eller et objekt som bruker det observerbare objektets data. Når det observerbare objektets data endres, gjenkjenner SwiftUI endringen og ber observatørene om å oppdatere.</string>
+				<key>Title</key>
+				<string>observatør</string>
+			</dict>
+		</dict>
+		<key>operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Et symbol, som `+`, `-` eller `&amp;&amp;`, som representerer en handling på én eller flere verdier. I for eksempel `1 + 2` adderer addisjonsoperatoren (`+`) tallene `1` og `2`.</string>
+				<key>Title</key>
+				<string>operator</string>
+			</dict>
+		</dict>
+		<key>optional</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En type som representerer enten en pakket verdi eller ingen verdi. En valgfri type kjennetegnes vanligvis med et etterfølgende spørsmålstegn (`?`).
+				
+For eksempel kan en variabel av typen `Int?` inneholde en pakket `Int`-verdi på `-43` eller `6`, eller verdien kan være `nil`, hvor den i så fall mangler en tildelt verdi.</string>
+				<key>Title</key>
+				<string>valgfritt</string>
+			</dict>
+		</dict>
+		<key>outer loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En gjentakende kodeblokk (en løkke) som inneholder en annen (innvendig) løkke.</string>
+				<key>Title</key>
+				<string>utvendig løkke</string>
+			</dict>
+		</dict>
+		<key>overfitting</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Innen maskinlæring er dette produksjonen av en modell som korresponderer for nært til et bestemt datasett. 
+
+Hvis modellen din for eksempel er en [klassifiserer](glossary://classification) som oppdager bilder av pattedyr, og [treningsdatasettet](glossary://training%20dataset) bare inneholder bilder av hunder, vil modellen overtilpasse for å gjenkjenne hunder på bekostning av å ignorere andre pattedyr, for eksempel kaniner eller hjort.</string>
+				<key>Title</key>
+				<string>overtilpasning</string>
+			</dict>
+		</dict>
+		<key>parameter</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En verdi som brukes for å tilpasse hvordan en [funksjon](glossary://function) oppfører seg. Når du [kaller](glossary://call) funksjonen, kan du overføre forskjellige verdier for å endre funksjonens oppførsel.
+
+I funksjonen under er `distance` en parameter som godtar en verdi av typen `Int`:
+```
+func move(distance: Int) { 
+	for i in 1...distance { 
+		moveForward()
+	}
+}
+```
+Parameterverdien (`distance`) kan brukes i funksjonen for å påvirke hvordan den oppfører seg. I dette tilfellet kan du kalle denne funksjonen med forskjellige heltallsverdier, for eksempel `move(distance: 2)` eller `move(distance: 5)`, for å reise forskjellige avstander.</string>
+				<key>Title</key>
+				<string>parameter</string>
+			</dict>
+		</dict>
+		<key>pass in</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Å gi verdi til en av en funksjons [parametre](glossary://parameter). 
+
+I eksempelet under overfører koden verdien "Hello" til `text`-parameteren.
+```
+speak(text: "Hello")
+```</string>
+				<key>Title</key>
+				<string>overføre</string>
+			</dict>
+		</dict>
+		<key>pattern</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Et gjentakende sett med forhold eller data.</string>
+				<key>Title</key>
+				<string>mønster</string>
+			</dict>
+		</dict>
+		<key>persistence</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Prosessen med å lagre brukerdata slik at de kan lastes inn på nytt hver gang appen startes. Uten persistens vil appens status og data nullstilles hver gang appen startes på nytt.</string>
+				<key>Title</key>
+				<string>persistens</string>
+			</dict>
+		</dict>
+		<key>pi</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Pi (π) er en matematisk konstant som tilsvarer omtrent 3,14. Det er forholdet mellom en sirkels omkrets og diameter.</string>
+				<key>Title</key>
+				<string>pi</string>
+			</dict>
+		</dict>
+		<key>pitch</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Målingen for rotasjonen eller hellingen til høyre og venstre når enheten er i liggende retning.   Matematisk er helling rotasjonen rundt enhetens x-akse. Den måles i radianer og har et intervall på `-π/2` til `π/2`.</string>
+				<key>Title</key>
+				<string>helling</string>
+			</dict>
+		</dict>
+		<key>pitch audio</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Tonehøyden til lyder kommer av vibrasjonsfrekvensen til lydbølger. Tonehøyden øker med antallet lydbølger som skapes i løpet av et visst tidsrom. 
+
+					Innenfor musikk beskriver tonehøyde om en tone er høy eller lav. Fuglesang regnes som en høy tone, mens et løvebrøl har en dyp tone.</string>
+				<key>Title</key>
+				<string>tonehøyde</string>
+			</dict>
+		</dict>
+		<key>placeholder view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En visning som vises midlertidig for å angi hvor det endelige innholdet kommer til å bli lastet inn eller lagt inn. Et par eksempler er `ProgressView` som brukes til å vise et bilde som lastes inn, eller et grått rektangel der tekst kan legges inn.</string>
+				<key>Title</key>
+				<string>plassholdervisning</string>
+			</dict>
+		</dict>
+		<key>prediction</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Innen maskinlæring er en prediksjon utdataene fra en maskinlæringsmodell når den får inndata. 
+
+En golden retriever kan for eksempel være en gyldig prediksjon fra en maskinlæringsmodell som er trent opp til å gjenkjenne forskjellige hunderaser.</string>
+				<key>Title</key>
+				<string>prediksjon</string>
+			</dict>
+		</dict>
+		<key>private</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Nøkkelordet «private» gjør at koden bare er tilgjengelig innenfor den bestemte kildefilen.
+- callout(Eksempel):
+`private class MyApp: App { }`</string>
+				<key>Title</key>
+				<string>private</string>
+			</dict>
+		</dict>
+		<key>property</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En variabel (en navngitt beholder som lagrer en verdi) som defineres inni en [type](glossary://type).
+
+En egenskap er tilgjengelig via en [instans](glossary://instance) av den aktuelle typen ved hjelp av [punktnotasjon](glossary://dot%20notation). I koden under er `isFacingHole` en egenskap av typen `Hopper`.
+```
+if hopper.isFacingHole { 
+	// kode 
+}
+```</string>
+				<key>Title</key>
+				<string>egenskap</string>
+			</dict>
+		</dict>
+		<key>property wrapper</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En egenskapsinnpakning er en enkel måte å bruke et vanlig oppførselsmønster i en egenskap på. Innpakningen er en måte å merke egenskapen som definerer hvordan den skal lagres eller beregnes ved lesing.   For eksempel sier egenskapsinnpakningen `@State` til SwiftUI hvordan lagringen av en verdi skal håndteres, og å oppdatere alle deler i en visning som bruker den verdien når den endres.</string>
+				<key>Title</key>
+				<string>egenskapsinnpakning</string>
+			</dict>
+		</dict>
+		<key>protocol</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Et sett med krav, for eksempel metoder og egenskaper, som kan adopteres (eller følges) av en type, for eksempel en klasse, struktur eller oppregning.   Når en type adopterer en protokoll, har typen sin egen implementering av protokollkravene og kan sies å stemme overens med denne protokollen.</string>
+				<key>Title</key>
+				<string>protokoll</string>
+			</dict>
+		</dict>
+		<key>pseudocode</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En lettlest beskrivelse av en algoritme, vanligvis skrevet med en blanding av hverdagsspråk og kode.</string>
+				<key>Title</key>
+				<string>pseudokode</string>
+			</dict>
+		</dict>
+		<key>public</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Nøkkelordet «public» gjør koden tilgjengelig for alle filer i prosjektet.
+                        
+- callout(Eksempel):
+`public func decorateWithSticker(space: Space) { }`
+                    </string>
+				<key>Title</key>
+				<string>public</string>
+			</dict>
+		</dict>
+		<key>publish</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Å sende ut en varsling til alle [observatører](glossary://observer) av et [observerbart objekt](glossary://observable%20object) når verdien på en angitt [publisert egenskap](glossary://published%20value) endres.</string>
+				<key>Title</key>
+				<string>publisere</string>
+			</dict>
+		</dict>
+		<key>published value</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Legg til [egenskapsinnpakningen](glossary://property%20wrapper) `@Published` for å deklarere en egenskap som varsler alle [observatører](glossary://observer) når verdien dens er i ferd med å endres. Når verdien endres, oppdaterer SwiftUI alle visninger som bruker dataene.</string>
+				<key>Title</key>
+				<string>publisert verdi</string>
+			</dict>
+		</dict>
+		<key>radians</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Radianer er en måleenhet for vinkler i likhet med grader. Vinkelen i radianer er lik forholdet mellom buelengden og radiusen til en sirkel som tegnes rundt denne vinkelen. Én radian er lik 180 grader delt på [pi](glossary://pi).</string>
+				<key>Title</key>
+				<string>radianer</string>
+			</dict>
+		</dict>
+		<key>range</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Et intervall mellom en [nedre grense](glossary://lower%20bound) og en [øvre grense](glossary://upper%20bound). 
+
+Det er flere måter å lage et intervall på, inkludert et [lukket intervall](glossary://closed%20range) og et [halvåpent intervall](glossary://half%20open%20range).
+
+```
+let closedRange = 1...4 
+for i in closedRange { 
+	print(i) // 1 2 3 4
+}
+
+let halfOpenRange = 1..&lt;4 
+for i in halfOpenRange { 
+	print(i) // 1 2 3
+}
+```</string>
+				<key>Title</key>
+				<string>intervall</string>
+			</dict>
+		</dict>
+		<key>reference type</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Når du oppretter en [instans](glossary://instance) av en referansetype, for eksempel en klasse eller aktør, lagres dataene i et delt minne. Dette innebærer at instansen bare inneholder en referanse til dataene i stedet for en egen unik kopi. Hvis du [tildeler](glossary://assignment) instansen til en variabel, eller overfører den som et [argument](glossary://argument) til en funksjon, oppretter Swift en annen referanse til de samme dataene.
+
+Instansen kopieres som en referanse på måten som vises i eksempelet nedenfor:
+
+```
+class Bicycle {
+  var color: Color
+   init(color: Color) {
+     self.color = color
+   }
+}
+
+var redBike = Bicycle(color: .red)
+var blueBike = redBike
+blueBike.color = .blue
+print(redBike.color) // =&gt; blue
+print(blueBike.color) // =&gt; blue
+// redBike og blueBike deler en referanse til de samme dataene
+```</string>
+				<key>Title</key>
+				<string>referansetype</string>
+			</dict>
+		</dict>
+		<key>responsive</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Koden eller brukergrensesnittet er responsivt hvis det svarer raskt på [brukerinteraksjon](glossary://user%20interaction) eller tilpasses hensiktsmessig til endringer i miljøet, for eksempel når størrelsen på visningen endres.</string>
+				<key>Title</key>
+				<string>responsiv</string>
+			</dict>
+		</dict>
+		<key>return</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Å sende tilbake en verdi til kalleren av en [funksjon](glossary://function). For eksempel returnerer funksjonen `contains(3)` den boolske verdien `false` når den kjøres på matrisen `[0,1,2]`, siden matrisen ikke inneholder verdien `3`.</string>
+				<key>Title</key>
+				<string>retur</string>
+			</dict>
+		</dict>
+		<key>return type</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Når du definerer en funksjon, kan du velge å definere en type verdi som funksjonen overfører tilbake som utdata når den er ferdig, en såkalt returtype.</string>
+				<key>Title</key>
+				<string>returtype</string>
+			</dict>
+		</dict>
+		<key>reusability</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Et kjennetegn hos kode som gjør at den kan brukes i forskjellige situasjoner inni en app.</string>
+				<key>Title</key>
+				<string>gjenbrukbarhet</string>
+			</dict>
+		</dict>
+		<key>roll</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Målingen for rotasjonen eller hellingen framover og bakover når enheten er i liggende retning.   Matematisk er dette rotasjonen rundt enhetens y-akse. Den måles i radianer og har et intervall på `-π` til `π`.</string>
+				<key>Title</key>
+				<string>rulling</string>
+			</dict>
+		</dict>
+		<key>root view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En visning der alle andre visninger plasseres. Kalles også [toppnivåvisning](glossary://top-level%20view). Den er den øverste visningen i et [visningshierarki](glossary://view%20hierarchy) og fungerer som [beholdervisning](glossary://container) for alle [delvisninger](glossary://subview) i hierarkiet.</string>
+				<key>Title</key>
+				<string>rotvisning</string>
+			</dict>
+		</dict>
+		<key>rubber ducky method</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En innlæringsmetode der du forklarer et konsept i detalj til en livløs gjenstand, for eksempel en gummiand. Når du vil bruke denne teknikken, tar du en livløs gjenstand og begynner å forklare konseptet høyt. Sørg for å ta med all informasjon som kreves for at anden skal forstå. Hvis du innser at det mangler noe informasjon under forklaringen, noterer du det ned og undersøker det etterpå. Du kan ta med de nye oppdagelsene dine i kommende forklaringer til gummianden.</string>
+				<key>Title</key>
+				<string>gummiandmetode</string>
+			</dict>
+		</dict>
+		<key>saturation</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Fargetonens intensitet, fra en gråtone til den fullstendige fargen. Metningen er en Double (et desimaltall) i intervallet fra `0` til `1`.</string>
+				<key>Title</key>
+				<string>metning</string>
+			</dict>
+		</dict>
+		<key>scope</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Områdene i et prosjekt der du kan få tilgang til en verdi eller type. Symboler som defineres med et [globalt omfang](glossary://global%20scope), er tilgjengelige for alle filer i [modulen](glossary://module), mens de som defineres med et [lokalt omfang](glossary://local%20scope), er tilgjengelige i kode som finnes på samme eller lavere nivå av lokalt omfang.</string>
+				<key>Title</key>
+				<string>omfang</string>
+			</dict>
+		</dict>
+		<key>sensor</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En sensor er en enhet som oppdager hendelser, for eksempel endring i varme, lys, lyd eller bevegelse, og returnerer en verdi.</string>
+				<key>Title</key>
+				<string>sensor</string>
+			</dict>
+		</dict>
+		<key>sequence</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En liste med verdier du kan gå gjennom trinnvis en av gangen ved å [iterere](glossary://iteration).
+
+Du kan bruke en `for`-`in`-løkke til å iterere over en sekvens som matrisen `healthySnacks` i følgende eksempel:
+```
+let healthySnacks = ["apple", "pear", "banana"]
+for snack in healthySnacks {
+	eat(snack)
+}
+```</string>
+				<key>Title</key>
+				<string>sekvens</string>
+			</dict>
+		</dict>
+		<key>source of truth</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Under app-bygging er dette ett enkelt sted der alle data endres. Alle andre forbindelser til disse dataene skjer bare via referanser, noe som forhindrer at informasjonen dupliseres andre steder. </string>
+				<key>Title</key>
+				<string>sannhetskilde</string>
+			</dict>
+		</dict>
+		<key>speech synthesis</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Datagenerering av lyd som ligner på menneskelig tale, vanligvis generert fra tekst.</string>
+				<key>Title</key>
+				<string>talesyntese</string>
+			</dict>
+		</dict>
+		<key>state</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Informasjonen som lagres i en variabel, en app eller et system på et visst tidspunkt. Hvis for eksempel en `level`-variabel inneholder en verdi som er `4`, er dens gjeldende status `4`.</string>
+				<key>Title</key>
+				<string>status</string>
+			</dict>
+		</dict>
+		<key>state change</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En endring i informasjonen som lagres i en variabel, en app eller et system. Hvis for eksempel verdien av variabelen `level` endres fra `4` til `5`, har statusen blitt endret.</string>
+				<key>Title</key>
+				<string>statusendring</string>
+			</dict>
+		</dict>
+		<key>state object</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Legg til [egenskapsinnpakningen](glossary://property%20wrapper) `@StateObject` for å deklarere et statusobjekt, og oppgi en innledende verdi som stemmer overens med [protokollen](glossary://protocol) `ObservableObject`. SwiftUI håndterer lagringen for et statusobjekt og oppdaterer alle delvisninger som bruker verdien, hver gang dens publiserte verdier endres.</string>
+				<key>Title</key>
+				<string>statusobjekt</string>
+			</dict>
+		</dict>
+		<key>state property</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Legg til `@State` før en visnings [egenskap](glossary://property) for å be SwiftUI om å håndtere lagringen av en verdi. Når verdien endres, oppdaterer SwiftUI alle deler av visningen som bruker denne verdien.
+
+```
+@State var isOn = false
+```
+</string>
+				<key>Title</key>
+				<string>statusegenskap</string>
+			</dict>
+		</dict>
+		<key>state value</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Legg til `@State` før en variabel for å be SwiftUI om å håndtere lagringen av en verdi. Når verdien endres, oppdaterer SwiftUI alle deler av visningen som bruker denne verdien.</string>
+				<key>Title</key>
+				<string>statusverdi</string>
+			</dict>
+		</dict>
+		<key>statement</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En struktur, for eksempel en løkke eller et `if`-uttrykk, som organiserer kode i en app.</string>
+				<key>Title</key>
+				<string>uttrykk</string>
+			</dict>
+		</dict>
+		<key>string component</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En del – eller delstreng – av en streng etter at strengen deles opp av et skilletegn. Hvis for eksempel strengen `"dog+cat+fish"` deles opp av skilletegnet `"+"`, er strengene `"dog"`, `"cat"` og `"fish"` de komponentene som oppstår.</string>
+				<key>Title</key>
+				<string>strengkomponent</string>
+			</dict>
+		</dict>
+		<key>string concatenation</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Handlingen som slår sammen strenger ved å legge til én streng på slutten av en annen. `"fotball"` er for eksempel en sammenkjeding av `"fot"` og `"ball"`.</string>
+				<key>Title</key>
+				<string>strengsammenkjeding</string>
+			</dict>
+		</dict>
+		<key>string interpolation</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bruken av konstanter, variabler eller kodeuttrykk inni en lengre streng. De skal erstattes av sine gjeldende verdier når strengen evalueres. I strengen `"Katy ate a \(fruit)."` kommer for eksempel `\(fruit)` til å erstattes av `"peach"`, hvis `fruit` er en variabel med verdien `"peach"`, når strengen evalueres. Strengen blir da `"Katy ate a peach."`</string>
+				<key>Title</key>
+				<string>strenginterpolering</string>
+			</dict>
+		</dict>
+		<key>structure</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En struktur er en beholder for kode som fungerer som en blåkopi når du vil lage flere [instanser](glossary://instance) av samme type ting. Akkurat som en blåkopi kan definere funksjoner og oppførsler hos et objekt, for eksempel en sykkel, definerer en struktur disse som [egenskaper](glossary://property) og [metoder](glossary://method).
+
+Når du lager en ny instans av strukturen, inneholder denne instansen alle egenskapene og metodene som defineres i blåkopien. Alle instanser deler de samme egenskapene og metodene, men du kan endre verdiene i disse egenskapene hver for seg, noe som innebærer at du kan tilpasse hver instans du lager eller initierer fra strukturen. En sykkelstruktur kan for eksempel ha en fargeegenskap, slik at du kan opprette en rød eller blå sykkel.
+
+En struktur ligner på en [klasse](glossary://class), men er forskjellig på to viktige måter: en struktur er en [verditype](glossary://value%20type) – den kopieres alltid etter verdi, og en struktur støtter ikke arv fra en annen struktur.
+
+```
+struct Bicycle { 
+	var color : Color 
+	var type : BikeCategory
+}
+```</string>
+				<key>Title</key>
+				<string>struktur</string>
+			</dict>
+		</dict>
+		<key>subview</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En visning som finnes inni en [beholder](glossary://container)-visning. En beholder kan inneholde et hvilket som helst antall delvisninger, og hver av disse kan inneholde sine egne delvisninger, og så videre. En visning og alle dens etterkommere utgjør et [visningshierarki](glossary://view%20hierarchy).</string>
+				<key>Title</key>
+				<string>delvisning</string>
+			</dict>
+		</dict>
+		<key>syntax</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Reglene for å skrive kode som datamaskiner kan forstå og kjøre.</string>
+				<key>Title</key>
+				<string>syntaks</string>
+			</dict>
+		</dict>
+		<key>task</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Oppgaver er nyttige for å håndtere diskrete arbeidsenheter i appen, slik at koden kan fortsette å gjøre viktige ting, for eksempel å håndtere brukergrensesnittet. Når du oppretter en oppgave, kjører den koden [asynkront](glossary://asynchronous%20process) som en del av programmet. Dette gjør at resten av koden kan fortsette med andre ting. Delene av koden som trenger data fra denne oppgaven, kan `await` (vente på) oppgavens resultater.</string>
+				<key>Title</key>
+				<string>oppgave</string>
+			</dict>
+		</dict>
+		<key>ternary conditional operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En spesielt kort måte å skrive et betinget uttrykk på. [Operatoren](glossary://operator) har tre deler som utgjøres av `condition ? trueValue : falseValue`. Den er som et [`if`-uttrykk](glossary://if%20statement) og returnerer `trueValue` hvis `condition` er `true` og `falseValue` hvis det er `false`. 
+
+I koden nedenfor: Hvis `isOn` er `true`, blir rektangelet grønt. Hvis `isOn` er `false`, blir rektangelet rødt.
+
+```
+Rectangle()
+     .foregroundColor(isOn ? .green : .red)
+```
+
+Koden ovenfor kan leses slik: Hvis verdien `isOn` er `true`, returneres verdien `.green`. Ellers returneres verdien `.red`.
+</string>
+				<key>Title</key>
+				<string>tredobbel betinget operator</string>
+			</dict>
+		</dict>
+		<key>toolbar</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En linje med symboler som brukes til å utføre bestemte funksjoner. Verktøylinjemodifikatoren forventer en samling av verktøylinjeobjekter som du kan oppgi ved å legge dem til i en samling av visninger.</string>
+				<key>Title</key>
+				<string>verktøylinje</string>
+			</dict>
+		</dict>
+		<key>top-level view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En visning der alle andre visninger plasseres. Kalles også [rotvisning](glossary://root%20view). Den er den øverste visningen i et [visningshierarki](glossary://view%20hierarchy) og fungerer som [beholdervisning](glossary://container) for alle [delvisninger](glossary://subview) i hierarkiet.</string>
+				<key>Title</key>
+				<string>toppnivåvisning</string>
+			</dict>
+		</dict>
+		<key>trailing edge</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Den avsluttende kanten, når det brukes til å referere til innhold inni en visning, refererer til den horisontale posisjonen for slutten av innholdet. Posisjonen til den avsluttende kanten er avhengig av innstillingene dine og baserer seg vanligvis på lands- og språkinnstillingene.
+                    For eksempel er den avsluttende kanten til høyre for språk som leses fra venstre til høyre, som engelsk eller norsk. Språk som leses fra høyre til venstre, som arabisk eller hebraisk, har den avsluttende kanten til venstre.</string>
+				<key>Title</key>
+				<string>avsluttende kant</string>
+			</dict>
+		</dict>
+		<key>training</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Innen maskinlæring er dette en prosess der en maskinlæringsalgoritme lærer fra et datasett.
+
+Ved opplæring under tilsyn forsøker modellen å lage det mest nøyaktige matematiske forholdet mellom datafunksjonene og etiketten for disse dataene. Ved opplæring uten tilsyn forsøker modellen å finne forholdet mellom selve datafunksjonene.</string>
+				<key>Title</key>
+				<string>trener</string>
+			</dict>
+		</dict>
+		<key>training dataset</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Samlingen av data som en maskinlæringsmodell [trener](glossary://training) seg selv opp med for å generere [prediksjoner](glossary://prediction).</string>
+				<key>Title</key>
+				<string>treningsdatasett</string>
+			</dict>
+		</dict>
+		<key>type</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En navngitt gruppering av egenskaper (funksjonene) og metodene (oppførslene) for en datatype.
+
+En type er en måte å opprette et sett med relatert funksjonalitet på, slik at det blir enklere å få tilgang til den.
+
+```
+struct Person { 
+	var name : Int
+	var age : String 
+
+	func greet() { 
+		print("Hello, friend!")
+	}
+}
+```</string>
+				<key>Title</key>
+				<string>type</string>
+			</dict>
+		</dict>
+		<key>typography</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kunsten og teknikken å arrangere tekst for å gjøre skriftlig språk forståelig, leselig og pent når det vises.</string>
+				<key>Title</key>
+				<string>typografi</string>
+			</dict>
+		</dict>
+		<key>unwrap</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>For å hente ut den pakkede verdien fra en [instans](glossary://instance) av en [valgfri](glossary://optional) type. 
+				
+En vanlig måte å pakke opp verdien i en valgfri type på, er å bruke `if`-`let`:
+```
+var count: Int? = 48
+if let unwrappedCount = count {
+	print(unwrappedCount)
+} else {
+	print("count has no value")
+}
+```</string>
+				<key>Title</key>
+				<string>pakke ut</string>
+			</dict>
+		</dict>
+		<key>upper bound</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>I et [intervall](glossary://range%20value) telles det opp til sluttverdien.
+
+```
+let closedRange = 1...5 // Nedre grense er 1, øvre grense er 5
+for i in closedRange { 
+	print(i) // 1 2 3 4 5
+}
+```</string>
+				<key>Title</key>
+				<string>øvre grense</string>
+			</dict>
+		</dict>
+		<key>user</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Noen som bruker appen.</string>
+				<key>Title</key>
+				<string>bruker</string>
+			</dict>
+		</dict>
+		<key>user input</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Informasjonen som en app får fra interaksjon med en bruker, for eksempel fra en bruker som berører skjermen, skriver inn tekst med tastaturet eller snakker i mikrofonen. 
+</string>
+				<key>Title</key>
+				<string>brukerinndata</string>
+			</dict>
+		</dict>
+		<key>user interaction</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En handling utført av en [bruker](glossary://user) som bruker appen. Eksempler på brukerinteraksjon er å trykke på en knapp, sveipe mot venstre på skjermen, rotere enheten, velge en farge fra en `ColorPicker` og skrive inn tegn i et tekstfelt.</string>
+				<key>Title</key>
+				<string>brukerinteraksjon</string>
+			</dict>
+		</dict>
+		<key>user interface</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Hvordan en bruker styrer en app. Kalles også «UI» (brukergrensesnitt) og brukes ofte til å referere til de visuelle delene av en app som en bruker samhandler med (med elementer som bilder, tekst, knapper, skyveknapper, rullevisninger med mer).</string>
+				<key>Title</key>
+				<string>brukergrensesnitt</string>
+			</dict>
+		</dict>
+		<key>validation dataset</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Et utvalg av data som holdes tilbake fra maskinlæringsmodellens [treningsdatasett](glossary://training%20dataset). Modellen bruker valideringsdatasettet til å evaluere hvor nøyaktig prediksjonene dens er.</string>
+				<key>Title</key>
+				<string>valideringsdatasett</string>
+			</dict>
+		</dict>
+		<key>value type</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Når du oppretter en [instans](glossary://instance) av en verditype, som en [struktur](glossary://structure), lagres dataene i selve instansen. Hvis du [tildeler](glossary://assignment) instansen til en variabel, eller overfører den som [argument](glossary://argument) til en funksjon, lager Swift en ny instans med en uavhengig kopi av dataene.
+
+Instansen kopieres etter verdi slik det vises i eksempelet nedenfor:
+
+```
+struct Bicycle {
+  var color: Color
+}
+
+var redBike = Bicycle(color: .red)
+var blueBike = redBike
+blueBike.color = .blue
+print(redBike.color) // =&gt; red
+print(blueBike.color) // =&gt; blue
+// redBike og blueBike har hver sin egen kopi av disse dataene
+```</string>
+				<key>Title</key>
+				<string>verditype</string>
+			</dict>
+		</dict>
+		<key>variable</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En navngitt beholder som lagrer en verdi som kan endres.
+
+En variabel kan lagre forskjellige [typer](glossary://type) verdier, for eksempel [heltall](glossary://Int), [strenger](glossary://String) og [intervaller](glossary://range).  
+```
+var favoriteNumber = 7 // Lagrer et heltall
+var greeting = "Hello" // Lagrer en streng
+var repetitions = 1...5 // Lagrer et intervall
+```
+</string>
+				<key>Title</key>
+				<string>variabel</string>
+			</dict>
+		</dict>
+		<key>velocity</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Hastigheten på noe i en gitt retning.</string>
+				<key>Title</key>
+				<string>hastighet</string>
+			</dict>
+		</dict>
+		<key>view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En visning er byggesteinen i appens brukergrensesnitt og representerer alle visuelle elementer som [stemmer overens](glossary://conform) med [protokollen](glossary://protocol) `View`.
+
+Noen eksempler på visninger i SwiftUI er tekstvisninger, bildevisninger, skyveknapper, rutenett, knapper og figurer.</string>
+				<key>Title</key>
+				<string>visning</string>
+			</dict>
+		</dict>
+		<key>view hierarchy</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En struktur som definerer layouten i visninger i forhold til andre visninger, med en referanse til en instans med toppnivåvisning i hierarkiet. Toppnivåvisningen kan inneholde et valgfritt antall delvisninger, som i sin tur kan inneholde egne delvisninger, og så videre.</string>
+				<key>Title</key>
+				<string>visningshierarki</string>
+			</dict>
+		</dict>
+		<key>volume</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Volum er lydstyrken på lyden som oppdages av [sensoren](glossary://sensor). Den strekker seg fra 0 til 1.</string>
+				<key>Title</key>
+				<string>volum</string>
+			</dict>
+		</dict>
+		<key>while loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En kodeblokk som kjøres så lenge en gitt betingelse er `true`. Når betingelsen endres til `false`, slutter løkken å kjøre.</string>
+				<key>Title</key>
+				<string>while-løkke</string>
+			</dict>
+		</dict>
+		<key>wireframe</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En kontur av et objekt, som en edelsten, en bryter eller en blokk, i puslespillverdenen. En trådramme brukes til å indikere at objektet kan dukke opp tilfeldig hver gang puslespillet kjøres.</string>
+				<key>Title</key>
+				<string>trådramme</string>
+			</dict>
+		</dict>
+		<key>yaw</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Målingen for rotasjonen rundt midtpunktet på en enhet når den ligger på en flat overflate.   Matematisk er dette rotasjonen rundt enhetens z-akse. Den måles i radianer og har et intervall på `-π` til `π`.</string>
+				<key>Title</key>
+				<string>giring (rotasjon)</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

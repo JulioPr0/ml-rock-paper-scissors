@@ -1,0 +1,2673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>Alpha</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Met alfa, of *alfakanaal*, wordt de doorzichtigheid van een kleur aangeduid. De waarde ligt tussen `0` (volledig doorzichtig) en `1` (volledig ondoorzichtig). De alfagegevens worden weergegeven als een double (decimaal getal) tussen 0 en 1.</string>
+				<key>Title</key>
+				<string>alfa</string>
+			</dict>
+		</dict>
+		<key>Boolean</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een type dat de waarde `true` of `false` heeft. Bijvoorbeeld: `9 &lt; 7` retourneert de Booleaanse waarde `false` omdat `9` niet kleiner is dan `7`.
+```
+var isRunning = false
+```</string>
+				<key>Title</key>
+				<string>Booleaanse waarde</string>
+			</dict>
+		</dict>
+		<key>Double</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een type waarin getallen worden opgeslagen die een gedeelte achter de komma hebben, zoals 3.14. Let op: in Swift wordt als decimaalteken een punt (.) gebruikt en geen komma (,).</string>
+				<key>Title</key>
+				<string>Double</string>
+			</dict>
+		</dict>
+		<key>ForEach</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een structuur die [itereert](glossary://iteration) door een [verzameling](glossary://collection) van gegevens (zoals een array) om weergaven voor elk element in de verzameling aan te maken. 
+
+Elk element moet een `id` aan de `ForEach`-structuur verstrekken. Dit kan expliciet gedaan worden in de [initializer](glossary://initialization) van `ForEach`, of door zich te conformeren aan het protocol `Identifiable`. Hiermee kan SwiftUI de weergaven identificeren en onafhankelijk van elkaar bijwerken vanuit `ForEach`.
+
+```
+ForEach(symbols) { symbol in 
+    Text(symbol.name)
+}
+```
+</string>
+				<key>Title</key>
+				<string>ForEach</string>
+			</dict>
+		</dict>
+		<key>Int</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een type waarin een geheel getal is opgeslagen, zoals `10` of `-42`.</string>
+				<key>Title</key>
+				<string>Int</string>
+			</dict>
+		</dict>
+		<key>String</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een type waarin een reeks tekens is opgeslagen, zoals `"hallo, wereld"` of `"dansende katten"`.</string>
+				<key>Title</key>
+				<string>String</string>
+			</dict>
+		</dict>
+		<key>Swift</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De programmeertaal van Apple voor het schrijven van apps voor de iPhone, iPad, Mac, Apple Watch en Apple TV.</string>
+				<key>Title</key>
+				<string>Swift</string>
+			</dict>
+		</dict>
+		<key>SwiftUI</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>SwiftUI is een moderne manier om gebruikersinterfaces voor elk Apple platform te declareren. Het biedt weergaven, regelaars en lay-outstructuren voor het declareren van de gebruikersinterface van je app. Het framework biedt eventhandlers voor het afleveren van tikken, gebaren en andere soorten invoer aan je app, en tools om de gegevensstroom te beheren van de modellen van je app naar de weergaven en bedieningselementen die gebruikers zien en gebruiken.</string>
+				<key>Title</key>
+				<string>SwiftUI</string>
+			</dict>
+		</dict>
+		<key>absolute value</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De waarde zonder teken van een getal. Bijvoorbeeld: de absolute waarde van -12 is 12 en de absolute waarde van 23.4 is 23.4.</string>
+				<key>Title</key>
+				<string>absolute waarde</string>
+			</dict>
+		</dict>
+		<key>abstraction</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een vereenvoudigde versie van een complex gegeven.   Een abstractie verbergt details zodat je eenvoudiger over je code kunt nadenken en delen van je code kunt combineren.   Zo is een [type](glossary://type) een abstractie die de configuratie, eigenschappen en methoden van een instantie van dat type verbergt.</string>
+				<key>Title</key>
+				<string>abstractie</string>
+			</dict>
+		</dict>
+		<key>accelerometer</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een sensor die de versnelling van je apparaat in drie dimensies meet: omhoog en omlaag, vooruit en achteruit, en links en rechts.
+
+Wanneer je apparaat in de horizontale stand op een plat oppervlak ligt, wordt de versnelling op de z-as gemeten bij bewegingen omhoog en omlaag, de versnelling op de y-as bij bewegingen naar links en rechts en de versnelling op de x-as bij bewegingen vooruit en achteruit.</string>
+				<key>Title</key>
+				<string>versnellingsmeter</string>
+			</dict>
+		</dict>
+		<key>adopt</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Om een protocol te adopteren, biedt een type een reeks eigen implementaties voor de vereisten van het protocol, zoals de vermelde methoden en eigenschappen.</string>
+				<key>Title</key>
+				<string>adopteren</string>
+			</dict>
+		</dict>
+		<key>algorithm</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een set stapsgewijze instructies of regels voor het oplossen van een probleem. Bijvoorbeeld: een recept voor het maken van een taart zou je kunnen beschouwen als een algoritme.</string>
+				<key>Title</key>
+				<string>algoritme</string>
+			</dict>
+		</dict>
+		<key>append</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Iets aan het einde van iets toevoegen. Bijvoorbeeld: je kunt een string aan het einde van een andere string toevoegen of een onderdeel aan het einde van een array met onderdelen toevoegen.
+</string>
+				<key>Title</key>
+				<string>aan het einde toevoegen</string>
+			</dict>
+		</dict>
+		<key>application</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Software, die is opgebouwd uit code, waarmee je specifieke taken kunt uitvoeren. Bijvoorbeeld: je gebruikt de app Berichten om berichten te versturen en ontvangen.</string>
+				<key>Title</key>
+				<string>app</string>
+			</dict>
+		</dict>
+		<key>argument</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een invoerwaarde die wordt doorgegeven aan een functie om het gedrag ervan aan te passen. Bijvoorbeeld: in de functie-aanroep `move(distance: 3)` is het getal `3` een argument waarmee het aantal posities van de verplaatsing wordt aangegeven.</string>
+				<key>Title</key>
+				<string>argument</string>
+			</dict>
+		</dict>
+		<key>arithmetic operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een symbool, zoals `+`, `-`, `*` of `/`, waarmee een eenvoudige wiskundige bewerking wordt uitgevoerd op een of meer getallen. Bijvoorbeeld:  `42 / 7` en `17 - 5` maken gebruik van rekenkundige operatoren.</string>
+				<key>Title</key>
+				<string>rekenkundige operator</string>
+			</dict>
+		</dict>
+		<key>array</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een verzameling waarin een geordende lijst met onderdelen van hetzelfde type wordt opgeslagen. Hetzelfde onderdeel kan meerdere keren op verschillende posities voorkomen.
+
+In de onderstaande code is `highScores` is een array met [gehele getallen](glossary://Int) en `greetings` is een array met [strings](glossary://String).
+```
+let highScores = [37, 34, 29, 29, 26]
+let greetings = ["hi", "bye", "good day"]
+```</string>
+				<key>Title</key>
+				<string>array</string>
+			</dict>
+		</dict>
+		<key>aspect ratio</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De mate waarin breedte en hoogte van een afbeelding of scherm van elkaar verschillen.
+
+Een afbeelding met een verhouding van 2:1 heeft bijvoorbeeld een breedte die twee keer de hoogte is. Een afbeelding met een verhouding van 1:1 heeft een gelijke breedte en hoogte.</string>
+				<key>Title</key>
+				<string>verhouding</string>
+			</dict>
+		</dict>
+		<key>asset</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bronbestanden zijn afbeeldingen, geluiden en andere onderdelen die je app gebruikt. Je kunt bronbestanden in Swift Playgrounds importeren vanuit andere apps, zoals Bestanden en Foto's.</string>
+				<key>Title</key>
+				<string>bronbestand</string>
+			</dict>
+		</dict>
+		<key>assignment</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een bewerking waarmee de waarde van een variabele of constante wordt ingesteld.</string>
+				<key>Title</key>
+				<string>toewijzing</string>
+			</dict>
+		</dict>
+		<key>assignment operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Het symbool `=` wordt gebruikt om de waarde van een variabele in te stellen. Bijvoorbeeld: met `groet = "hallo"` stel je de waarde van `groet` in op `"hallo"`.</string>
+				<key>Title</key>
+				<string>toewijzings­operator</string>
+			</dict>
+		</dict>
+		<key>asynchronous process</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een codeblok dat kan worden uitgevoerd terwijl de rest van de app of het programma wordt uitgevoerd. In tegenstelling tot een synchroon proces, waarbij de uitvoering van het programma wordt geblokkeerd tot het voltooid is, kan een asynchroon proces tegelijk met de rest van je appcode worden uitgevoerd.</string>
+				<key>Title</key>
+				<string>asynchroon proces</string>
+			</dict>
+		</dict>
+		<key>asynchronous stream</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een [reeks](glossary://sequence) waarvan de waarden niet allemaal tegelijk beschikbaar zijn. De waarden worden met tussenpozen geproduceerd als een waardenstroom. Om door een asynchrone stroom te itereren, moet je op elke nieuwe waarde wachten voordat je deze kunt bewerken.
+				
+Een asynchrone stroom wordt vaak voor gegevens gebruikt die gespreid worden ontvangen, zoals aardtrillingen of videobeelden.</string>
+				<key>Title</key>
+				<string>asynchrone stroom</string>
+			</dict>
+		</dict>
+		<key>binding</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Voeg de [eigenschapwrapper](glossary://property%20wrapper) `@Binding` toe om een tweerichtingsverbinding te maken tussen een eigenschap die gegevens opslaat en een weergave die de gegevens weergeeft en wijzigt. Een binding verbindt een eigenschap met een bron van waarheid die ergens anders is opgeslagen, in plaats van gegevens direct op te slaan.
+
+Zo kan een knop die tussen afspelen en pauzeren schakelt een binding aanmaken met een eigenschap van de [containerweergave](glossary://container) met behulp van de eigenschapwrapper `@Binding`.</string>
+				<key>Title</key>
+				<string>binding</string>
+			</dict>
+		</dict>
+		<key>body</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>In de body van een [weergave](glossary://view) geef je de inhoud van de weergave op. Deze inhoud bestaat uit ten minste één door SwiftUI aangeboden [ingebouwde weergave](glossary://built-in%20view) of alle [samengestelde weergaven](glossary://composed%20view) die je al hebt aangemaakt.</string>
+				<key>Title</key>
+				<string>body</string>
+			</dict>
+		</dict>
+		<key>bounds</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De reeks waarden die een index voor een array kan hebben. Zo kan de array `[17, 42, 95]` de indexwaarden 0 tot en met 2 hebben. Bereikcontrole wordt uitgevoerd om te controleren of een indexwaarde binnen het bereik van een array ligt.</string>
+				<key>Title</key>
+				<string>bereik</string>
+			</dict>
+		</dict>
+		<key>brightness</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De hoeveelheid licht die de camera ontvangt, variërend van `0` (geen licht) tot `1` (maximale hoeveelheid licht). De helderheid wordt weergegeven als een [Double](glossary://Double) (decimaal getal) tussen `0` en `1`.</string>
+				<key>Title</key>
+				<string>helderheid</string>
+			</dict>
+		</dict>
+		<key>bug</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een programmeerfout waardoor een app niet goed werkt. 
+</string>
+				<key>Title</key>
+				<string>bug</string>
+			</dict>
+		</dict>
+		<key>built-in view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een [weergave](glossary://view) die wordt aangeboden door het [SwiftUI](glossary://SwiftUI)-framework, zoals een `Button`-, `Text`- of `Image`-weergave. Ingebouwde weergaven worden als bouwstenen gebruikt om complexere [samengestelde weergaven](glossary://composed%20view) in je [gebruikersinterface](glossary://user%20interface) aan te maken.</string>
+				<key>Title</key>
+				<string>ingebouwde weergave</string>
+			</dict>
+		</dict>
+		<key>bundle</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De code van een app wordt samen met de benodigde bronbestanden, zoals gegevensbestanden, afbeeldingen of geluiden, in een bundel bewaard. Elke app heeft een hoofdbundel en soms ook bundels met een andere naam. Een bundel is een map op de schijf en de bronbestanden erin zijn geordend in duidelijk gedefinieerde submappen. De structuur van de bundel kan verschillen, afhankelijk van het platform en het type bundel.</string>
+				<key>Title</key>
+				<string>bundel</string>
+			</dict>
+		</dict>
+		<key>call</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een functie in de code aanroepen om die functie te starten en de daarin gedefinieerde acties uit te voeren.</string>
+				<key>Title</key>
+				<string>aanroepen</string>
+			</dict>
+		</dict>
+		<key>callback</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Soms moet een functie of object weer contact met je kunnen opnemen om gegevens te retourneren of om je te laten weten dat er iets belangrijks is gebeurd tijdens de uitvoering. Je maakt dit mogelijk door er een functie of een [gedelegeerd](glossary://delegate) object aan door te geven, waardoor de functie een callback kan uitvoeren.
+
+Callbacks zijn een hulpmiddel dat vaak wordt gebruikt om [asynchrone](glossary://asynchronous%20process) processen uit te voeren.</string>
+				<key>Title</key>
+				<string>callback</string>
+			</dict>
+		</dict>
+		<key>chaining</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een techniek voor het [aanroepen](glossary://call) van een reeks [functies](glossary://function) waarbij elke functie een object retourneert, wat vervolgens wordt verwerkt door de volgende functie. De functie-aanroepen zijn aan elkaar gekoppeld in één instructie. 
+				
+[Modifiers](glossary://modifier) in SwiftUI kun je bijvoorbeeld koppelen omdat een modifier een [methode](glossary://method) is die een [weergave](glossary://view) ontvangt, wijzigingen aanbrengt en een andere weergave retourneert.</string>
+				<key>Title</key>
+				<string>koppelen</string>
+			</dict>
+		</dict>
+		<key>class</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een klasse is een container voor code die fungeert als een blauwdruk voor het maken van meerdere [instanties](glossary://instance) van hetzelfde soort ding. Net zoals een blauwdruk bijvoorbeeld de kenmerken en gedragingen van een object, zoals een fiets, zou kunnen definiëren, definieert een klasse deze als [eigenschappen](glossary://property) en [methoden](glossary://method).
+
+Wanneer je een nieuwe [instantie](glossary://instance) van de klasse aanmaakt, bevat die instantie alle eigenschappen en methoden die in je blauwdruk zijn gedefinieerd. Elke instantie deelt dezelfde eigenschappen en methoden, maar je kunt de waarden van de eigenschappen onafhankelijk van elkaar wijzigen, waardoor je elke instantie die je aanmaakt van de klasse kunt aanpassen. Een klasse "fiets" kan bijvoorbeeld een eigenschap "kleur" hebben, waarmee je zowel rode als blauwe fietsen kunt maken.
+
+Een klasse is vergelijkbaar met een [structuur](glossary://structure), maar verschilt in twee belangrijke opzichten: een klasse is een [referentietype](glossary://reference%20type), dat altijd door verwijzing worden gekopieerd, en een klasse kan de definitie van een andere klasse overerven.</string>
+				<key>Title</key>
+				<string>klasse</string>
+			</dict>
+		</dict>
+		<key>classification</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een classificatie-algoritme is een algoritme voor machinelearning dat leert van een gelabelde gegevensset en deze kennis toepast om nieuwe objecten te classificeren.
+
+Een classificatie-algoritme voor hondenrassen traint zichzelf met gelabelde afbeeldingen van hondenrassen. Als je dit classificatie-algoritme een nieuwe afbeelding van een hond laat zien, kan het deze invoer als een van die rassen classificeren.</string>
+				<key>Title</key>
+				<string>classificatie-algoritme</string>
+			</dict>
+		</dict>
+		<key>closed range</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een interval van een ondergrens tot en met een bovengrens.
+
+In Swift kan de waarde van het bereik 1-3 worden geschreven als 1...3. In dit geval omvat het bereik de ondergrens van 1 en wordt doorgeteld tot de bovengrens van 3.
+```
+let closedRange = 1...3
+for i in closedRange { 
+	print(i) // 1 2 3
+}
+```</string>
+				<key>Title</key>
+				<string>gesloten bereik</string>
+			</dict>
+		</dict>
+		<key>closure</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Closures zijn [functies](glossary://function) die ter plekke worden uitgevoerd zonder dat ze een naam nodig hebben.
+					
+```
+scene.setOnStartHandler {
+    // Body van de closure
+}
+```
+                    
+Closures kunnen verwijzingen naar constanten en variabelen vastleggen en opslaan vanuit de context waarin ze zijn gedefinieerd. In het Engels heet dit ook wel het "closing over" van die constanten en variabelen.</string>
+				<key>Title</key>
+				<string>closure</string>
+			</dict>
+		</dict>
+		<key>code comment</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Met commentaren kunnen programmeurs hun code documenteren.   Je begint een commentaar van één regel met twee schuine strepen gevolgd door een spatie, bijvoorbeeld "// Dit is mijn commentaar."   Wanneer je je code uitvoert, wordt het commentaar genegeerd.</string>
+				<key>Title</key>
+				<string>commentaar bij code</string>
+			</dict>
+		</dict>
+		<key>code expression</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een stukje code dat kan worden geëvalueerd waarna er een waarde wordt geretourneerd. Als `months` bijvoorbeeld een array met 12 onderdelen is, retourneert de code-uitdrukking `months.count - 1` de waarde `11`.</string>
+				<key>Title</key>
+				<string>code-uitdrukking</string>
+			</dict>
+		</dict>
+		<key>coding</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Het samenstellen van commando's, codestructuren en algoritmen om een app te maken.</string>
+				<key>Title</key>
+				<string>programmeren</string>
+			</dict>
+		</dict>
+		<key>collection</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een gegevensstructuur, zoals een [array](glossary://array) of een [bereik](glossary://range), waarin meerdere gegevens worden bewaard.
+```
+let heights = [1, 5, 7]
+let closedRange = 1...8
+```</string>
+				<key>Title</key>
+				<string>verzameling</string>
+			</dict>
+		</dict>
+		<key>command</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Code die een app opdracht geeft om een bepaalde bewerking uit te voeren. </string>
+				<key>Title</key>
+				<string>commando</string>
+			</dict>
+		</dict>
+		<key>comment out</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Voorkomen dat een regel code wordt uitgevoerd door de regel om te zetten in [commentaar bij code](glossary://code%20comment). Je kunt dit doen door `//` voor een regel code te zetten. Bijvoorbeeld:
+                
+`// level.run()`</string>
+				<key>Title</key>
+				<string>uitcommentariëren</string>
+			</dict>
+		</dict>
+		<key>comparison operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een symbool, zoals `==`, `!=`, `&lt;`, `&gt;`, `&lt;=` of `&gt;=`, dat wordt gebruikt om twee waarden te vergelijken. Een vergelijkingsoperator kan worden gebruikt in een voorwaarde van een `if`-instructie of `while`-lus om een Booleaanse waarde te retourneren die aangeeft of een vergelijking `true` is. Bijvoorbeeld: `6 &gt; 8` vergelijkt `6` met `8` en retourneert `false`.</string>
+				<key>Title</key>
+				<string>vergelijkings­operator</string>
+			</dict>
+		</dict>
+		<key>compiler error</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Compilatiefouten worden veroorzaakt door onjuistheden in de code. Ze worden aangeduid met een rode stip in de linkermarge en in de knoppenbalk.</string>
+				<key>Title</key>
+				<string>compilatiefout</string>
+			</dict>
+		</dict>
+		<key>composed view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een [weergave](glossary://view) die is aangemaakt door een of meer [ingebouwde](glossary://built-in%20view) of samengestelde weergaven te combineren.
+</string>
+				<key>Title</key>
+				<string>samengestelde weergave</string>
+			</dict>
+		</dict>
+		<key>composition</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Het proces van het combineren van kleine delen van een app om grotere delen te vormen die eenvoudiger zijn om mee te werken en te begrijpen.</string>
+				<key>Title</key>
+				<string>samenstelling</string>
+			</dict>
+		</dict>
+		<key>compound assignment operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een operator die toewijzing (het instellen van de waarde van een variabele) combineert met een andere bewerking, zoals optellen of aftrekken. Bijvoorbeeld: als `a` de waarde `1` heeft en je `a += 3` gebruikt, wordt `3` opgeteld bij `1` en wordt het resultaat toegewezen aan `a`, waardoor de waarde van `a` verandert in `4`.</string>
+				<key>Title</key>
+				<string>gecombineerde toewijzings­operator</string>
+			</dict>
+		</dict>
+		<key>computed property</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>In plaats van een waarde direct op te slaan, berekent een berekende eigenschap een waarde op basis van de huidige status van andere gerelateerde waarden wanneer deze worden opgehaald.
+
+In het onderstaande voorbeeld is area een berekende eigenschap, terwijl `width` en `height` opgeslagen eigenschappen zijn:
+
+```
+struct RectangleCalculator { 
+    var width = 10.0
+    var height = 10.0
+    
+    var area : Double { 
+        return width * height
+    }
+} 
+```</string>
+				<key>Title</key>
+				<string>berekende eigenschap</string>
+			</dict>
+		</dict>
+		<key>condition</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>In een [voorwaardelijk code](glossary://conditional%20code)blok zoals een [if-instructie](glossary://if%20statement), is de voorwaarde een [Booleaanse](glossary://Boolean) waarde die bepaalt of de code in het blok wordt uitgevoerd of niet.
+
+Als de voorwaarde `true` is, wordt het codeblok uitgevoerd. Als de voorwaarde `false` is, wordt de voorwaardelijke code overgeslagen.
+```
+let x = 4
+
+if x &lt; 5 {
+// Voorwaarde is waar, code in if -blok wordt uitgevoerd.
+}
+
+if x &gt; 5 {
+// Voorwaarde is niet waar, code in if -blok wordt niet uitgevoerd.
+}
+```</string>
+				<key>Title</key>
+				<string>voorwaarde</string>
+			</dict>
+		</dict>
+		<key>conditional code</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Code die wordt uitgevoerd wanneer er aan bepaalde voorwaarden is voldaan. Bijvoorbeeld: [if-instructies](glossary://if%20statement) en [while-lussen](glossary://while%20loop) bevatten voorwaardelijke code die alleen wordt uitgevoerd als of zolang een voorwaarde `true` is.
+```
+if x &gt; 5 {
+// Code wordt alleen uitgevoerd als x groter is dan 5
+}```</string>
+				<key>Title</key>
+				<string>voorwaardelijke code</string>
+			</dict>
+		</dict>
+		<key>confidence</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Betrouwbaarheid is de waarschijnlijkheid van een [voorspelling](glossary://prediction) van een model voor machinelearning. De betrouwbaarheid van een voorspelling geeft inzicht in de kwaliteit van het ML-model.</string>
+				<key>Title</key>
+				<string>betrouwbaarheid</string>
+			</dict>
+		</dict>
+		<key>conform</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een type conformeert zich aan een protocol wanneer het zijn eigen implementatie van de vereisten van dat protocol biedt.</string>
+				<key>Title</key>
+				<string>conformeren</string>
+			</dict>
+		</dict>
+		<key>console</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een plaats waar je foutopsporingsuitvoer van je code kunt bekijken terwijl deze wordt uitgevoerd. Wanneer je `print(_:)` aanroept in je code, wordt de waarde die je doorgeeft in de console weergegeven.</string>
+				<key>Title</key>
+				<string>console</string>
+			</dict>
+		</dict>
+		<key>constant</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een benoemde container waarin een waarde is opgeslagen die niet kan worden gewijzigd.</string>
+				<key>Title</key>
+				<string>constante</string>
+			</dict>
+		</dict>
+		<key>container</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een container is een weergave met andere weergaven erin.</string>
+				<key>Title</key>
+				<string>container</string>
+			</dict>
+		</dict>
+		<key>coordinates</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een serie getallen waarmee een unieke positie in een ruimte kan worden bepaald. Zo zijn (100, -200) coördinaten voor een punt in een tweedimensionale ruimte, waarbij de x-coördinaat 100 en de y-coördinaat -200 is.</string>
+				<key>Title</key>
+				<string>coördinaten</string>
+			</dict>
+		</dict>
+		<key>data</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Informatie die door een computer wordt verwerkt of opgeslagen en die verschilt van de code die op deze informatie wordt toegepast.</string>
+				<key>Title</key>
+				<string>gegevens</string>
+			</dict>
+		</dict>
+		<key>data cleaning</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Het beoordelen van een gegevensset en het verwijderen of wijzigen van gegevens die onjuist, onvolledig, dubbel of onjuiste opgemaakt zijn.
+
+Gegevensopschoning kan de nauwkeurigheid van een model voor machinelearning verbeteren door te zorgen dat het zichzelf alleen [traint](glossary://training) met relevante en juiste gegevens.</string>
+				<key>Title</key>
+				<string>gegevensopschoning</string>
+			</dict>
+		</dict>
+		<key>data flow</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De verplaatsing van gegevens door je app en de manier waarop wijzigingen in deze gegevens leiden tot wijzigingen in de status of de gebruikersinterface van je app.</string>
+				<key>Title</key>
+				<string>gegevensstroom</string>
+			</dict>
+		</dict>
+		<key>data model</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een representatie in je code van de gegevens die in je app worden gebruikt. Deze representatie geeft de ordening van die gegevens aan. Je [gebruikersinterface](glossary://user%20interface) kan gegevens uit het gegevensmodel weergeven en ermee werken om de gegevens te wijzigen. Je gegevensmodel fungeert als de [bron van waarheid](glossary://source%20of%20truth) voor je app.</string>
+				<key>Title</key>
+				<string>gegevensmodel</string>
+			</dict>
+		</dict>
+		<key>data separation</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een concept waarbij ervan uit wordt gegaan dat het [gegevensmodel](glossary://data%20model) van een app afzonderlijk moet worden gedefinieerd van de [gebruikersinterface](glossary://user%20interface) waarmee de gegevens worden weergegeven en bewerkt. Gegevensscheiding zorgt ervoor dat je het gegevensmodel en de gebruikersinterface afzonderlijk van elkaar kunt wijzigen, waardoor het eenvoudiger is om te begrijpen hoe je app werkt en je app beter kan worden getest.</string>
+				<key>Title</key>
+				<string>gegevensscheiding</string>
+			</dict>
+		</dict>
+		<key>debug</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Het zoeken en corrigeren van programmeerfouten die ervoor zorgen dat een app niet goed werkt. </string>
+				<key>Title</key>
+				<string>debuggen</string>
+			</dict>
+		</dict>
+		<key>declaration</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een stukje code waarmee je iets nieuws in je app introduceert, zoals een functie, variabele of aangepast type. Bijvoorbeeld: met `let planet = "Earth"` declareer je een nieuwe constante, `planet`, en ken je hieraan de waarde `"Earth"` toe.
+
+De onderstaande code declareert een variabele, `data` van het type `AppData`, maar geeft deze geen initiële waarde.
+
+```
+var data : AppData
+```</string>
+				<key>Title</key>
+				<string>declaratie</string>
+			</dict>
+		</dict>
+		<key>decode</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Je gegevens omzetten van een efficiënte opslagstructuur, zoals JSON, naar een structuur waarmee je tijdens het programmeren gemakkelijker kunt werken.</string>
+				<key>Title</key>
+				<string>decoderen</string>
+			</dict>
+		</dict>
+		<key>decomposition</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Het opdelen van een groot probleem in kleinere, beter handelbare stukjes.</string>
+				<key>Title</key>
+				<string>ontleding</string>
+			</dict>
+		</dict>
+		<key>decrement</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een getal verlagen met een geheel getal, vaak 1.</string>
+				<key>Title</key>
+				<string>verlagen</string>
+			</dict>
+		</dict>
+		<key>define</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De expliciete waarde of het expliciete gedrag opgeven van een nieuw stukje code, zoals een functie, variabele of aangepast type. Bijvoorbeeld: je definieert de werking van een functie door een set commando's toe te voegen aan de functie.</string>
+				<key>Title</key>
+				<string>definiëren</string>
+			</dict>
+		</dict>
+		<key>delegate</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een speciaal object dat aan een ander object wordt doorgegeven om je te laten weten wanneer er zich belangrijke events voordoen. Het gedelegeerde object conformeert zich meestal aan een [protocol](glossary://protocol) met functies die kunnen worden aangeroepen om informatie terug te geven aan je code. Wanneer een gedelegeerde functie wordt aangeroepen, wordt dit een [callback](glossary://callback) van een gedelegeerde genoemd.
+
+Delegering is een veelgebruikt patroon voor de communicatie tussen objecten, met name bij [asynchrone](glossary://asynchronous%20process) processen.</string>
+				<key>Title</key>
+				<string>gedelegeerde</string>
+			</dict>
+		</dict>
+		<key>destination view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De weergave die wordt weergegeven nadat een [gebruiker](glossary://user) op een `NavigationLink` in een `NavigationStack` of `NavigationSplitView` heeft geklikt of getikt.</string>
+				<key>Title</key>
+				<string>doelweergave</string>
+			</dict>
+		</dict>
+		<key>dot notation</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een soort syntaxis die wordt gebruikt om de eigenschappen te benaderen of de methoden aan te roepen van een instantie. Bijvoorbeeld: in `expert.toggleSwitch()` wordt de methode `toggleSwitch()` van de instantie `expert` aangeroepen.</string>
+				<key>Title</key>
+				<string>puntnotatie</string>
+			</dict>
+		</dict>
+		<key>edge case</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een voorspelde of niet-voorspelde situatie die zich alleen in bijzondere omstandigheden of bij de uitersten van een bedrijfsparameter voordoet. 
+
+Een voorbeeld hiervan is als je een iPad-app hebt gebouwd die crasht als je het apparaat bijwerkt naar een taal met een schrijfrichting van rechts naar links, zoals Arabisch. </string>
+				<key>Title</key>
+				<string>randgeval</string>
+			</dict>
+		</dict>
+		<key>efficiency</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een maat die aangeeft hoe goed een stukje code is in het snel uitvoeren van het beoogde doel waarbij er zo min mogelijk resources, zoals geheugen of stroom, worden gebruikt.</string>
+				<key>Title</key>
+				<string>efficiëntie</string>
+			</dict>
+		</dict>
+		<key>element</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een onderdeel in een [verzameling](glossary://collection), zoals een [array](glossary:///array) of een [bereik](glossary://range).
+
+```
+let letters = ["a", "b", "c"] // "a" is het eerste element, "b" is het tweede, "c" is het derde. 
+```</string>
+				<key>Title</key>
+				<string>element</string>
+			</dict>
+		</dict>
+		<key>else block</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Het laatste blok code in een `if`-instructie. Het `else`-blok wordt uitgevoerd als alle andere voorwaarden in de `if`-instructie `false` zijn.
+
+```
+if hopper.isFacingStep { 
+	// if block
+} else if hopper.isFacingUpdraft { 
+	// else if block
+} else { 
+	// else block
+}
+```</string>
+				<key>Title</key>
+				<string>else-blok</string>
+			</dict>
+		</dict>
+		<key>else if block</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een blok code in een `if`-instructie dat wordt gebruikt om een voorwaarde te controleren die niet wordt gecontroleerd door het [if-blok](glossary://if%20block) of een andere `else if`-block.
+```
+if hopper.isFacingStep {
+// if block
+} else if hopper.isFacingUpdraft {
+// else if block
+} else {
+// else block
+}
+``</string>
+				<key>Title</key>
+				<string>else if-blok</string>
+			</dict>
+		</dict>
+		<key>encode</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Je gegevens omzetten van een structuur waarmee je tijdens het programmeren gemakkelijk kunt werken naar een efficiënte opslagstructuur, zoals JSON.</string>
+				<key>Title</key>
+				<string>coderen</string>
+			</dict>
+		</dict>
+		<key>enumeration</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een type waarin een set gerelateerde waarden worden gedefinieerd die *cases* worden genoemd.
+
+In de opsomming `Direction` worden bijvoorbeeld cases gedefinieerd voor elke richting: `north`, `south`, `east`, and `west`. 
+```
+enum Direction { 
+	case north, south, east, west
+}
+```
+
+Wanneer je een opsommingswaarde [doorgeeft](glossary://pass%20in), kies je altijd slechts een van de cases; bijvoorbeeld:```
+moveIn(direction: .north)
+```</string>
+				<key>Title</key>
+				<string>opsomming</string>
+			</dict>
+		</dict>
+		<key>environment</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De omgeving van een weergave biedt toegang tot een gedefinieerde verzameling waarden. Sommige waarden reflecteren automatisch de systeemstatus, gebruikersinstellingen of weergavestatus. Voorbeelden zijn het kleurenschema, de tekststijl of de focusstatus van de weergave. Andere waarden bieden nuttige standaardwaarden, zoals een regellimiet voor tekstvelden. Je kunt omgevingswaarden lezen met behulp van de `@Environment`-[eigenschapwrapper](glossary://property%20wrapper). Een volledige lijst met omgevingswaarden vind je [hier](doc://com.apple.documentation/documentation/swiftui/environmentvalues).</string>
+				<key>Title</key>
+				<string>omgeving</string>
+			</dict>
+		</dict>
+		<key>environment object</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Voeg de [eigenschapwrapper](glossary://property%20wrapper) `@EnvironmentObject` toe om een observeerbare objecteigenschap te declareren die door een containerweergave, oftewel bovenliggende weergave, wordt geboden. Als je een eigenschap als omgevingsobject declareert, zorg er dan voor dat je een overeenkomende modelinstantie op een bovenliggende weergave instelt door de modifier `environmentObject(_:)` ervan aan te roepen.</string>
+				<key>Title</key>
+				<string>omgevingsobject</string>
+			</dict>
+		</dict>
+		<key>event</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een actie die kan worden gedetecteerd door een computerapp. Met invoer, zoals drukken op een knop of roteren van het scherm, wordt een event geïnitieerd.</string>
+				<key>Title</key>
+				<string>event</string>
+			</dict>
+		</dict>
+		<key>event handler</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een functie die wordt aangeroepen nadat een event heeft plaatsgevonden om het event af te handelen.</string>
+				<key>Title</key>
+				<string>eventhandler</string>
+			</dict>
+		</dict>
+		<key>extension</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een manier om nieuwe functionaliteit toe te voegen aan een bestaand [type](glossary://type), zoals een [klasse](glossary://class), [structuur](glossary://structure), [opsomming](glossary://enumeration) of [protocol](glossary://protocol).
+
+Met een extensie kun je [methoden](glossary://method) en [eigenschappen](glossary://property) aan een bestaand type toevoegen. De onderstaande code voegt de methode `cubed()` en de eigenschap `isOdd` toe aan het type `Int`:
+
+```
+extension Int { 
+	func cubed() -&gt; Int { 
+        return self * self * self
+    }
+    
+    var isOdd : Bool { 
+        return self % 2 == 1
+    }
+}
+
+let two : Int = 2
+print(two.cubed()) // 8
+print(two.isOdd) // false
+```</string>
+				<key>Title</key>
+				<string>extensie</string>
+			</dict>
+		</dict>
+		<key>filtering</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Gegevens in een verzameling of gegevensstructuur verwerken zodat een nieuwe gegevensset ontstaat.</string>
+				<key>Title</key>
+				<string>filteren</string>
+			</dict>
+		</dict>
+		<key>focus state</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een waarde die aangeeft of een weergave gebruikersinvoer kan ontvangen, bijvoorbeeld door in een tekstveld te typen. Gebruik de [eigenschapwrapper](glossary://property%20wrapper) `@FocusState` samen met de modifiers `focused(_:equals:)` en `focused(_:)` om een weergave aan te maken waarvan de focuswaarde automatisch wordt bijgewerkt op basis van gebruikersinteractie en waarvan de focus programmatisch kan worden in- of uitgeschakeld op een bepaald moment.</string>
+				<key>Title</key>
+				<string>focusstatus</string>
+			</dict>
+		</dict>
+		<key>font</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een groep teksttekens met een specifiek ontwerp, gewicht en formaat. Het ontwerp van een lettertype wordt het *letterbeeld* genoemd en variaties in dit ontwerp worden samen de *lettertypeset* genoemd. Bijvoorbeeld: HelveticaNeue is een letterbeeld en 10-punts HelveticaNeue-Bold is een lettertype.</string>
+				<key>Title</key>
+				<string>lettertype</string>
+			</dict>
+		</dict>
+		<key>for loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een blok herhaalde code dat een bepaald aantal keren wordt uitgevoerd.
+
+Een lus kan [itereren](glossary://iterate) door een [verzameling](glossary://collection) gegevens, zoals een [Bereik](glossary://range%20value) of een [Array](glossary://array), waarbij het lusblok voor elk element in de verzameling wordt uitgevoerd.
+
+In het onderstaande voorbeeld definieert de lus een lusvariabele, `value`, waarmee je toegang krijgt tot de waarde van het huidige element in de verzameling:
+```
+for value in 1...4 {
+byte.moveForward()
+byte.jump(height: value)
+}
+```</string>
+				<key>Title</key>
+				<string>for-lus</string>
+			</dict>
+		</dict>
+		<key>framework</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een framework is een directory met gedeelde resources. Dit kunnen bijvoorbeeld bronbestanden, afbeeldingsbestanden, gelokaliseerde strings en referentiedocumenten in één pakket zijn. Deze resources kunnen gelijktijdig door meerdere apps worden gebruikt. Het systeem laadt de resources in het geheugen als ze nodig zijn en deelt één kopie van de resource met alle apps als dat mogelijk is.</string>
+				<key>Title</key>
+				<string>framework</string>
+			</dict>
+		</dict>
+		<key>full function name</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De volledige naam van een functie, inclusief de namen van de bijbehorende parameters gescheiden door dubbele punten (`:`). Bijvoorbeeld: `move(to:duration:)`.</string>
+				<key>Title</key>
+				<string>volledige functienaam</string>
+			</dict>
+		</dict>
+		<key>function</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een blok code met een naam dat wordt uitgevoerd wanneer de naam ervan wordt [aangeroepen](glossary://call). Er kunnen gegevens aan een functie worden doorgegeven in de vorm van [parameters](glossary://parameter) en een functie kan gegevens [retourneren](glossary://return) wanneer de code ervan is uitgevoerd. Een functie die in een type is gedefinieerd, wordt een [methode](glossary://method) genoemd.
+
+Hieronder vind je een voorbeeld van een functiedefinitie voor `turnRight()`. Je kunt deze functie aanroepen door `turnRight()` te schrijven; de code wordt dan uitgevoerd, waarbij `turnLeft()` drie keer wordt uitgevoerd.
+
+```
+func turnRight() { 
+	turnLeft()
+	turnLeft()
+	turnLeft()
+}
+```</string>
+				<key>Title</key>
+				<string>functie</string>
+			</dict>
+		</dict>
+		<key>function definition</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>In een functiedefinitie wordt beschreven wat een functie doet, wat de functie verwacht te ontvangen en wat de functie retourneert als deze klaar is.</string>
+				<key>Title</key>
+				<string>functiedefinitie</string>
+			</dict>
+		</dict>
+		<key>fuzzy autocomplete</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een methode voor automatische aanvulling van code waarbij wordt gezocht naar gedeeltelijk overeenkomende strings om geschikte variabelen, constanten, typen en andere symbolen te vinden. Zoeken naar gedeeltelijk overeenkomende strings is geen exacte methode, maar is geschikt voor het vinden van relevante onderdelen op basis van de tekens die je typt. 
+
+Als je bijvoorbeeld zoekt naar een [weergavemodifier](glossary://modifier) die iets te maken heeft met "scale", kun je gewoon beginnen met het typen van `.scale`. Vervolgens verschijnen er suggesties voor automatische aanvulling die beginnen met `.scale`, zoals `.scaledToFill` en `.scaleEffect`, maar ook minder overeenkomende suggesties zoals `.imageScale` en `.grayscale`.
+</string>
+				<key>Title</key>
+				<string>automatische aanvulling met gedeeltelijk overeenkomende resultaten</string>
+			</dict>
+		</dict>
+		<key>g</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een maateenheid voor versnelling of de kracht van een eenheid met een bepaalde massa. Eén g of g-kracht is gelijk aan de versnelling van de zwaartekracht op aarde, wat overeenkomt met ongeveer 9,8 meter per seconde in het kwadraat.</string>
+				<key>Title</key>
+				<string>g</string>
+			</dict>
+		</dict>
+		<key>global function</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een functie die toegankelijk is vanuit elk bestand in je project.</string>
+				<key>Title</key>
+				<string>globale functie</string>
+			</dict>
+		</dict>
+		<key>global scope</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Symbolen die toegankelijk zijn vanuit code in alle bronbestanden in dezelfde [module](glossary://module). Alle instanties, typen of functies die zijn gedefinieerd op het hoogste niveau van een bronbestand hebben standaard een globaal bereik. </string>
+				<key>Title</key>
+				<string>globaal bereik</string>
+			</dict>
+		</dict>
+		<key>global variable</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een variabele die toegankelijk is vanuit elk bestand in je project.</string>
+				<key>Title</key>
+				<string>globale variabele</string>
+			</dict>
+		</dict>
+		<key>grayscale</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een reeks grijstinten, variërend van wit tot zwart.</string>
+				<key>Title</key>
+				<string>grijstinten</string>
+			</dict>
+		</dict>
+		<key>gyroscope</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een sensor die de oriëntatie van je apparaat in drie dimensies meet: de kanteling van voor naar achter, de kanteling van links naar rechts en de rotatie rond het midden.</string>
+				<key>Title</key>
+				<string>gyroscoop</string>
+			</dict>
+		</dict>
+		<key>half open range</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een halfopen interval van een ondergrens tot (niet tot en met) een bovengrens.
+
+In Swift kan de waarde van het bereik 1-3 worden geschreven als 1..&lt;4. In dit geval omvat het bereik de ondergrens van 1 en wordt doorgeteld tot 4, waarbij de waarde 4 niet in het bereik valt.
+```
+let halfOpenRange = 1..&lt;4
+for i in halfOpenRange { 
+	print(i) // 1 2 3
+}
+```</string>
+				<key>Title</key>
+				<string>halfopen bereik</string>
+			</dict>
+		</dict>
+		<key>hertz</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Hertz (Hz) is één cyclus per seconde. Bij geluidstrillingen staat 1 Hz voor één geluidsgolf per seconde. Mensen kunnen geluiden tussen 20 Hz en 16.000 Hz horen.</string>
+				<key>Title</key>
+				<string>hertz</string>
+			</dict>
+		</dict>
+		<key>hue</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De schakering van een kleur op het kleurenwiel. Wordt weergegeven als een decimaal getal (double) tussen `0` en `1`.</string>
+				<key>Title</key>
+				<string>tint</string>
+			</dict>
+		</dict>
+		<key>if block</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Het eerste blok code in een `if`-instructie. Het `if`-blok wordt uitgevoerd als de voorwaarde in de `if`-instructie `true` is.
+```
+if blu.isFacingStep { 
+	blu.jump()
+}
+```</string>
+				<key>Title</key>
+				<string>if-blok</string>
+			</dict>
+		</dict>
+		<key>if statement</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een codestructuur die wordt gebruikt om code uit te voeren op basis van de waarde van een of meer voorwaarden. Het eerste blok code in een `if`-instructie is het `if`-blok.
+```
+if blu.isFacingStep { 
+	blu.jump()
+}
+```
+Een `if`-instructie kan ook andere blokken bevatten voor aanvullende toetsingen, zoals een `else`-blok en een `else if`-blok.
+```
+if blu.isFacingStep { 
+	blu.jump()
+} else if blu.isFacingHole { 
+	blu.shapeShift(into: .bridge)
+} else { 
+	blu.moveForward()
+}
+```</string>
+				<key>Title</key>
+				<string>if-instructie</string>
+			</dict>
+		</dict>
+		<key>import</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>In Swift krijg je met een `import`-[declaratie](glossary://declaration) toegang tot symbolen, zoals typen, functies, eigenschappen en methoden, die buiten het huidige bestand zijn gedefinieerd. Je kunt de symbolen importeren in een [module](glossary://module) of [framework](glossary://framework) zoals [SwiftUI](doc://com.apple.documentation/documentation/swiftui) of [CoreMotion](doc://com.apple.documentation/documentation/coremotion). Als je bijvoorbeeld het SwiftUI-framework wilt gebruiken, plaats je de volgende declaratie boven in het bestand: 
+
+```
+import SwiftUI
+```
+</string>
+				<key>Title</key>
+				<string>importeren</string>
+			</dict>
+		</dict>
+		<key>increment</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een getal verhogen met een geheel getal, vaak 1.</string>
+				<key>Title</key>
+				<string>verhogen</string>
+			</dict>
+		</dict>
+		<key>index</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een getal waarmee de positie van een onderdeel in een [array](glossary://array) wordt aangegeven.</string>
+				<key>Title</key>
+				<string>index</string>
+			</dict>
+		</dict>
+		<key>index out of range error</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een fout die optreedt als er wordt geprobeerd om een array te benaderen via een index die buiten het bereik van die array ligt. Bijvoorbeeld: de index `2` ligt buiten het bereik van de array `[17, 42]`.</string>
+				<key>Title</key>
+				<string>index buiten bereik-fout</string>
+			</dict>
+		</dict>
+		<key>initialization</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een nieuwe instantie van een type aanmaken, waarbij de beginwaarden voor de eigenschappen van het type worden ingesteld.</string>
+				<key>Title</key>
+				<string>initialisatie</string>
+			</dict>
+		</dict>
+		<key>initializer</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Roep een initializer aan om een nieuwe [instantie](glossary://instance) van een type aan te maken. De initializer moet ervoor zorgen dat alle eigenschappen van het type beginwaarden hebben en bevat vaak ook andere configuratiecode.</string>
+				<key>Title</key>
+				<string>initializer</string>
+			</dict>
+		</dict>
+		<key>inner loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een herhaald blok code (een lus) dat in een andere lus (buitenste lus) is genest.</string>
+				<key>Title</key>
+				<string>binnenste lus</string>
+			</dict>
+		</dict>
+		<key>instance</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een waarde van een bepaald [type](glossary://type). Bijvoorbeeld: in `let motion = MotionSensor()`, is `motion` een instantie van het type `MotionSensor`.</string>
+				<key>Title</key>
+				<string>instantie</string>
+			</dict>
+		</dict>
+		<key>integer</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een getal als `2` of `-5`.</string>
+				<key>Title</key>
+				<string>geheel getal</string>
+			</dict>
+		</dict>
+		<key>iterate</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een blok code herhalen voor elk [element](glossary://element) in een [verzameling](glossary://collection), zoals een array of een bereik.
+
+In het onderstaande voorbeeld itereert de for-lus door de array `days`, waarbij telkens één dag van de week wordt weergegeven:
+```
+let days = ["Monday", "Tuesday", "Wednesday"]
+
+for value in days { 
+	print(value)
+}
+
+// Eerste iteratie: "Monday" wordt weergegeven
+// Tweede iteratie: "Tuesday" wordt weergegeven
+// Derde iteratie: "Wednesday" wordt weergegeven
+```</string>
+				<key>Title</key>
+				<string>itereren</string>
+			</dict>
+		</dict>
+		<key>iteration</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Het herhalen van een proces, zoals het uitvoeren van dezelfde bewerking voor elk onderdeel in een array.</string>
+				<key>Title</key>
+				<string>iteratie</string>
+			</dict>
+		</dict>
+		<key>label</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De visuele representatie van een gebruikersinterface-element dat als een [weergave](glossary://view) is aangemaakt.
+
+Veel [ingebouwde weergaven](glossary://built-in%20view) van SwiftUI hebben zowel een label (een visuele representatie) als andere elementen die kunnen worden aangepast, zoals een [doelweergave](glossary://destination%20view) voor een `NavigationLink` of een [callback](glossary://callback) voor een actie van een `Button`.</string>
+				<key>Title</key>
+				<string>label</string>
+			</dict>
+		</dict>
+		<key>lag</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een afname van de snelheid of responstijd van een app als gevolg van vereisten voor de verwerking, processorkracht of beide.</string>
+				<key>Title</key>
+				<string>vertraging</string>
+			</dict>
+		</dict>
+		<key>leading edge</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De voorste rand in de context van de inhoud in een weergave verwijst deze naar de horizontale positie van het begin van de inhoud. De positie van de voorste rand is afhankelijk van je voorkeuren en is doorgaans gebaseerd op je land- en taalinstellingen.
+                    Bij talen die van links naar rechts worden geschreven, zoals Engels of Nederlands, bevindt de voorste rand zich aan de linkerkant. Bij talen die van rechts naar links worden geschreven, zoals Arabisch of Hebreeuws, bevindt de voorste rand zich aan de rechterkant.</string>
+				<key>Title</key>
+				<string>voorste rand</string>
+			</dict>
+		</dict>
+		<key>literal</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Met literals kun je afbeeldingen en kleuren direct in de code inbedden met behulp van de afbeeldingsbibliotheek of kleurenkiezer. Literals zijn de eigenlijke waarden van je gegevens die in de eigen structuur direct in de editor worden weergegeven.</string>
+				<key>Title</key>
+				<string>literal</string>
+			</dict>
+		</dict>
+		<key>local scope</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een lokaal bereik wordt op elk nieuw organisatieniveau van code gecreëerd onder het [globale bereik](glossary://global%20scope). Een nieuw [type](glossary://type) creëert bijvoorbeeld een nieuw lokaal bereik en functies en codeblokken in dat type creëren hun eigen [bereik](glossary://scope)niveau. Een symbool is alleen toegankelijk vanuit code op hetzelfde bereikniveau als de plek waar het symbool is gedeclareerd of op een lager bereikniveau.
+
+Als een variabele bijvoorbeeld in een type is gedefinieerd, is deze variabele toegankelijk in alle functies en codeblokken in het type. Een constante die is gedefinieerd in een methode is echter alleen toegankelijk in de methodedefinitie.</string>
+				<key>Title</key>
+				<string>lokaal bereik</string>
+			</dict>
+		</dict>
+		<key>logical AND operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een symbool (`&amp;&amp;`) waarmee twee Booleaanse waarden worden gecombineerd. De algehele code is alleen waar als beide waarden waar zijn. Bijvoorbeeld: `a &amp;&amp; b` is alleen waar wanneer zowel `a` als `b` waar zijn.</string>
+				<key>Title</key>
+				<string>logische AND-operator</string>
+			</dict>
+		</dict>
+		<key>logical NOT operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een symbool (`!`) waarmee de Booleaanse waarde van een stukje code wordt omgekeerd. Bijvoorbeeld: als `a` de waarde `true` heeft, dan is`!⁠a` dus `false`.</string>
+				<key>Title</key>
+				<string>logische NOT-operator</string>
+			</dict>
+		</dict>
+		<key>logical OR operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een symbool (`||`) waarmee twee Booleaanse waarden worden gecombineerd. De algehele code is waar wanneer een van beide waarden waar is. Bijvoorbeeld: `a || b` is `true` wanneer `a` of `b` de waarde `true` heeft (of wanneer beide de waarde `true` hebben).</string>
+				<key>Title</key>
+				<string>logische OR-operator</string>
+			</dict>
+		</dict>
+		<key>logical operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een symbool, zoals `&amp;&amp;`, `||` of `!`, waarmee de logische Booleaanse waarden `true` en `false` worden gewijzigd of gecombineerd.</string>
+				<key>Title</key>
+				<string>logische operator</string>
+			</dict>
+		</dict>
+		<key>loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een blok code dat een bepaald aantal keren wordt herhaald (bijvoorbeeld een `for`-lus) of dat wordt herhaald totdat aan een voorwaarde is voldaan (bijvoorbeeld een `while`-lus).</string>
+				<key>Title</key>
+				<string>lus</string>
+			</dict>
+		</dict>
+		<key>loop variable</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>In een [for-lus](glossary://for%20loop) is dit de waarde van het huidige element in de [verzameling](glossary://collection) waar je doorheen [itereert](glosssary://iterate).
+
+Een lusvariabele slaat deze waarde op, zodat je deze kunt gebruiken in de body van de `for`-lus. 
+
+In de volgende voorbeelden zijn `value` en `letter` lusvariabelen:
+```
+for value in 1...4 { 
+	print(value) // 1 2 3 4
+}
+
+for letter in ["c", "o", "d", "e"] { 
+	print(letter) // c o d e 
+}
+```</string>
+				<key>Title</key>
+				<string>lusvariabele</string>
+			</dict>
+		</dict>
+		<key>lower bound</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>In een [bereik](glossary://range) is dit de beginwaarde van waaraf wordt opgeteld.
+
+```
+let closedRange = 1...5 // Ondergrens is 1, bovengrens is 5
+for i in closedRange { 
+	print(i) // 1 2 3 4 5
+}
+```</string>
+				<key>Title</key>
+				<string>ondergrens</string>
+			</dict>
+		</dict>
+		<key>machine learning</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een tak van de computerwetenschap die zich richt op het ontwikkelen van [algoritmen](glossary://algorithm) die grote hoeveelheden gegevens gebruiken om machines te laten leren en een specifiek proces te verbeteren. 
+
+Je kunt een machine bijvoorbeeld leren om een bepaald soort bloemen te herkennen met behulp van een [classificatie-algoritme](glossary://classification) voor afbeeldingen en een omvangrijke gegevensset met afbeeldingen van bloemen.</string>
+				<key>Title</key>
+				<string>machinelearning</string>
+			</dict>
+		</dict>
+		<key>machine learning model</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een type [gegevensmodel](glossary://data%20model) dat je aanmaakt door een [algoritme](glossary://algorithm) voor machinelearning toe te passen op een [trainingsgegevensset](glossary://training%20dataset). Modellen voor machinelearning, ook wel ML-modellen genoemd, worden gebruikt om [voorspellingen](glossary://prediction) te doen op basis van een invoerbron.</string>
+				<key>Title</key>
+				<string>model voor machinelearning</string>
+			</dict>
+		</dict>
+		<key>magnitude</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De grootte van een waarde ongeacht of de waarde positief of negatief is. Dit wordt ook wel de [absolute waarde](glossary://absolute%value) van een getal genoemd. 
+
+`5` en `-5` hebben bijvoorbeeld beide de modulus `5`.</string>
+				<key>Title</key>
+				<string>modulus</string>
+			</dict>
+		</dict>
+		<key>memory</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Het deel van de computer waarin de code voor een app en de gegevens die de app gebruikt tijdelijk of permanent worden opgeslagen.</string>
+				<key>Title</key>
+				<string>geheugen</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Aanvullende informatie over gegevens. Een foto kan bijvoorbeeld metadata bevatten over de plaats waar de foto is gemaakt.</string>
+				<key>Title</key>
+				<string>metadata</string>
+			</dict>
+		</dict>
+		<key>method</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een blok code met een naam dat wordt uitgevoerd wanneer de naam ervan wordt [aangeroepen](glossary://call). 
+
+Een methode is een [functie](glossary://function), maar deze is gedefinieerd binnen een [type](glossary://type). 
+
+Deze code roept de methode `moveForward()` aan vanuit een [instantie](glossary://instance) met de naam `byte`:
+```
+let byte = Byte()
+
+byte.moveForward()
+```</string>
+				<key>Title</key>
+				<string>methode</string>
+			</dict>
+		</dict>
+		<key>miter</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een stijl om twee gestreepte lijnen met elkaar te verbinden waarbij de hoeken scherp zijn in plaats van afgerond of schuin.</string>
+				<key>Title</key>
+				<string>verstek</string>
+			</dict>
+		</dict>
+		<key>modifier</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>In SwiftUI wordt een modifier gebruikt om de weergave of het gedrag van een weergave aan te passen.
+
+					In de onderstaande code wijzigt de `foregroundColor`-modifier de kleur van de `Rectangle`-weergave in blauw.
+					```
+					Rectangle()
+							.foregroundColor(.blue)
+					```
+
+					Om modifiers leesbaarder te maken, wordt elke modifier op een afzonderlijke regel geplaatst onder de weergave die wordt gewijzigd. In dit voorbeeld wordt eerst de modifier `foregroundColor(.blue)` toegepast, gevolgd door `border(.green)`.
+					```
+					Rectangle()
+							.foregroundColor(.blue)
+							.border(.green)
+					```
+					
+					Omdat modifiers op volgorde worden toegepast, kan het wisselen van posities de weergave of het gedrag van de resulterende weergave veranderen. 
+				</string>
+				<key>Title</key>
+				<string>modifier</string>
+			</dict>
+		</dict>
+		<key>modularity</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Het opdelen van een app in onafhankelijke delen, waarbij elk deel alles bevat wat dat deel nodig heeft om een specifieke functie van de app uit te voeren, zoals het weergeven van een deel van de interface of het opslaan van appgegevens.
+
+Modulariteit speelt een belangrijke rol bij het maken van apps omdat je hierdoor meer inzicht krijgt in de afzonderlijke functies en er gemakkelijker mee kunt werken. Als je app een bug heeft, kun je sneller achterhalen waar de oorzaak van die bug ligt.</string>
+				<key>Title</key>
+				<string>modulair</string>
+			</dict>
+		</dict>
+		<key>module</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een afzonderlijke eenheid voor de distributie van code. Een [framework](glossary://framework) of app die als een afzonderlijke eenheid is ontwikkeld en beschikbaar is gesteld en die kan worden geïmporteerd door een andere module met het sleutelwoord voor [importeren](glossary://import) van Swift.</string>
+				<key>Title</key>
+				<string>module</string>
+			</dict>
+		</dict>
+		<key>modulo operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een symbool (`%`) waarmee de restwaarde wordt geretourneerd nadat een getal door een ander getal is gedeeld. Bijvoorbeeld: `17 % 5` retourneert `2`.</string>
+				<key>Title</key>
+				<string>modulo-operator</string>
+			</dict>
+		</dict>
+		<key>navigation bar</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Met een navigatie-interface kun je één keuze per scherm maken totdat je een bestemming bereikt. Om naar een andere bestemming te gaan, moet je teruggaan of opnieuw beginnen vanaf het begin en andere keuzes maken. In de navigatiebalk boven in het scherm wordt een titel weergegeven waarmee je kunt onthouden waar je je bevindt en wordt een knop weergegeven waarmee je terug kunt keren naar het vorige scherm.</string>
+				<key>Title</key>
+				<string>navigatiebalk</string>
+			</dict>
+		</dict>
+		<key>navigation link</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een [ingebouwde weergave](glossary://built-in%20view) in SwiftUI die naar een [doelweergave](glossary://destination%20view) navigeert wanneer een gebruiker erop tikt. Een navigatielink heeft ook een [label](glossary://label) waarmee de visuele weergave van de navigatielink wordt bepaald.</string>
+				<key>Title</key>
+				<string>navigatielink</string>
+			</dict>
+		</dict>
+		<key>nest</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een herhaald blok code, zoals een lus, invoegen in een ander herhaald blok code.</string>
+				<key>Title</key>
+				<string>nesten</string>
+			</dict>
+		</dict>
+		<key>normalization</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Het proces waarbij een gegevensset wordt geschaald om te zorgen dat de geschaalde waarden tussen `0` en `1` liggen.</string>
+				<key>Title</key>
+				<string>normalisatie</string>
+			</dict>
+		</dict>
+		<key>observable object</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Wanneer een klasse [zich conformeert](glossary://conform) aan het protocol `ObservableObject`, worden alle weergaven die die waarden gebruiken automatisch bijgewerkt, waarbij de wijzigingen worden weerspiegeld.</string>
+				<key>Title</key>
+				<string>observeerbaar object</string>
+			</dict>
+		</dict>
+		<key>observe</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Controleren of er een [statuswijziging](glossary://state%20change) van een object optreedt.</string>
+				<key>Title</key>
+				<string>observeren</string>
+			</dict>
+		</dict>
+		<key>observed object</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>SwiftUI controleert in een [weergave](glossary://view) of er wijzigingen optreden van [eigenschappen](glossary://property) die de [eigenschapwrapper](glossary://property%20wrapper) `@ObservedObject` gebruiken. Als de waarde van een geobserveerd object wijzigt, werkt SwiftUI de weergave bij.
+
+Het type van een eigenschap van een geobserveerd object moet [zich conformeren](glossary://conform) aan het protocol `ObservableObject`.
+				</string>
+				<key>Title</key>
+				<string>geobserveerd object</string>
+			</dict>
+		</dict>
+		<key>observer</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Met betrekking tot een [observeerbaar object](glossary://observable%20object) is een observer een weergave die of object dat de gegevens van het observeerbare object gebruikt. Wanneer de gegevens van het observeerbare object veranderen, herkent SwiftUI de wijziging en worden de observers bijgewerkt.</string>
+				<key>Title</key>
+				<string>observer</string>
+			</dict>
+		</dict>
+		<key>operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een symbool, zoals `+`, `-` of `&amp;&amp;`, waarmee een bewerking wordt toegepast op een of meer waarden. Bijvoorbeeld: in `1 + 2` telt de operator (`+`) de getallen `1` en `2` bij elkaar op.</string>
+				<key>Title</key>
+				<string>operator</string>
+			</dict>
+		</dict>
+		<key>optional</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een type dat een waarde in een wrapper of geen waarde representeert. Een optioneel type wordt meestal aangeduid met een vraagteken aan het einde (`?`).
+				
+Een variabele van het type `Int?` kan bijvoorbeeld een `Int`-waarde van `-43` of `6` in een wrapper bevatten, of de waarde ervan kan `nil` zijn, wat betekent dat er geen waarde aan is toegewezen.</string>
+				<key>Title</key>
+				<string>optioneel</string>
+			</dict>
+		</dict>
+		<key>outer loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een herhaald blok code (een lus) met daarin een andere lus (binnenste lus).</string>
+				<key>Title</key>
+				<string>buitenste lus</string>
+			</dict>
+		</dict>
+		<key>overfitting</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Dit de ontwikkeling van een model voor machinelearning dat te nauw aansluit bij een bepaalde gegevensset. 
+
+Als je model bijvoorbeeld een [classificatie-algoritme](glossary://classification) is dat afbeeldingen van zoogdieren detecteert en je [trainingsgegevensset](glossary://training%20dataset) alleen afbeeldingen van honden bevat, zal het model alleen honden herkennen en andere zoogdieren, zoals konijnen of herten, negeren.</string>
+				<key>Title</key>
+				<string>overspecialisatie</string>
+			</dict>
+		</dict>
+		<key>parameter</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een waarde die wordt gebruikt om aan te passen hoe een [functie](glossary://function) zich gedraagt. Wanneer je de functie [aanroept](glossary://call), kun je verschillende waarden doorgeven om het gedrag ervan te veranderen.
+
+In de onderstaande functie is `distance` een parameter die een waarde van het type `Int` accepteert:
+```
+func move(distance: Int) { 
+	for i in 1...distance { 
+		moveForward()
+	}
+}
+```
+De parameterwaarde (`distance`) kan in de body van de functie worden gebruikt om te bepalen hoe deze zich gedraagt. In dit geval kun je deze functie aanroepen met verschillende gehele getallen, zoals `move(distance: 2)` of `move(distance: 5)` om verschillende afstanden af te leggen.</string>
+				<key>Title</key>
+				<string>parameter</string>
+			</dict>
+		</dict>
+		<key>pass in</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een waarde bieden aan een van de [parameters](glossary://parameter) van een functie. 
+
+In het onderstaande voorbeeld geeft de code de waarde "Hello" door aan de parameter `text`.
+```
+speak(text: "Hello")
+```</string>
+				<key>Title</key>
+				<string>doorgeven</string>
+			</dict>
+		</dict>
+		<key>pattern</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een herhaalde set omstandigheden of gegevens.</string>
+				<key>Title</key>
+				<string>patroon</string>
+			</dict>
+		</dict>
+		<key>persistence</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Het proces van het opslaan van gebruikersgegevens, zodat deze elke keer dat de app wordt gestart opnieuw kunnen worden geladen. Zonder gegevensbehoud worden de staat en gegevens van je app elke keer opnieuw ingesteld wanneer je app opnieuw wordt gestart.</string>
+				<key>Title</key>
+				<string>gegevensbehoud</string>
+			</dict>
+		</dict>
+		<key>pi</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Pi (π) is een wiskundige constante die ongeveer gelijk is aan 3,14. Het is de verhouding tussen de omtrek en de diameter van een cirkel.</string>
+				<key>Title</key>
+				<string>pi</string>
+			</dict>
+		</dict>
+		<key>pitch</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De meting van de rotatie of helling naar links of rechts van een apparaat wanneer het apparaat zich in de horizontale stand bevindt.   In wiskundige termen is de hellingshoek de rotatie rond de x-as van het apparaat. De hellingshoek wordt gemeten in radialen en heeft een bereik van `-π/2` tot `π/2`.</string>
+				<key>Title</key>
+				<string>hellingshoek</string>
+			</dict>
+		</dict>
+		<key>pitch audio</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De toonhoogte van een geluid hangt af van de trillingsfrequentie van geluidsgolven. Hoe meer geluidsgolven er gedurende een bepaalde periode worden geproduceerd, hoe hoger de toonhoogte. 
+
+					In muziek beschrijft de toonhoogte of een noot "laag" of "hoog" klinkt. Vogels zingen bijvoorbeeld met een hoge toonhoogte en het diepe gebrul van een leeuw is een geluid met een lage toonhoogte.</string>
+				<key>Title</key>
+				<string>toonhoogte</string>
+			</dict>
+		</dict>
+		<key>placeholder view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een weergave die tijdelijk wordt weergegeven om aan te geven waar de laatste inhoud zal worden geladen of ingevoerd. Een voorbeeld hiervan is een `ProgressView` die wordt gebruikt om een afbeelding te tonen die wordt geladen of een grijze rechthoek waar tekst kan worden ingevoerd.</string>
+				<key>Title</key>
+				<string>plaatsaanduidingsweergave</string>
+			</dict>
+		</dict>
+		<key>prediction</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Als je iets invoert in een model voor machinelearning wordt de uitvoer van dat model een voorspelling genoemd. 
+
+Een golden retriever kan bijvoorbeeld een geldige voorspelling zijn van een model voor machinelearning dat is getraind om hondenrassen te herkennen.</string>
+				<key>Title</key>
+				<string>voorspelling</string>
+			</dict>
+		</dict>
+		<key>private</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Met het sleutelwoord `private` zorg je dat de code alleen beschikbaar is in dat specifieke bronbestand.
+- callout(Voorbeeld):
+`private class MyApp: App { }`</string>
+				<key>Title</key>
+				<string>private</string>
+			</dict>
+		</dict>
+		<key>property</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een variabele (een benoemde container waarin een waarde is opgeslagen) die is gedefinieerd in een [type](glossary://type).
+
+Er kan toegang worden verkregen tot een eigenschap via een [instantie](glossary://instance) van het type met behulp van [puntnotatie](glossary://dot%20notation). In de onderstaande code is `isFacingHole` is een eigenschap van het type `Hopper`.
+```
+if hopper.isFacingHole { 
+	// code 
+}
+```</string>
+				<key>Title</key>
+				<string>eigenschap</string>
+			</dict>
+		</dict>
+		<key>property wrapper</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een eigenschapwrapper is een eenvoudige manier om een gemeenschappelijk gedragspatroon op een eigenschap toe te passen. Deze wrapper is een manier om de eigenschap te annoteren waarbij wordt gedefinieerd hoe deze wordt opgeslagen of bij het lezen wordt berekend.   Zo geef je SwiftUI met de eigenschap `@State` de opdracht om de opslag voor een waarde te beheren om delen van een weergave die de waarde gebruiken bij te werken wanneer die waarde verandert.</string>
+				<key>Title</key>
+				<string>eigenschapwrapper</string>
+			</dict>
+		</dict>
+		<key>protocol</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een reeks vereisten, zoals methoden en eigenschappen, die kunnen worden overgenomen (of gevolgd) door een type, zoals een klasse, structuur of opsomming.   Wanneer een type een protocol adopteert, biedt het zijn eigen implementatie van de protocolvereisten en wordt gezegd dat het aan dat protocol voldoet of zich eraan conformeert.</string>
+				<key>Title</key>
+				<string>protocol</string>
+			</dict>
+		</dict>
+		<key>pseudocode</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een makkelijk leesbare beschrijving van een algoritme, meestal geschreven in een combinatie van natuurlijke taal en code.</string>
+				<key>Title</key>
+				<string>pseudocode</string>
+			</dict>
+		</dict>
+		<key>public</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Met het sleutelwoord `public` zorg je dat de code beschikbaar is voor alle bestanden in je project
+                        
+- callout(Voorbeeld):
+`public func decorateWithSticker(space: Space) { }`
+                    </string>
+				<key>Title</key>
+				<string>public</string>
+			</dict>
+		</dict>
+		<key>publish</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een melding sturen naar alle [observers](glossary://observer) van een [observeerbaar object](glossary://observable%20object) wanneer de waarde van een opgegeven [gepubliceerde eigenschap](glossary://published%20value) wijzigt.</string>
+				<key>Title</key>
+				<string>publiceren</string>
+			</dict>
+		</dict>
+		<key>published value</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Voeg de [eigenschapwrapper](glossary://property%20wrapper) `@Published` toe om een eigenschap te declareren die alle [observers](glossary://observer) ervan op de hoogte brengt wanneer de waarde ervan op het punt staat te veranderen. Wanneer de waarde verandert, werkt SwiftUI alle weergaven bij die de gegevens ervan gebruiken.</string>
+				<key>Title</key>
+				<string>gepubliceerde waarde</string>
+			</dict>
+		</dict>
+		<key>radians</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Radialen zijn een maateenheid voor hoeken, net zoals graden. Een hoek in radialen is gelijk aan de verhouding tussen de booglengte en de radius van een cirkel die rond die hoek is getrokken. Eén radiaal is gelijk aan 180 graden gedeeld door [pi](glossary://pi).</string>
+				<key>Title</key>
+				<string>radialen</string>
+			</dict>
+		</dict>
+		<key>range</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een interval tussen een [ondergrens](glossary://lower%20bound) en een [bovengrens](glossary://upper%20bound). 
+
+Er zijn meerdere manieren om een bereik aan te maken, waaronder een [gesloten bereik](glossary://closed%20range) en een [halfopen bereik](glossary://half%20open%20range).
+
+```
+let closedRange = 1...4 
+for i in closedRange { 
+	print(i) // 1 2 3 4
+}
+
+let halfOpenRange = 1..&lt;4 
+for i in halfOpenRange { 
+	print(i) // 1 2 3
+}
+```</string>
+				<key>Title</key>
+				<string>bereik</string>
+			</dict>
+		</dict>
+		<key>reference type</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Wanneer je een [instantie](glossary://instance) van een referentietype aanmaakt, zoals een klasse of acteur, worden de gegevens daarvan opslagen in het gedeelde geheugen. Hierdoor bevat een instantie alleen een verwijzing naar de gegevens in plaats van een unieke kopie van de gegevens. Als je de instantie aan een variabele [toewijst](glossary://assignment), of de instantie doorgeeft als [argument](glossary://argument) aan een functie, maakt Swift een nieuwe verwijzing naar dezelfde gegevens aan.
+
+In het onderstaande voorbeeld zie je hoe de instantie als verwijzing wordt gekopieerd:
+
+```
+class Bicycle {
+  var color: Color
+   init(color: Color) {
+     self.color = color
+   }
+}
+
+var redBike = Bicycle(color: .red)
+var blueBike = redBike
+blueBike.color = .blue
+print(redBike.color) // =&gt; blue
+print(blueBike.color) // =&gt; blue
+// redBike en blueBike delen een verwijzing naar dezelfde gegevens
+```</string>
+				<key>Title</key>
+				<string>referentietype</string>
+			</dict>
+		</dict>
+		<key>responsive</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Je code of gebruikersinterface is responsief wanneer deze snel reageert op [gebruikersinteractie](glossary://user%20interaction) of zich goed aanpast aan veranderingen in de omgeving, zoals een wijziging van het formaat van een weergave.</string>
+				<key>Title</key>
+				<string>responsief</string>
+			</dict>
+		</dict>
+		<key>return</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een waarde terugsturen naar de aanroeper van een [functie](glossary://function). Bijvoorbeeld: de functie `contains(3)` retourneert bijvoorbeeld de Booleaanse waarde `false` wanneer deze functie wordt uitgevoerd op de array `[0,1,2]`, omdat de array niet de waarde `3` bevat.</string>
+				<key>Title</key>
+				<string>retourneren</string>
+			</dict>
+		</dict>
+		<key>return type</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Wanneer je een functie definieert, kun je een type waarde definiëren dat door de functie als uitvoer wordt geretourneerd als de functie klaar is. Dit wordt het retourtype van de functie genoemd.</string>
+				<key>Title</key>
+				<string>retourtype</string>
+			</dict>
+		</dict>
+		<key>reusability</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een kenmerk waarmee wordt aangeduid dat code in verschillende situaties binnen een app kan worden gebruikt.</string>
+				<key>Title</key>
+				<string>herbruikbaarheid</string>
+			</dict>
+		</dict>
+		<key>roll</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De meting van de rotatie of helling in voorwaartse of achterwaartse richting van een apparaat wanneer het apparaat zich in de horizontale stand bevindt.   In wiskundige termen is dit de rotatie rond de y-as van het apparaat. Het rollen wordt gemeten in radialen en heeft een bereik van `-π` tot `π`.</string>
+				<key>Title</key>
+				<string>rollen</string>
+			</dict>
+		</dict>
+		<key>root view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een weergave waarin alle andere weergaven zijn geplaatst. Deze weergave staat bekend als een [weergave op het hoogste niveau](glossary://top-level%20view) en bevindt zich boven in een [weergavehiërarchie](glossary://view%20hierarchy) en fungeert als de [containerweergave](glossary://container) voor alle [subweergaven](glossary://subview) in de hiërarchie.</string>
+				<key>Title</key>
+				<string>rootweergave</string>
+			</dict>
+		</dict>
+		<key>rubber ducky method</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een lesmethode waarin je een concept uitlegt aan een levenloos object, zoals een rubber eendje. Om deze techniek toe te passen, neem je een levenloos object en leg je het concept hardop uit aan dit object waarbij je alle informatie verstrekt die het eendje nodig heeft om het concept te begrijpen. Als je je tijdens de uitleg realiseert dat er informatie ontbreekt, maak je een notitie om daar later onderzoek naar te doen. Je kunt de nieuwe informatie toevoegen als je het concept opnieuw uitlegt aan het rubber eendje.</string>
+				<key>Title</key>
+				<string>methode met rubber eendje</string>
+			</dict>
+		</dict>
+		<key>saturation</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De intensiteit van de tint, variërend van een grijstint tot de volledige kleur. De verzadiging wordt weergegeven als een decimaal getal (double) tussen `0` en `1`.</string>
+				<key>Title</key>
+				<string>verzadiging</string>
+			</dict>
+		</dict>
+		<key>scope</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De delen van je project van waaruit je toegang hebt tot een waarde of type. Symbolen die zijn gedefinieerd met een [globaal bereik](glossary://global%20scope) zijn toegankelijk vanuit alle bestanden in de [module](glossary://module), maar symbolen die met een [lokaal bereik](glossary://local%20scope) zijn gedefinieerd zijn alleen beschikbaar in code die zich op hetzelfde of een lager niveau van het lokale bereik bevindt.</string>
+				<key>Title</key>
+				<string>bereik</string>
+			</dict>
+		</dict>
+		<key>sensor</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een sensor is een onderdeel dat events detecteert, zoals een wijziging in temperatuur, licht, geluid of beweging, en een waarde retourneert.</string>
+				<key>Title</key>
+				<string>sensor</string>
+			</dict>
+		</dict>
+		<key>sequence</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een lijst met waarden die je één voor één kunt doorlopen door middel van [iteratie](glossary://iteration).
+
+Je kunt een `for`-`in`-lus gebruiken om door een reeks te itereren, zoals de array `healthySnacks` in het volgende voorbeeld:
+```
+let healthySnacks = ["appel", "peer", "banaan"]
+for snack in healthySnacks {
+	eat(snack)
+}
+```</string>
+				<key>Title</key>
+				<string>reeks</string>
+			</dict>
+		</dict>
+		<key>source of truth</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>In de context van het bouwen van apps is dit een unieke locatie waar alle gegevens worden aangepast. Alle andere verbindingen met deze gegevens worden alleen met verwijzingen tot stand gebracht, waardoor het dupliceren van de informatie ervan op andere locaties wordt voorkomen. </string>
+				<key>Title</key>
+				<string>bron van waarheid</string>
+			</dict>
+		</dict>
+		<key>speech synthesis</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Door computers gegenereerd geluid dat op menselijke spraak lijkt, meestal gegenereerd op basis van tekst.</string>
+				<key>Title</key>
+				<string>spraaksynthese</string>
+			</dict>
+		</dict>
+		<key>state</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De informatie die op een bepaald moment is opgeslagen in een variabele, app of systeem. Bijvoorbeeld: als een variabele `level` de waarde `4` bevat, is de huidige status `4`.</string>
+				<key>Title</key>
+				<string>status</string>
+			</dict>
+		</dict>
+		<key>state change</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een wijziging van de informatie die in een variabele, app of systeem is opgeslagen. Bijvoorbeeld: als de waarde van de variabele `level` van `4` in `5` verandert, is de status ervan gewijzigd.</string>
+				<key>Title</key>
+				<string>statuswijziging</string>
+			</dict>
+		</dict>
+		<key>state object</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Voeg de `@StateObject` [eigenschapwrapper](glossary://property%20wrapper) toe om een statusobject te declareren en geef een beginwaarde op die voldoet aan het `ObservableObject`-[protocol](glossary://protocol). SwiftUI beheert de opslag voor een statusobject en werkt alle subweergaven bij die de waarde gebruiken wanneer de gepubliceerde waarden van het statusobject veranderen.</string>
+				<key>Title</key>
+				<string>statusobject</string>
+			</dict>
+		</dict>
+		<key>state property</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Voeg `@State` toe vóór een [eigenschap](glossary://property) van een weergave om SwiftUI opdracht te geven om de opslag van een waarde te beheren. Wanneer de waarde verandert, werkt SwiftUI alle delen van de weergave bij die de waarde gebruiken.
+
+```
+@State var isOn = false
+```
+</string>
+				<key>Title</key>
+				<string>statuseigenschap</string>
+			</dict>
+		</dict>
+		<key>state value</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Voeg `@State` toe vóór een variabele om SwiftUI de opdracht te geven de opslag voor een waarde te beheren. Wanneer de waarde verandert, werkt SwiftUI alle delen van de weergave bij die de waarde gebruiken.</string>
+				<key>Title</key>
+				<string>statuswaarde</string>
+			</dict>
+		</dict>
+		<key>statement</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een structuur, zoals een lus of `if`-instructie, waarmee code in een app wordt georganiseerd.</string>
+				<key>Title</key>
+				<string>instructie</string>
+			</dict>
+		</dict>
+		<key>string component</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een deel, of substring, van een string nadat de string door een scheidingsteken is opgedeeld in delen. Als bijvoorbeeld de string `"hond+kat+vis"` wordt gesplitst door het scheidingsteken `"+"`, is het resultaat de afzonderlijke strings `"hond"`, `"kat"` en `"vis"`.</string>
+				<key>Title</key>
+				<string>stringcomponent</string>
+			</dict>
+		</dict>
+		<key>string concatenation</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een bewerking waarbij strings worden gecombineerd door de ene string aan het einde van de andere string toe te voegen. Bijvoorbeeld: de aaneenschakeling van `'voet'` en `'bal'` is `'voetbal'`.</string>
+				<key>Title</key>
+				<string>aaneenschakeling van strings</string>
+			</dict>
+		</dict>
+		<key>string interpolation</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Het gebruik van constanten, variabelen of code-uitdrukkingen binnen een langere string, waarbij deze door de huidige waarden worden vervangen wanneer de string wordt geëvalueerd. Als bijvoorbeeld in de string `"Katy ate a \(fruit)."` `fruit` een variabele is met de waarde `"peach"`, wordt `\(fruit)` vervangen door `"peach"` wanneer de string wordt geëvalueerd, wat `"Katy ate a peach."` oplevert.</string>
+				<key>Title</key>
+				<string>stringinterpolatie</string>
+			</dict>
+		</dict>
+		<key>structure</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een structuur is een container voor code die fungeert als een blauwdruk voor het maken van meerdere [instanties](glossary://instance) van hetzelfde soort ding. Net zoals een blauwdruk bijvoorbeeld de kenmerken en gedragingen van een object, zoals een fiets, zou kunnen definiëren, definieert een structuur deze als [eigenschappen](glossary://property) en [methoden](glossary://method).
+
+Wanneer je een nieuwe [instantie](glossary://instance) van de structuur aanmaakt, bevat die instantie alle eigenschappen en methoden die in je blauwdruk zijn gedefinieerd. Elke instantie deelt dezelfde eigenschappen en methoden, maar je kunt de waarden van de eigenschappen onafhankelijk van elkaar wijzigen, waardoor je elke instantie die je aanmaakt van de structuur kunt aanpassen. Een structuur "fiets" kan bijvoorbeeld een eigenschap "kleur" hebben, waarmee je zowel rode als blauwe fietsen kunt maken.
+
+Een structuur is vergelijkbaar met een [klasse](glossary://class), maar verschilt in twee belangrijke opzichten: een structuur is een [waardetype](glossary://value%20type), dat altijd als waarde worden gekopieerd, en een structuur kan niet overerven van een andere structuur.
+
+```
+struct Bicycle { 
+	var color : Color 
+	var type : BikeCategory
+}
+```</string>
+				<key>Title</key>
+				<string>structuur</string>
+			</dict>
+		</dict>
+		<key>subview</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een weergave die zich in een [container](glossary://container)weergave bevindt. Een container kan een willekeurig aantal subweergaven bevatten, die elk hun eigen subweergaven kunnen bevatten, enzovoort. Een weergave met alle onderliggende weergaven tezamen vormt een [weergavehiërarchie](glossary://view%20hierarchy).</string>
+				<key>Title</key>
+				<string>subweergave</string>
+			</dict>
+		</dict>
+		<key>syntax</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De regels voor het schrijven van code die door computers kan worden begrepen en uitgevoerd.</string>
+				<key>Title</key>
+				<string>syntaxis</string>
+			</dict>
+		</dict>
+		<key>task</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Taken zijn handig voor het afhandelen van afzonderlijke delen van je app, zodat je code belangrijke dingen kan blijven doen, zoals het verzorgen van de gebruikersinterface. Wanneer je een taak aanmaakt, wordt de code [asynchroon](glossary://asynchronous%20process) uitgevoerd als onderdeel van je programma. Hierdoor kan de rest van je code doorgaan met andere zaken. De delen van je code die gegevens van deze taak nodig hebben, kunnen wachten (`await`) op de resultaten van de taak.</string>
+				<key>Title</key>
+				<string>taak</string>
+			</dict>
+		</dict>
+		<key>ternary conditional operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een korte manier om een voorwaardelijke instructie te schrijven. De [operator](glossary://operator) bestaat uit de volgende drie delen: `condition ? trueValue : falseValue`. Het is een soort [`if`-instructie](glossary://if%20statement) die `trueValue` retourneert als de voorwaarde `true` is en `falseValue` als de voorwaarde `false` is. 
+
+In de onderstaande code is de rechthoek groen als `isOn` de waarde `true` heeft. Als `isOn` de waarde `false` heeft, is de rechthoek rood.
+
+```
+Rectangle()
+     .foregroundColor(isOn ? .green : .red)
+```
+
+De bovenstaande code kan als volgt worden gelezen: als de voorwaarde `isOn` de waarde `true` heeft, wordt de waarde `.green` geretourneerd. Is dit niet het geval, dan wordt de waarde `.red` geretourneerd.
+</string>
+				<key>Title</key>
+				<string>driedelige voorwaardelijke operator</string>
+			</dict>
+		</dict>
+		<key>toolbar</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een strook met symbolen die wordt gebruikt om bepaalde functies uit te voeren. De knoppenbalkmodifier verwacht een verzameling knoppenbalkonderdelen die je kunt opgeven door een verzameling weergaven toe te voegen.</string>
+				<key>Title</key>
+				<string>knoppenbalk</string>
+			</dict>
+		</dict>
+		<key>top-level view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een weergave waarin alle andere weergaven zijn geplaatst. Deze weergave staat bekend als een [rootweergave](glossary://root%20view), bevindt zich boven in een [weergavehiërarchie](glossary://view%20hierarchy) en fungeert als de [containerweergave](glossary://container) voor alle [subweergaven](glossary://subview) in de hiërarchie.</string>
+				<key>Title</key>
+				<string>weergave op het hoogste niveau</string>
+			</dict>
+		</dict>
+		<key>trailing edge</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De achterste rand in de context van de inhoud in een weergave verwijst deze naar de horizontale positie van het einde van de inhoud. De positie van de achterste rand is afhankelijk van je voorkeuren en is doorgaans gebaseerd op je land- en taalinstellingen.
+                    Bij talen die van links naar rechts worden geschreven, zoals Engels of Nederlands, bevindt de achterste rand zich aan de rechterkant. Bij talen die van rechts naar links worden geschreven, zoals Arabisch of Hebreeuws, bevindt de achterste rand zich aan de linkerkant.</string>
+				<key>Title</key>
+				<string>achterste rand</string>
+			</dict>
+		</dict>
+		<key>training</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Dit is een proces in machinelearning waarbij een algoritme voor machinelearning van een gegevensset leert. 
+
+Bij gecontroleerde leerprocessen probeert het model de meest nauwkeurige wiskundige relatie tussen de gegevenskenmerken en het label voor de gegevens vast te stellen. Bij niet-gecontroleerde leerprocessen probeert het model de onderlinge relatie tussen de gegevenskenmerken te bepalen.</string>
+				<key>Title</key>
+				<string>trainen</string>
+			</dict>
+		</dict>
+		<key>training dataset</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De gegevensverzameling waarmee een model voor machinelearning zichzelf [traint](glossary://training) om [voorspellingen](glossary://prediction) te genereren.</string>
+				<key>Title</key>
+				<string>trainingsgegevensset</string>
+			</dict>
+		</dict>
+		<key>type</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een benoemde, gegroepeerde set eigenschappen (de kenmerken) en methoden (het gedrag) van een soort gegevens.
+
+Een type is een manier om een set gerelateerde functionaliteit aan te maken, zodat deze gemakkelijker toegankelijk is.
+
+```
+struct Person { 
+	var name : Int
+	var age : String 
+
+	func greet() { 
+		print("Hello, friend!")
+	}
+}
+```</string>
+				<key>Title</key>
+				<string>type</string>
+			</dict>
+		</dict>
+		<key>typography</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Het artistieke en technische proces waarbij letters worden gerangschikt om geschreven taal begrijpelijk, leesbaar en aantrekkelijk weer te geven.</string>
+				<key>Title</key>
+				<string>typografie</string>
+			</dict>
+		</dict>
+		<key>unwrap</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De waarde uit een wrapper in een [instantie](glossary://instance) van een [optioneel](glossary://optional) type extraheren. 
+				
+Vaak wordt `if`-`let` gebruikt om de waarde uit een wrapper in een optioneel type te extraheren:
+```
+var count: Int? = 48
+if let unwrappedCount = count {
+	print(unwrappedCount)
+} else {
+	print("telling heeft geen waarde")
+}
+```</string>
+				<key>Title</key>
+				<string>uitpakken</string>
+			</dict>
+		</dict>
+		<key>upper bound</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>In een [bereik](glossary://range%20value) is dit de eindwaarde waarnaar wordt opgeteld.
+
+```
+let closedRange = 1...5 // Lower bound is 1, upper bound is 5
+for i in closedRange { 
+	print(i) // 1 2 3 4 5
+}
+```</string>
+				<key>Title</key>
+				<string>bovengrens</string>
+			</dict>
+		</dict>
+		<key>user</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Iemand die je app gebruikt.</string>
+				<key>Title</key>
+				<string>gebruiker</string>
+			</dict>
+		</dict>
+		<key>user input</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Informatie die door een app wordt verzameld op basis van interactie met een gebruiker, zoals het aanraken van het scherm, tekst invoeren met een toetsenbord of spreken in een microfoon. 
+</string>
+				<key>Title</key>
+				<string>gebruikersinvoer</string>
+			</dict>
+		</dict>
+		<key>user interaction</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een actie die door een [gebruiker](glossary://user) wordt uitgevoerd in je app. Op een knop tikken, naar links vegen op het scherm, het apparaat roteren, een kleur kiezen uit een `ColorPicker` en tekens typen in een tekstveld zijn allemaal voorbeelden van gebruikersinteractie.</string>
+				<key>Title</key>
+				<string>gebruikersinteractie</string>
+			</dict>
+		</dict>
+		<key>user interface</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De middelen waarmee een gebruiker een app bedient. De gebruikersinterface wordt ook wel 'UI' genoemd. Hiermee wordt verwezen naar het visuele gedeelte van een app waarmee een gebruiker communiceert, met elementen als afbeeldingen, tekst, knoppen, schuifknoppen en scrolweergaven.</string>
+				<key>Title</key>
+				<string>gebruikersinterface</string>
+			</dict>
+		</dict>
+		<key>validation dataset</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een gegevensvoorbeeld dat geen deel uitmaakt van de [trainingsgegevensset](glossary://training%20dataset) van het model voor machinelearning. Het model gebruikt de validatiegegevensset om de nauwkeurigheid van de voorspellingen te evalueren.</string>
+				<key>Title</key>
+				<string>validatiegegevensset</string>
+			</dict>
+		</dict>
+		<key>value type</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Wanneer je een [instantie](glossary://instance) aanmaakt van een waardetype, zoals een [structuur](glossary://structure), worden de gegevens daarvan in de instantie zelf opgeslagen. Als je de instantie aan een variabele [toewijst](glossary://assignment), of de instantie doorgeeft als [argument](glossary://argument) aan een functie, maakt Swift een nieuwe instantie aan met een onafhankelijke kopie van de gegevens.
+
+In het onderstaande voorbeeld zie je hoe de instantie als waarde wordt gekopieerd:
+
+```
+struct Bicycle {
+  var color: Color
+}
+
+var redBike = Bicycle(color: .red)
+var blueBike = redBike
+blueBike.color = .blue
+print(redBike.color) // =&gt; red
+print(blueBike.color) // =&gt; blue
+// redBike en blueBike hebben elk hun eigen kopie van de gegevens
+```</string>
+				<key>Title</key>
+				<string>waardetype</string>
+			</dict>
+		</dict>
+		<key>variable</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een benoemde container waarin een waarde is opgeslagen die kan worden gewijzigd.
+
+In een variabele kunnen verschillende [typen](glossary://type) waarden worden opgeslagen, zoals [gehele getallen](glossary://Int), [strings](glossary://String) en [bereiken](glossary://range).  
+```
+var favoriteNumber = 7 // Slaat een geheel getal op
+var greeting = "Hello" // Slaat een string op
+var repetitions = 1...5 // Slaat een bereik op
+```
+</string>
+				<key>Title</key>
+				<string>variabele</string>
+			</dict>
+		</dict>
+		<key>velocity</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De snelheid van iets in een opgegeven richting.</string>
+				<key>Title</key>
+				<string>snelheid</string>
+			</dict>
+		</dict>
+		<key>view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een weergave is de bouwsteen van de gebruikersinterface van je app en vertegenwoordigt elk visueel element dat [zich conformeert](glossary://conform) aan het `View`-[protocol](glossary://protocol).
+
+Enkele voorbeelden van weergaven in SwiftUI zijn tekstweergaven, afbeeldingsweergaven, schuifknoppen, rasters, knoppen en vormen.</string>
+				<key>Title</key>
+				<string>weergave</string>
+			</dict>
+		</dict>
+		<key>view hierarchy</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een structuur die de lay-out van weergaven definieert ten opzichte van andere weergaven, met een verwijzing naar een weergave-instantie op het hoogste niveau boven in de hiërarchie. De weergave op het hoogste niveau kan een willekeurig aantal subweergaven bevatten die elk hun eigen subweergaven kunnen bevatten, enzovoort.</string>
+				<key>Title</key>
+				<string>weergavehiërarchie</string>
+			</dict>
+		</dict>
+		<key>volume</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Het volume is de luidheid van het geluid dat door de [sensor](glossary://sensor) wordt gedetecteerd. De waarde ervan ligt tussen 0 en 1.</string>
+				<key>Title</key>
+				<string>volume</string>
+			</dict>
+		</dict>
+		<key>while loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een blok code dat wordt uitgevoerd zolang een opgegeven voorwaarde `true` is. Wanneer de voorwaarde in `false` verandert, wordt het uitvoeren van de lus gestopt.</string>
+				<key>Title</key>
+				<string>while-lus</string>
+			</dict>
+		</dict>
+		<key>wireframe</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De omtrek van een object, zoals een edelsteen, schakelaar of blok, in de virtuele wereld. Een draadmodel wordt gebruikt om de mogelijkheid aan te geven dat het object op een willekeurige plaats kan verschijnen wanneer het raadsel wordt uitgevoerd.</string>
+				<key>Title</key>
+				<string>draadmodel</string>
+			</dict>
+		</dict>
+		<key>yaw</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>De meting van de rotatie rond het middelpunt van een apparaat dat op een plat oppervlak ligt.   In wiskundige termen is dit de rotatie rond de z-as van het apparaat. Het gieren wordt gemeten in radialen en heeft een bereik van `-π` tot `π`.</string>
+				<key>Title</key>
+				<string>gieren</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

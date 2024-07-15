@@ -1,0 +1,651 @@
+/* Title of Guidebook */
+"GuideBook..title" = "Introduzione all’apprendimento automatico";
+
+/* The title of the Welcome Message for the GuideBook */
+"GuideBook..WelcomeMessageGet Started with Machine Learning..title" = "Introduzione all’apprendimento automatico";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..WelcomeMessageGet Started with Machine Learning..Paragraph0" = "Ti diamo il benvenuto! In questo playground di esempio, trasformerai un gioco Sasso, carta, forbici in un’app di apprendimento automatico a pieno titolo.";
+
+/* Title of step named Get Started with Machine Learning */
+"GuideBook..Guide0..StepGet Started with Machine Learning..title" = "Introduzione all’apprendimento automatico";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..Paragraph1" = "![](ML-intro@2x.png)";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..Paragraph2" = "Hai mai giocato a Sasso, carta, forbici? Si gioca in due e si può scegliere un’azione fra le tre disponibili. Ognuna di queste vince su una delle altre due:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..UnorderedList0..Paragraph3" = "Sasso ✊ batte Forbici ✌️";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..UnorderedList0..Paragraph4" = "Carta ✋ batte Sasso ✊";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..UnorderedList0..Paragraph5" = "Forbici ✌️ batte Carta ✋";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..Paragraph6" = "Le regole sono talmente semplici che puoi insegnare a un computer a giocare. Ma quanto lavoro serve per insegnare ad iPad o al Mac a riconoscere le pose della tua mano, come ✊, ✋ o ✌️?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..Paragraph7" = "In questo playground di esempio, partirai da un gioco Sasso, carta, forbici esistente e lo aggiornerai a un fantastico gioco basato sull’apprendimento automatico con l’aiuto della fotocamera e di un [modello di apprendimento automatico](glossary://machine%20learning%20model). Iniziamo!";
+
+/* title of the guide button */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..GuideButtonStart Walkthrough..title" = "Avvia la guida passo passo";
+
+/* accessibility description for guide button */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..GuideButtonStart Walkthrough..description" = "Descrizione di accessibilità per il pulsante";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..title" = "Completare la logica del gioco";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..title" = "Aggiungere il resto della logica del gioco 🕹";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Paragraph8" = "Scopri come creare un gioco Sasso, carta, forbici in Swift.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page0..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page0..Paragraph9" = "Nell’anteprima, puoi vedere un semplice gioco Sasso, carta, forbici. In questa versione, puoi selezionare la tua mossa utilizzando i pulsanti con le frecce a sinistra e a destra.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page0..Paragraph10" = "Tocca o fai clic su Play (gioca) su iPad o sul Mac per generare una mossa. Prenditi un minuto per provare il gioco.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page0..Paragraph11" = "Noti niente di sbagliato nel gioco?";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page1..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page1..Paragraph12" = "Forse avrai notato che le regole del gioco non stanno funzionando troppo bene! Non preoccuparti, tra poco le aggiusterai.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page2..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page2..Paragraph13" = "Alla base di `RPSGameView`, la [vista](glossary://view) del tuo gioco Sasso, carta, forbici, c’è un [modello di dati](glossary://data%20model), chiamato `GameModel`. Esso tiene traccia dello stato del gioco, dei risultati, della tua mossa e della mossa del computer.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page2..Paragraph14" = "Nella prossima attività, configurerai la logica del gioco in `GameModel`.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page3..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page3..Paragraph15" = "Le regole del gioco sono impostate all’interno dell’[inizializzatore](glossary://initialization) di `GameModel`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page3..Paragraph16" = "Prenditi un minuto per osservare il codice. Riesci a prevedere cosa fa ciascuna riga di codice?";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page4..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page4..Paragraph17" = "Per iniziare, il codice crea tre diverse [istanze](glossary://instance) di `GameMove` (mossa di gioco) per Sasso ✊, Carta ✋ e Forbici ✌️.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page4..Paragraph18" = "Ogni `GameMove` contiene un nome, un’icona e un array di altre mosse che può battere. Questo ti consente di capire se una `GameMove` batte un’altra `GameMove` e restituisce un risultato `.win` (vittoria), `.lose` (sconfitta) oppure `.tie` (pareggio).";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page4..Paragraph19" = "Prova a modificare le icone per le mosse `rock` (sasso), `paper` (carta) e `scissors` (forbici) e prova di nuovo il gioco per vedere come cambia.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page5..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page5..Paragraph20" = "Successivamente, il codice imposta le regole per stabilire quale mossa batte un’altra.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page5..Paragraph21" = "Se osservi il codice, contiene solo la logica per Sasso batte Forbici. Ecco perché il gioco non funziona come ti aspetteresti. 🤪";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page5..Paragraph22" = "Inserisci questo frammento di codice per aggiungere le regole per `paper` e `scissors`:";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page5..CodeBlock0" = "/*#-code-walkthrough(gameModel.customizeRules)*/\npaper.beats([rock])\nscissors.beats([paper])\n/*#-code-walkthrough(gameModel.customizeRules)*/\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page5..Paragraph23" = "Prova di nuovo a giocare e controlla se la logica del gioco adesso è corretta.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page6..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page6..Paragraph24" = "Hai piena libertà creativa per personalizzare le regole! Vuoi che Sasso ✊ sia la mossa suprema e fare in modo che batta sia Carta che Forbici?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page6..Paragraph25" = "Se vuoi, prova a modificare la logica cambiando quali mosse battono le altre. Come cambia il gioco?";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page6..CodeBlock1" = "rock.beats([scissors, paper])\n";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page7..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page7..Paragraph26" = "E se aggiungessi una nuova mossa che le batte tutte?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page7..Paragraph27" = "Prova ad aggiungere una nuova mossa autonomamente e personalizza il gioco a tuo piacimento:";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page7..CodeBlock2" = "let panda = GameMove(name: \"panda\", icon: \"🐼\")\npanda.beats([rock,paper,scissors])\nvalidMoves[panda.name] = panda\n";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page8..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page8..Paragraph28" = "Quando hai finito di configurare, riporta le regole alla logica di un gioco Sasso, carta, forbici di base.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page8..Paragraph29" = "Sostituisci tutto il codice nell’inizializzatore con questo codice:";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page8..CodeBlock3" = "let rock = GameMove(name: \"rock\", icon: \"✊\")\nlet paper = GameMove(name: \"paper\", icon: \"✋\")\nlet scissors = GameMove(name: \"scissors\", icon: \"✌️\")\n\nrock.beats([scissors])\npaper.beats([rock])\nscissors.beats([paper])\n\nvalidMoves[rock.name] = rock\nvalidMoves[paper.name] = paper\nvalidMoves[scissors.name] = scissors\n";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page9..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page9..Paragraph30" = "Per ulteriori dettagli su come creare il tuo gioco Sasso, carta, forbici, consulta il libro del playground [Sasso, carta, forbici](x-com-apple-playgrounds://documents?documentId=com.apple.playgrounds.rockpaperscissors.edition4).";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..title" = "Utilizzare l’apprendimento automatico per riconoscere i gesti";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..title" = "Concetti fondamentali dell’apprendimento automatico";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Paragraph31" = "Scopri in che modo l’apprendimento automatico effettua previsioni a partire dai dati.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page10..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page10..Paragraph32" = "L’[apprendimento automatico](glossary://machine%20learning) è il processo attraverso il quale si può “insegnare” ai computer, come iPad o il Mac, a formulare ipotesi ragionate fornendo loro molti esempi o dati.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page10..Paragraph33" = "Dal momento che sono molto intelligenti (🧠), gli umani possono vedere anche solo pochi esempi di pose delle mani e capire immediatamente la differenza tra ✊ e ✌️. Un computer, invece, richiede molti esempi di pose delle mani per identificarle.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page10..Paragraph34" = "Questo perché un computer ha bisogno di tanti dati per identificare e distinguere le caratteristiche significative di tali pose, una cosa che il cervello umano riesce a fare piuttosto facilmente.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page11..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page11..Paragraph35" = "Per utilizzare l’apprendimento automatico nella tua app, utilizzerai i framework [CreateML](doc://com.apple.documentation/documentation/createml) e [CoreML](doc://com.apple.documentation/documentation/coreml).";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page12..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page12..Paragraph36" = "La tua app Sasso, carta, forbici utilizza la [classificazione](glossary://classification) delle immagini per riconoscere le diverse pose mostrate nella fotocamera.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page12..Paragraph37" = "La “classificazione” è un tipo di algoritmo di apprendimento automatico che categorizza esempi da un insieme di dati in vari gruppi. Utilizzerai [MLHandPoseClassifier](doc://com.apple.documentation/documentation/createml/mlhandposeclassifier) per classificare diverse pose (✊, ✋ e ✌️) da uno streaming di immagini dalla fotocamera.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page13..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page13..Paragraph38" = "Per creare un [modello di apprendimento automatico](glossary://machine%20learning%20model), devi fornire al classificatore una grande quantità di dati, in questo caso, immagini. Questo processo prende il nome di [addestramento](glossary://training) del modello di apprendimento automatico, perché gli stai insegnando a riconoscere diverse cose.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page14..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page14..Paragraph39" = "Puoi considerare un modello di apprendimento automatico come il cervello di una macchina e tutte le competenze che possiede su un certo tipo di schema (in questo caso, pose delle mani).";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page15..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page15..Paragraph40" = "Un modello di apprendimento automatico acquisisce informazioni come input, quindi produce un’ipotesi ragionata su ciò che tali informazioni rappresentano. Questa operazione è chiamata [previsione](glossary://prediction).";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page16..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page16..Paragraph41" = "Considera le differenze tra le pose delle mani in Sasso, carta, forbici.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page16..Paragraph42" = "Ad esempio, una distinzione importante tra la posa Sasso (✊) e la posa Forbici (✌️) è che tutte le pose ✌️ hanno l’indice e il medio sollevati, mentre ✊ non ha nessun dito sollevato. Gli umani senza disabilità visive sono in grado di elaborare tale informazione visivamente attraverso gli occhi.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page16..Paragraph43" = "I computer sono simili in questo senso: anche loro possono elaborare informazioni visivamente, però le vedono come un array 2D di pixel, piuttosto che come una mano o come un albero.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page17..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page17..Paragraph44" = "Nella tua app, la fotocamera funge da occhi per la macchina. Puoi utilizzare i dati immagine dalla fotocamera come input per il modello `HandPoseMLModel`. Il modello utilizza questi dati per identificare i diversi tipi di pose delle mani.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page18..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page18..Paragraph45" = "Il framework [Vision](doc://com.apple.documentation/documentation/vision) facilita all’app il compito di convertire i dati immagine della fotocamera in qualcosa che può essere compreso dal modello di apprendimento automatico.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page19..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page19..Paragraph46" = "Ogni volta che l’inquadratura della fotocamera si aggiorna, l’app raccoglie osservazioni [VNHumanHandPoseObservations](doc://com.apple.documentation/documentation/vision/vnhumanhandposeobservation) dal buffer dei pixel dell’inquadratura.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page20..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page20..Paragraph47" = "Quindi, il framework [Vision](doc://com.apple.documentation/documentation/vision) estrae un array [MLMultiArray](doc://com.apple.documentation/documentation/coreml/mlmultiarray) da tali osservazioni.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page20..Paragraph48" = "Un’istanza di `MLMultiArray` fornisce coordinate di posizione che, in questo caso, corrispondono alle articolazioni principali della mano, dando al modello di apprendimento automatico un ricco insieme di dati sulle posizioni delle mani che può utilizzare per addestrarsi.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page21..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page21..Paragraph49" = "Nel tuo gioco Sasso, carta, forbici, se il modello riceve correttamente un input, riceverai come output un’etichetta e un valore di [accuratezza](glossary://confidence), o probabilità, di tale etichetta. Ad esempio, se decidi di effettuare la mossa ✌️, il modello potrebbe interpretarla 80 percento Forbici, 15 percento Sasso e 5 percento Carta. 🤷‍♀️";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..Paragraph50" = "Al di là della classificazione delle immagini, puoi utilizzare l’apprendimento automatico nella tua vita quotidiana.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..Paragraph51" = "Ecco alcuni esempi; riesci a pensare ad altri?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..UnorderedList1..Paragraph52" = "Face ID e Touch ID sui tuoi dispositivi Apple";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..UnorderedList1..Paragraph53" = "Assistenti vocali, come Siri";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..UnorderedList1..Paragraph54" = "Contenuti consigliati su servizi di streaming";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..UnorderedList1..Paragraph55" = "Il pannello “Per te” nell’app Foto";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..title" = "Addestrare il modello di apprendimento automatico";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Paragraph56" = "Utilizza un insieme di dati già esistente per creare un modello di apprendimento automatico tutto tuo.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page23..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page23..Paragraph57" = "È giunto il momento di addestrare il tuo primo modello di apprendimento automatico!";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page23..Paragraph58" = "Inizierai ad addestrare il modello utilizzando un insieme di dati già esistente contenente immagini etichettate di pose delle mani.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page24..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page24..OrderedList0..Paragraph59" = "Nell’anteprima, scegli un [insieme di dati di addestramento](glossary://training%20dataset) (Training Dataset) esistente. Un insieme di dati di addestramento è un insieme di dati su cui il modello si addestra per generare le proprie previsioni. In questo caso, l’insieme di dati è una raccolta di immagini che mostra varie pose di mani.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page24..OrderedList0..Paragraph60" = "Dai al tuo modello di apprendimento automatico un nome, ad asempio, `firstMLModel`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page24..OrderedList0..Paragraph61" = "Facoltativamente, scegli un [insieme di dati di convalida](glossary://validation%20dataset) (Validation Dataset) esistente utilizzando il selettore sotto l’insieme di dati di addestramento. L’insieme di dati di convalida non è usato per addestrare il modello, bensì per fornire una stima di quanto sono corrette le sue previsioni.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page24..Paragraph62" = "Se vuoi dare un’occhiata alle immagini dell’insieme di dati, tocca ciascuna cella. Questo ti porterà su una griglia di immagini per l’insieme di dati di quella particolare posa della mano.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page25..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page25..Paragraph63" = "Adesso che hai selezionato l’insieme di dati di addestramento e hai dato un nome al modello di apprendimento automatico, tocca Train (addestra) nell’angolo in alto a destra dell’anteprima.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page25..Paragraph64" = "Importante: non uscire da questa anteprima o dal file attuale mostrato nell’editor della sorgente, perché potresti perdere il progresso della sessione di addestramento.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page25..Paragraph65" = "La durata di una sessione di addestramento dipende dal numero di immagini nell’insieme di dati di addestramento. Non essere impaziente, può volerci un po’ di tempo! Con un insieme di dati di addestramento di 21 immagini, possono volerci tra i 2 e i 5 minuti, a seconda del dispositivo.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page26..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page26..Paragraph66" = "Durante la sessione di addestramento, nella console verranno mostrate alcune metriche. Apri la console toccando il pulsante nell’angolo in basso a sinistra nell’editor della sorgente e leggi le metriche di elaborazione per farti un’idea migliore del modo in cui il modello si addestra e testa la propria accuratezza.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page27..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page27..Paragraph67" = "Una volta che la sessione di addestramento sarà finita e dopo aver salvato il modello, è il momento di testarlo in una vera partita di Sasso, carta, forbici!";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..title" = "Integrare il modello di apprendimento automatico nel gioco";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Paragraph68" = "Testa il tuo modello in tempo reale!";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page28..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page28..Paragraph69" = "Per testare il tuo modello di apprendimento automatico, scambia il tuo regolare gioco Sasso, carta, fobici con uno che usa l’apprendimento automatico per identificare la posa che usi nella mano.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page29..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page29..Paragraph70" = "Sostituisci la porzione `GameView.environmentObject(appModel)` con il seguente codice:";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page29..CodeBlock4" = "MLGameView()\n    .environmentObject(appModel)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page29..Paragraph71" = "Assicurati di eliminare il codice `GameView()` esistente evidenziato, altrimenti vedrai più di una finestra che mostra il gioco.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page30..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page30..Paragraph72" = "Attualmente, il gioco Sasso, carta, forbici utilizza il modello di apprendimento automatico integrato di default. Per utilizzare quello appena creato, aggiungi questo codice:";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page30..CodeBlock5" = ".task {\n    await appModel.useLastTrainedModel()\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page31..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page31..Paragraph73" = "Per attivare il pulsante Gioca, mostra una posa della mano alla fotocamera. Se guardi nell’angolo in basso a destra della fotocamera, noterai una vista in cui il modello di apprendimento automatico prevede in tempo reale la tua mossa mentre muovi la mano.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page31..Paragraph74" = "Quando è tutto pronto, tocca Gioca per bloccare la tua mossa e il computer genererà una mossa. Divertiti e prova a fare qualche partita!";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page32..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page32..Paragraph75" = "Dopo aver provato qualche volta il gioco Sasso, carta, forbici, prova a rispondere alle seguenti domande:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page32..UnorderedList2..Paragraph76" = "Il modello riconosce correttamente le pose della mano?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page32..UnorderedList2..Paragraph77" = "Quali pose sembra riuscire a identificare meglio?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page32..UnorderedList2..Paragraph78" = "Quali pose fa più fatica a identificare?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page32..Paragraph79" = "Nella prossima attività, scoprirai come migliorare il tuo modello di apprendimento automatico e come eseguirne il debug.";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..title" = "Eseguire il debug del modello di apprendimento automatico";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..title" = "Visualizzare ciò che vede la fotocamera disegnando una sovrapposizione di nodi";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Paragraph80" = "Visualizza l’array 2D dei nodi estratti dal framework [Vision](doc://com.apple.documentation/documentation/vision).";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page33..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page33..Paragraph81" = "Prima di iniziare il debug del modello, è utile farsi un’idea più approfondita dei dati che esso utilizza per generare le proprie previsioni.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page33..Paragraph82" = "Per farlo, visualizzerai l’array 2D dei nodi generati dal framework [Vision](doc://com.apple.documentation/documentation/vision) quando interpreta i dati immagine. I nodi che visualizzi corrispondono alle articolazioni della tua mano. ✋";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page34..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page34..Paragraph83" = "Per creare la visualizzazione, prenderai l’array `MLMultiArray` che Vision estrae dall’inquadratura di un’immagine e lo trasformerai in coordinate sovrapposte al mirino della fotocamera.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page35..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page35..Paragraph84" = "Aggiungi questa [sovrapposizione](doc://com.apple.documentation/documentation/SwiftUI/View/overlay(alignment:content:)) al codice di `ViewFinderView` per mostrare la visualizzazione dei nodi quando `showNodes` è `true`:";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page35..CodeBlock6" = ".overlay(alignment: .center)  {\n    if showNodes {\n        HandPoseNodeOverlay(size: previewImageSize,\n                            points: handJointPoints)\n    }\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..Paragraph85" = "Dopo aver aggiunto il frammento di codice, prova a posizionare la mano davanti alla fotocamera e osserva in che modo i nodi vengono fatti corrispondere:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..UnorderedList3..Paragraph86" = "I nodi sono accurati? Vengono fatti corrispondere alle articolazioni della mano?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..UnorderedList3..Paragraph87" = "Vedi dei nodi su altri oggetti che non sono mani? Secondo te, perché accade?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..UnorderedList3..Paragraph88" = "Prova a posizionare due mani nella stessa inquadratura. Dove vengono posizionati i nodi?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..UnorderedList3..Paragraph89" = "Mentre sposti la mano, cosa noti riguardo alla posizione dei nodi?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..Paragraph90" = "Stai vedendo una visualizzazione in tempo reale dei dati che il modello di apprendimento automatico utilizza per prevedere quale mossa viene mostrata.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..Paragraph91" = "Immagina se la mano fosse parzialmente coperta nell’immagine. Cosa pensi che accadrebbe all’accuratezza delle previsioni per quella posa? L’attività successiva usa `DebugModeView` per valutare il modello di apprendimento automatico ed eseguirne il debug.";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..title" = "Testare il modello";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Paragraph92" = "Il modello di apprendimento automatico sta identificando in modo accurato le diverse pose delle mani?";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page37..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page37..Paragraph93" = "Puoi utilizzare `DebugModeView` per valutare il modello di apprendimento automatico ed eseguirne il debug.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page38..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page38..Paragraph94" = "In questa vista, avrai una vista fotocamera e un [grafico](doc://com.apple.documentation/documentation/charts) a barre che mostra in tempo reale l’accuratezza del modello di apprendimento automatico nelle sue [previsioni](glossary://prediction).";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page38..Paragraph95" = "Nell’anteprima, mostra un paio di pose della mano alla fotocamera e osserva in che modo cambia la previsione. Per quale posa ottieni un’accuratezza maggiore?";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page39..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page39..Paragraph96" = "Prova a rispondere alla seguenti domande:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page39..UnorderedList4..Paragraph97" = "Come cambia il grafico a barre quando mostri alla fotocamera una posa Carta (✋) e ruoti la mano di 90 gradi?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page39..UnorderedList4..Paragraph98" = "Cosa accade quando avvicini la mano alla fotocamera o la allontani?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page39..Paragraph99" = "Ricorda, l’accuratezza di un modello di apprendimento automatico dipende dai dati di addestramento che gli fornisci. Prenditi un minuto per ricontrollare i dati di addestramento che hai usato. Ci sono esempi di quei tipi di immagine? Se non ci sono, il modello potrebbe non essere in grado di prevedere accuratamente cosa sono.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page40..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page40..Paragraph100" = "Un modo per risolvere questi problemi ancor prima di iniziare a usare il modello è fornire questi [casi limite](glossary://edge%20case) come parte dell’insieme di dati di convalida.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page40..Paragraph101" = "Questa è un’ottima maniera per trovare dati con etichette errate nelle fasi iniziali del processo di apprendimento automatico. Ciò garantisce che il modello non stia semplicemente memorizzando esempi di addestramento, ma stia prevedendo in modo accurato le pose della mano che gli mostri.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page40..Paragraph102" = "Considera questi casi limite quando crei un insieme di dati tutto tuo per lo sviluppo di modelli di apprendimento automatico in futuro.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page41..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page41..Paragraph103" = "Mentre esegui il debug del modello, scoprirai che anche determinate condizioni della fotocamera (come illuminazione, angolazione e messa a fuoco) influenzano le sue previsioni.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page41..Paragraph104" = "Ripensa all’insieme di dati per l’addestramento: contiene esempi con una vasta gamma di illuminazioni, angolazioni e messe a fuoco? Se la risposta è no, il modello potrebbe presentare un [sovradattamento](glossary://overfitting) alla configurazione specifica di un solo ambiente.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page42..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page42..Paragraph105" = "Inoltre, il modello potrebbe funzionare bene per te, ma non altrettanto bene per una persona amica. Anche questo potrebbe essere il risultato di un [sovradattamento](glossary://overfitting).";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page42..Paragraph106" = "Ad esempio, il tuo modello di apprendimento automatico potrebbe riconoscere meglio una tonalità di pelle rispetto a un’altra, prevedendo così in modo più accurato alcune pose rispetto ad altre in altre tonalità di pelle. Questo fenomeno è conosciuto come sbilanciamento, perché favorisce un tipo di informazione rispetto a un’altra.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page43..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page43..Paragraph107" = "Il tuo modello ha effetto solo su questo gioco, ma cosa accadrebbe se implementassi il tuo Sasso, carta, forbici su ogni iPhone in tutto il mondo? Uno sbilanciamento ingiusto causato dal sovradattamento è un problema serio nei sistemi pensati per essere utilizzati da chiunque.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page43..Paragraph108" = "È importante pensare a come evitare lo sbilanciamento quando crei un insieme di dati e addestri il tuo modello di apprendimento automatico.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page44..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page44..Paragraph109" = "Ecco alcuni modi per mitigare lo sbilanciamento:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page44..UnorderedList5..Paragraph110" = "Assicurati che gli insiemi di dati per l’addestramento e per la convalida siano assortiti ed evita il [sovradattamento](glossary://overfitting) a un singolo gruppo o situazione.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page44..UnorderedList5..Paragraph111" = "Considera e affronta i casi limite che l’utente potrebbe incontrare.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page44..UnorderedList5..Paragraph112" = "Ricorda che lo sviluppo di un modello di apprendimento automatico è un processo iterativo. Crea più insiemi di dati e addestra più modelli di apprendimento automatico! Sei tu a decidere quando il modello è sufficientemente adatto alla tua app.";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..title" = "Creare un insieme di dati personalizzato per l’apprendimento automatico";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..title" = "Raccogliere e organizzare dati per il tuo modello";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Paragraph113" = "Suggerimenti per creare un insieme di dati personale per un modello di apprendimento automatico.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page45..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page45..Paragraph114" = "I computer sono ottimi a rilevare schemi ripetitivi nei dati se ricevono abbastanza esempi. Per creare un modello di apprendimento automatico per le pose delle mani avrai bisogno di varie immagini di mani.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page45..Paragraph115" = "Raccoglierai immagini di pose delle mani e le etichetterai con le mosse del gioco: Sasso ✊, Carta ✋ e Forbici✌️. Queste immagini etichettate sono gli unici esempi che il “cervello” della macchina abbia mai visto, quindi assicurati che siano rappresentative dell’aspetto di ciascuna posa delle mani.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..Paragraph116" = "Spesso gli ingegneri che si occupano di apprendimento automatico devono ricontrollare gli insiemi di dati per assicurarsi che siano di buona qualità. Questo processo viene chiamato [pulizia dei dati](glossary://data%20cleaning) ed è uno dei passaggi più importanti nell’apprendimento automatico perché influisce in modo sostanziale sulle prestazioni di un modello.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..Paragraph117" = "Alcuni esempi di pulizia dei dati per il tuo modello di apprendimento automatico per le pose delle mani includono:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..UnorderedList6..Paragraph118" = "Assicurarsi che nell’immagine sia presente la posa di una mano";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..UnorderedList6..Paragraph119" = "Assicurarsi che la posa della mano non sia troppo lontana dalla fotocamera e non sia troppo vicina nell’inquadratura";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..UnorderedList6..Paragraph120" = "Assicurarsi che le immagini non siano accidentalmente etichettate in modo errato, come l’immagine di una Roccia etichettata accidentalmente come Forbici";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..UnorderedList6..Paragraph121" = "Assicurarsi che non ci siano foto duplicate nell’insieme di dati";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..UnorderedList6..Paragraph122" = "Assicurarsi che approssimativamente sia presente uno stesso numero di immagini per ciascun gesto";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..title" = "Aumentare in maniera artificiale le dimensioni dell’insieme di dati di addestramento";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page47..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page47..Paragraph123" = "Se non intendi utilizzare molte immagini per addestrare il modello, non c’è problema. Un modo per aumentare l’insieme di dati di addestramento è utilizzare [opzioni di trasformazione delle immagini](doc://com.apple.documentation/documentation/createml/mlimageclassifier/imageaugmentationoptions). Aggiungere tali opzioni, come `.rotate` (ruota), `.translate` (trasla) e `.horizontallyFlip` (capovolgi orizzontalmente), prima di una sessione di addestramento, crea quattro nuove immagini per opzione utilizzata. Ad esempio, se utilizzi l’opzione `.rotate`, vengono generate quattro nuove immagini con un angolo di rotazione casuale applicato a ognuna di esse.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page48..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page48..Paragraph124" = "Puoi aumentare i dati di addestramento aggiungendo queste tre opzioni: `.rotate`, `.translate`, `.horizontallyFlip`.";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page48..CodeBlock7" = "/*#-code-walkthrough(imageAugment.addedCode)*/\naugmentationParameters.insert(.rotate)\naugmentationParameters.insert(.translate)\naugmentationParameters.insert(.horizontallyFlip)\n/*#-code-walkthrough(imageAugment.addedCode)*/\n";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page49..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page49..Paragraph125" = "Adesso, quando addestri un nuovo modello di apprendimento automatico, la sessione di addestramento utilizza automaticamente queste trasformazioni per migliorare le previsioni.";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..title" = "Raccogliere un insieme di dati personalizzato";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Paragraph126" = "Personalizza un modello di apprendimento automatico utilizzando immagini di pose delle mani tutte tue.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page50..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page50..Paragraph127" = "Nell’anteprima, tocca il pulsante Aggiungi (+) nell’angolo in alto a destra per creare un nuovo insieme di dati. Si aprirà una nuova vista di addestramento.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page51..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page51..Paragraph128" = "Puoi aggiungere nuove immagini all’insieme di dati facendo clic su ogni categoria. Tocca il pulsante Aggiungi per aprire una vista [PhotosPicker](doc://com.apple.documentation/documentation/photokit/photospicker) e accedere alle immagini nella libreria fotografica.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page51..Paragraph129" = "Scegli almeno sette immagini per ciascuna categoria.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page52..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page52..Paragraph130" = "Prenditi un momento per ricontrollare l’insieme di dati e ricordati i consigli della guida dettagliata precedente su come perfezionare i tuoi dati. Ci sono immagini che devono essere rimosse dai dati di addestramento? Puoi rimuovere immagini nell’insieme di dati di ciascuna categoria toccando il pulsante Modifica nell’angolo in alto a destra.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page53..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page53..Paragraph131" = "Quando l’insieme di dati ti soddisfa, assegna un nome al modello di apprendimento automatico nel campo di testo della vista di addestramento.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page53..Paragraph132" = "Adesso tocca il pulsante Addestra per addestrare un nuovo modello di apprendimento automatico!";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcompareModels..title" = "Confrontare i modelli di apprendimento automatico";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcompareModels..Paragraph133" = "Adesso hai a disposizione tre modelli di apprendimento automatico. Testali individualmente e osserva le loro similarità e differenze.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcompareModels..Page54..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcompareModels..Page54..Paragraph134" = "Tocca il pulsante “Modelli apprendimento automatico” (ML Models) per visualizzare i modelli disponibili. Se nell’elenco sono presenti più modelli, toccane uno non selezionato e torna alla vista di debug per visualizzarne le prestazioni.";
+

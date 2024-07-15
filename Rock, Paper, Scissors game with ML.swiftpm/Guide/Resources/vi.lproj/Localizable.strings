@@ -1,0 +1,651 @@
+/* Title of Guidebook */
+"GuideBook..title" = "Bắt đầu với học máy";
+
+/* The title of the Welcome Message for the GuideBook */
+"GuideBook..WelcomeMessageGet Started with Machine Learning..title" = "Bắt đầu với học máy";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..WelcomeMessageGet Started with Machine Learning..Paragraph0" = "Chào mừng bạn! Trong mẫu này, bạn sẽ biến đổi một trò chơi Kéo Búa Bao thành một ứng dụng học máy (ML) đầy đủ chức năng.";
+
+/* Title of step named Get Started with Machine Learning */
+"GuideBook..Guide0..StepGet Started with Machine Learning..title" = "Bắt đầu với học máy";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..Paragraph1" = "![](ML-intro@2x.png)";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..Paragraph2" = "Bạn đã từng chơi trò chơi Kéo Búa Bao trước đây chưa? Đó là một trò chơi gồm hai người chơi mà bạn có thể chọn một trong ba hành động, mỗi hành động sẽ thắng hành động còn lại:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..UnorderedList0..Paragraph3" = "Búa ✊ thắng Kéo ✌️";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..UnorderedList0..Paragraph4" = "Bao ✋ thắng Búa ✊";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..UnorderedList0..Paragraph5" = "Kéo ✌️ thắng Bao ✋";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..Paragraph6" = "Các quy tắc đủ dễ để bạn có thể dạy máy tính cách chơi. Nhưng bạn cần làm những gì để dạy cho iPad hoặc máy Mac nhận ra tư thế bàn tay của mình, ví dụ như ✊, ✋ hoặc ✌️?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..Paragraph7" = "Trong mẫu này, bạn sẽ sử dụng một trò chơi Kéo Búa Bao hiện có và nâng cấp lên thành một trò chơi được hỗ trợ công nghệ học máy tuyệt vời với sự trợ giúp của camera và một [mô hình học máy](glossary://machine%20learning%20model). Đã đến lúc bắt đầu!";
+
+/* title of the guide button */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..GuideButtonStart Walkthrough..title" = "Bắt đầu hướng dẫn";
+
+/* accessibility description for guide button */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..GuideButtonStart Walkthrough..description" = "Mô tả AX cho nút";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..title" = "Hoàn thành logic trò chơi";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..title" = "Thêm logic trò chơi còn lại🕹";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Paragraph8" = "Tìm hiểu cách tạo ra một trò chơi Kéo Búa Bao trong Swift.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page0..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page0..Paragraph9" = "Trong bản xem trước, bạn có thể nhìn thấy một trò chơi Kéo Búa Bao cơ bản. Trong phiên bản trò chơi này, bạn có thể chọn nước đi của bạn bằng cách sử dụng các nút mũi tên trái và phải.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page0..Paragraph10" = "Chạm vào Chơi cho iPad hoặc máy Mac của bạn để tạo ra một nước đi. Hãy dành giây lát và thử chơi trò chơi.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page0..Paragraph11" = "Bạn có nhận thấy bất kỳ điều gì không đúng với trò chơi không?";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page1..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page1..Paragraph12" = "Bạn có thể đã nhận ra rằng các quy tắc trò chơi đã bị phá vỡ một chút! Đừng lo, bạn sẽ sớm khắc phục việc này.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page2..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page2..Paragraph13" = "Một [mô hình dữ liệu](glossary://data%20model), được gọi là `GameModel`, cung cấp `RPSGameView`, [chế độ xem](glossary://view) trò chơi Kéo Búa Bao có nhiệm vụ theo dõi trạng thái trò chơi, kết quả, nước đi của bạn và nước đi của máy tính.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page2..Paragraph14" = "Tiếp theo, bạn sẽ thiết lập logic của trò chơi trong `GameModel`.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page3..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page3..Paragraph15" = "Các quy tắc trò chơi được đặt bên trong [trình khởi tạo](glossary://initialization) `GameModel`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page3..Paragraph16" = "Hãy dành giây lát để xem qua mã này. Bạn có thể dự đoán được chức năng của từng dòng mã không?";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page4..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page4..Paragraph17" = "Đầu tiên, mã tạo ra ba [thể hiện](glossary://instance) `GameMove` khác nhau cho Búa ✊, Bao ✋ và Kéo ✌️.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page4..Paragraph18" = "Một `GameMove` chứa tên, biểu tượng và một dãy các nước đi khác có thể thắng. Việc này cho phép bạn chỉ ra liệu một `GameMove` có thắng một `GameMove` khác không và trả về một kết quả là `.win`, `.lose` hoặc `.tie`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page4..Paragraph19" = "Thử thay đổi biểu tượng cho các nước đi `rock`, `paper` và `scissors` và chơi lại trò chơi để xem những sự thay đổi.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page5..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page5..Paragraph20" = "Tiếp theo, trò chơi đặt các quy tắc cho nước đi nào thắng một nước đi khác.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page5..Paragraph21" = "Nếu bạn nhìn vào mã thì mã chỉ có logic cho Búa thắng Kéo. Đó là lý do tại sao trò chơi bị phá vỡ. 🤪";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page5..Paragraph22" = "Hãy chèn đoạn mã này để thêm các quy tắc cho `paper` và `scissors`:";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page5..CodeBlock0" = "/*#-code-walkthrough(gameModel.customizeRules)*/\npaper.beats([rock])\nscissors.beats([paper])\n/*#-code-walkthrough(gameModel.customizeRules)*/\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page5..Paragraph23" = "Thử chơi lại trò chơi và xem việc đó có khắc phục được logic trò chơi của bạn không.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page6..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page6..Paragraph24" = "Bạn hoàn toàn tự do sáng tạo trong việc tùy chỉnh những quy tắc này! Bạn có muốn Búa ✊ trở thành nước đi cao cấp và thắng bao và kéo không?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page6..Paragraph25" = "Nếu vậy, hãy thử thay đổi logic bằng cách sửa đổi nước đi nào thắng các nước đi khác. Việc này thay đổi trò chơi của bạn như thế nào?";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page6..CodeBlock1" = "rock.beats([scissors, paper])\n";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page7..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page7..Paragraph26" = "Nếu bạn đã thêm một nước đi mới thắng mọi nước đi thì sao?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page7..Paragraph27" = "Thử tự mình thêm một nước đi mới và tùy chỉnh trò chơi theo nội dung mong muốn của bạn:";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page7..CodeBlock2" = "let panda = GameMove(name: \"panda\", icon: \"🐼\")\npanda.beats([rock,paper,scissors])\nvalidMoves[panda.name] = panda\n";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page8..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page8..Paragraph28" = "Khi bạn hoàn tất định cấu hình trò chơi, hãy thay đổi các quy tắc trở lại thành logic trò chơi Kéo Búa Bao cơ bản.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page8..Paragraph29" = "Thay thế tất cả mã trong trình khởi tạo bằng mã này:";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page8..CodeBlock3" = "let rock = GameMove(name: \"rock\", icon: \"✊\")\nlet paper = GameMove(name: \"paper\", icon: \"✋\")\nlet scissors = GameMove(name: \"scissors\", icon: \"✌️\")\n\nrock.beats([scissors])\npaper.beats([rock])\nscissors.beats([paper])\n\nvalidMoves[rock.name] = rock\nvalidMoves[paper.name] = paper\nvalidMoves[scissors.name] = scissors\n";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page9..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page9..Paragraph30" = "Để biết thêm chi tiết về cách tạo ra trò chơi Kéo Búa Bao của riêng bạn, hãy xem sách playground [Kéo Búa Bao](x-com-apple-playgrounds://projects?contentId=com.apple.playgrounds.rockpaperscissors.edition4).";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..title" = "Sử dụng học máy để nhận biết các cử chỉ";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..title" = "Tìm hiểu các nguyên tắc cơ bản của học máy";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Paragraph31" = "Tìm hiểu cách học máy đưa ra các dự đoán từ dữ liệu.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page10..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page10..Paragraph32" = "[Học máy](glossary://machine%20learning) là quá trình mà bạn có thể “dạy” các máy tính, như iPad hoặc máy Mac, để đưa ra các phán đoán được huấn luyện bằng cách cung cấp cho chúng nhiều ví dụ hoặc dữ liệu.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page10..Paragraph33" = "Bởi vì con người rất thông minh (🧠) nên họ chỉ cần nhìn thấy rất ít ví dụ về các tư thế bàn tay và ngay lập tức chỉ ra sự khác biệt giữa ✊ và ✌️. Tuy nhiên, máy tính yêu cầu nhiều ví dụ về những tư thế bàn tay này để có thể nhận dạng đúng.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page10..Paragraph34" = "Đó là vì máy tính yêu cầu nhiều dữ liệu để nhận dạng và phân biệt các đặc điểm có nghĩa của những tư thế bàn tay đó, một việc mà bộ não người có thể thực hiện khá dễ dàng.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page11..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page11..Paragraph35" = "Để sử dụng học máy trong ứng dụng của mình, bạn sẽ sử dụng các chương trình khung [CreateML](doc://com.apple.documentation/documentation/createml) và [CoreML](doc://com.apple.documentation/documentation/coreml).";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page12..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page12..Paragraph36" = "Ứng dụng Kéo Búa Bao của bạn sử dụng [phân loại](glossary://classification) hình ảnh để nhận biết các tư thế bàn tay khác nhau được hiển thị trong camera.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page12..Paragraph37" = "“Phân loại” là một kiểu thuật toán học máy có chức năng phân loại các ví dụ từ một tập dữ liệu thành các nhóm khác nhau. Bạn sẽ sử dụng [MLHandPoseClassifier](doc://com.apple.documentation/documentation/createml/mlhandposeclassifier) để phân loại các tư thế bàn tay khác nhau (✊, ✋ và ✌️) từ một kho hình ảnh từ camera.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page13..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page13..Paragraph38" = "Để tạo ra một [mô hình học máy](glossary://machine%20learning%20model), bạn cần cung cấp một lượng lớn dữ liệu — trong trường hợp này là hình ảnh — cho bộ phân loại của mình. Đây được gọi là [huấn luyện](glossary://training) mô hình ML vì bạn đang dạy mô hình cách nhận biết những thứ khác nhau.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page14..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page14..Paragraph39" = "Bạn có thể hình dung mô hình học máy giống như bộ não của máy và tất cả kiến thức mà máy đó biết về một loại khuôn mẫu nhất định – trong trường hợp này là các tư thế bàn tay.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page15..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page15..Paragraph40" = "Mô hình học máy lấy thông tin dưới dạng đầu vào, sau đó tạo ra một phán đoán được huấn luyện về việc thông tin đó biểu thị điều gì. Đây được gọi là một [dự đoán](glossary://prediction).";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page16..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page16..Paragraph41" = "Cân nhắc sự khác biệt giữa các tư thế bàn tay trong Kéo Búa Bao.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page16..Paragraph42" = "Ví dụ: một sự khác biệt lớn giữa tư thế búa (✊) và tư thế kéo (✌️) là tất cả các tư thế ✌️ đều cho thấy ngón trỏ và ngón giữa giơ lên, trong khi ✊ không có ngón tay nào giơ lên. Những người không bị suy giảm thị lực đều có thể xử lý thông tin đó trực quan bằng mắt.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page16..Paragraph43" = "Các máy tính cũng hoạt động tương tự như cách này – chúng cũng có thể xử lý thông tin trực quan, mặc dù chúng nhìn thông tin dưới dạng một dãy điểm ảnh 2D, thay vì dưới dạng một bàn tay hoặc cái cây.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page17..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page17..Paragraph44" = "Camera trong ứng dụng của bạn chính là mắt của máy. Bạn có thể sử dụng dữ liệu hình ảnh từ camera dưới dạng đầu vào cho `HandPoseMLModel`. Mô hình ML của bạn sử dụng dữ liệu này để nhận dạng các kiểu tư thế bàn tay khác nhau.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page18..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page18..Paragraph45" = "[Chương trình khung Vision](doc://com.apple.documentation/documentation/vision) giúp ứng dụng của bạn dễ dàng chuyển đổi dữ liệu hình ảnh của camera thành nội dung mà mô hình ML có thể hiểu được.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page19..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page19..Paragraph46" = "Mỗi lần khung hình của camera cập nhật, ứng dụng của bạn thu thập [VNHumanHandPoseObservations](doc://com.apple.documentation/documentation/vision/vnhumanhandposeobservation) từ bộ đệm điểm ảnh của khung hình.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page20..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page20..Paragraph47" = "Sau đó, [Vision](doc://com.apple.documentation/documentation/vision) trích xuất một [MLMultiArray](doc://com.apple.documentation/documentation/coreml/mlmultiarray) từ những quan sát này.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page20..Paragraph48" = "Một thể hiện `MLMultiArray` cung cấp các tọa độ vị trí ánh xạ (trong trường hợp này) đến các khớp bàn tay chính, cung cấp cho mô hình ML của bạn một tập dữ liệu vị trí bàn tay phong phú mà mô hình đó sử dụng để tự huấn luyện.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page21..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page21..Paragraph49" = "Trong trò chơi Kéo Búa Bao của bạn, nếu mô hình nhận được đầu vào thành công thì bạn sẽ nhận được một đầu ra là một nhãn và [độ tin cậy](glossary://confidence) hoặc xác suất của nhãn đó. Ví dụ: nếu bạn quyết định làm tư thế với nước đi ✌️ thì mô hình có thể diễn giải là 80% kéo, 15% búa và 5% bao. 🤷‍♀️";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..Paragraph50" = "Ngoài việc phân loại hình ảnh, bạn có thể sử dụng học máy trong cuộc sống thường ngày.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..Paragraph51" = "Đây là một số ví dụ; bạn có thể nghĩ được bất kỳ ví dụ nào khác không?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..UnorderedList1..Paragraph52" = "Face ID và Touch ID trên các thiết bị Apple của bạn";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..UnorderedList1..Paragraph53" = "Trợ lý giọng nói, như Siri";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..UnorderedList1..Paragraph54" = "Các đề xuất được đưa ra trên các thiết bị truyền phát";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..UnorderedList1..Paragraph55" = "Tab “Cho bạn” trong ứng dụng Ảnh";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..title" = "Huấn luyện mô hình ML của bạn";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Paragraph56" = "Sử dụng một tập dữ liệu có sẵn để tạo ra mô hình ML của riêng bạn.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page23..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page23..Paragraph57" = "Bây giờ là lúc huấn luyện mô hình ML đầu tiên của bạn!";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page23..Paragraph58" = "Bạn sẽ bắt đầu bằng cách sử dụng tập dữ liệu có sẵn gồm các hình ảnh tư thế bàn tay đã gắn nhãn để huấn luyện mô hình.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page24..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page24..OrderedList0..Paragraph59" = "Trong bản xem trước của bạn, hãy chọn một [tập dữ liệu huấn luyện](glossary://training%20dataset) hiện có. Tập dữ liệu huấn luyện là tập dữ liệu mà mô hình sử dụng để huấn luyện nhằm tạo ra các dự đoán. Trong trường hợp này, tập dữ liệu là một tập hợp các hình ảnh cho thấy các tư thế bàn tay khác nhau.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page24..OrderedList0..Paragraph60" = "Đặt tên cho mô hình học máy của bạn; ví dụ như `firstMLModel`.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page24..OrderedList0..Paragraph61" = "Tùy ý chọn một [tập dữ liệu xác thực](glossary://validation%20dataset) hiện có bằng cách sử dụng bộ chọn bên dưới tập dữ liệu huấn luyện của bạn. Tập dữ liệu xác thực không được sử dụng để huấn luyện mô hình. Thay vào đó, tập dữ liệu xác thực được sử dụng để cung cấp ước tính về độ chính xác của các dự đoán.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page24..Paragraph62" = "Nếu bạn muốn xem xét hình ảnh của tập dữ liệu, hãy chạm vào từng ô tập dữ liệu riêng lẻ. Thao tác này điều hướng bạn đến một lưới hình ảnh cho tập dữ liệu tư thế bàn tay cụ thể đó.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page25..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page25..Paragraph63" = "Bây giờ, bạn đã chọn tập dữ liệu huấn luyện và đặt tên cho mô hình học máy của mình, hãy chạm vào Huấn luyện ở góc trên cùng bên phải của bản xem trước.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page25..Paragraph64" = "Quan trọng: Không để bản xem trước này hoặc tệp hiện tại hiển thị trong trình sửa nguồn, vì bạn có thể mất tiến trình của phiên huấn luyện.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page25..Paragraph65" = "Độ dài của phiên huấn luyện phụ thuộc vào số lượng hình ảnh trong tập dữ liệu huấn luyện. Hãy kiên nhẫn, quá trình này có thể mất nhiều thời gian! Với một tập dữ liệu huấn luyện gồm 21 hình ảnh, có thể mất từ 2 đến 5 phút tùy theo thiết bị của bạn.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page26..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page26..Paragraph66" = "Trong phiên huấn luyện, bạn sẽ nhìn thấy một vài số liệu trong bảng điều khiển. Mở bảng điều khiển bằng cách chạm vào nút ở góc dưới cùng bên trái phía trên trình sửa nguồn của bạn và đọc qua các số liệu xử lý để hiểu rõ hơn về cách mô hình tự huấn luyện và kiểm tra độ chính xác của mô hình.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page27..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page27..Paragraph67" = "Sau khi phiên huấn luyện kết thúc và bạn đã lưu mô hình, đã đến lúc kiểm tra mô hình của bạn như một phần của trò chơi Kéo Búa Bao thực sự!";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..title" = "Tích hợp mô hình ML của bạn vào trò chơi";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Paragraph68" = "Kiểm tra mô hình của bạn trong thời gian thực!";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page28..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page28..Paragraph69" = "Để kiểm tra mô hình ML của bạn, hãy hoán đổi trò chơi Kéo Búa Bao thông thường của bạn với một trò chơi sử dụng công nghệ học máy để nhận dạng tư thế bàn tay mà bạn sử dụng.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page29..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page29..Paragraph70" = "Thay thế `GameView.environmentObject(appModel)` hiện có bằng mã sau đây:";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page29..CodeBlock4" = "MLGameView()\n    .environmentObject(appModel)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page29..Paragraph71" = "Đảm bảo rằng bạn xóa mã `GameView()` được tô sáng hiện có hoặc bạn sẽ nhìn thấy nhiều cửa sổ hiển thị trò chơi.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page30..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page30..Paragraph72" = "Hiện tại, trò chơi Kéo Búa Bao sử dụng mô hình ML mặc định tích hợp làm mô hình của trò chơi. Để sử dụng mô hình mà bạn vừa tạo ra, hãy thêm mã này:";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page30..CodeBlock5" = ".task {\n    await appModel.useLastTrainedModel()\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page31..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page31..Paragraph73" = "Để kích hoạt nút Chơi, hãy thể hiện một cử chỉ bàn tay trước camera. Nếu bạn nhìn vào góc dưới cùng bên phải của camera thì bạn sẽ thấy một chế độ xem mà mô hình ML dự đoán nước đi của bạn trong thời gian thực khi bạn di chuyển bàn tay của mình.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page31..Paragraph74" = "Khi bạn đã sẵn sàng chơi, hãy chạm vào Chơi để khóa nước đi của bạn và máy tính tạo ra một nước đi. Chúc bạn vui vẻ và thử chơi một vài ván!";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page32..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page32..Paragraph75" = "Sau khi bạn đã chơi trò chơi Kéo Búa Bao dựa trên ML của mình một vài lần, hãy cố gắng trả lời các câu hỏi sau đây:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page32..UnorderedList2..Paragraph76" = "Mô hình có nhận biết chính xác các tư thế bàn tay của bạn không?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page32..UnorderedList2..Paragraph77" = "Mô hình nhận dạng tư thế bàn tay nào của bạn tốt nhất?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page32..UnorderedList2..Paragraph78" = "Mô hình gặp khó khăn khi nhận dạng tư thế bàn tay nào?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page32..Paragraph79" = "Tiếp theo, bạn sẽ tìm hiểu cách cải thiện và gỡ lỗi mô hình ML của mình.";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..title" = "Gỡ lỗi mô hình học máy của bạn";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..title" = "Xem camera của bạn nhìn thấy gì bằng cách vẽ một lớp phủ gồm các node";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Paragraph80" = "Trực quan hóa dãy 2D gồm các node được [chương trình khung Vision](doc://com.apple.documentation/documentation/vision) trích xuất.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page33..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page33..Paragraph81" = "Trước khi bắt đầu gỡ lỗi mô hình của mình, sẽ hữu ích nếu bạn tìm hiểu sâu hơn về dữ liệu mà mô hình của bạn sử dụng để đưa ra các dự đoán.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page33..Paragraph82" = "Để thực hiện việc này, bạn sẽ trực quan hóa dãy 2D gồm các node mà [chương trình khung Vision](doc://com.apple.documentation/documentation/vision) tạo ra khi diễn giải dữ liệu hình ảnh. Các node mà bạn trực quan hóa sẽ ánh xạ các khớp trên bàn tay của bạn. ✋";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page34..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page34..Paragraph83" = "Để tạo ra hình ảnh trực quan này, bạn sẽ sử dụng `MLMultiArray` mà Vision trích xuất từ một khung hình ảnh và biến đổi thành các tọa độ được phủ lên trên kính ngắm của camera.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page35..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page35..Paragraph84" = "Thêm [lớp phủ](doc://com.apple.documentation/documentation/SwiftUI/View/overlay(alignment:content:)) này vào mã `ViewFinderView` của bạn để hiển thị hình ảnh trực quan của node khi `showNodes` là `true`:";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page35..CodeBlock6" = ".overlay(alignment: .center)  {\n    if showNodes {\n        HandPoseNodeOverlay(size: previewImageSize,\n                            points: handJointPoints)\n    }\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..Paragraph85" = "Sau khi thêm đoạn mã, hãy thử đặt bàn tay của bạn ở phía trước camera và lưu ý cách các node ánh xạ lên trên đó:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..UnorderedList3..Paragraph86" = "Các node có chính xác không? Chúng có ánh xạ đến các khớp trên bàn tay của bạn không?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..UnorderedList3..Paragraph87" = "Bạn có nhìn thấy các node trên các đối tượng khác không phải là bàn tay không? Tại sao bạn lại nghĩ như vậy?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..UnorderedList3..Paragraph88" = "Thử đặt hai bàn tay trong cùng một khung hình. Các node được đặt ở đâu?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..UnorderedList3..Paragraph89" = "Khi di chuyển bàn tay của mình, bạn nhận thấy điều gì về vị trí của các node?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..Paragraph90" = "Bạn đang nhìn thấy một hình ảnh trực quan trực tiếp của dữ liệu mà mô hình ML sử dụng để dự đoán tư thế nào được hiển thị.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..Paragraph91" = "Hãy tưởng tượng nếu bàn tay của bạn bị che một phần trong hình ảnh. Bạn nghĩ điều gì sẽ xảy ra đối với độ chính xác của các dự đoán cho tư thế bàn tay đó? Tác vụ tiếp theo sử dụng `DebugModeView` để đánh giá và gỡ lỗi mô hình ML của bạn.";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..title" = "Kiểm tra mô hình của bạn";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Paragraph92" = "Mô hình học máy của bạn có nhận dạng chính xác các tư thế bàn tay khác nhau không?";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page37..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page37..Paragraph93" = "Bạn có thể sử dụng `DebugModeView` để đánh giá và gỡ lỗi mô hình ML của mình.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page38..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page38..Paragraph94" = "Trong chế độ xem này, bạn sẽ có một chế độ xem camera và một [biểu đồ](doc://com.apple.documentation/documentation/charts) thanh giúp trực quan hóa độ tin cậy của mô hình ML của bạn trong [dự đoán](glossary://prediction) trong thời gian thực.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page38..Paragraph95" = "Trong bản xem trước, hãy giữ một vài tư thế bàn tay khác nhau trước camera và lưu ý cách dự đoán thay đổi. Tư thế nào có độ tin cậy cao nhất?";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page39..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page39..Paragraph96" = "Thử trả lời các câu hỏi sau đây:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page39..UnorderedList4..Paragraph97" = "Biểu đồ thanh thay đổi như thế nào khi bạn thể hiện tư thế Bao (✋) trước camera và xoay bàn tay của mình 90 độ?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page39..UnorderedList4..Paragraph98" = "Vậy khi bạn di chuyển bàn tay của mình đến gần hơn hoặc xa hơn so với camera thì sao?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page39..Paragraph99" = "Hãy nhớ rằng độ chính xác dự đoán của mô hình ML phụ thuộc vào dữ liệu huấn luyện mà bạn cung cấp. Hãy dành giây lát để nhìn lại dữ liệu huấn luyện mà bạn đã sử dụng. Có bất kỳ ví dụ nào về những loại hình ảnh này không? Nếu không có thì nghĩa là mô hình đó có thể không có khả năng dự đoán chính xác chúng là gì.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page40..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page40..Paragraph100" = "Một cách để nắm bắt những vấn đề này ngay cả trước khi bạn bắt đầu sử dụng mô hình của mình là cung cấp những [trường hợp hóc búa](glossary://edge%20case) này như một phần của tập dữ liệu xác thực.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page40..Paragraph101" = "Đây là cách tuyệt vời để sớm tìm ra dữ liệu được gắn nhãn sai trong quy trình học máy của bạn. Việc đó đảm bảo rằng mô hình của bạn không chỉ ghi nhớ các mẫu huấn luyện mà còn dự đoán chính xác các ký hiệu bàn tay mà bạn biểu thị.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page40..Paragraph102" = "Hãy cân nhắc những trường hợp hóc búa này khi bạn tạo ra tập dữ liệu của riêng mình để phát triển mô hình ML trong tương lai.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page41..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page41..Paragraph103" = "Khi gỡ lỗi mô hình của mình, bạn sẽ phát hiện ra rằng một số điều kiện của camera — như chiếu sáng, góc hoặc lấy nét — cũng ảnh hưởng đến các dự đoán của mô hình.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page41..Paragraph104" = "Hãy nhớ lại tập dữ liệu huấn luyện của bạn: Có nhiều cài đặt chiếu sáng, góc và lấy nét khác nhau không? Nếu không có thì nghĩa là mô hình của bạn có thể đã [quá khớp](glossary://overfitting) với cách thiết lập của một môi trường cụ thể.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page42..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page42..Paragraph105" = "Mô hình của bạn cũng có thể hoạt động tốt đối với bạn nhưng không tốt đối với bạn bè của bạn. Việc này cũng có thể là kết quả của việc [quá khớp](glossary://overfitting).";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page42..Paragraph106" = "Ví dụ: mô hình ML của bạn có thể nhận biết một màu da tốt hơn một màu da khác, khiến một số tư thế bàn tay được dự đoán chính xác hơn so với một số tư thế có màu da khác. Đây được gọi là sự thiên lệch, vì mô hình đó ưu tiên một kiểu thông tin hơn một kiểu khác.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page43..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page43..Paragraph107" = "Mô hình của bạn chỉ ảnh hưởng đến trò chơi này, nhưng nếu bạn đang triển khai trò chơi Kéo Búa Bao này trên mọi iPhone trên khắp thế giới thì sao? Sự thiên lệch không công bằng do quá khớp là một vấn đề nghiêm trọng trong các hệ thống dành cho mọi người sử dụng.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page43..Paragraph108" = "Điều quan trọng là bạn cần suy nghĩ về cách tránh sự thiên lệch khi tạo ra tập dữ liệu của chính bạn và huấn luyện mô hình ML.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page44..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page44..Paragraph109" = "Một số cách để giảm bớt sự thiên lệch là:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page44..UnorderedList5..Paragraph110" = "Đảm bảo rằng các tập dữ liệu huấn luyện và xác thực của bạn đa dạng và không [quá khớp](glossary://overfitting) với một nhóm hoặc tình huống.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page44..UnorderedList5..Paragraph111" = "Suy nghĩ và giải quyết các trường hợp hóc búa mà người dùng của bạn có thể gặp phải.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page44..UnorderedList5..Paragraph112" = "Hãy nhớ rằng phát triển mô hình ML là một quá trình mang tính lặp lại. Hãy tạo ra nhiều tập dữ liệu và huấn luyện nhiều mô hình ML của bạn! Bạn quyết định thời điểm mô hình đủ phù hợp với ứng dụng của mình.";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..title" = "Tạo tập dữ liệu ML của chính bạn";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..title" = "Thu thập và sắp xếp dữ liệu cho mô hình của bạn";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Paragraph113" = "Các mẹo để tạo ra tập dữ liệu của riêng bạn cho một mô hình học máy.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page45..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page45..Paragraph114" = "Máy tính có khả năng phát hiện các khuôn mẫu trong dữ liệu rất tốt khi được cung cấp đủ ví dụ. Để tạo ra một mô hình học máy tư thế bàn tay, bạn sẽ cần một số hình ảnh về bàn tay.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page45..Paragraph115" = "Bạn sẽ thu thập hình ảnh về các tư thế bàn tay và gắn nhãn cho chúng theo các nước đi của trò chơi: Búa ✊, Bao ✋ và Kéo ✌️. Những hình ảnh được gắn nhãn này chỉ là các ví dụ mà “bộ não” của máy từng nhìn thấy, vậy nên hãy đảm bảo rằng chúng đại diện cho hình ảnh của từng tư thế bàn tay.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..Paragraph116" = "Các kỹ sư học máy thường cần xem xét kỹ lưỡng tập dữ liệu của họ và đảm bảo rằng chúng là các tập dữ liệu có chất lượng tốt. Quá trình này được gọi là [làm sạch dữ liệu](glossary://data%20cleaning) và đó là một trong những bước quan trọng nhất trong học máy vì nó tác động sâu sắc đến hoạt động của mô hình học máy.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..Paragraph117" = "Một số ví dụ về cách làm sạch dữ liệu cho mô hình ML tư thế bàn tay của bạn bao gồm:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..UnorderedList6..Paragraph118" = "Đảm bảo rằng có một tư thế bàn tay trong hình ảnh";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..UnorderedList6..Paragraph119" = "Đảm bảo rằng tư thế bàn tay không quá xa camera và không quá gần trong khung hình";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..UnorderedList6..Paragraph120" = "Đảm bảo rằng hình ảnh không bị gắn nhãn sai, ví dụ như hình ảnh búa được vô tình gắn nhãn là kéo";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..UnorderedList6..Paragraph121" = "Đảm bảo rằng không có ảnh trùng lặp trong tập dữ liệu";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..UnorderedList6..Paragraph122" = "Đảm bảo rằng số lượng hình ảnh cho mỗi cử chỉ bàn tay xấp xỉ bằng nhau";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..title" = "Tăng kích cỡ của tập dữ liệu huấn luyện theo cách nhân tạo";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page47..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page47..Paragraph123" = "Nếu bạn không dự định sử dụng nhiều hình ảnh để huấn luyện một mô hình thì cũng không sao. Một cách mà bạn có thể gia tăng tập dữ liệu huấn luyện là sử dụng các [tùy chọn tăng cường hình ảnh](doc://com.apple.documentation/documentation/createml/mlimageclassifier/imageaugmentationoptions). Việc thêm những tùy chọn này, như `.rotate`, `.translate` và `.horizontallyFlip`, trước phiên huấn luyện sẽ tạo ra bốn hình ảnh mới cho mỗi tùy chọn mà bạn sử dụng. Ví dụ: sử dụng tùy chọn `.rotate` sẽ tạo ra bốn hình ảnh mới và áp dụng một góc xoay ngẫu nhiên cho các hình ảnh mới.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page48..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page48..Paragraph124" = "Bạn có thể tăng cường dữ liệu huấn luyện của mình bằng cách thêm ba tùy chọn này: `.rotate`, `.translate`, `.horizontallyFlip`.";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page48..CodeBlock7" = "/*#-code-walkthrough(imageAugment.addedCode)*/\naugmentationParameters.insert(.rotate)\naugmentationParameters.insert(.translate)\naugmentationParameters.insert(.horizontallyFlip)\n/*#-code-walkthrough(imageAugment.addedCode)*/\n";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page49..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page49..Paragraph125" = "Bây giờ, khi bạn huấn luyện một mô hình ML mới, phiên huấn luyện tự động sử dụng những phương pháp tăng cường này để cải thiện các dự đoán của mô hình.";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..title" = "Thu thập tập dữ liệu của chính bạn";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Paragraph126" = "Cá nhân hóa mô hình học máy bằng cách sử dụng hình ảnh tư thế bàn tay của chính bạn.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page50..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page50..Paragraph127" = "Trong bản xem trước này, chạm vào nút Thêm (+) ở góc trên cùng bên phải để tạo ra một tập dữ liệu mới. Thao tác này mở một chế độ xem huấn luyện mới.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page51..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page51..Paragraph128" = "Bạn có thể thêm các hình ảnh mới vào tập dữ liệu mới bằng cách bấm vào từng danh mục. Chạm vào nút Thêm để mở một [chế độ xem PhotosPicker](doc://com.apple.documentation/documentation/photokit/photospicker) để bạn có thể truy cập các hình ảnh trong thư viện ảnh của mình.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page51..Paragraph129" = "Chọn tối thiểu 7 hình ảnh cho mỗi danh mục.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page52..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page52..Paragraph130" = "Hãy dành giây lát để xem xét kỹ lưỡng tập dữ liệu và nhớ lại các mẹo từ phần hướng dẫn trước đó về cách làm sạch dữ liệu của bạn. Bạn có tìm thấy bất kỳ hình ảnh nào cần xóa khỏi tập dữ liệu huấn luyện không? Bạn có thể xóa hình ảnh trong tập dữ liệu của từng danh mục bằng cách chạm vào nút Sửa ở góc trên cùng bên phải.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page53..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page53..Paragraph131" = "Khi bạn hài lòng với tập dữ liệu của mình, hãy đặt tên cho mô hình học máy của bạn trong trường văn bản của chế độ xem huấn luyện.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page53..Paragraph132" = "Bây giờ, hãy chạm vào nút Huấn luyện để huấn luyện một mô hình ML mới!";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcompareModels..title" = "So sánh các mô hình học máy của bạn";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcompareModels..Paragraph133" = "Bây giờ, bạn có ba mô hình học máy khả dụng. Hãy kiểm tra chúng riêng lẻ và quan sát những điểm giống nhau và khác nhau của chúng.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcompareModels..Page54..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcompareModels..Page54..Paragraph134" = "Chạm vào nút “Mô hình ML” để xem những mô hình nào khả dụng với bạn. Nếu bạn có nhiều mô hình ML được liệt kê, hãy chạm vào mô hình không được chọn và quay lại chế độ xem gỡ lỗi để xem cách hoạt động.";
+

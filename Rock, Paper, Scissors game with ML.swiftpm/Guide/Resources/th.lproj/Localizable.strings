@@ -1,0 +1,651 @@
+/* Title of Guidebook */
+"GuideBook..title" = "เริ่มต้นใช้การเรียนรู้ของเครื่อง";
+
+/* The title of the Welcome Message for the GuideBook */
+"GuideBook..WelcomeMessageGet Started with Machine Learning..title" = "เริ่มต้นใช้การเรียนรู้ของเครื่อง";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..WelcomeMessageGet Started with Machine Learning..Paragraph0" = "ยินดีต้อนรับ! ในตัวอย่างนี้ คุณจะได้เปลี่ยนเกมเป่ายิ้งฉุบให้เป็นแอปการเรียนรู้ของเครื่อง (ML) โดยสมบูรณ์";
+
+/* Title of step named Get Started with Machine Learning */
+"GuideBook..Guide0..StepGet Started with Machine Learning..title" = "เริ่มต้นใช้การเรียนรู้ของเครื่อง";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..Paragraph1" = "![](ML-intro@2x.png)";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..Paragraph2" = "คุณเคยเล่นเกมเป่ายิ้งฉุบมาก่อนไหม เกมนี้เป็นเกมผู้เล่นสองคนที่คุณสามารถเลือกหนึ่งจากสามท่า ซึ่งแต่ละท่าจะชนะท่าอื่นหนึ่งท่า:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..UnorderedList0..Paragraph3" = "ค้อน ✊ ชนะกรรไกร ✌️";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..UnorderedList0..Paragraph4" = "กระดาษ ✋ ชนะค้อน ✊";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..UnorderedList0..Paragraph5" = "กรรไกร ✌️ ชนะกระดาษ ✋";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..Paragraph6" = "กฎนั้นง่ายพอที่คุณจะสอนคอมพิวเตอร์ให้เล่นได้ แต่จะต้องทำงานมากเพียงใดเพื่อสอน iPad หรือ Mac ของคุณให้รู้จำท่าทางมือ เช่น ✊, ✋ หรือ ✌️";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..Paragraph7" = "ในตัวอย่างนี้ คุณจะได้นำเกมเป่ายิ้งฉุบที่มีอยู่มาอัปเกรดให้เป็นสุดยอดเกมที่ทำงานด้วยการเรียนรู้ของเครื่อง ร่วมกับกล้องและ[โมเดลการเรียนรู้ของเครื่อง](glossary://machine%20learning%20model) ถึงเวลาเริ่มกันแล้ว!";
+
+/* title of the guide button */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..GuideButtonStart Walkthrough..title" = "เริ่มการสาธิต";
+
+/* accessibility description for guide button */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..GuideButtonStart Walkthrough..description" = "คำอธิบาย AX สำหรับปุ่ม";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..title" = "การทำให้ตรรกะของเกมสมบูรณ์";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..title" = "เพิ่มตรรกะเกมที่เหลือ 🕹";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Paragraph8" = "เรียนรู้วิธีสร้างเกมเป่ายิ้งฉุบใน Swift";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page0..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page0..Paragraph9" = "ในการแสดงตัวอย่าง คุณจะเห็นเกมเป่ายิ้งฉุบพื้นฐาน ในเกมเวอร์ชั่นนี้ คุณสามารถเลือกท่าของคุณได้โดยใช้ปุ่มลูกศรซ้ายและขวา";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page0..Paragraph10" = "แตะเล่นสำหรับ iPad หรือ Mac ของคุณเพื่อสร้างท่า ใช้เวลาสักครู่และลองเล่นเกม";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page0..Paragraph11" = "คุณสังเกตเห็นสิ่งผิดปกติเกี่ยวกับเกมไหม";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page1..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page1..Paragraph12" = "คุณอาจสังเกตว่ากฎของเกมมีปัญหานิดหน่อย! ไม่ต้องกังวล คุณจะได้แก้ไขปัญหานี้เร็วๆ นี้";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page2..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page2..Paragraph13" = "[โมเดลข้อมูล](glossary://data%20model)ที่เรียกว่า `GameModel` ทำให้`RPSGameView` ทำงาน ซึ่งเป็น[มุมมอง](glossary://view)เกมเป่ายิ้งฉุบที่คอยติดตามสถานะเกม ผลคะแนน ท่าของคุณ และท่าของคอมพิวเตอร์";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page2..Paragraph14" = "ถัดไป คุณจะได้ตั้งค่าตรรกะเกมใน `GameModel`";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page3..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page3..Paragraph15" = "กฎของเกมตั้งอยู่ภายใน[ตัวเริ่มต้น](glossary://initialization) `GameModel`";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page3..Paragraph16" = "ใช้เวลาสักครู่ตรวจสอบโค้ดนี้ คุณสามารถคาดคะเนได้ไหมว่าโค้ดแต่ละบรรทัดทำหน้าที่อะไร";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page4..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page4..Paragraph17" = "อันดับแรก โค้ดได้สร้าง[ชื่อแทนประเภท](glossary://instance) `GameMove` ที่ต่างกันสามรายการสำหรับค้อน ✊, กระดาษ ✋ และกรรไกร ✌️";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page4..Paragraph18" = "`GameMove` ประกอบด้วยชื่อ ไอคอน และอาร์เรย์ของท่าอื่นๆ ที่ท่านั้นสามารถเอาได้ ซึ่งทำให้คุณเข้าใจว่า `GameMove` ชนะ `GameMove` หรือไม่ และคืนค่าผลลัพธ์ ซึ่งก็คือ `.win`, `.lose` หรือ `.tie`";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page4..Paragraph19" = "ลองเปลี่ยนไอคอนของท่า `rock`, `paper` และ `scissors` แล้วเล่นเกมอีกครั้งเพื่อดูว่าเกมเปลี่ยนไปอย่างไร";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page5..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page5..Paragraph20" = "ถัดไป เกมได้ตั้งกฎสำหรับท่าที่ชนะท่าอื่นไว้";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page5..Paragraph21" = "ถ้าคุณดูที่โค้ด จะมีเพียงตรรกะสำหรับทำให้ค้อนชนะกรรไกร ซึ่งเป็นสาเหตุที่ทำให้เกมมีปัญหา 🤪";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page5..Paragraph22" = "แทรกส่วนย่อยของโค้ดนี้เพื่อเพิ่มกฎสำหรับ `paper` และ `scissors`:";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page5..CodeBlock0" = "/*#-code-walkthrough(gameModel.customizeRules)*/\npaper.beats([rock])\nscissors.beats([paper])\n/*#-code-walkthrough(gameModel.customizeRules)*/\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page5..Paragraph23" = "ลองเล่นเกมอีกครั้งและดูว่าตรรกะเกมของคุณได้รับการแก้ไขแล้วหรือไม่";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page6..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page6..Paragraph24" = "คุณมีอิสระในเชิงสร้างสรรค์อย่างเต็มที่ที่จะกำหนดกฎเหล่านี้เอง! คุณต้องการให้ค้อน ✊ เป็นท่าที่เหนือกว่าและต้องการทำให้เป็นเช่นนั้นเพื่อให้ชนะกระดาษและกรรไกรหรือไม่";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page6..Paragraph25" = "ถ้าเป็นเช่นนั้น ลองเปลี่ยนตรรกะด้วยการแก้ไขท่าที่ชนะท่าอื่นๆ การทำเช่นนี้จะเปลี่ยนแปลงเกมของคุณอย่างไร";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page6..CodeBlock1" = "rock.beats([scissors, paper])\n";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page7..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page7..Paragraph26" = "จะเกิดอะไรขึ้นหากคุณเพิ่มท่าใหม่ที่ชนะทุกอย่าง";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page7..Paragraph27" = "ลองเพิ่มท่าใหม่ด้วยตัวคุณเอง และกำหนดเกมให้มีเนื้อหาตามใจของคุณ:";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page7..CodeBlock2" = "let panda = GameMove(name: \"แพนด้า\", icon: \"🐼\")\npanda.beats([rock,paper,scissors])\nvalidMoves[panda.name] = panda\n";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page8..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page8..Paragraph28" = "เมื่อคุณกำหนดค่าเกมของคุณเสร็จแล้ว ให้เปลี่ยนกฎกลับไปเป็นตรรกะเกมเป่ายิ้งฉุบพื้นฐาน";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page8..Paragraph29" = "แทนที่โค้ดทั้งหมดในตัวเริ่มต้นด้วยโค้ดนี้:";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page8..CodeBlock3" = "let rock = GameMove(name: \"ค้อน\", icon: \"✊\")\nlet paper = GameMove(name: \"กระดาษ\", icon: \"✋\")\nlet scissors = GameMove(name: \"กรรไกร\", icon: \"✌️\")\n\nrock.beats([scissors])\npaper.beats([rock])\nscissors.beats([paper])\n\nvalidMoves[rock.name] = rock\nvalidMoves[paper.name] = paper\nvalidMoves[scissors.name] = scissors\n";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page9..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page9..Paragraph30" = "สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับการสร้างเกมเป่ายิ้งฉุบของคุณเอง ให้ดูที่หนังสือ Playground [เป่ายิ้งฉุบ](x-com-apple-playgrounds://projects?contentId=com.apple.playgrounds.rockpaperscissors.edition4)";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..title" = "การใช้การเรียนรู้ของเครื่องเพื่อรู้จำท่าทาง";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..title" = "เรียนรู้พื้นฐานของการเรียนรู้ของเครื่อง";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Paragraph31" = "ทราบวิธีที่การเรียนรู้ของเครื่องคาดคะเนจากข้อมูล";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page10..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page10..Paragraph32" = "[การเรียนรู้ของเครื่อง](glossary://machine%20learning)คือกระบวนการของวิธีที่คุณ “สอน” คอมพิวเตอร์ เช่น iPad หรือ Mac ของคุณเพื่อทำการคาดเดาจากการเรียนรู้ด้วยการให้ตัวอย่างหรือข้อมูลจำนวนมาก";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page10..Paragraph33" = "เนื่องจากมีความฉลาดมาก (🧠) มนุษย์จึงสามารถดูตัวอย่างของท่าทางมือเพียงเล็กน้อยแล้วบอกความแตกต่างระหว่าง ✊ และ ✌️ ได้ทันที แต่คอมพิวเตอร์ต้องใช้ตัวอย่างของท่าทางมือจำนวนมากเพื่อให้ระบุได้อย่างถูกต้อง";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page10..Paragraph34" = "เนื่องจากคอมพิวเตอร์ต้องใช้ข้อมูลจำนวนมากเพื่อระบุและจำแนกคุณสมบัติที่สำคัญของท่าทางมือดังกล่าว ซึ่งเป็นสิ่งที่สมองของมนุษย์สามารถทำได้โดยแทบไม่ต้องพยายามเลย";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page11..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page11..Paragraph35" = "ในการใช้การเรียนรู้ของเครื่องในแอปของคุณ คุณจะต้องใช้ [CreateML](doc://com.apple.documentation/documentation/createml) และ [CoreML](doc://com.apple.documentation/documentation/coreml) frameworks";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page12..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page12..Paragraph36" = "แอปเป่ายิ้งฉุบของคุณใช้[การจัดประเภท](glossary://classification)ภาพเพื่อรู้จำท่าทางมือที่แตกต่างกันที่แสดงในกล้อง";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page12..Paragraph37" = "“การจัดประเภท” คืออัลกอริทึมการเรียนรู้ของเครื่องประเภทหนึ่งที่จะจัดหมวดหมู่ตัวอย่างจากชุดข้อมูลออกเป็นกลุ่มต่างๆ คุณจะได้ใช้ [MLHandPoseClassifier](doc://com.apple.documentation/documentation/createml/mlhandposeclassifier) เพื่อจัดประเภทท่าทางมือที่แตกต่างกัน (✊, ✋ และ ✌️) จากการสตรีมภาพจากกล้อง";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page13..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page13..Paragraph38" = "ในการสร้าง[โมเดลการเรียนรู้ของเครื่อง](glossary://machine%20learning%20model) คุณต้องป้อนข้อมูลจำนวนมาก ในกรณีนี้คือภาพ ไปยังตัวจัดประเภทของคุณ กระบวนการนี้เรียกว่า[การฝึก](glossary://training)โมเดล ML ของคุณ เพราะคุณกำลังสอนวิธีรู้จำสิ่งต่างๆ ให้กับเครื่อง";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page14..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page14..Paragraph39" = "คุณสามารถคิดว่าโมเดลการเรียนรู้ของเครื่องคือสมองของเครื่องและความรู้ทั้งหมดที่เครื่องทราบเกี่ยวกับรูปแบบบางประเภท ในกรณีนี้คือ ท่าทางมือ";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page15..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page15..Paragraph40" = "โมเดลการเรียนรู้ของเครื่องจะรับเข้าข้อมูลเป็น input และสร้างการคาดเดาจากการเรียนรู้เกี่ยวกับสิ่งที่ข้อมูลแสดงให้เห็น ซึ่งเรียกว่า[การคาดคะเน](glossary://prediction)";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page16..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page16..Paragraph41" = "ลองคำนึงถึงความแตกต่างระหว่างท่าทางมือของค้อน กระดาษ และกรรไกร";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page16..Paragraph42" = "ตัวอย่างเช่น ความแตกต่างหลักประการหนึ่งระหว่างท่าทางค้อน (✊) และท่าทางกรรไกร (✌️) คือท่าทาง ✌️ ทั้งหมดแสดงการยกนิ้วชี้และนิ้วกลางขึ้น แต่ ✊ แสดงว่าไม่มีนิ้วยกขึ้น มนุษย์ที่ไม่ได้บกพร่องทางการมองเห็นจะสามารถประมวลผลข้อมูลนั้นได้ตามที่มองเห็นด้วยสายตา";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page16..Paragraph43" = "วิธีนี้คล้ายกับคอมพิวเตอร์ที่สามารถประมวลผลข้อมูลตามที่มองเห็นได้เช่นกัน แม้ว่าสิ่งที่เครื่องเห็นจะเป็นอาร์เรย์ของพิกเซล 2D แทนที่จะเป็นมือหรือต้นไม้";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page17..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page17..Paragraph44" = "กล้องในแอปของคุณคือตาของเครื่อง คุณสามารถใช้ข้อมูลภาพจากกล้องเป็น input สำหรับ `HandPoseMLModel` ของคุณ โมเดล ML จะใช้ข้อมูลนี้เพื่อระบุท่าทางมือประเภทต่างๆ";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page18..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page18..Paragraph45" = "[เฟรมเวิร์ค Vision](doc://com.apple.documentation/documentation/vision) ทำให้แอปของคุณสามารถแปลงข้อมูลภาพของกล้องเป็นสิ่งที่โมเดล ML เข้าใจได้ง่ายๆ";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page19..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page19..Paragraph46" = "ทุกครั้งที่เฟรมกล้องของคุณอัปเดต แอปของคุณจะรวบรวม [VNHumanHandPoseObservations](doc://com.apple.documentation/documentation/vision/vnhumanhandposeobservation) จากพิกเซลบัฟเฟอร์ของเฟรม";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page20..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page20..Paragraph47" = "จากนั้น [Vision](doc://com.apple.documentation/documentation/vision) จะดึง [MLMultiArray](doc://com.apple.documentation/documentation/coreml/mlmultiarray) จากการสังเกตเหล่านี้";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page20..Paragraph48" = "ชื่อแทนประเภท `MLMultiArray` จะให้พิกัดตำแหน่งที่ตั้งที่แมปไปยังส่วนเชื่อมต่อของมือ (ในกรณีนี้) ซึ่งช่วยให้โมเดล ML ของคุณมีชุดข้อมูลตำแหน่งมือมากมายที่ใช้ในการฝึกตัวเอง";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page21..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page21..Paragraph49" = "ในเกมเป่ายิ้งฉุบ หากโมเดลได้รับ input คุณจะได้รับ output ของป้ายและ[ความมั่นใจ](glossary://confidence) หรือความน่าจะเป็นของป้ายนั้น ตัวอย่างเช่น หากคุณตัดสินใจทำท่าทางด้วยท่า ✌️ โมเดลอาจจะตีความว่าเป็นกรรไกร 80 เปอร์เซ็นต์, ค้อน 15 เปอร์เซ็นต์ และกระดาษ 5 เปอร์เซ็นต์ 🤷‍♀️";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..Paragraph50" = "คุณสามารถใช้การเรียนรู้ของเครื่องในชีวิตประจำวันของคุณได้มากกว่าการจัดประเภทภาพ";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..Paragraph51" = "นี่คือตัวอย่างบางส่วน คุณนึกถึงสิ่งอื่นอีกไหม";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..UnorderedList1..Paragraph52" = "Face ID และ Touch ID บนอุปกรณ์ Apple ของคุณ";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..UnorderedList1..Paragraph53" = "ผู้ช่วยสั่งการด้วยเสียง เช่น Siri";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..UnorderedList1..Paragraph54" = "คำแนะนำที่สร้างบนบริการการสตรีม";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..UnorderedList1..Paragraph55" = "แถบ “สำหรับคุณ” ในแอปรูปภาพ";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..title" = "ฝึกโมเดล ML ของคุณ";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Paragraph56" = "ใช้ชุดข้อมูลที่มีอยู่ก่อนหน้าเพื่อสร้างโมเดล ML ของคุณเอง";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page23..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page23..Paragraph57" = "ตอนนี้ถึงเวลาฝึกโมเดล ML แรกของคุณแล้ว!";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page23..Paragraph58" = "คุณจะเริ่มโดยใช้ชุดข้อมูลของภาพท่าทางมือที่ติดป้ายที่มีอยู่ก่อนหน้าเพื่อฝึกโมเดล";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page24..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page24..OrderedList0..Paragraph59" = "ในการแสดงตัวอย่างของคุณ ให้เลือก[ชุดข้อมูลการฝึก](glossary://training%20dataset)ที่มีอยู่ ชุดข้อมูลการฝึกคือชุดข้อมูลที่โมเดลใช้ฝึกเพื่อสร้างการคาดคะเน ในกรณีนี้ ชุดข้อมูลคือคอลเลกชั่นของภาพที่แสดงหลากหลายท่าทางมือ";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page24..OrderedList0..Paragraph60" = "ตั้งชื่อให้โมเดลการเรียนรู้ของเครื่องของคุณ ตัวอย่างเช่น `firstMLModel`";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page24..OrderedList0..Paragraph61" = "หรือเลือก[ชุดข้อมูลการตรวจสอบ](glossary://validation%20dataset)ที่มีอยู่โดยใช้ตัวเลือกด้านล่างชุดข้อมูลการฝึกของคุณ ชุดข้อมูลการตรวจสอบจะไม่ถูกใช้เพื่อฝึกโมเดล แต่ชุดข้อมูลการฝึกจะใช้เพื่อประมาณการว่าการคาดคะเนของโมเดลดีเพียงใดแทน";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page24..Paragraph62" = "ถ้าคุณต้องการตรวจดูภาพของชุดข้อมูล ให้แตะที่แต่ละเซลล์ชุดข้อมูล การทำเช่นนี้จะนำทางคุณไปยังตารางของภาพสำหรับชุดข้อมูลท่าทางมือเฉพาะชุดนั้น";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page25..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page25..Paragraph63" = "ตอนนี้เมื่อคุณเลือกชุดข้อมูลการฝึกและตั้งชื่อโมเดลการเรียนรู้ของเครื่องของคุณแล้ว ให้แตะฝึกที่มุมขวาบนสุดของการแสดงตัวอย่าง";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page25..Paragraph64" = "สำคัญ: อย่าเปิดการแสดงตัวอย่างนี้หรือไฟล์ปัจจุบันที่แสดงอยู่ในตัวแก้ไขต้นฉบับทิ้งไว้ เพราะคุณอาจสูญเสียความคืบหน้าของเซสชั่นการฝึก";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page25..Paragraph65" = "ระยะเวลาของเซสชั่นการฝึกจะขึ้นอยู่กับจำนวนของภาพในชุดข้อมูลการฝึก โปรดอดใจรอ การฝึกอาจใช้เวลานาน! ด้วยชุดข้อมูลการฝึกที่มี 21 ภาพ อาจใช้เวลาตั้งแต่ 2 ถึง 5 นาที ทั้งนี้ ขึ้นอยู่กับอุปกรณ์ของคุณ";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page26..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page26..Paragraph66" = "ระหว่างเซสชั่นการฝึก คุณจะเห็นการวัดอยู่ในจอคอนโซล ให้เปิดจอคอนโซลโดยแตะปุ่มที่มุมซ้ายล่างสุดเหนือตัวแก้ไขต้นฉบับของคุณ แล้วอ่านการวัดกระบวนการแบบผ่านๆ เพื่อให้ได้แนวคิดที่ดีขึ้นเกี่ยวกับวิธีฝึกตัวเองและทดสอบความแม่นยำของโมเดล";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page27..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page27..Paragraph67" = "หลังจากเซสชั่นการฝึกเสร็จสิ้นและคุณบันทึกโมเดลแล้ว ก็ถึงเวลาทดสอบโมเดลของคุณในฐานะส่วนหนึ่งของเกมเป่ายิ้งฉุบที่แท้จริง!";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..title" = "รวมโมเดล ML ของคุณเข้าในเกม";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Paragraph68" = "ทดสอบโมเดลของคุณแบบเรียลไทม์!";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page28..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page28..Paragraph69" = "ในการทดสอบโมเดล ML ของคุณ ให้สลับเกมเป่ายิ้งฉุบปกติกับเกมที่ใช้การเรียนรู้ของเครื่องเพื่อระบุท่าทางมือที่คุณใช้";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page29..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page29..Paragraph70" = "แทนที่`GameView.environmentObject(appModel)`ที่มีอยู่ด้วยโค้ดต่อไปนี้:";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page29..CodeBlock4" = "MLGameView()\n    .environmentObject(appModel)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page29..Paragraph71" = "ตรวจสอบให้แน่ใจว่าคุณลบโค้ด `GameView()` ที่ไฮไลท์ที่มีอยู่ ไม่เช่นนั้นคุณจะเห็นมากกว่าหนึ่งหน้าต่างที่แสดงเกม";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page30..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page30..Paragraph72" = "ตอนนี้ เกมเป่ายิ้งฉุบจะใช้โมเดล ML เริ่มต้นเป็นโมเดลของเกม ในการใช้โมเดลที่คุณเพิ่งสร้าง ให้เพิ่มโค้ดนี้:";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page30..CodeBlock5" = ".task {\n    await appModel.useLastTrainedModel()\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page31..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page31..Paragraph73" = "ในการเปิดใช้งานปุ่มเล่น ให้แสดงท่าทางมือให้กล้องเห็น ถ้าคุณดูที่มุมขวาล่างสุดของกล้อง คุณจะเห็นมุมมองที่โมเดล ML คาดคะเนท่าของคุณแบบเรียลไทม์ในขณะที่คุณเคลื่อนไหวมือ";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page31..Paragraph74" = "เมื่อคุณพร้อมจะเล่นแล้ว ให้แตะเล่นเพื่อกำหนดท่าของคุณและคอมพิวเตอร์จะสร้างท่า ขอให้สนุกกับการเล่นเกมสองสามรอบนี้!";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page32..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page32..Paragraph75" = "หลังจากคุณเล่นเกมเป่ายิ้งฉุบที่ใช้ ML สองสามรอบ ให้ลองตอบคำถามต่อไปนี้:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page32..UnorderedList2..Paragraph76" = "โมเดลรู้จำท่าทางมือของคุณได้ถูกต้องหรือไม่";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page32..UnorderedList2..Paragraph77" = "ท่าทางมือแบบใดที่ดูเหมือนจะระบุได้ดีที่สุด";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page32..UnorderedList2..Paragraph78" = "ท่าทางมือแบบใดที่มีปัญหาในการระบุ";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page32..Paragraph79" = "ถัดไป คุณจะได้เรียนรู้วิธีปรับปรุงและแก้บั๊กโมเดล ML ของคุณ";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..title" = "การแก้บั๊กโมเดลการเรียนรู้ของเครื่องของคุณ";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..title" = "ดูว่ากล้องของคุณเห็นอะไรด้วยการวาดโหนดซ้อนกัน";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Paragraph80" = "แสดงภาพอาร์เรย์ของโหนดแบบ 2D ที่ดึงมาจาก[เฟรมเวิร์ค Vision](doc://com.apple.documentation/documentation/vision)";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page33..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page33..Paragraph81" = "ก่อนที่คุณจะเริ่มแก้บั๊กโมเดลของคุณ การรับข้อมูลเชิงลึกเกี่ยวกับข้อมูลที่โมเดลของคุณใช้เพื่อสร้างการคาดคะเนเป็นสิ่งที่มีประโยชน์มาก";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page33..Paragraph82" = "ในการทำเช่นนี้ คุณจะแสดงภาพอาร์เรย์ของโหนด 2D ที่สร้างโดย[เฟรมเวิร์ค Vision](doc://com.apple.documentation/documentation/vision) เมื่อเฟรมเวิร์คตีความข้อมูลภาพ โหนดที่คุณแสดงภาพจะแมปส่วนเชื่อมต่อบนมือของคุณ ✋";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page34..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page34..Paragraph83" = "ในการสร้างการแสดงภาพนี้ คุณจะได้นำ `MLMultiArray` ที่ Vision ดึงมาจากเฟรมภาพ และเปลี่ยนให้เป็นพิกัดที่ทับซ้อนอยู่ที่ด้านบนสุดของช่องมองภาพของกล้องของคุณ";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page35..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page35..Paragraph84" = "เพิ่ม[การซ้อนทับ](doc://com.apple.documentation/documentation/SwiftUI/View/overlay(alignment:content:))นี้ ไปยังโค้ด `ViewFinderView` ของคุณเพื่อแสดงการแสดงภาพโหนดเมื่อ `showNodes` เป็น `true`:";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page35..CodeBlock6" = ".overlay(alignment: .center)  {\n    if showNodes {\n        HandPoseNodeOverlay(size: previewImageSize,\n                            points: handJointPoints)\n    }\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..Paragraph85" = "หลังจากเพิ่มส่วนย่อยของโค้ด ให้ลองวางมือของคุณด้านหน้ากล้องแล้วสังเกตวิธีที่โหนดแมปไปยังมือ:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..UnorderedList3..Paragraph86" = "โหนดแม่นยำหรือไม่ สามารถแมปส่วนเชื่อมต่อในมือของคุณได้หรือไม่";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..UnorderedList3..Paragraph87" = "คุณเห็นโหนดบนวัตถุอื่นที่ไม่ใช่มือหรือไม่ คุณคิดว่าเป็นเพราะอะไร";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..UnorderedList3..Paragraph88" = "ลองวางมือสองข้างในเฟรมเดียวกัน โหนดวางตำแหน่งไว้ที่ใด";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..UnorderedList3..Paragraph89" = "เมื่อคุณเคลื่อนมือไปรอบๆ คุณสังเกตอะไรเกี่ยวกับตำแหน่งของโหนดบ้าง";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..Paragraph90" = "คุณกำลังดูการแสดงภาพสดของข้อมูลที่โมเดล ML ของคุณใช้เพื่อคาดคะเนว่าท่าทางใดแสดงอยู่";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..Paragraph91" = "ลองจินตนาการว่ามือของคุณถูกปกปิดไว้บางส่วนในภาพ คุณคิดว่าจะเกิดอะไรขึ้นกับความแม่นยำของการคาดคะเนสำหรับท่าทางมือดังกล่าว งานถัดไปจะใช้ `DebugModeView` เพื่อประเมินและแก้บั๊กโมเดล ML ของคุณ";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..title" = "ทดสอบโมเดลของคุณ";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Paragraph92" = "โมเดลการเรียนรู้ของเครื่องของคุณระบุท่าทางมือที่แตกต่างกันได้อย่างแม่นยำหรือไม่";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page37..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page37..Paragraph93" = "คุณสามารถใช้ `DebugModeView` เพื่อประเมินและแก้บั๊กโมเดล ML ของคุณได้";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page38..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page38..Paragraph94" = "ในมุมมองนี้ คุณจะมีมุมมองกล้องและ[แผนภูมิ](doc://com.apple.documentation/documentation/charts)แท่งที่แสดงภาพแบบเรียลไทม์ว่าโมเดล ML ของคุณมั่นใจใน[การคาดคะเน](glossary://prediction)ของตัวเองเพียงใด";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page38..Paragraph95" = "ในการแสดงตัวอย่าง ให้ทำท่าทางมือที่แตกต่างกันสองท่าให้กล้องเห็น แล้วสังเกตว่าการคาดคะเนเปลี่ยนแปลงไปหรือไม่ ท่าทางใดที่ระบบมั่นใจมากที่สุด";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page39..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page39..Paragraph96" = "ลองตอบคำถามต่อไปนี้:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page39..UnorderedList4..Paragraph97" = "แผนภูมิแท่งจะเปลี่ยนแปลงอย่างไรเมื่อคุณแสดงให้กล้องเห็นท่าทางกระดาษ (✋) แล้วหมุนมือของคุณ 90 องศา";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page39..UnorderedList4..Paragraph98" = "จะเกิดอะไรขึ้นเมื่อคุณเคลื่อนมือของคุณเข้าใกล้กล้องมากขึ้นหรือห่างออกไปมากขึ้น";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page39..Paragraph99" = "อย่าลืมว่าความแม่นยำในการคาดคะเนของโมเดล ML ขึ้นอยู่กับข้อมูลการฝึกที่คุณให้ ลองใช้เวลาสักครู่เพื่อนึกย้อนกลับไปถึงชุดข้อมูลการฝึกที่คุณใช้ มีตัวอย่างของภาพเหล่านี้หรือไม่ ถ้าไม่มี โมเดลอาจไม่สามารถคาดคะเนได้อย่างแม่นยำว่าสิ่งเหล่านั้นคืออะไร";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page40..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page40..Paragraph100" = "วิธีหนึ่งในการพบปัญหาเหล่านี้ก่อนที่คุณจะเริ่มใช้โมเดลของคุณคือการให้ [edge case](glossary://edge%20case) เหล่านี้เป็นส่วนหนึ่งของชุดข้อมูลการทดสอบของคุณ";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page40..Paragraph101" = "นี่เป็นวิธีที่ดีในการค้นหาข้อมูลที่ติดป้ายผิดตั้งแต่เนิ่นๆ ในกระบวนการเรียนรู้ของเครื่องของคุณ ซึ่งจะช่วยให้แน่ใจว่าโมเดลของคุณไม่เพียงจดจำตัวอย่างการฝึก แต่ยังคาดคะเนสัญลักษณ์มือที่คุณแสดงได้อย่างแม่นยำอีกด้วย";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page40..Paragraph102" = "โปรดคำนึงถึง edge case เหล่านี้เมื่อคุณสร้างชุดข้อมูลของคุณเองสำหรับการพัฒนาโมเดล ML ในอนาคต";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page41..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page41..Paragraph103" = "เมื่อคุณแก้บั๊กโมเดล คุณจะค้นพบว่าสภาวะบางอย่างของกล้อง เช่น การจัดแสง มุม หรือโฟกัส ยังมีผลต่อการคาดคะเนของโมเดลของคุณอีกด้วย";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page41..Paragraph104" = "ลองนึกย้อนไปถึงชุดข้อมูลการฝึกของคุณ: มีความหลากหลายของการจัดแสง มุมกล้อง และการตั้งค่าโฟกัสหรือไม่ หากยังไม่มี โมเดลของคุณอาจจะ [overfit](glossary://overfitting) กับการตั้งค่าเฉพาะของหนึ่งสภาพแวดล้อม";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page42..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page42..Paragraph105" = "โมเดลของคุณอาจทำงานได้ดีสำหรับคุณ แต่อาจไม่ดีเท่ากันสำหรับเพื่อนของคุณ ซึ่งเป็นผลมาจาก [overfitting](glossary://overfitting)";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page42..Paragraph106" = "ตัวอย่างเช่น โมเดล ML ของคุณอาจรู้จำโทนสีผิวหนึ่งมากกว่าโทนสีผิวอื่น ทำให้บางท่าทางมือได้รับการคาดคะเนแม่นยำมากกว่าบางท่าทางมือในโทนสีผิวอื่น สิ่งนี้เรียกว่าความลำเอียง เนื่องจากเป็นการสนับสนุนประเภทข้อมูลหนึ่งมากกว่าประเภทข้อมูลอื่น";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page43..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page43..Paragraph107" = "โมเดลของคุณมีผลต่อเกมนี้ แต่จะเกิดอะไรขึ้นหากคุณใช้เกมเป่ายิ้งฉุบนี้บน iPhone ทุกเครื่องทั่วโลก ความลำเอียงที่ไม่เป็นธรรมเนื่องจาก overfitting เป็นปัญหาที่ร้ายแรงในระบบที่ออกแบบมาให้ทุกคนใช้";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page43..Paragraph108" = "คุณควรคำนึงถึงวิธีหลีกเลี่ยงความลำเอียงเมื่อสร้างชุดข้อมูลและฝึกโมเดล ML ของคุณ";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page44..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page44..Paragraph109" = "บางวิธีในการลดความลำเอียงคือ:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page44..UnorderedList5..Paragraph110" = "ตรวจสอบให้แน่ใจว่าชุดข้อมูลการฝึกและชุดข้อมูลการตรวจสอบของคุณมีความหลากหลาย และอย่า [overfit](glossary://overfit) กับหนึ่งกลุ่มหรือหนึ่งสถานการณ์";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page44..UnorderedList5..Paragraph111" = "ลองนึกถึงและแก้ไข edge case ที่ผู้ใช้ของคุณอาจพบ";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page44..UnorderedList5..Paragraph112" = "อย่าลืมว่าการพัฒนาโมเดล ML เป็นกระบวนการทำซ้ำ สร้างชุดข้อมูลจำนวนมากและฝึกโมเดล ML มากขึ้น! ขึ้นอยู่กับคุณแล้วว่าโมเดลของคุณจะดีพอสำหรับแอปของคุณเมื่อใด";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..title" = "การสร้างชุดข้อมูล ML ของคุณเอง";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..title" = "รวบรวมและจัดระเบียบข้อมูลสำหรับโมเดลของคุณ";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Paragraph113" = "เคล็ดลับในการสร้างชุดข้อมูลของคุณเองสำหรับโมเดลการเรียนรู้ของเครื่อง";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page45..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page45..Paragraph114" = "คอมพิวเตอร์จะตรวจจับรูปแบบในข้อมูลได้ดีเมื่อให้ตัวอย่างที่มากเพียงพอ ในการสร้างโมเดลการเรียนรู้ของเครื่องท่าทางมือ คุณจึงต้องมีภาพมือหลายภาพ";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page45..Paragraph115" = "คุณจะได้รวบรวมภาพของท่าทางมือและติดป้ายภาพเป็นท่าของเกมของคุณ ซึ่งได้แก่: ค้อน ✊, กระดาษ ✋ และกรรไกร ✌️ ภาพที่ติดป้ายเหล่านี้เป็นเพียงตัวอย่างเดียวที่ “สมอง” ของเครื่องเคยเห็น คุณจึงต้องดูให้แน่ใจว่าภาพเหล่านี้เป็นตัวแทนของสิ่งที่ดูเหมือนท่าทางมือ";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..Paragraph116" = "วิศวกรการเรียนรู้ของเครื่องต้องตรวจสอบชุดข้อมูลและดูให้แน่ใจว่าชุดข้อมูลมีคุณภาพที่ดีอยู่เสมอ กระบวนการนี้เรียกว่า[การทำความสะอาดข้อมูล](glossary://data%20cleaning) ซึ่งเป็นหนึ่งในขั้นตอนสำคัญในการเรียนรู้ของเครื่อง เนื่องจากขั้นตอนนี้จะส่งผลต่อวิธีการทำงานของโมเดลการเรียนรู้ของเครื่องของคุณอย่างเห็นได้ชัด";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..Paragraph117" = "ตัวอย่างบางส่วนของวิธีทำความสะอาดข้อมูลสำหรับโมเดล ML ท่าทางมือของคุณ ได้แก่:";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..UnorderedList6..Paragraph118" = "การตรวจสอบให้แน่ใจว่ามีท่าทางมืออยู่ในภาพ";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..UnorderedList6..Paragraph119" = "การตรวจสอบให้แน่ใจว่าท่าทางมือไม่ได้อยู่ห่างจากกล้องมากเกินไป และไม่ได้อยู่ใกล้เกินไปในเฟรม";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..UnorderedList6..Paragraph120" = "การตรวจสอบให้แน่ใจว่าภาพของคุณไม่ได้ติดป้ายผิด เช่น ภาพค้อนติดป้ายผิดเป็นกรรไกรโดยไม่ได้ตั้งใจ";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..UnorderedList6..Paragraph121" = "การตรวจสอบให้แน่ใจว่าไม่มีภาพซ้ำในชุดข้อมูล";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..UnorderedList6..Paragraph122" = "การตรวจสอบให้แน่ใจว่าภาพสำหรับแต่ละท่าทางมือมีจำนวนโดยประมาณเท่ากัน";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..title" = "เพิ่มขนาดชุดข้อมูลการฝึกของคุณด้วยการจัดทำขึ้น";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page47..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page47..Paragraph123" = "ถ้าคุณไม่ได้วางแผนจะใช้ภาพจำนวนมากเพื่อฝึกโมเดลก็ไม่เป็นไร วิธีหนึ่งที่คุณจะสามารถเพิ่มชุดข้อมูลการฝึกได้ก็คือการใช้[ตัวเลือกการเพิ่มภาพ](doc://com.apple.documentation/documentation/createml/mlimageclassifier/imageaugmentationoptions) การเพิ่มในตัวเลือกเหล่านี้ เช่น `.rotate`, `.translate` และ `.horizontallyFlip` ก่อนเซสชั่นการฝึก จะสร้างภาพใหม่สี่ภาพต่อตัวเลือกที่คุณใช้ ตัวอย่างเช่น การใช้ตัวเลือก `.rotate` จะสร้างภาพใหม่สี่ภาพและปรับใช้มุมการหมุนแบบสุ่มกับภาพใหม่เหล่านั้น";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page48..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page48..Paragraph124" = "คุณสามารถเพิ่มข้อมูลการฝึกได้โดยเพิ่มตัวเลือกเหล่านี้: `.rotate`, `.translate`, `.horizontallyFlip`";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page48..CodeBlock7" = "/*#-code-walkthrough(imageAugment.addedCode)*/\naugmentationParameters.insert(.rotate)\naugmentationParameters.insert(.translate)\naugmentationParameters.insert(.horizontallyFlip)\n/*#-code-walkthrough(imageAugment.addedCode)*/\n";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page49..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page49..Paragraph125" = "ตอนนี้ เมื่อคุณฝึกโมเดล ML ใหม่ เซสชั่นการฝึกของคุณจะใช้การเพิ่มข้อมูลเหล่านี้โดยอัตโนมัติเพื่อปรับปรุงการคาดคะเนของโมเดล";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..title" = "เก็บรวบรวมชุดข้อมูลของคุณเอง";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Paragraph126" = "ปรับโมเดลการเรียนรู้ของเครื่องให้เหมาะกับคุณโดยใช้ภาพท่าทางมือของคุณเอง";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page50..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page50..Paragraph127" = "ในการแสดงตัวอย่าง ให้แตะปุ่มเพิ่ม (+) ที่มุมขวาบนสุดเพื่อสร้างชุดข้อมูลใหม่ การทำเช่นนี้จะเปิดมุมมองการฝึกใหม่";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page51..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page51..Paragraph128" = "คุณสามารถเพิ่มภาพใหม่ไปยังชุดข้อมูลได้โดยคลิกในแต่ละหมวดหมู่ แตะปุ่มเพิ่มเพื่อเปิด[มุมมอง PhotosPicker](doc://com.apple.documentation/photokit/photospicker) เพื่อให้คุณสามารถเข้าถึงภาพในคลังรูปภาพของคุณได้";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page51..Paragraph129" = "เลือกอย่างน้อยเจ็ดภาพสำหรับแต่ละหมวดหมู่";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page52..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page52..Paragraph130" = "ใช้เวลาสักครู่เพื่อตรวจสอบชุดข้อมูลของคุณและนึกถึงเคล็ดลับจากการสาธิตที่ผ่านมาเกี่ยวกับวิธีทำความสะอาดข้อมูล คุณพบภาพที่คุณต้องเอาออกจากชุดการฝึกหรือไม่ คุณสามารถเอาภาพในแต่ละหมวดหมู่ของชุดข้อมูลออกได้โดยแตะที่ปุ่มแก้ไขที่มุมขวาบนสุด";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page53..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page53..Paragraph131" = "เมื่อคุณพอใจกับชุดข้อมูลของคุณแล้ว ให้ตั้งชื่อโมเดลการเรียนรู้ของเครื่องของคุณในช่องป้อนข้อความของมุมมองการฝึก";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page53..Paragraph132" = "ตอนนี้ ให้แตะปุ่มฝึกเพื่อฝึกโมเดล ML ใหม่!";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcompareModels..title" = "เปรียบเทียบโมเดลการเรียนรู้ของเครื่องของคุณ";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcompareModels..Paragraph133" = "ตอนนี้คุณมีสามโมเดลการเรียนรู้ของเครื่องที่สามารถใช้ได้ ให้ทดสอบทีละโมเดลและสังเกตความเหมือนและความแตกต่างของโมเดลเหล่านั้น";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcompareModels..Page54..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcompareModels..Page54..Paragraph134" = "แตะปุ่ม “โมเดล ML” เพื่อดูว่าโมเดลใดที่คุณสามารถใช้ได้ ถ้าคุณมีหลายโมเดล ML แสดงอยู่ ให้แตะโมเดลที่ไม่ถูกเลือกอยู่แล้วย้อนกลับไปยังมุมมองแก้บั๊กเพื่อดูว่าโมเดลทำงานอย่างไร";
+

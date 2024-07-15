@@ -1,0 +1,397 @@
+@GuideBook(title: "Get Started with Machine Learning", icon: title.png, background: titleBackground.png, firstFile: RPSApp.swift) {
+    @WelcomeMessage(title: "Get Started with Machine Learning") {
+        Welcome! In this sample, you’ll transform a Rock, Paper, Scissors game into a full-fledged machine learning (ML) app.
+    }
+    @Guide {
+        @Step(title: "Get Started with Machine Learning") {
+            @ContentAndMedia {
+                ![Composition showing rock, paper, and scissors hand gestures.](ML-intro@2x.png)
+                
+                Have you played the game Rock, Paper, Scissors before? It’s a two player game where you can choose one of three actions, each beating one another:
+                
+                * Rock ✊ beats Scissors ✌️
+                * Paper ✋ beats Rock ✊
+                * Scissors ✌️ beats Paper ✋
+                
+                The rules are easy enough that you can teach a computer to play. But how much work does it take to teach your iPad or Mac to recognize your hand poses, such as ✊, ✋, or ✌️?
+                
+                In this sample, you’ll take an existing Rock, Paper, Scissors game and upgrade it to an awesome machine learning powered game with the help of a camera and a [machine learning model](glossary://machine%20learning%20model). Time to get started!
+                
+                @GuideButton(type: walkthrough, title: "Start Walkthrough", description: "AX description for button")
+            }
+            
+            @TaskGroup(title: "Completing the game logic") {
+                @Task(type: experiment, title: "Add in the remaining game logic 🕹", id: "rpsGameLogic", file: RPSGameView.swift) {
+                    Learn how to create a Rock, Paper, Scissors game in Swift.
+                    
+                    @Page(id: "gameView", title: "") {
+                       In your preview, you can see a basic game of Rock, Paper, Scissors. In this version of the game, you can select your move by using the left and right arrow buttons. 
+                       
+                       Tap Play for your iPad or Mac to generate a move. Take a second and try out the game.
+                       
+                       Do you notice anything wrong with the game?
+                    }
+                    @Page(id: "gameView.broken", title: "") {
+                        You may have noticed that the game rules are a little broken! Don’t worry, you’ll fix this soon enough.
+                    }
+                    @Page(id: "gameModel", title: "") {                        
+                        A [data model](glossary://data%20model), called `GameModel`, powers the `RPSGameView`, your Rock, Paper, Scissors game [view](glossary://view) that keeps track of game state, results, your move, and the computer’s move.
+
+                        Next, you’ll set up the logic of the game in `GameModel`.
+                    }
+                    @Page(id: "gameModel.rules", title: "", file: GameModel.swift) {
+                        The game rules are set inside the `GameModel` [initalizer](glossary://initialization).
+                        
+                        Take a second to look through this code. Can you predict what each line of code does?
+                    }
+                    @Page(id: "gameModel.moves", title: "", file: GameModel.swift) {
+                        First, the code creates three different `GameMove` [instances](glossary://instance) for Rock ✊, Paper ✋, and Scissors ✌️.
+
+                        A `GameMove` contains a name, icon, and an array of other moves that it can beat. This allows you to figure out if one `GameMove` beats another `GameMove` and returns a result that’s `.win`, `.lose`, or `.tie`.
+                        
+                        Try changing the icon for your `rock`, `paper`, and `scissors` moves and play the game again to see how it changes.
+                    }
+                    @Page(id: "gameModel.addRules", title: "", isAddable: true, file: GameModel.swift) {
+                        Next, the game sets its rules for which move beats another.
+                        
+                        If you look at the code, it only has the logic for Rock beating Scissors. This is why the game is so broken. 🤪
+                        
+                        Insert this code snippet to add the rules for `paper` and `scissors`:
+                        
+                        ```
+                        /*#-code-walkthrough(gameModel.customizeRules)*/
+                        paper.beats([rock])
+                        scissors.beats([paper])
+                        /*#-code-walkthrough(gameModel.customizeRules)*/
+                        ```
+                        
+                        Try playing the game again and see if that fixed your game logic.
+                    }
+                    @Page(id: "gameModel.customizeRules", title: "", file: GameModel.swift) {
+                       You have full creative freedom to customize these rules! Do you want Rock ✊ to be the superior move and make it so that it beats paper and scissors? 
+                       
+                       If so, try changing the logic by modifying which moves beat the others. How does this change your game?
+                       
+                       ```
+                       rock.beats([scissors, paper])
+                       ```
+                    }
+                    @Page(id: "gameModel.addNew", title: "", file: GameModel.swift) {
+                       What if you added a new move that beats everything?
+                       
+                       Try adding a new move by yourself, and customize the game to your heart’s content:
+                       
+                       ```
+                       let panda = GameMove(name: "panda", icon: "🐼")
+                       panda.beats([rock,paper,scissors])
+                       validMoves[panda.name] = panda
+                       ```
+                    }
+                    @Page(id: "gameModel.rules", title: "", file: GameModel.swift) {
+                       When you’re done configuring your game, change the rules back to the basic Rock, Paper, Scissors game logic. 
+                       
+                       Replace all of the code in the initializer with this code:
+                       
+                       ```
+                       let rock = GameMove(name: "rock", icon: "✊")
+                       let paper = GameMove(name: "paper", icon: "✋")
+                       let scissors = GameMove(name: "scissors", icon: "✌️")
+
+                       rock.beats([scissors])
+                       paper.beats([rock])
+                       scissors.beats([paper])
+                       
+                       validMoves[rock.name] = rock
+                       validMoves[paper.name] = paper
+                       validMoves[scissors.name] = scissors
+                       ```
+                    }
+                    @Page(id: "checkOutMore", title: "", file: GameModel.swift) {
+                        For more details about creating your own Rock, Paper, Scissors game, see the [Rock, Paper, Scissors](x-com-apple-playgrounds://projects?contentId=com.apple.playgrounds.rockpaperscissors.edition4) playground book.
+                    }
+                }
+            }
+            @TaskGroup(title: "Using machine learning to recognize gestures") {
+                @Task(type: walkthrough, title: "Learn the fundamentals of machine learning", id: "machineLearning", file: HandPoseTrainer.swift) {
+                    Find out how machine learning makes predictions from data.
+                    @Page(id: "ml.overview", title: "") {
+                        [Machine learning](glossary://machine%20learning) is the process of how you can “teach” computers, like your iPad or Mac, to make educated guesses by providing them lots of examples, or data. 
+                        
+                        Because they’re so smart (🧠), humans can see very few examples of hand poses and immediately tell the difference between ✊ and ✌️. However, a computer requires many examples of those hand poses to correctly identify them.
+                        
+                        This is because a computer requires lots of data to identify and distinguish meaningful features of such hand poses, something the human brain can do rather effortlessly. 
+                    }
+                    @Page(id: "ml.frameworks", title: "") {
+                        To use machine learning in your app, you’ll use the [CreateML](doc://com.apple.documentation/documentation/createml) and [CoreML](doc://com.apple.documentation/documentation/coreml) frameworks. 
+                    }
+                    @Page(id: "ml.classifier", title: "") {                        
+                        Your Rock, Paper, Scissors app uses image [classification](glossary://classification) to recognize different hand poses shown in the camera. 
+                        
+                        “Classification” is a type of machine learning algorithm that categorizes examples from a dataset into different groups. You’ll use the [MLHandPoseClassifier](doc://com.apple.documentation/documentation/createml/mlhandposeclassifier) to classify different hand poses (✊, ✋, and ✌️) from a stream of images from the camera.
+                    }
+                    @Page(id: "ml.training", title: "") {
+                        To create a [machine learning model](glossary://machine%20learning%20model), you need to feed a large amount of data — in this case, images — to your classifier. This is called [training](glossary://training) your ML model, because you’re teaching it how to recognize different things.
+                    }
+                    @Page(id: "ml.model", title: "", file: HandPoseMLModel.swift) {
+                        You can think of a machine learning model as a machine’s brain and all the knowledge it knows about a certain type of pattern – in this case, hand poses.
+                    }
+                    @Page(id: "ml.prediction", title: "", file: HandPoseMLModel.swift) {
+                         A machine learning model takes in information as input, then produces an educated guess of what that information represents. This is called a [prediction](glossary://prediction).  
+                    }
+                    @Page(id: "ml.machinesvshumans", title: "", file: HandPoseMLModel.swift) {
+                        Consider the differences between the hand poses in Rock, Paper, Scissors. 
+                        
+                        For example, one major distinction between a rock pose (✊) and a scissors pose (✌️) is that all ✌️ poses show the index and middle fingers raised, whereas a ✊ shows no raised fingers. Humans without visual impairments are able to process that information visually with their eyes. 
+                        
+                        Computers are similar in this way – they can also process information visually, although they see it as a 2D array of pixels, instead of as a hand or a tree.
+                    }
+                    @Page(id: "ml.input", title: "", file: HandPoseMLModel.swift) {                        
+                        The camera in your app is the machine’s eyes. You can use image data from the camera as input for your `HandPoseMLModel`. Your ML model uses this data to identify the different types of hand poses.
+                    }
+                    @Page(id: "ml.visionFramework", title: "", file: AppModel.swift) {
+                        The [Vision Framework](doc://com.apple.documentation/documentation/vision) makes it easy for your app to convert the camera’s image data into something the ML model can understand.
+                    }
+                    @Page(id: "ml.observation", title: "", file: AppModel.swift) {
+                        Every time your camera’s frame updates, your app gathers [VNHumanHandPoseObservations](doc://com.apple.documentation/documentation/vision/vnhumanhandposeobservation) from the frame’s pixel buffer.
+                    }
+                    @Page(id: "ml.multiarray", title: "", file: AppModel.swift) {
+                        [Vision](doc://com.apple.documentation/documentation/vision) then extracts an [MLMultiArray](doc://com.apple.documentation/documentation/coreml/mlmultiarray) from these observations.
+                        
+                        An `MLMultiArray` instance provides location coordinates that (in this case) map to the major hand joints, giving your ML model a rich set of hand-position data that it uses to train itself.
+                    }
+                    @Page(id: "ml.output", title: "", file: HandPoseMLModel.swift) {
+                        In your Rock, Paper, Scissors game, if the model successfully receives an input, you’ll receive an output of a label and the [confidence](glossary://confidence), or probability, of that label. For example, if you decide to pose with a ✌️ move, the model could interpret that 80 percent scissors, 15 percent rock, and 5 percent paper. 🤷‍♀️
+                    }
+                    @Page(id: "ml.examples", title: "") {
+                        Beyond image classification, you can use machine learning in your daily life. 
+                        
+                        Here are some examples; can you think of any others? 
+
+                        * Face ID and Touch ID on your Apple devices
+                        * Voice assistants, like Siri
+                        * Recommendations made on streaming services
+                        * The “For You” tab in the Photos app
+                    }
+                }
+                @Task(type: experiment, title: "Train your ML model", id: "trainModel", file: DatasetView.swift) {
+                    Use a pre-existing dataset to create your own ML model.
+
+                    @Page(id: "trainModel.firstMLModel", title: "") {
+                        Now it’s time to train your first ML model!
+                        
+                        You’ll start by using a pre-existing dataset of labeled hand pose images to train the model. 
+                    }
+                    @Page(id: "trainModel.selectDataset", title: "") {
+                        1. In your preview, choose an existing [training dataset](glossary://training%20dataset). A training dataset is a dataset that the model trains on to generate its predictions. In this case, the dataset is a collection of images showing various hand poses.
+                        2. Give your machine learning model a name; for example, `firstMLModel`. 
+                        3. Optionally, choose an existing [validation dataset](glossary://validation%20dataset) using the picker below your training dataset. The validation dataset isn’t used to train the model. Instead, the validation dataset’s used to give an estimate of how good its predictions are.
+                    
+                        If you want to take a look at the dataset’s images, tap on each individual dataset cell. This navigates you to a grid of images for that particular hand pose dataset. 
+                    }
+                    @Page(id: "trainModel.training", title: "") {
+                        Now that you've selected your training dataset and named your machine learning model, tap Train in the top-right corner of the preview. 
+                        
+                        Important: Don’t leave this preview or the current file displayed in the source editor, because you could lose your training session’s progress. 
+
+                        The length of a training session depends on the number of images in the training dataset. Be patient, this can take a long time! With a training dataset of 21 images, it can take anywhere from 2 to 5 minutes depending on your device.
+                    }
+                    @Page(id: "trainModel.metrics", title: "") {
+                        During the training session, you’ll see some metrics in the console. Open the console by tapping the button in the bottom-left corner over your source editor and read through the processing metrics to get a better idea of how the model trains itself and tests its accuracy.
+                    }
+                    @Page(id: "trainModel.game", title: "") {
+                        After the training session finishes, and you’ve saved the model, it’s time to test your model as part of a real Rock, Paper, Scissors game!
+                    }
+                }
+                @Task(type: experiment, title: "Integrate your ML model into the game", id: "mlgameview", file: RPSApp.swift) {
+                    Test your model in real time!
+                    @Page(id: "mlgameview.replace", title: "") {
+                        To test your ML model, swap out your regular game of Rock, Paper, Scissors with one that uses machine learning to identify the hand pose you use. 
+                    }
+                    @Page(id: "mlgameview.replace", title: "", isAddable: true) {
+                        Replace the existing `GameView.environmentObject(appModel)` with the following code: 
+                        
+                        ```
+                        MLGameView()
+                            .environmentObject(appModel)
+                        ```
+                        
+                        Make sure you delete the existing highlighted `GameView()` code, or you’ll see more than one window showing the game.
+                    }
+                    @Page(id: "mlgameview.mlmodel", title: "", isAddable: true, file: MLGameView.swift) {
+                        Currently, the Rock, Paper, Scissors game uses the built-in default ML model as its model. To use the one you just created, add this code:
+                        
+                        ```
+                        .task {
+                            await appModel.useLastTrainedModel()
+                        }
+                        ```
+                    }
+                    @Page(id: "mlgameview.explanation", title: "", file: MLGameView.swift) {                        
+                        To activate the Play button, show a hand pose to the camera. If you look in the bottom-right corner of the camera, you’ll see a view where the ML model predicts your move in real time as you move your hand.
+
+                        When you’re ready to play, tap Play to lock in your move and the computer generates a move. Have fun and try playing a few games!
+                    }
+                    @Page(id: "mlgameview.test", title: "", file: MLGameView.swift) {
+                        After you’ve played your ML-based Rock, Paper, Scissors game a few times, try answering the following questions:
+                        
+                        * Does the model recognize your hand poses correctly? 
+                        * Which of the hand poses does it seem best at identifying? 
+                        * Which hand poses does it struggle to identify?
+                        
+                        Next, you’ll learn how to improve and debug your ML model. 
+                    }
+                } 
+            }
+            @TaskGroup(title: "Debugging your machine learning model") {
+                @Task(type: experiment, title: "See what your camera sees by drawing an overlay of nodes", id: "drawNodes", file: CameraView.swift) {
+                    Visualize the 2D array of nodes extracted by the [Vision framework](doc://com.apple.documentation/documentation/vision).
+                    @Page(id: "drawNodes.intro", title: "") {
+                        Before you start debugging your model, it’s helpful to get more insight into the data your model uses to generate its predictions. 
+                        
+                        To do this, you’ll visualize the 2D array of nodes generated by the [Vision framework](doc://com.apple.documentation/documentation/vision) when it interprets image data. The nodes you visualize map to the joints on your hand. ✋
+                    }
+                    @Page(id: "drawNodes.multiarray", title: "") {
+                        To create this visualization you’ll take the `MLMultiArray` that Vision extracts from an image frame and transform it into coordinates overlayed on top of your camera’s viewfinder.
+                    }
+                    @Page(id: "drawNodes.code", title: "", isAddable: true) {
+                        Add this [overlay](doc://com.apple.documentation/documentation/SwiftUI/View/overlay(alignment:content:)) to your `ViewFinderView` code to show the node visualization when `showNodes` is `true`:
+                                                
+                        ```
+                        .overlay(alignment: .center)  {
+                            if showNodes {
+                                HandPoseNodeOverlay(size: previewImageSize,
+                                                    points: handJointPoints)
+                            }
+                        }
+                        ```
+                    }
+                    @Page(id: "drawNodes.explanation", title: "") {
+                        After adding the code snippet, try placing your hand in front of the camera and notice how the nodes map onto it:
+                        
+                        * Are the nodes accurate? Do they map to the joints in your hand?
+                        * Do you see nodes on other, non-hand objects? Why do you think this is?
+                        * Try placing two hands in the same frame. Where do the nodes get placed?
+                        * As you move your hand around, what do you notice about the location of the nodes?
+                        
+                        You are seeing a live visualization of data that your ML model uses to predict which pose is shown. 
+                        
+                        Imagine if your hand was partially covered in the image. What do you think would happen to the accuracy of your predictions for that hand pose? The next task uses `DebugModeView` to evaluate and debug your ML model.
+                    }
+                }
+                @Task(type: walkthrough, title: "Test your model", id: "testModel", file: DebugModeView.swift) {
+                    Is your machine learning model accurately identifying the different hand poses? 
+                    @Page(id: "testModel.debugMode", title: "") {
+                        You can use `DebugModeView` to evaluate and debug your ML model. 
+                    }
+                    @Page(id: "testModel.chart", title: "") {
+                        In this view, you’ll have a camera view and a bar [chart](doc://com.apple.documentation/documentation/charts) that visualizes in real time how confident your ML model is in its [prediction](glossary://prediction).
+                        
+                        In the preview, hold up a couple different hand poses to the camera and notice how the prediction changes. Which pose is it most confident in? 
+                    }
+                    @Page(id: "testModel.unseenData", title: "") {
+                        Try answering the following questions: 
+                        
+                        * How does the bar chart change when you show the camera a Paper pose (✋) and rotate your hand 90 degrees? 
+                        * What about when you move your hand closer to the camera or further away? 
+                        
+                        Remember, an ML model’s prediction accuracy depends on the training data you give it. Take a second to look back through the training data you used. Are there any examples of those types of images? If not, the model might not be able to accurately predict what they are.  
+                    }
+                    @Page(id: "testModel.unseenData.2", title: "") {
+                        One way to catch these issues even before you start using your model is providing these [edge cases](glossary://edge%20case) as part of your validation dataset. 
+                        
+                        This is a great way to find mislabeled data early in your machine learning process. It ensures that your model isn’t just memorizing training examples, but accurately predicting the hand signs you display.
+                        
+                        Consider these edge cases when you create your own datasets for future ML model development.
+                    }
+                    @Page(id: "testModel.cameraConditions", title: "") {
+                        As you debug your model, you’ll discover that some camera conditions — like lighting, angle, or focus — also influence your model’s predictions.
+                        
+                        Think back to your training dataset: Is there a variety of lighting, camera angles, and focus settings? If not, your model may have [overfitted](glossary://overfitting) to the specific setup of one environment.
+                    }
+                    @Page(id: "testModel.bias", title: "") {
+                        Your model also might work well for you, but not as well for a friend. This can also be the result of [overfitting](glossary://overfitting).
+                        
+                        For instance, your ML model could better recognize one skin tone over another, causing some hand poses to be more accurately predicted than some in other skin tones. This is known as bias, because it favors one type of information over another.
+                    }
+                    @Page(id: "testModel.bias.2", title: "") {
+                        Your model only affects this game, but what if you were implementing this Rock, Paper, Scissors game on every iPhone around the world? Unfair bias due to overfitting is a serious problem in systems meant for use by everyone.  
+                        
+                        It’s important to think about how to avoid bias when creating your own datasets and training your ML model.
+                    }
+                    @Page(id: "testModel.mitigateBias", title: "") {
+                        Some ways to mitigate bias are to:
+
+                        * Make sure your training and validation datasets are diverse, and don’t [overfit](glossary://overfitting) to one group or situation.
+                        * Think about and address edge cases that your users might encounter.
+                        * Remember that ML model development is an iterative process. Create multiple datasets and train more ML models! It’s up to you when your model is good enough for your app.
+                    }
+                }
+            }
+            @TaskGroup(title: "Creating your own ML dataset") {
+                @Task(type: walkthrough, title: "Collect and organize data for your model", id: "datasetTips", file: DatasetView.swift) {
+                    Tips to create your own dataset for a machine learning model.
+                    @Page(id: "datasetTips.labeled", title: "") {
+                        Computers are great at detecting patterns in data when given enough examples. To create a hand pose machine learning model, you’ll need several images of hands. 
+                        
+                        You’ll gather images of hand poses and label them to your game’s moves: Rock ✊, Paper ✋, and Scissors ✌️. These labeled images are the only examples that the machine’s “brain” has ever seen, so make sure they’re representative of what each hand pose looks like.
+                    }
+                    @Page(id: "datasetTips.quality", title: "") {
+                        Machine learning engineers often need to go through their datasets and ensure they’re good quality datasets. This process is called [data cleaning](glossary://data%20cleaning), and it’s one of the most important steps in machine learning since it dramatically affects how your machine learning model performs.
+                        
+                        Some examples of how to clean the data for your hand pose ML model include:
+    
+                        * Ensuring there is a hand pose in the image
+                        * Ensuring the hand pose isn’t too far from the camera, and not too close in the frame
+                        * Ensuring that your images aren’t mislabeled, like a rock image accidentally labeled as scissors
+                        * Ensuring there aren't duplicate photos in the dataset
+                        * Ensuring there are roughly equal amounts of images for each hand gesture
+                    }
+                }
+                @Task(type: experiment, title: "Increase the size of your training dataset artificially", id: "imageAugment", file: HandPoseTrainer.swift) {
+                    @Page(id: "imageAugment.options", title: "") {                        
+                        If you don’t plan to use a lot of images to train the model, that’s OK. One way you can increase your training dataset is by using [image augmentation options](doc://com.apple.documentation/documentation/createml/mlimageclassifier/imageaugmentationoptions). Adding in these options, such as `.rotate`, `.translate`, and `.horizontallyFlip`, before a training session creates four new images per option you use. For example, using the `.rotate` option generates four new images and applies a random rotation angle to the new images.
+                    }
+                    @Page(id: "imageAugment.code", title: "", isAddable: true) {
+                        You can augment your training data by adding these three options: `.rotate`, `.translate`, `.horizontallyFlip`. 
+                        
+                        ```
+                        /*#-code-walkthrough(imageAugment.addedCode)*/
+                        augmentationParameters.insert(.rotate)
+                        augmentationParameters.insert(.translate)
+                        augmentationParameters.insert(.horizontallyFlip)
+                        /*#-code-walkthrough(imageAugment.addedCode)*/
+                        ```
+                    }
+                    @Page(id: "imageAugment.addedCode", title: "") {
+                        Now, when you train a new ML model, your training session automatically uses these augmentations to improve the model’s predictions.
+                    }
+                }
+                @Task(type: experiment, title: "Collect your own dataset", id: "collectYourData", file: DatasetView.swift) {
+                    Personalize a machine learning model by using your own hand pose images.
+                    @Page(id: "collectYourData.newView", title: "") {
+                        In the preview, tap the Add (+) button in the top-right corner to create a new dataset. This opens a new training view.
+                    }
+                    @Page(id: "collectYourData.newView", title: "") {
+                        You can add new images to the new dataset by clicking into each category. Tap the Add button to open a [PhotosPicker view](doc://com.apple.documentation/documentation/photokit/photospicker) so you can access the images in your photo library.
+                        
+                        Choose at least seven images for each category.
+                    }
+                    @Page(id: "collectYourData.clean", title: "") {
+                        Take a moment to go through your dataset and recall the tips from the previous walkthrough on how to clean your data. Can you find any images that you need to remove from the training set? You can remove images in each category’s dataset by tapping the Edit button in the top-right corner.
+                    }
+                    @Page(id: "collectYourData.train", title: "") {
+                        When you’re happy with your dataset, give your machine learning model a name in the training view’s text field.
+                        
+                        Now, tap the Train button to train a new ML model!
+                    }
+                }
+                @Task(type: experiment, title: "Compare your machine learning models", id: "compareModels", file: DebugModeView.swift) {
+                    You now have three machine learning models available to you. Test them individually and observe their similarities and differences.
+                    @Page(id: "compareModels.try", title: "") {
+                        Tap the "ML Models" button to see which models are available to you. If you have multiple ML models listed, tap one that isn’t selected and go back to the debug view to see how it performs.
+                    }
+                }
+            }
+        }
+    }
+}

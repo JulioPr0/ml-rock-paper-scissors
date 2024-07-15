@@ -1,0 +1,651 @@
+/* Title of Guidebook */
+"GuideBook..title" = "기계 학습 시작하기";
+
+/* The title of the Welcome Message for the GuideBook */
+"GuideBook..WelcomeMessageGet Started with Machine Learning..title" = "기계 학습 시작하기";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..WelcomeMessageGet Started with Machine Learning..Paragraph0" = "환영합니다! 이 샘플에서는 가위, 바위, 보 게임을 모든 기능이 갖춰진 기계 학습(ML) 앱으로 변환합니다.";
+
+/* Title of step named Get Started with Machine Learning */
+"GuideBook..Guide0..StepGet Started with Machine Learning..title" = "기계 학습 시작하기";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..Paragraph1" = "![](ML-intro@2x.png)";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..Paragraph2" = "가위, 바위, 보 게임을 해 본 적이 있나요? 2인용 게임으로 세 가지 동작 중 하나를 선택할 수 있으며, 각각 서로 다른 동작을 이기는 게임입니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..UnorderedList0..Paragraph3" = "바위 ✊는 가위 ✌️에 승";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..UnorderedList0..Paragraph4" = "보 ✋는 바위 ✊에 승";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..UnorderedList0..Paragraph5" = "가위 ✌️는 보 ✋에 승";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..Paragraph6" = "규칙은 컴퓨터가 플레이하도록 가르칠 수 있을 정도로 매우 쉽습니다. 하지만 ✊, ✋ 또는 ✌️와 같은 손 포즈를 iPad 또는 Mac이 인식하도록 가르치는 데는 얼마나 많은 작업이 필요할까요?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..Paragraph7" = "이 샘플에서는 기존의 가위, 바위, 보 게임을 카메라와 [기계 학습 모델](glossary://machine%20learning%20model)의 도움을 받아 멋진 기계 학습 구동 게임으로 업그레이드합니다. 그럼 시작해 볼게요!";
+
+/* title of the guide button */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..GuideButtonStart Walkthrough..title" = "가이드 시작하기";
+
+/* accessibility description for guide button */
+"GuideBook..Guide0..StepGet Started with Machine Learning..LearningCenterContent..GuideButtonStart Walkthrough..description" = "버튼에 대한 손쉬운 사용 설명";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..title" = "게임 로직 완성하기";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..title" = "남은 게임 로직 추가하기 🕹";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Paragraph8" = "Swift에서 가위, 바위, 보 게임을 만드는 방법을 배워보세요.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page0..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page0..Paragraph9" = "미리보기에서는 기본 버전의 가위, 바위, 보 게임을 볼 수 있습니다. 이 버전의 게임에서는 왼쪽 및 오른쪽 화살표 버튼을 사용하여 동작을 선택할 수 있습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page0..Paragraph10" = "iPad 또는 Mac의 재생을 탭하여 동작을 생성합니다. 잠시 시간을 내서 게임을 해보세요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page0..Paragraph11" = "게임에 무슨 문제라도 있나요?";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page1..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page1..Paragraph12" = "게임 규칙에 조금 어긋나는 부분을 알아챘나요? 걱정 마세요. 곧 고칠 테니까요.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page2..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page2..Paragraph13" = "`GameModel`이라는 [데이터 모델](glossary://data%20model)은 게임 상태, 결과, 사용자 및 컴퓨터의 동작을 추적하는 가위바위보 게임 [보기](glossary://view)인 `RPSGameView`를 구동합니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page2..Paragraph14" = "이제 `GameModel`에서 게임 로직을 설정하겠습니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page3..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page3..Paragraph15" = "게임 규칙은 `GameModel` [이니셜라이저](glossary://initialization) 안에 설정됩니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page3..Paragraph16" = "잠시 이 코드를 살펴보세요. 각 코드가 어떤 일을 하는지 예측할 수 있나요?";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page4..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page4..Paragraph17" = "우선, 해당 코드는 가위 ✌️, 바위 ✊, 보 ✋에 관한 세 가지 서로 다른 `GameMove` [인스턴스](glossary://instance)를 생성합니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page4..Paragraph18" = "`GameMove`에는 이름, 아이콘 및 이길 수 있는 다른 동작의 배열이 들어 있습니다. 이를 통해 하나의 `GameMove`가 다른 `GameMove`를 이길 경우 `.win`, `.lose`, `.tie` 중 어떤 결과를 반환하는지 알려줍니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page4..Paragraph19" = "`rock`, `paper` 및 `scissors` 동작 아이콘을 변경해 보고 게임을 다시 플레이하여 어떻게 변화하는지 확인해 보세요.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page5..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page5..Paragraph20" = "다음으로, 게임에서 어떤 동작이 다른 동작을 이기는지에 관한 규칙을 정할 거예요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page5..Paragraph21" = "코드를 보면 바위가 가위를 이기는 로직만 있네요. 이것이 게임이 그와 같이 작동하지 않았던 원인입니다. 🤪";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page5..Paragraph22" = "다음 코드 스니펫을 삽입하여 `paper`와 `scissors`에 대한 규칙을 추가합니다.";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page5..CodeBlock0" = "/*#-code-walkthrough(gameModel.customizeRules)*/\npaper.beats([rock])\nscissors.beats([paper])\n/*#-code-walkthrough(gameModel.customizeRules)*/\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page5..Paragraph23" = "게임을 다시 플레이해 보고 게임 로직이 해결되었는지 확인해 보세요.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page6..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page6..Paragraph24" = "이러한 규칙을 사용자화할 수 있는 모든 창작의 자유는 여러분에게 있습니다! 바위✊가 우세한 동작으로 보와 가위를 이겼으면 하나요?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page6..Paragraph25" = "그렇다면, 어떤 동작이 다른 동작을 이기는지 수정하여 로직에 변화를 줘 보세요. 게임이 어떻게 바뀌나요?";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page6..CodeBlock1" = "rock.beats([scissors, paper])\n";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page7..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page7..Paragraph26" = "모두 이기는 새로운 동작을 추가한다면 어떨까요?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page7..Paragraph27" = "나만의 새로운 동작을 추가하고 게임을 마음껏 사용자화해 보세요.";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page7..CodeBlock2" = "let panda = GameMove(name: \"panda\", icon: \"🐼\")\npanda.beats([rock,paper,scissors])\nvalidMoves[panda.name] = panda\n";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page8..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page8..Paragraph28" = "게임 구성을 마쳤으면 기본 가위, 바위, 보 게임 로직으로 규칙을 다시 변경합니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page8..Paragraph29" = "이니셜라이저의 모든 코드를 다음 코드로 대치합니다.";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page8..CodeBlock3" = "let rock = GameMove(name: \"rock\", icon: \"✊\")\nlet paper = GameMove(name: \"paper\", icon: \"✋\")\nlet scissors = GameMove(name: \"scissors\", icon: \"✌️\")\n\nrock.beats([scissors])\npaper.beats([rock])\nscissors.beats([paper])\n\nvalidMoves[rock.name] = rock\nvalidMoves[paper.name] = paper\nvalidMoves[scissors.name] = scissors\n";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page9..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup0..TaskrpsGameLogic..Page9..Paragraph30" = "나만의 가위, 바위, 보 게임을 생성하는 자세한 사항은 [가위, 바위, 보](x-com-apple-playgrounds://projects?contentId=com.apple.playgrounds.rockpaperscissors.edition4) 플레이그라운드 책을 참조하세요.";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..title" = "기계 학습을 사용하여 제스처 인식하기";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..title" = "기계 학습의 기초 배우기";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Paragraph31" = "기계 학습이 데이터를 기반으로 어떻게 예측하는지 알아보세요.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page10..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page10..Paragraph32" = "[기계 학습](glossary://machine%20learning)은 iPad 또는 Mac과 같은 컴퓨터를 ‘가르치는’ 방법에 대한 프로세스로, 대량의 예시나 데이터를 제공하여 지식에 근거한 추측을 가능하게 합니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page10..Paragraph33" = "인간은 매우 똑똑(🧠)하기 때문에 몇 안되는 손 포즈로도 ✊와 ✌️의 차이를 바로 구별해 낼 수 있습니다. 하지만 컴퓨터는 많은 예제의 손 포즈를 필요로 합니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page10..Paragraph34" = "이는 컴퓨터가 인간의 뇌에서 다소 쉽게 처리할 수 있는 그러한 손 포즈의 의미 있는 특징을 식별하고 구별하는 데 많은 데이터를 필요로 하기 때문입니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page11..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page11..Paragraph35" = "앱에서 기계 학습을 사용하려면 [CreateML](doc://com.apple.documentation/documentation/createml) 및 [CoreML](doc://com.apple.documentation/documentation/coreml) 프레임워크를 사용합니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page12..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page12..Paragraph36" = "가위, 바위, 보 앱은 이미지 [분류](glossary://classification)를 사용하여 카메라에 포착된 서로 다른 손 포즈를 인식합니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page12..Paragraph37" = "‘분류’는 데이터 세트의 예제를 다른 그룹으로 분류하는 기계 학습 알고리즘의 유형입니다. [MLHandPoseClassifier](doc://com.apple.documentation/documentation/createml/mlhandposeclassifier)를 사용하여 카메라에서 포착한 일련의 이미지에서 서로 다른 손 포즈(✊, ✋ 및 ✌️)를 분류합니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page13..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page13..Paragraph38" = "[기계 학습 모델](glossary://machine%20learning%20model)을 생성하려면 대량의 데이터(이 경우 이미지)를 분류자에게 제공해야 합니다. 이를 ML 모델 [훈련](glossary://training)이라고 하는데, 서로 다른 사물을 인식하는 방법을 가르치기 때문입니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page14..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page14..Paragraph39" = "기계 학습 모델을 기계의 두뇌와 특정 유형의 패턴에 대해 알고 있는 모든 지식으로 생각할 수 있습니다. 이 경우에는 손 포즈가 해당합니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page15..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page15..Paragraph40" = "기계 학습 모델은 정보를 입력으로 받아들인 다음 해당 정보가 나타내는 것에 대해 지식에 근거한 추측을 생산합니다. 이를 [예측](glossary://prediction)이라고 합니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page16..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page16..Paragraph41" = "가위, 바위, 보에서 손 포즈의 차이를 생각해 보세요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page16..Paragraph42" = "예를 들어, 가위 포즈(✌️)와 바위 포즈(✊)의 주요 차이점은 ✌️는 검지와 가운데 손가락을 들어 올린 모습을 보이는 반면, ✊는 손가락을 들어 올린 모습을 보이지 않는다는 것입니다. 시각 장애가 없는 인간은 눈으로 정보를 시각적으로 처리할 수 있습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page16..Paragraph43" = "컴퓨터도 이와 유사한 방식으로 정보를 시각적으로 처리할 수 있지만, 정보를 손이나 나무가 아닌 2D 픽셀 배열로 볼 수 있습니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page17..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page17..Paragraph44" = "앱에 있는 카메라는 기계의 눈입니다. 카메라의 이미지 데이터를 `HandPoseMLModel`의 입력으로 사용할 수 있습니다. ML 모델은 이 데이터를 사용하여 다양한 유형의 손 포즈를 식별합니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page18..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page18..Paragraph45" = "[Vision Framework](doc://com.apple.documentation/documentation/vision)를 사용하면 앱이 카메라의 이미지 데이터를 ML 모델이 이해할 수 있는 것으로 쉽게 변환할 수 있습니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page19..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page19..Paragraph46" = "카메라의 프레임이 업데이트될 때마다 앱은 프레임의 픽셀 버퍼에서 [VNHumanHandPoseObservations](doc://com.apple.documentation/documentation/vision/vnhumanhandposeobservation)를 수집합니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page20..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page20..Paragraph47" = "그런 다음 [Vision](doc://com.apple.documentation/documentation/vision)이 이러한 관찰 대상에서 [MLMultiArray](doc://com.apple.documentation/documentation/coreml/mlmultiarray)를 추출합니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page20..Paragraph48" = "`MLMultiArray` 인스턴스는 (이 경우) 주요 손 관절을 매핑하는 위치 좌표를 제공하여 ML 모델이 스스로 훈련하는 데 사용하는 풍부한 손 위치 데이터 세트를 제공합니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page21..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page21..Paragraph49" = "가위, 바위, 보 게임에서 모델이 입력을 성공적으로 수신하면 레이블과 해당 레이블의 [신뢰도](glossary://confidence) 또는 확률을 출력합니다. 예를 들어, ✌️ 동작으로 포즈를 취하기로 결정한 경우 모델은 가위 80%, 바위 15%, 보 5%로 해석할 수 있습니다. 🤷‍♀️";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..Paragraph50" = "이미지 분류 외에도 일상 생활에서 기계 학습을 사용할 수 있습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..Paragraph51" = "다음은 몇 가지 예입니다. 또 다른 것도 생각해 보세요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..UnorderedList1..Paragraph52" = "Apple 기기의 Face ID 및 Touch ID";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..UnorderedList1..Paragraph53" = "Siri와 같은 음성 비서";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..UnorderedList1..Paragraph54" = "스트리밍 서비스에서 제공하는 추천";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TaskmachineLearning..Page22..UnorderedList1..Paragraph55" = "사진 앱의 ‘For You’ 탭";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..title" = "ML 모델 훈련하기";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Paragraph56" = "기존 데이터 세트를 사용하여 고유한 ML 모델을 만듭니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page23..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page23..Paragraph57" = "이제 첫 번째 ML 모델을 훈련할 시간입니다!";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page23..Paragraph58" = "기존 레이블이 지정된 손 포즈 이미지의 데이터 세트를 사용하여 모델 훈련을 시작해 보세요.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page24..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page24..OrderedList0..Paragraph59" = "미리보기에서 기존 [훈련 데이터 세트](glossary://training%20dataset)를 선택합니다. 훈련 데이터 세트는 모델이 예측을 생성하기 위해 훈련하는 데이터 세트입니다. 여기서, 데이터 세트는 다양한 손 포즈를 보여주는 이미지의 모음입니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page24..OrderedList0..Paragraph60" = "기계 학습 모델의 이름을 지정합니다(예: `firstMLModel`).";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page24..OrderedList0..Paragraph61" = "또는 훈련 데이터 세트 아래의 선택기를 사용하여 기존 [유효성 확인 데이터 세트](glossary://validation%20dataset)를 선택해 보세요. 유효성 확인 데이터 세트는 모델을 훈련하는 데 사용되지 않습니다. 대신, 예측의 정확도를 추정하는 데 사용됩니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page24..Paragraph62" = "데이터 세트의 이미지를 보려면 각 데이터 세트 셀을 탭하세요. 그러면 특정 손 포즈 데이터 세트에 대한 이미지 격자로 이동합니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page25..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page25..Paragraph63" = "훈련 데이터 세트를 선택하고 기계 학습 모델의 이름을 정했으니, 이제 미리보기의 오른쪽 상단 모서리에 있는 훈련을 탭하세요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page25..Paragraph64" = "중요: 소스 편집기에 나타나는 이 미리보기 또는 현재 파일을 닫지 마세요. 훈련 세션 진행 상황이 유실될 수 있습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page25..Paragraph65" = "훈련 세션의 길이는 훈련 데이터 세트의 이미지 수에 따라 달라집니다. 오래 걸릴 수도 있으니 조금만 참으세요! 21개의 이미지로 구성된 훈련 데이터 세트를 사용하면 기기에 따라 2분에서 5분 정도 걸릴 수 있습니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page26..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page26..Paragraph66" = "훈련 세션 중에 콘솔에 몇 가지 척도가 표시됩니다. 소스 편집기 위의 왼쪽 하단 모서리에 있는 버튼을 탭하여 콘솔을 열고 프로세싱 척도를 읽어 모델이 스스로 학습하고 정확도를 테스트하는 방법에 관한 더 좋은 아이디어를 얻을 수 있습니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page27..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..TasktrainModel..Page27..Paragraph67" = "훈련 세션이 끝나고 모델을 저장하고 나면 실제 가위, 바위, 보 게임의 일부로 모델을 테스트해 볼 차례입니다!";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..title" = "ML 모델을 게임으로 통합하기";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Paragraph68" = "모델을 실시간으로 테스트해 보세요!";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page28..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page28..Paragraph69" = "ML 모델을 테스트하려면 보편화된 가위, 바위, 보 게임을 기계 학습을 사용하여 손 포즈를 식별하는 게임으로 바꿔보세요.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page29..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page29..Paragraph70" = "기존 `GameView.environmentObject(appModel)`를 다음 코드로 대치하세요.";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page29..CodeBlock4" = "MLGameView()\n    .environmentObject(appModel)\n";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page29..Paragraph71" = "하이라이트된 기존 `GameView()` 코드를 삭제해야 합니다. 그렇지 않으면 게임을 표시하는 윈도우가 두 개 이상 나타납니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page30..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page30..Paragraph72" = "현재 가위, 바위, 보 게임은 내장된 기본 ML 모델을 해당 모델로 사용하고 있습니다. 방금 작성한 코드를 사용하려면 다음 코드를 추가하세요.";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page30..CodeBlock5" = ".task {\n    await appModel.useLastTrainedModel()\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page31..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page31..Paragraph73" = "재생 버튼을 활성화하려면 카메라에 손 포즈를 보여주세요. 카메라 오른쪽 하단 모서리에 ML 모델이 손의 움직임에 따라 실시간으로 동작을 예측하는 보기가 나타납니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page31..Paragraph74" = "플레이할 준비가 되었을 때 재생을 탭하여 동작을 고정하면 컴퓨터는 하나의 동작을 생성합니다. 재미있게 놀면서 몇 가지 게임을 해보세요!";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page32..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page32..Paragraph75" = "ML 기반의 가위, 바위, 보 게임을 몇 번 해본 후 다음 질문에 답해 보세요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page32..UnorderedList2..Paragraph76" = "모델이 손 포즈를 제대로 인식하나요?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page32..UnorderedList2..Paragraph77" = "어떤 손 포즈를 가장 잘 식별하는 것 같나요?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page32..UnorderedList2..Paragraph78" = "어떤 손 포즈를 식별하기가 어려울까요?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup1..Taskmlgameview..Page32..Paragraph79" = "이제 ML 모델을 향상하고 디버깅하는 방법을 배울 거예요.";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..title" = "기계 학습 모델 디버깅";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..title" = "노드 오버레이를 그려서 카메라에 보여지는 내용 보기";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Paragraph80" = "[Vision framework](doc://com.apple.documentation/documentation/vision)에서 추출한 노드의 2D 배열을 시각화합니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page33..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page33..Paragraph81" = "모델 디버깅을 시작하기 전에 모델이 예측을 생성하는 데 사용하는 데이터에 관해 더 많은 통찰력을 얻는 것이 좋습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page33..Paragraph82" = "이를 위해 이미지 데이터를 해석할 때 [Vision framework](doc://com.apple.documentation/documentation/vision)에서 생성된 노드의 2D 배열을 시각화합니다. 시각화된 노드는 손의 관절에 매핑됩니다. ✋";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page34..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page34..Paragraph83" = "이 시각화를 생성하려면 Vision이 이미지 프레임에서 추출한 `MLMultiArray`를 카메라 뷰파인더 위에 겹쳐진 좌표로 변환해야 합니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page35..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page35..Paragraph84" = "이 [overlay](doc://com.apple.documentation/documentation/SwiftUI/View/overlay(alignment:content:))를 `ViewFinderView` 코드에 추가하여 `showNodes`가 `true`일 때 노드 시각화를 표시합니다.";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page35..CodeBlock6" = ".overlay(alignment: .center)  {\n    if showNodes {\n        HandPoseNodeOverlay(size: previewImageSize,\n                            points: handJointPoints)\n    }\n}\n";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..Paragraph85" = "코드 스니펫을 추가한 후 카메라 앞에 손을 놓고 노드가 그 위로 어떻게 매핑되는지 확인합니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..UnorderedList3..Paragraph86" = "노드가 정확한가요? 손의 관절에 매핑되나요?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..UnorderedList3..Paragraph87" = "손이 아닌 다른 대상체에 노드가 보이나요? 왜 그럴까요?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..UnorderedList3..Paragraph88" = "같은 프레임에 양 손을 놓아 보세요. 어디에 노드가 배치되나요?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..UnorderedList3..Paragraph89" = "손을 이리저리 움직이면 노드의 위치에 대해 무엇을 알 수 있나요?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..Paragraph90" = "ML 모델이 어떤 포즈가 표시되는지 예측하는 데 사용하는 실시간 데이터 시각화를 현재 보고 있습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TaskdrawNodes..Page36..Paragraph91" = "이미지에서 손 일부가 가려져 있다고 상상해 보세요. 손 포즈에 대한 예측의 정확도에 어떤 변화가 있을까요? 다음 작업에서는 `DebugModeView`를 사용하여 평가하고 디버깅 해 볼게요.";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..title" = "모델 테스트하기";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Paragraph92" = "기계 학습 모델이 다른 손 포즈를 정확하게 식별하고 있습니까?";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page37..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page37..Paragraph93" = "`DebugModeView`를 사용하여 ML 모델을 평가하고 디버깅할 수 있습니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page38..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page38..Paragraph94" = "이 보기에서는 카메라 뷰와 ML 모델이 [예측](glossary://prediction)에 대해 얼마나 확신하는지 실시간으로 시각화하는 막대 [차트](doc://com.apple.documentation/documentation/charts)가 표시됩니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page38..Paragraph95" = "미리보기에서 카메라를 향해 몇 가지 다른 손 포즈를 취하고 예측이 어떻게 변화하는지 살펴봅니다. 어떤 포즈를 취할 때 가장 잘 예측하나요?";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page39..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page39..Paragraph96" = "다음 질문에 답해 보세요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page39..UnorderedList4..Paragraph97" = "카메라에 보 포즈(✋)를 보여주고 손을 90도 회전하면 막대 차트가 어떻게 변하나요?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page39..UnorderedList4..Paragraph98" = "손을 카메라 가까이 이동하거나 더 멀리 떨어지게 하면 어떤가요?";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page39..Paragraph99" = "ML 모델의 예측 정확도는 사용자가 제공한 훈련 데이터에 따라 달라집니다. 잠시 시간을 내어 사용한 훈련 데이터를 다시 살펴보세요. 이러한 유형의 이미지 예가 있나요? 그렇지 않으면 모델이 정확하게 예측하지 못할 수 있습니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page40..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page40..Paragraph100" = "이러한 문제를 파악하려면 모델을 사용하기 전에 이 [엣지 케이스](glossary://edge%20case)를 유효성 확인 데이터 세트의 일부로 제공하세요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page40..Paragraph101" = "기계 학습 프로세스 초기에 레이블이 잘못 지정된 데이터를 발견할 수 있는 아주 유용한 방법입니다. 이를 통해 모델이 단순히 훈련 예제를 암기하는 것이 아니라 사용자가 표시하는 손짓을 정확하게 예측할 수 있도록 합니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page40..Paragraph102" = "향후 ML 모델 개발을 위한 나만의 데이터 세트를 만들 때 이러한 엣지 케이스를 고려해 보세요.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page41..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page41..Paragraph103" = "모델을 디버깅하면 조명, 각도 또는 초점과 같은 카메라 조건도 모델의 예측에 영향을 미칩니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page41..Paragraph104" = "훈련 데이터 세트를 다시 생각해 보세요. 조명, 카메라 각도, 초점 설정이 다양한가요? 그렇지 않으면 모델이 한 환경의 특정 설정에 [과적합](glossary://overfitting)되어 있을 수 있습니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page42..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page42..Paragraph105" = "해당 모델은 여러분에게 잘 돌아가지만, 친구에게는 그렇지 않을 수 있습니다. [과적합](glossary://overfitting)의 결과일 수도 있습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page42..Paragraph106" = "예를 들어, ML 모델이 한 피부톤을 다른 피부톤보다 더 잘 인식하여 특정 손 포즈를 다른 피부톤보다 더 정확하게 예측할 수 있습니다. 이를 편향성이라고 부르는데, 한 유형의 정보를 다른 유형의 정보보다 선호하기 때문에 나타납니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page43..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page43..Paragraph107" = "여러분의 모델은 이 게임에만 영향을 미치지만, 이 가위, 바위, 보 게임을 전 세계의 모든 iPhone에서 구현한다면 어떻게 될까요? 과적합으로 인한 불공정한 편향성은 모든 사람을 대상으로 하는 시스템에서 심각한 문제를 야기합니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page43..Paragraph108" = "나만의 데이터 세트를 만들고 ML 모델을 훈련할 때 편향성을 없애는 방법을 생각하는 것이 중요합니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page44..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page44..Paragraph109" = "편향성을 완화하는 몇 가지 방법은 다음과 같습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page44..UnorderedList5..Paragraph110" = "훈련 및 유효성 확인 데이터 세트가 다양한지 확인하고, 하나의 그룹 또는 상황에 [과적합](glossary://overfitting)하지 마세요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page44..UnorderedList5..Paragraph111" = "사용자가 직면할 수 있는 엣지 케이스를 생각해 보고 해결하세요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup2..TasktestModel..Page44..UnorderedList5..Paragraph112" = "ML 모델 개발은 반복적인 프로세스라는 것을 기억하세요. 여러 데이터 세트를 생성하고 더 많은 ML 모델을 훈련하세요! 사용자의 앱에 실용적인 모델인지는 여러분이 어떻게 하느냐에 달려 있습니다.";
+
+/* Title for the section of tasks to complete */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..title" = "나만의 ML 데이터 세트 만들기";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..title" = "모델에 관한 데이터 수집 및 구성하기";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Paragraph113" = "기계 학습 모델을 위한 나만의 데이터 세트를 만드는 팁입니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page45..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page45..Paragraph114" = "컴퓨터는 충분한 예가 주어지면 데이터 패턴을 아주 잘 감지합니다. 손 포즈 기계 학습 모델을 만들려면 손의 여러 이미지가 필요합니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page45..Paragraph115" = "손 포즈의 이미지를 수집하고 게임의 동작인 가위✌️, 바위 ✊, 보 ✋ 레이블을 지정합니다. 이렇게 레이블이 지정된 이미지는 기계의 ‘뇌’가 본 유일한 예이므로, 각각의 손 포즈가 어떻게 보여지는지 나타내도록 해야 합니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..Paragraph116" = "기계 학습 엔지니어는 자주 데이터 세트를 살펴보고 양질의 데이터 세트인지 확인해야 합니다. 이 프로세스를 [데이터 정제](glossary://data%20cleaning)라고 하며, 기계 학습 모델이 작동하는 방식에 아주 큰 영향을 미치기 때문에 기계 학습에서 가장 중요한 단계 중 하나입니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..Paragraph117" = "손 포즈 ML 모델의 데이터를 정제하는 몇 가지 예시는 다음과 같습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..UnorderedList6..Paragraph118" = "이미지에 손 포즈가 있는지 확인하기";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..UnorderedList6..Paragraph119" = "손 포즈가 카메라에서 너무 멀리 떨어지지 않도록 하고 프레임에서 너무 가까이 가지 않도록 하기";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..UnorderedList6..Paragraph120" = "실수로 가위로 레이블이 지정된 바위 이미지와 같이 이미지의 레이블이 잘못 지정되지 않도록 하기";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..UnorderedList6..Paragraph121" = "데이터 세트에 중복된 사진이 없도록 하기";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskdatasetTips..Page46..UnorderedList6..Paragraph122" = "각 손 제스처에 대해 거의 동일한 수의 이미지가 있는지 확인하기";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..title" = "훈련 데이터 세트의 크기를 인위적으로 늘리기";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page47..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page47..Paragraph123" = "모델 훈련에 대량의 이미지를 사용할 계획이 아니라면 문제 없습니다. [image augmentation options](doc://com.apple.documentation/documentation/createml/mlimageclassifier/imageaugmentationoptions)을 사용하여 훈련 데이터 세트를 늘릴 수 있습니다. 훈련 세션 전에 `.rotate`, `.translate` 및 `.horizontallyFlip` 등의 옵션을 추가하면 사용하는 옵션당 4개의 새로운 이미지가 생성됩니다. 예를 들어, `.rotate` 옵션을 사용하여 4개의 새로운 이미지를 생성하고 여기에 임의의 회전각을 적용합니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page48..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page48..Paragraph124" = "`.rotate`, `.translate`, `.horizontallyFlip`의 세 가지 옵션을 추가하여 훈련 데이터를 증강할 수 있습니다.";
+
+/*  */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page48..CodeBlock7" = "/*#-code-walkthrough(imageAugment.addedCode)*/\naugmentationParameters.insert(.rotate)\naugmentationParameters.insert(.translate)\naugmentationParameters.insert(.horizontallyFlip)\n/*#-code-walkthrough(imageAugment.addedCode)*/\n";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page49..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskimageAugment..Page49..Paragraph125" = "이제 새로운 ML 모델을 훈련할 때 훈련 세션에서 자동으로 이러한 증강을 사용하여 모델의 예측을 향상합니다.";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..title" = "나만의 데이터 세트 수집하기";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Paragraph126" = "나만의 손 포즈 이미지를 사용하여 기계 학습 모델을 개인 맞춤화합니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page50..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page50..Paragraph127" = "미리보기에서 오른쪽 상단 모서리에 있는 추가(+) 버튼을 탭하여 새로운 데이터 세트를 만듭니다. 이렇게 하면 새로운 훈련 보기가 열립니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page51..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page51..Paragraph128" = "각 카테고리를 클릭하여 새로운 이미지를 새로운 데이터 세트에 추가할 수 있습니다. 추가 버튼을 탭하여 [PhotosPicker 보기](doc://com.apple.documentation/documentation/photokit/photospicker)를 열면 사진 보관함의 이미지에 접근할 수 있습니다.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page51..Paragraph129" = "각 카테고리에 대해 최소 7개의 이미지를 선택합니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page52..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page52..Paragraph130" = "잠시 시간을 내어 데이터 세트를 살펴보고 데이터를 정리하는 방법에 대한 이전 설명의 팁을 생각해 보세요. 훈련 세트에서 제거해야 할 이미지가 있나요? 오른쪽 상단 모서리의 편집 버튼을 탭하여 각 카테고리의 데이터 세트에서 이미지를 제거할 수 있습니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page53..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page53..Paragraph131" = "데이터 세트가 마음에 들면 기계 학습 모델의 이름을 훈련 보기의 텍스트 필드에 지정하세요.";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcollectYourData..Page53..Paragraph132" = "이제 훈련 버튼을 탭하여 새로운 ML 모델을 훈련하세요!";
+
+/* Title for task */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcompareModels..title" = "기계 학습 모델 비교하기";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcompareModels..Paragraph133" = "이제 세 가지 기계 학습 모델을 사용할 수 있습니다. 개별적으로 테스트하고 유사점과 차이점을 관찰합니다.";
+
+/* title for page */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcompareModels..Page54..title" = "";
+
+/* Paragraph Content delivered to the user. The key should give context as to where this is being delivered to the user */
+"GuideBook..Guide0..StepGet Started with Machine Learning..TaskGroup3..TaskcompareModels..Page54..Paragraph134" = "‘ML 모델’ 버튼을 탭하여 사용 가능한 모델을 확인하세요. 나열된 ML 모델이 여러 개인 경우 선택하지 않은 모델을 누르고 디버깅 보기로 돌아가 어떻게 작동되는지 확인합니다.";
+

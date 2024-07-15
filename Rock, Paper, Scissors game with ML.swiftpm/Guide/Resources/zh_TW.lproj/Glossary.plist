@@ -1,0 +1,2676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>Alpha</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Alpha 或稱 *Alpha 通道*，與顏色的不透明度有關，範圍從 `0`（完全透明）到 `1`（完全不透明）。Alpha 資料是範圍從 0 到 1 的雙精度浮點數（小數）。</string>
+				<key>Title</key>
+				<string>Alpha</string>
+			</dict>
+		</dict>
+		<key>Boolean</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>擁有 `true` 值或 `false` 值的類型。例如，`9 &lt; 7` 傳回布林值 `false`，因為 `9` 不小於 `7`。
+```
+var isRunning = false
+```</string>
+				<key>Title</key>
+				<string>布林值</string>
+			</dict>
+		</dict>
+		<key>Double</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>用來儲存含小數位的類型；例如 3.14。</string>
+				<key>Title</key>
+				<string>Double</string>
+			</dict>
+		</dict>
+		<key>ForEach</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>一種結構，它會在資料（例如陣列）的[集合](glossary://collection)上[反覆運算](glossary://iteration)，為集合中的每個元件建立顯示區。
+
+`ForEach` 結構要求每個元件提供一個 `id`，一是在 `ForEach` [初始化程式](glossary://initialization)中明確提供，或是藉由符合 `Identifiable` 協定。這樣能讓 SwiftUI 相互獨立地識別並更新從 `ForEach` 產生的每個顯示區。
+
+```
+ForEach(symbols) { symbol in 
+    Text(symbol.name)
+}
+```
+</string>
+				<key>Title</key>
+				<string>ForEach</string>
+			</dict>
+		</dict>
+		<key>Int</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>用於儲存整數（完整數字）的類型，例如 `10` 或 `-42`。</string>
+				<key>Title</key>
+				<string>Int</string>
+			</dict>
+		</dict>
+		<key>String</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>用於儲存一系列角色的類型，如 `"hello, world"` 或 `"dancing kittens"`。</string>
+				<key>Title</key>
+				<string>String</string>
+			</dict>
+		</dict>
+		<key>Swift</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Apple 的程式設計語言，用於編寫 iPhone、iPad、Mac、Apple Watch 和 Apple TV 的 App。</string>
+				<key>Title</key>
+				<string>Swift</string>
+			</dict>
+		</dict>
+		<key>SwiftUI</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>SwiftUI 是一種為任何 Apple 平台宣告使用者介面的現代化方式。它提供了顯示區、控制項目和佈局結構來宣告你的 App 使用介面。此架構提供的事件處理器可向 App 傳送點按、手勢和其他類型的輸入，也提供了工具可用於管理從 App 模型到使用者會看到並與其互動的顯示區和控制項目的資料流。</string>
+				<key>Title</key>
+				<string>SwiftUI</string>
+			</dict>
+		</dict>
+		<key>absolute value</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>不帶符號的數字值。例如 -12 的絕對值為 12，23.4 的絕對值為 23.4。</string>
+				<key>Title</key>
+				<string>絕對值</string>
+			</dict>
+		</dict>
+		<key>abstraction</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>複雜事物的簡化版本。  抽象會隱含細節，因此你可以更輕鬆地思考和組合程式碼的片段。  例如，[類型](glossary://type)是一種抽象概念，它隱含了該類型實例的設定、屬性和方法。</string>
+				<key>Title</key>
+				<string>抽象</string>
+			</dict>
+		</dict>
+		<key>accelerometer</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>一種感測器，可測量裝置在三個維度上的加速度：上下、前後和左右。
+
+當你的裝置以橫向放置在平面上時，上下移動可測量 z 軸上的加速度，左右移動可測量 y 軸上的加速度，前後移動可測量 x 軸上的加速度。</string>
+				<key>Title</key>
+				<string>加速度計</string>
+			</dict>
+		</dict>
+		<key>adopt</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>為了採用協定，類型為符合協定的需求提供了一套自己的實作方式，如它列出的方法和屬性。</string>
+				<key>Title</key>
+				<string>採用</string>
+			</dict>
+		</dict>
+		<key>algorithm</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>用於解決問題的一組循序指示或規則。例如，泡茶的一系列步驟可視為一種演算法。</string>
+				<key>Title</key>
+				<string>演算法</string>
+			</dict>
+		</dict>
+		<key>append</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>加入到某物品的末端。例如，你可以將一個字串附加到另一個字串的末端，或將一個項目附加到項目陣列。
+</string>
+				<key>Title</key>
+				<string>附加</string>
+			</dict>
+		</dict>
+		<key>application</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>由程式碼組成的軟體，能讓你執行特定的作業。例如，你可以使用「訊息」應用程式（App）來傳送和接收訊息。</string>
+				<key>Title</key>
+				<string>應用程式</string>
+			</dict>
+		</dict>
+		<key>argument</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>傳入函數以自訂其動作的輸入值。例如，在名為 `move(distance: 3)` 的函數中，數字 `3` 是用來指定移動多少空間的引數。</string>
+				<key>Title</key>
+				<string>引數</string>
+			</dict>
+		</dict>
+		<key>arithmetic operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>如 `+`、`-`、`*` 或 `/` 的符號，用來依據一個或多個數字執行基本數學運算。例如 `42 / 7` 和 `17 - 5` 使用了算術運算子。</string>
+				<key>Title</key>
+				<string>算術運算子</string>
+			</dict>
+		</dict>
+		<key>array</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>儲存依序排列之同類項目的集合。同一個項目可以在不同的位置出現多次。
+
+在下列程式碼中：`highScores` 是[整數](glossary://Int)的陣列，而 `greetings` 則是[字串](glossary://String)的陣列。
+```
+let highScores = [37, 34, 29, 29, 26]
+let greetings = ["hi", "bye", "good day"]
+```</string>
+				<key>Title</key>
+				<string>陣列</string>
+			</dict>
+		</dict>
+		<key>aspect ratio</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>影像或螢幕的寬度與高度比例。
+
+例如，顯示比例為 2:1 的影像的寬度是其高度的兩倍。顯示比例為 1:1 的影像具有相等的寬度和高度。</string>
+				<key>Title</key>
+				<string>顯示比例</string>
+			</dict>
+		</dict>
+		<key>asset</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>內容是 App 使用的影像、聲音和其他項目。你可以將資源從其他 App（如「檔案」和「照片」）輸入 Swift Playgrounds。</string>
+				<key>Title</key>
+				<string>內容</string>
+			</dict>
+		</dict>
+		<key>assignment</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>設定變數或常數值的動作。</string>
+				<key>Title</key>
+				<string>指定值</string>
+			</dict>
+		</dict>
+		<key>assignment operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`=` 符號用於設定變數的值。例如 `greeting = "hello"` 會將 `greeting` 的值設為 `"hello"`。</string>
+				<key>Title</key>
+				<string>指定值運算子</string>
+			</dict>
+		</dict>
+		<key>asynchronous process</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>App 或程式的其餘部分繼續執行時可執行的程式碼區塊。同步程序會在其完成前阻止程式執行，與此相反，非同步程序則可以與 App 程式碼的其他部分同時執行。</string>
+				<key>Title</key>
+				<string>非同步程序</string>
+			</dict>
+		</dict>
+		<key>asynchronous stream</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>一個[序列](glossary://sequence)，它的值無法一次全部使用，而是按照時間的間隔作為數值串流而產生的。若要反覆運算非同步串流，你必須在對其執行操作之前先等待每一個新的值。
+				
+非同步串流通常用於隨著時間到達的資料，例如地震儀或影格。</string>
+				<key>Title</key>
+				<string>非同步串流</string>
+			</dict>
+		</dict>
+		<key>binding</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>加入 `@Binding` [屬性包覆](glossary://property%20wrapper)，在儲存資料的屬性以及顯示並更改資料的顯示區之間建立雙向連結。綁定會將屬性連結到儲存在其他位置的真實來源，而不是直接儲存資料。
+
+例如，用於切換播放和暫停的按鈕可使用 `@Binding` 屬性包覆，與其[容器顯示區](glossary://container)的屬性建立綁定關係。
+</string>
+				<key>Title</key>
+				<string>綁定</string>
+			</dict>
+		</dict>
+		<key>body</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>[顯示區](glossary://view)的主體是你用來提供顯示區內容的位置，由至少一個 SwiftUI 所提供的[內建顯示區](glossary://built-in%20view)或任何你已經製作的[組合式顯示區](glossary://composed%20view)組成。</string>
+				<key>Title</key>
+				<string>主體</string>
+			</dict>
+		</dict>
+		<key>bounds</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>在陣列中，陣列可以包含的索引值範圍。例如，陣列 `[17, 42, 95]` 可以包含 0 到 2 的索引值。界限檢查是驗證索引值是否位於陣列界限內的過程。</string>
+				<key>Title</key>
+				<string>界限</string>
+			</dict>
+		</dict>
+		<key>brightness</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>進入相機的光線量，範圍從 `0`（無光線）到 `1`（全光線）。亮度是從 `0` 到 `1` 的[雙精度浮點數](glossary://Double)（小數）。</string>
+				<key>Title</key>
+				<string>亮度</string>
+			</dict>
+		</dict>
+		<key>bug</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>程式碼中阻止應用程式按照預期執行的錯誤。 
+</string>
+				<key>Title</key>
+				<string>程式錯誤</string>
+			</dict>
+		</dict>
+		<key>built-in view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>一個由 [SwiftUI](glossary://SwiftUI) 架構，如 `Button`、`Text` 或 `Image` 顯示區提供的[顯示區](glossary://view)。內建顯示區是用來在你的[使用者介面](glossary://user%20interface)中製作更複雜[組合式顯示區](glossary://composed%20view)的建構基礎。</string>
+				<key>Title</key>
+				<string>內建顯示區</string>
+			</dict>
+		</dict>
+		<key>bundle</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>App 會將其程式碼及其所需的任何資源（資料檔案、影像、聲音）儲存在一個套件內。每個 App 都有一個主套件，並且可能有其他命名的套件。套件是磁碟上的一個檔案夾，且其內的資源被整理到定義明確的子檔案夾中。套件的結構會因平台和套件類型而有所不同。</string>
+				<key>Title</key>
+				<string>套件</string>
+			</dict>
+		</dict>
+		<key>call</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>若要呼叫程式碼中的函數，就要觸發該函數以執行其中定義的動作。</string>
+				<key>Title</key>
+				<string>呼叫</string>
+			</dict>
+		</dict>
+		<key>callback</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>有時候函數或物件可能需要回呼你來提供資料，或者讓你知道在執行時發生了重要的事情。你可以藉由向它傳送一個函數或[委派](glossary://delegate)物件來實現這一點，透過它即可進行回呼。
+
+回呼是一種常用來處理[非同步](glossary://asynchronous%20process)處理的工具。</string>
+				<key>Title</key>
+				<string>回呼</string>
+			</dict>
+		</dict>
+		<key>chaining</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>一種[呼叫](glossary://call)一系列[函數](glossary://function)的技術，其中每個函數傳回一個物件，然後由下一個函數對其進行操作。函數呼叫在單一語句中被連接在一起。
+				
+例如，你可以連接 SwiftUI [修飾符](glossary://modifier)，因為修飾符是一個[方法](glossary://method)，它使用了[顯示區](glossary://view)，套用了一些更動，並傳回另一個顯示區。</string>
+				<key>Title</key>
+				<string>連接</string>
+			</dict>
+		</dict>
+		<key>class</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>類別是程式碼的容器，它的作用如同藍圖用來建立多個相同類型物件的[實例](glossary://instance)。就像藍圖可能定義了一個物件（例如腳踏車）的功能和動作，類別會將這些定義為[屬性](glossary://property)和[方法](glossary://method)。
+
+當你建立類別的實例時，該實例會包含藍圖中定義的所有屬性和方法。每一個實例會共享相同的屬性和方法，但你可以個別地更改其屬性值，讓你能自訂每個你建立或從類別實例化的實例。例如，一個腳踏車類別可能會包含顏色屬性，讓你能製作紅色或藍色的腳踏車。
+
+類別與[結構](glossary://class)相似，但在兩個重要的方面有所不同：類別是一個[參照類型](glossary://reference%20type)，它都是由參照複製，且類別不支援從另一個類別繼承。</string>
+				<key>Title</key>
+				<string>類別</string>
+			</dict>
+		</dict>
+		<key>classification</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>在機器學習中，分類是一種從標記的資料集中學習並使用學習的內容對新觀察事物進行分類的演算法。
+
+例如，狗的品種分類器會在狗的品種標記影像上進行訓練。如果你對這個分類器顯示狗的新影像，它就能將此輸入項目分類為這些品種的其中之一。</string>
+				<key>Title</key>
+				<string>分類</string>
+			</dict>
+		</dict>
+		<key>closed range</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>從下限到上限（包含上限）的間隔。
+
+在 Swift 中，範圍 1-3 的值可以寫做 1…3。在這個例子中，範圍將包含下限 1 並計數到上限 3。
+```
+let closedRange = 1...3
+for i in closedRange { 
+	print(i) // 1 2 3
+}
+```</string>
+				<key>Title</key>
+				<string>封閉範圍</string>
+			</dict>
+		</dict>
+		<key>closure</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>閉包是一個在位置上執行的[函數](glossary://function)，不需要名稱。
+					
+```
+scene.setOnStartHandler {
+    // 閉包的主體
+}
+```
+                    
+閉包可以從定義它們的內容中擷取並儲存對任何常數和變數的參照。這稱為關閉這些常數和變數。</string>
+				<key>Title</key>
+				<string>閉包</string>
+			</dict>
+		</dict>
+		<key>code comment</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>程式碼註解提供程式設計師可記錄其程式碼的方式。  你可以開始編寫單行的註解，開頭是兩條斜線加一個空格，例如「// 這是我的註解」。  當你執行程式碼時，並不會執行程式碼的註解。</string>
+				<key>Title</key>
+				<string>程式碼註解</string>
+			</dict>
+		</dict>
+		<key>code expression</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>可通過評估傳回值的一段程式碼。例如，如果 `months` 是包含 12 個項目的陣列，則程式碼表示式 `months.count - 1` 會傳回值 `11`。</string>
+				<key>Title</key>
+				<string>程式碼表示式</string>
+			</dict>
+		</dict>
+		<key>coding</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>編寫指令、程式碼架構和演算法以建立應用程式的動作。</string>
+				<key>Title</key>
+				<string>程式設計</string>
+			</dict>
+		</dict>
+		<key>collection</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>一種資料結構，例如用於儲存多項資料的[陣列](glossary://array)或[範圍](glossary://range)。 
+```
+let heights = [1, 5, 7]
+let closedRange = 1...8
+```</string>
+				<key>Title</key>
+				<string>集合</string>
+			</dict>
+		</dict>
+		<key>command</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>告訴應用程式要執行特定動作的程式碼。</string>
+				<key>Title</key>
+				<string>指令</string>
+			</dict>
+		</dict>
+		<key>comment out</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>可以將一行程式碼變成[程式碼註解](glossary://code%20comment)來避免執行該程式碼。你可以在任一行程式碼前面加上 `//`，例如：
+                
+`// level.run()`</string>
+				<key>Title</key>
+				<string>註解</string>
+			</dict>
+		</dict>
+		<key>comparison operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>例如 `==`、`!=`、`&lt;`、`&gt;`、`&lt;=` 或 `&gt;=` 的符號，用於比較兩個值。比較運算子可以被用於 `if` 語句或 `while` 迴圈的條件中，傳回的布林值表示比較結果是否為 `true`。例如，`6 &gt; 8` 將 `6` 和 `8` 進行比較，並傳回 `false`。</string>
+				<key>Title</key>
+				<string>比較運算子</string>
+			</dict>
+		</dict>
+		<key>compiler error</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>編譯器發生錯誤是因為有不準確的程式碼。不準確的程式碼會在左側的邊界和工具列中顯示為紅色的點。</string>
+				<key>Title</key>
+				<string>編譯器錯誤</string>
+			</dict>
+		</dict>
+		<key>composed view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>一個由一或多個[內建](glossary://built-in%20view)或組合式顯示區結合而成的[顯示區](glossary://view)。
+</string>
+				<key>Title</key>
+				<string>組合式顯示區</string>
+			</dict>
+		</dict>
+		<key>composition</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>這個過程會合併應用程式的各個小部分，以形成更易處理和理解的較大部分。</string>
+				<key>Title</key>
+				<string>組合</string>
+			</dict>
+		</dict>
+		<key>compound assignment operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>合併指定值（設定變數的值）和另一個運算（如加法或減法）的運算子。例如，若 `a` 的現有值為 `1`，使用 `a += 3` 將在 `1` 的基礎上加 `3`，並將結果指定到 `a`，因此 `a` 現在的值為 `4`。</string>
+				<key>Title</key>
+				<string>複合指定值運算子</string>
+			</dict>
+		</dict>
+		<key>computed property</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>計算屬性不是直接儲存值，而是當擷取其他相關的值時，根據目前狀態計算出的值。
+
+在以下範例中，area 就是計算屬性，`width` 和 `height` 是儲存屬性：
+
+```
+struct RectangleCalculator { 
+    var width = 10.0
+    var height = 10.0
+    
+    var area : Double { 
+        return width * height
+    }
+} 
+```</string>
+				<key>Title</key>
+				<string>計算屬性</string>
+			</dict>
+		</dict>
+		<key>condition</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>在[條件碼](glossary://conditional%20code)區塊中，例如 [if 語句](glossary://if%20statement)，條件是一個[布林](glossary://Boolean)值，它決定了是否要執行區塊內的程式碼。
+
+如果條件為 `true`，就會執行程式碼區塊。若為 `false`，則會略過條件碼。
+```
+let x = 4
+
+if x &lt; 5 { 
+	// Condition is true, code in if block runs. 
+}
+
+if x &gt; 5 { 
+	// Condition is false, code in if block does not run. 
+}
+```</string>
+				<key>Title</key>
+				<string>條件</string>
+			</dict>
+		</dict>
+		<key>conditional code</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>只有當滿足特定的條件時才會執行的程式碼。如 [if 語句](glossary://if%20statement) 和 [while 迴圈](glossary://while%20loop) 包含只有在條件為 `true` 時才會執行的條件碼。
+```
+if x &gt; 5 { 
+	// Code runs only if x is greater than 5
+}
+```</string>
+				<key>Title</key>
+				<string>條件碼</string>
+			</dict>
+		</dict>
+		<key>confidence</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>在機器學習中，信賴度是機器學習模型[預測](glossary://prediction)的概率。預測的信賴度提供了有關 ML 模型執行情況的洞察力。</string>
+				<key>Title</key>
+				<string>信賴度</string>
+			</dict>
+		</dict>
+		<key>conform</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>當類型為符合協定的需求提供一套自己的實作方式時，即符合該協定。</string>
+				<key>Title</key>
+				<string>符合</string>
+			</dict>
+		</dict>
+		<key>console</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>一個可以在執行程式碼時查看除錯輸出的地方。當你在程式碼中呼叫 `print(_:)` 時，你傳入的值會顯示在主控台中。</string>
+				<key>Title</key>
+				<string>主控台</string>
+			</dict>
+		</dict>
+		<key>constant</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>一種已命名的容器，用於儲存不可變值。</string>
+				<key>Title</key>
+				<string>常數</string>
+			</dict>
+		</dict>
+		<key>container</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>容器是一個顯示區，其內部包含其他顯示區。</string>
+				<key>Title</key>
+				<string>容器</string>
+			</dict>
+		</dict>
+		<key>coordinates</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>唯一決定空間中的位置的一組數字。例如 (100, -200) 是 2D 空間中一個點的座標，其中 x 座標為 100，y 座標為 -200。</string>
+				<key>Title</key>
+				<string>座標</string>
+			</dict>
+		</dict>
+		<key>data</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>電腦處理或儲存的資訊，與針對其作用的程式碼不同。</string>
+				<key>Title</key>
+				<string>資料</string>
+			</dict>
+		</dict>
+		<key>data cleaning</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>檢查資料集並刪除或修改任何不正確、不完整、重複或格式不正確的資料的過程。
+
+資料清理可以透過確保機器學習模型只在最相關和最正確的可用資料上[訓練](glossary://training)來提高機器學習模型的準確性。</string>
+				<key>Title</key>
+				<string>資料清除</string>
+			</dict>
+		</dict>
+		<key>data flow</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>資料在你的 App 中的移動，以及該資料的變動會如何導致 App 的狀態或 UI 產生變化。</string>
+				<key>Title</key>
+				<string>資料流</string>
+			</dict>
+		</dict>
+		<key>data model</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>App 中所使用的資料，以程式碼的方式來表示，它反映了資料的組織架構。你的[使用者介面](glossary://user%20interface)可能會顯示來自資料模型的資料，並可能與其互動以修改資料。你的資料模型是作為 App 的[真實來源](glossary://source%20of%20truth)。</string>
+				<key>Title</key>
+				<string>資料模型</string>
+			</dict>
+		</dict>
+		<key>data separation</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>App 的 [資料模型](glossary://data%20model)應該和用於顯示該資料並與之互動的[使用者介面](glossary://user%20interface)分開定義的概念。資料分離可讓你獨立修改資料模型和 UI，更容易理解你的 App 是如何運作的，並改進你的 App 的可測試性。</string>
+				<key>Title</key>
+				<string>資料分離</string>
+			</dict>
+		</dict>
+		<key>debug</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>找出並修正程式碼中讓應用程式無法正確執行的問題。 </string>
+				<key>Title</key>
+				<string>除錯</string>
+			</dict>
+		</dict>
+		<key>declaration</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>在應用程式中建立新內容的一段程式碼，如函數、變數或自訂類型。例如 `let planet = "Earth"` 宣告一個新常數 `planet`，並給它一個 `"Earth"` 的值。
+
+下方的程式碼宣告了一個 `AppData` 類型的變數 `data`，但沒有為它指定一個初始值。
+
+```
+var data : AppData
+```</string>
+				<key>Title</key>
+				<string>宣告</string>
+			</dict>
+		</dict>
+		<key>decode</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>將資料從高效率的儲存格式（例如 JSON）轉換成更容易在程式碼中使用的格式。</string>
+				<key>Title</key>
+				<string>解碼</string>
+			</dict>
+		</dict>
+		<key>decomposition</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>將大問題分解成更易管理的小問題的過程。</string>
+				<key>Title</key>
+				<string>分解</string>
+			</dict>
+		</dict>
+		<key>decrement</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>讓數字以整數值減少，通常以 1 遞減。</string>
+				<key>Title</key>
+				<string>遞減</string>
+			</dict>
+		</dict>
+		<key>define</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>為新建立的一段程式碼（如函數、變數或自訂類型）提供確切的值或動作。例如，透過在函數內提供一組指令來指示函數應該如何執行，藉此定義函數。</string>
+				<key>Title</key>
+				<string>定義</string>
+			</dict>
+		</dict>
+		<key>delegate</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>提供給另一個物件使用的特殊物件，可在發生重要事件時通知你。委派物件通常符合[協定](glossary://protocol)，其函數可被呼叫來和你的程式碼進行通訊。呼叫委派函數的動作稱為委派[回呼](glossary://callback)。
+
+委派是一種用來在物件之間進行通訊的常見模式，尤其是在[非同步](glossary://asynchronous%20process)過程中。</string>
+				<key>Title</key>
+				<string>委派</string>
+			</dict>
+		</dict>
+		<key>destination view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>在[使用者](glossary://user)按一下或點一下 `NavigationStack` 或 `NavigationSplitView` 中的 `NavigationLink` 後所顯示的顯示區。</string>
+				<key>Title</key>
+				<string>目標顯示區</string>
+			</dict>
+		</dict>
+		<key>dot notation</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>一種語法形式，用於存取實例的屬性或呼叫實例的方法。例如 `expert.toggleSwitch()` 呼叫 `expert` 實例上的 `toggleSwitch()` 方法。</string>
+				<key>Title</key>
+				<string>點記法</string>
+			</dict>
+		</dict>
+		<key>edge case</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>在極少數的情況下或極端的操作參數下才會發生的一種狀況，無論是預測的還是非預測的。
+
+例如，在建構 iPad App 時，當你將裝置的語言更新為使用由右到左的語系語言（例如阿拉伯語）時，你的 App 會當機。</string>
+				<key>Title</key>
+				<string>邊緣案例</string>
+			</dict>
+		</dict>
+		<key>efficiency</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>一段好的程式碼，評量標準是在快速執行預期目標的同時，盡可能使用愈少的資源，如記憶體或電量。</string>
+				<key>Title</key>
+				<string>效率</string>
+			</dict>
+		</dict>
+		<key>element</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>[集合](glossary://collection)中的項目，例如[陣列](glossary:///array)或[範圍](glossary://range)。
+
+```
+let letters = ["a", "b", "c"] // "a" is the first element, "b" is the second, "c" is the third. 
+```</string>
+				<key>Title</key>
+				<string>元件</string>
+			</dict>
+		</dict>
+		<key>else block</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`if` 語句中的最後一個程式碼區塊。如果 `if` 語句中的所有其他條件為 `false`，即會執行 `else` 區塊。
+
+```
+if hopper.isFacingStep { 
+	// if block
+} else if hopper.isFacingUpdraft { 
+	// else if block
+} else { 
+	// else block
+}
+```</string>
+				<key>Title</key>
+				<string>else 區塊</string>
+			</dict>
+		</dict>
+		<key>else if block</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`if` 語句中的程式碼區塊，用於檢查 [if 區塊](glossary://if%20block)或任何其他 `else if` 區塊未檢查的條件。
+
+```
+if hopper.isFacingStep { 
+	// if block
+} else if hopper.isFacingUpdraft { 
+	// else if block
+} else { 
+	// else block
+}
+``</string>
+				<key>Title</key>
+				<string>else if 區塊</string>
+			</dict>
+		</dict>
+		<key>encode</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>將資料從容易在程式碼中使用的格式轉換為高效率的儲存格式（例如 JSON）。</string>
+				<key>Title</key>
+				<string>編碼</string>
+			</dict>
+		</dict>
+		<key>enumeration</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>定義一組相關值的類型，稱為*案例*。
+
+例如，`Direction` 列舉定義了每個方向的情況：`north`、`south`、`east` 和 `west`。
+```
+enum Direction { 
+	case north, south, east, west
+}
+```
+ When [passing in](glossary://pass%20in) an enumeration value, you always choose just one of its cases; for example:
+ ```
+ moveIn(direction: .north)
+```</string>
+				<key>Title</key>
+				<string>列舉</string>
+			</dict>
+		</dict>
+		<key>environment</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>顯示區的環境提供了對已定義的數值集合的存取。其中一些會自動反映系統狀態、使用者設定或或顯示區狀態。範例包含了顏色架構、文字樣式或顯示區的焦點狀態。其他則提供實用的預設值，例如文字欄依的行數限制。你可以透過`@Environment` [屬性包覆](glossary://property%20wrapper)存取環境值來讀取它們。如需完整的環境值列表，請參閱[此文件](doc://com.apple.documentation/documentation/swiftui/environmentvalues)。</string>
+				<key>Title</key>
+				<string>環境</string>
+			</dict>
+		</dict>
+		<key>environment object</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>加入 `@EnvironmentObject` [屬性包覆](glossary://property%20wrapper)以聲明容器顯示區或上階顯示區提供的可觀察的物件屬性。如果將屬性聲明為環境物件，記得呼叫它的 `environmentObject(_:)` 修飾符，在上階顯示區中設定相應的模型實例。</string>
+				<key>Title</key>
+				<string>環境物件</string>
+			</dict>
+		</dict>
+		<key>event</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>能被電腦應用程式偵測到的動作。輸入（例如按下按鈕或轉動螢幕）會觸發一個事件。</string>
+				<key>Title</key>
+				<string>事件</string>
+			</dict>
+		</dict>
+		<key>event handler</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>在事件發生後被呼叫來處理事件的函數。</string>
+				<key>Title</key>
+				<string>事件處理器</string>
+			</dict>
+		</dict>
+		<key>extension</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>一種在現有[類型](glossary://type)中加入新功能的方法，例如[類別](glossary://class)、[結構](glossary://structure)、[列舉](glossary ://enumeration)或[協定](glossary://protocol)。
+
+延伸功能可讓你將[方法](glossary://method)和[屬性](glossary://property)加入到現有的類型。下方的程式碼會將 `cubed()` 方法和 `isOdd` 屬性加入 `Int` 類型：
+
+```
+extension Int { 
+	func cubed() -&gt; Int { 
+        return self * self * self
+    }
+    
+    var isOdd : Bool { 
+        return self % 2 == 1
+    }
+}
+
+let two : Int = 2
+print(two.cubed()) // 8
+print(two.isOdd) // false
+```</string>
+				<key>Title</key>
+				<string>延伸功能</string>
+			</dict>
+		</dict>
+		<key>filtering</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>透過處理集合或資料結構中的資料，以產生一組新的資料。</string>
+				<key>Title</key>
+				<string>過濾</string>
+			</dict>
+		</dict>
+		<key>focus state</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>表示顯示區是否可以接收使用者輸入的值，例如透過在文字欄位中輸入。使用 `@FocusState` [屬性包覆](glossary://property%20wrapper) 以及 `focused(_:equals:)` 和 `focused(_:)` 修飾符來製作一個其焦點值會依據使用者互動而自動更新的顯示區，它也可以在特定時間以程式化的方式來對焦或不對焦。</string>
+				<key>Title</key>
+				<string>焦點狀態</string>
+			</dict>
+		</dict>
+		<key>font</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>特定設計樣式、粗細和大小的一組文字字元。字體的設計樣式稱為*字樣*，這種設計的各種變化則組成字樣*系列*。例如，HelveticaNeue 是一種字樣，10 點的 HelveticaNeue-Bold 是一種字體。</string>
+				<key>Title</key>
+				<string>字體</string>
+			</dict>
+		</dict>
+		<key>for loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>執行一定次數的重複程式碼區塊。
+
+迴圈可以[反覆運算](glossary://iterate)任何資料的[集合](glossary://collection)，例如[範圍](glossary://range%20value)或[陣列](glossary ://array)，為集合中的每個元素執行迴圈區塊。
+
+在下面的範例中，迴圈定義了一個迴圈變數 `value`，它能讓你取用集合中現有元素的值：
+```
+for value in 1...4 { 
+	byte.moveForward()
+	byte.jump(height: value)
+}
+```</string>
+				<key>Title</key>
+				<string>for 迴圈</string>
+			</dict>
+		</dict>
+		<key>framework</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>架構是一個包含共享資源的目錄。這些資源可以在單一的套件中包含來源檔案、影像檔案、本地化字串和參考文件等。多個應用程式可以同時使用所有這些資源。系統會根據需要將它們載入記憶體，並且儘可能地在所有應用程式之間共享同一份資源。</string>
+				<key>Title</key>
+				<string>架構</string>
+			</dict>
+		</dict>
+		<key>full function name</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>函數的完整名稱，包含其函數的名稱，並以冒號 (`:`) 分隔。例如：`move(to:duration:)`。</string>
+				<key>Title</key>
+				<string>完整函數名稱</string>
+			</dict>
+		</dict>
+		<key>function</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>一個命名的程式碼區塊，當[呼叫](glossary://call)其名稱時即會執行。函數能以[參數](glossary://parameter)的形式傳送資料，並且可以在其程式碼執行完成時選擇性地[傳回](glossary://return)資料。在類型中定義的函數稱為[方法](glossary://method)。
+
+下方是 `turnRight()` 的函數定義範例。你可以透過編寫 `turnRight()` 來呼叫此函數；然後程式碼會報行 `turnLeft()` 三次。
+
+```
+func turnRight() { 
+	turnLeft()
+	turnLeft()
+	turnLeft()
+}
+```</string>
+				<key>Title</key>
+				<string>函數</string>
+			</dict>
+		</dict>
+		<key>function definition</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>函數定義說明了函數的作用為何、函數會預期接收什麼項目，以及函數完成時會傳回什麼內容。</string>
+				<key>Title</key>
+				<string>函數定義</string>
+			</dict>
+		</dict>
+		<key>fuzzy autocomplete</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>一種自動完成程式碼的方法，它使用模糊字串搜尋來尋找相符的變數、常數、類型和其他符號。模糊字串搜尋並不精確，但會根據你輸入的字元來找出相關的符合項目。
+
+例如，若你正在搜尋與「scale」有關的[顯示區修飾符](glossary://modifier)，你可以簡單地開始輸入 `.scale`，它會傳回以 `.scale` 開頭的自動完成選項，例如 `.scaledToFill` 和 `.scaleEffect`，還有更多的「模糊」比對，像是 `.imageScale` 和 `.grayscale`。
+</string>
+				<key>Title</key>
+				<string>模糊自動完成</string>
+			</dict>
+		</dict>
+		<key>g</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>加速度的測量單位，或每單位質量的力。1 g 或 g 力等於地球的重力加速度，或約 9.8 米/秒的平方。</string>
+				<key>Title</key>
+				<string>g</string>
+			</dict>
+		</dict>
+		<key>global function</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>可在計畫案的任何檔案中取用的函數。</string>
+				<key>Title</key>
+				<string>通用函數</string>
+			</dict>
+		</dict>
+		<key>global scope</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>可從同一[模組](glossary://module)的任何來源檔案中的程式碼取用的符號。在預設情況下，於來源檔案最上層定義的任何實例、類型或函數都具有通用範圍。</string>
+				<key>Title</key>
+				<string>通用範圍</string>
+			</dict>
+		</dict>
+		<key>global variable</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>可在計畫案的任何檔案中取用的變數。</string>
+				<key>Title</key>
+				<string>通用變數</string>
+			</dict>
+		</dict>
+		<key>grayscale</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>從白色到黑色的灰色陰影範圍。</string>
+				<key>Title</key>
+				<string>灰階</string>
+			</dict>
+		</dict>
+		<key>gyroscope</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>從三個維度測量裝置方向的感測器：由前向後傾、由左向右傾，以及繞著中心旋轉。</string>
+				<key>Title</key>
+				<string>陀螺儀</string>
+			</dict>
+		</dict>
+		<key>half open range</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>從下限到上限（但不包含上限）的半開放間隔。
+
+在 Swift 中，範圍 1-3 的值可以寫成 1..&lt;4。在這個例子中，範圍將包含下限 1 並往上計數到 4，但不包含 4。
+```
+let halfOpenRange = 1..&lt;4
+for i in halfOpenRange { 
+	print(i) // 1 2 3
+}
+```</string>
+				<key>Title</key>
+				<string>半開放範圍</string>
+			</dict>
+		</dict>
+		<key>hertz</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>赫茲（Hz）是每秒一個循環。套用到聲音震動時，1 Hz 是每秒一個聲波。人類可以聽見的聲音介於 20 Hz 和 16,000 Hz 之間。</string>
+				<key>Title</key>
+				<string>赫茲</string>
+			</dict>
+		</dict>
+		<key>hue</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>顏色在色輪上的色調。範圍是從 `0` 到 `1` 的兩位數（小數）。</string>
+				<key>Title</key>
+				<string>色相</string>
+			</dict>
+		</dict>
+		<key>if block</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`if` 語句中的第一個程式碼區塊。如果 `if` 語句中的條件為 `true`，則會執行 `if` 區塊。
+```
+if blu.isFacingStep { 
+	blu.jump()
+}
+```</string>
+				<key>Title</key>
+				<string>if 區塊</string>
+			</dict>
+		</dict>
+		<key>if statement</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>一種程式碼結構，用來根據一或多個條件的值執行程式碼。`if` 語句中的第一個程式碼區塊是 `if` 區塊。
+```
+if blu.isFacingStep { 
+	blu.jump()
+}
+```
+ An `if` statement might also contain other blocks that provide additional checks, such as an `else` block and `else if` block.
+```
+if blu.isFacingStep { 
+	blu.jump()
+} else if blu.isFacingHole { 
+	blu.shapeShift(into: .bridge)
+} else { 
+	blu.moveForward()
+}
+```</string>
+				<key>Title</key>
+				<string>if 語句</string>
+			</dict>
+		</dict>
+		<key>import</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>在 Swift 中，`import` [宣告](glossary://declaration)能讓你取用在目前檔案以外定義的符號，如類型、函數、屬性和方法。你可以從[模組](glossary://module)或[架構](glossary://framework)輸入符號，如 [SwiftUI](doc://com.apple.documentation/documentation/swiftui) 或 [CoreMotion](doc://com.apple.documentation/documentation/coremotion)。例如，若要使用 SwiftUI 架構，你可以在檔案最上方放置下列宣告：
+
+```
+import SwiftUI
+```
+</string>
+				<key>Title</key>
+				<string>輸入</string>
+			</dict>
+		</dict>
+		<key>increment</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>讓數字以整數值增加，通常以 1 遞增。</string>
+				<key>Title</key>
+				<string>遞增</string>
+			</dict>
+		</dict>
+		<key>index</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>代表[陣列](glossary://array)中項目位置的數字。</string>
+				<key>Title</key>
+				<string>索引</string>
+			</dict>
+		</dict>
+		<key>index out of range error</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>嘗試使用陣列範圍外的索引存取陣列時導致的錯誤。例如，索引 `2` 在陣列 `[17, 42]` 的範圍之外。</string>
+				<key>Title</key>
+				<string>索引越界錯誤</string>
+			</dict>
+		</dict>
+		<key>initialization</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>建立類型新實例的動作，包含為類型的任何屬性設定初始值。</string>
+				<key>Title</key>
+				<string>初始化</string>
+			</dict>
+		</dict>
+		<key>initializer</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>呼叫初始化程式以建立一個新的類型[實例](glossary://instance)。初始化程式必須確保該類型的屬性都有全部的初始值，且通常會包含其他設定程式碼。</string>
+				<key>Title</key>
+				<string>初始化程式</string>
+			</dict>
+		</dict>
+		<key>inner loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>嵌套在另一個（外）迴圈中的重複程式碼區塊（迴圈）。</string>
+				<key>Title</key>
+				<string>內迴圈</string>
+			</dict>
+		</dict>
+		<key>instance</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>一個特定[類型](glossary://type)的值。例如，在 `let motion = MotionSensor()` 中，`motion` 是 `MotionSensor` 類型的實例。</string>
+				<key>Title</key>
+				<string>實例</string>
+			</dict>
+		</dict>
+		<key>integer</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>一個完整的數字，例如 `2` 或 `-5`。</string>
+				<key>Title</key>
+				<string>整數</string>
+			</dict>
+		</dict>
+		<key>iterate</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>為[集合](glossary://collection)中的每個[元件](glossary://element)重複一個程式碼區塊，例如陣列或範圍。
+
+在下方的範例中，for 迴圈會反覆 `days` 陣列，一次列印一周當中的一天：
+```
+let days = ["Monday", "Tuesday", "Wednesday"]
+
+for value in days { 
+	print(value)
+}
+
+// First iteration: prints "Monday"
+// Second iteration: prints "Tuesday"
+// Third iteration: prints "Wednesday"
+```</string>
+				<key>Title</key>
+				<string>反覆運算</string>
+			</dict>
+		</dict>
+		<key>iteration</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>重複某個過程的動作，如對陣列中的每個項目執行相同的動作。</string>
+				<key>Title</key>
+				<string>反覆運算</string>
+			</dict>
+		</dict>
+		<key>label</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>UI 元件的視覺呈現，將其建立即成為[顯示區](glossary://view)。
+
+許多 SwiftUI 的[內建顯示區](glossary://built-in%20view)都有標籤（視覺呈現）以及一些其他自訂點，例如 `NavigationLink` 的[目標顯示區](glossary://destination%20view)或 `Button` 的[回呼](glossary://callback)。</string>
+				<key>Title</key>
+				<string>標籤</string>
+			</dict>
+		</dict>
+		<key>lag</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>因處理需求、處理能力或兩者造成的 App 速度或回應速度下降。</string>
+				<key>Title</key>
+				<string>lag</string>
+			</dict>
+		</dict>
+		<key>leading edge</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>說到顯示區中的內容時，前緣指的是內容開頭的水平位置。前緣的位置視你的偏好設定而定，通常是基於你的地區和語言設定。
+                    例如，對於由左至右的語言（像是英文和荷蘭文），前緣位於左側。對於由右至左的語言（像是阿拉伯文或希伯來文），前緣則位於右側。</string>
+				<key>Title</key>
+				<string>前緣</string>
+			</dict>
+		</dict>
+		<key>literal</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>字面值能讓你使用影像資料庫或顏色選擇器將影像和顏色直接嵌入程式碼。字面值是直接在編輯器中以原始格式表示的資料實際值。</string>
+				<key>Title</key>
+				<string>字面值</string>
+			</dict>
+		</dict>
+		<key>local scope</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>在[通用範圍](glossary://global%20scope)之下的每個新程式碼組織層級都會形成一個區域範圍。例如，一個新的[類型](glossary://type)會形成一個新的區域範圍，該類型內的函數和程式碼區塊則形成它們自己的[範圍](glossary://scope)層級。依據宣告符號的位置，它只能從位於相同或較低範圍層級的程式碼中取用。
+
+例如，如果在一個類型中定義了一個變數，則該變數可以在該類型內的所有函數和程式碼區塊中取用。但如果是在方法內定義的常數就只能在方法定義內取用。</string>
+				<key>Title</key>
+				<string>區域範圍</string>
+			</dict>
+		</dict>
+		<key>logical AND operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>用於合併兩個布林值的符號 (`&amp;&amp;`)，兩個值必須都為真，整段程式碼才為真。例如，只有在 `a` 和 `b` 均為 `true` 時，`a &amp;&amp; b` 才為真。</string>
+				<key>Title</key>
+				<string>邏輯 AND 運算子</string>
+			</dict>
+		</dict>
+		<key>logical NOT operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>用於反轉一段程式碼的布林值的符號 (`!`)。例如，如果 `a` 為 `true`，則 `!a` 為 `false`。</string>
+				<key>Title</key>
+				<string>邏輯 NOT 運算子</string>
+			</dict>
+		</dict>
+		<key>logical OR operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>用於合併兩個布林值的符號 (`||`)，其中有一個值必須為真，整段程式碼才為真。例如，只有在 `a` 或 `b` 為`真`（或均為`真`）時，`a || b` 才為`真`。</string>
+				<key>Title</key>
+				<string>邏輯 OR 運算子</string>
+			</dict>
+		</dict>
+		<key>logical operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>例如 `&amp;&amp;`、`||` 或 `!` 的符號，用於修改或合併布林邏輯值 `true` 和 `false`。</string>
+				<key>Title</key>
+				<string>邏輯運算子</string>
+			</dict>
+		</dict>
+		<key>loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>重複執行一定次數（如 `for` 迴圈）或重複執行直至滿足條件（如 `while` 迴圈）的程式碼區塊。</string>
+				<key>Title</key>
+				<string>迴圈</string>
+			</dict>
+		</dict>
+		<key>loop variable</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>在 [for 迴圈](glossary://for%20loop)中，你正於[集合](glossary://collection)中[反覆運算](glossary://iterate)的現用元件值。
+
+迴圈變數會儲存這個值，讓你在 `for` 迴圈的主體中使用它。
+
+在下方的範例中，`value` 和 `letter` 是迴圈變數：
+```
+for value in 1...4 { 
+	print(value) // 1 2 3 4
+}
+
+for letter in ["c", "o", "d", "e"] { 
+	print(letter) // c o d e 
+}
+```</string>
+				<key>Title</key>
+				<string>迴圈變數</string>
+			</dict>
+		</dict>
+		<key>lower bound</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>在[範圍](glossary://range)中，往上計數的起始值。
+
+```
+let closedRange = 1...5 // Lower bound is 1, upper bound is 5
+for i in closedRange { 
+	print(i) // 1 2 3 4 5
+}
+```</string>
+				<key>Title</key>
+				<string>下限</string>
+			</dict>
+		</dict>
+		<key>machine learning</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>電腦科學的一個分支，專注於開發使用大量資料來教導機器如何學習和改進特定程序的[演算法](glossary://algorithm)。
+
+例如，透過使用影像[分類器](glossary://classification)並提供大量的花朵影像資料集來教導機器辨識特定類型的花朵。</string>
+				<key>Title</key>
+				<string>機器學習</string>
+			</dict>
+		</dict>
+		<key>machine learning model</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>一種[資料模型](glossary://data%20model)，是藉由將機器學習[演算法](glossary://algorithm)套用到[訓練資料集](glossary://training%20dataset)而建立的。機器學習模型或 ML 模型是用來根據輸入的來源而進行[預測](glossary://prediction)。</string>
+				<key>Title</key>
+				<string>機器學習模型</string>
+			</dict>
+		</dict>
+		<key>magnitude</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>一個值的大小，無論它是正數還是負數。這也稱為數字的[絕對值](glossary://absolute%value)。
+
+例如，`5` 和 `-5` 的量值都是 `5`。</string>
+				<key>Title</key>
+				<string>量值</string>
+			</dict>
+		</dict>
+		<key>memory</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>電腦的一部分，用來儲存（臨時或永久）應用程式的程式碼及其使用的資料。</string>
+				<key>Title</key>
+				<string>記憶體</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>關於資料的補充資訊。例如，一張照片可能包含有關拍攝地點的後設資料。</string>
+				<key>Title</key>
+				<string>後設資料</string>
+			</dict>
+		</dict>
+		<key>method</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>一個命名的程式碼區塊，當它被其名稱[呼叫](glossary://call)時即會執行。
+
+方法是一種[函數](glossary://function)，但它是在[類型](glossary://type)的內部定義的。
+
+此程式碼會從名為 `byte` 的[實例](glossary://instance)呼叫方法 `moveForward()`：
+```
+let byte = Byte()
+
+byte.moveForward()
+```</string>
+				<key>Title</key>
+				<string>方法</string>
+			</dict>
+		</dict>
+		<key>miter</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>兩條描邊線條之間的一種連接方式，其中的角是尖銳的，而不是圓形或斜角。</string>
+				<key>Title</key>
+				<string>斜接</string>
+			</dict>
+		</dict>
+		<key>modifier</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>在 SwiftUI 中，修飾符可用來自訂顯示區的外觀和動作。
+
+					在下方的程式碼中，`foregroundColor` 修飾符會將 `Rectangle` 顯示區的顏色變成藍色。
+					```
+					Rectangle()
+							.foregroundColor(.blue)
+					```
+
+					為了讓修飾符更容易閱讀，每一個修飾符都會以獨立的一行放在它要修飾的顯示區下方。在此範例中，會先套用修飾符 `foregroundColor(.blue)`，接著是 `border(.green)`。
+					```
+					Rectangle()
+							.foregroundColor(.blue)
+							.border(.green)
+					```
+					
+					因為修飾符是依序套用的，更改其位置可能會更改結果顯示區的外觀或動作。
+				</string>
+				<key>Title</key>
+				<string>修飾符</string>
+			</dict>
+		</dict>
+		<key>modularity</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>將你的 App 分成獨立部分的原則，每個部分都包含為你的 App 執行單一功能所需的一切，例如顯示介面的單一部分或儲存 App 資料。
+
+模組化是製作 App 的重要原則，因為它能讓你更清楚地理解和使用各個功能。當你的 App 出現錯誤時，這能讓你更輕鬆地檢測出哪裡發生問題。</string>
+				<key>Title</key>
+				<string>模組化</string>
+			</dict>
+		</dict>
+		<key>module</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>一個單一的程式碼分配單元，[架構](glossary://framework)或作為單一單元建構和發佈的 App，可以由另一個模組使用 Swift 的[輸入](glossary://import)關鍵字輸入。</string>
+				<key>Title</key>
+				<string>模組</string>
+			</dict>
+		</dict>
+		<key>modulo operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>用於將一個數字除以另一個數字後，傳回餘數的符號 (`%`)。例如 `17 % 5` 傳回 `2`。</string>
+				<key>Title</key>
+				<string>取模運算子</string>
+			</dict>
+		</dict>
+		<key>navigation bar</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>導覽介面可讓你在每個畫面進行選擇，直到抵達目的地。若要前往其他目的地，你必須返回步驟或從頭開始並選擇不同選項。螢幕最上方的導覽列會顯示標題，協助你記得所在位置，並提供返回按鈕，方便你回到上一個畫面。</string>
+				<key>Title</key>
+				<string>導覽列</string>
+			</dict>
+		</dict>
+		<key>navigation link</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>當使用者點一下 SwiftUI 的[內建顯示區](glossary://built-in%20view)時，即會導覽至[目標顯示區](glossary://destination%20view)。導覽連結也包含了決定其視覺外觀的[標籤](glossary://label)。</string>
+				<key>Title</key>
+				<string>導覽連結</string>
+			</dict>
+		</dict>
+		<key>nest</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>在一個程式碼區塊（例如迴圈）內部放置另一個重複的程式碼區塊。</string>
+				<key>Title</key>
+				<string>嵌套</string>
+			</dict>
+		</dict>
+		<key>normalization</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>縮放一組資料，讓產生的縮放值介於 `0` 和 `1` 之間的過程。</string>
+				<key>Title</key>
+				<string>標準化</string>
+			</dict>
+		</dict>
+		<key>observable object</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>當類別[符合](glossary://conform) `ObservableObject` 協定時，對發佈數值進行任何更改會導致所有顯示區都使用那些值來自動更新，反映出變更。</string>
+				<key>Title</key>
+				<string>可觀察的物件</string>
+			</dict>
+		</dict>
+		<key>observe</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>監控物件的[狀態更動](glossary://state%20change)。</string>
+				<key>Title</key>
+				<string>監看</string>
+			</dict>
+		</dict>
+		<key>observed object</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>在[顯示區](glossary://view)中，SwiftUI 會監視使用 `@ObservedObject` [屬性包覆](glossary://property%20wrapper) 的任何[屬性](glossary://property)更動。如果它的值發生變化，SwiftUI 就會更新顯示區。
+
+被觀察的物件屬性類型必須[符合](glossary://conform) `ObservableObject` 協定。
+				</string>
+				<key>Title</key>
+				<string>觀察的物件</string>
+			</dict>
+		</dict>
+		<key>observer</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>觀測器與[可觀察的物件](glossary://observable%20object)有關，它是使用可觀察物件資料的任何顯示區或物件。當可觀察的物件資料更改時，SwiftUI 會識別到更新，然後告訴觀測器進行更新。</string>
+				<key>Title</key>
+				<string>觀測器</string>
+			</dict>
+		</dict>
+		<key>operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>如 `+`、`-` 或 `&amp;&amp;` 的符號，代表在一個或多個值上的操作。例如，在 `1 + 2` 中，加法運算子 (`+`) 將數字 `1` 和 `2` 相加。</string>
+				<key>Title</key>
+				<string>運算子</string>
+			</dict>
+		</dict>
+		<key>optional</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>表示包覆值或沒有數值的類型。選用性的類型通常用結尾會加上一個問號（`?`）。
+				
+例如，`Int?` 類型的變數可能包含 `-43` 或 `6` 的包覆 `Int` 值，或者它的值可能是 `nil`，在這種情況下它沒有指定的值。</string>
+				<key>Title</key>
+				<string>可留空</string>
+			</dict>
+		</dict>
+		<key>outer loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>包含另一個（內）迴圈的重複程式碼區塊（迴圈）。</string>
+				<key>Title</key>
+				<string>外迴圈</string>
+			</dict>
+		</dict>
+		<key>overfitting</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>在機器學習中，產生與特定資料集過於緊密對應的模型。
+
+例如，若你的模型是檢測哺乳動物影像的[分類器](glossary://classification)，而你的[訓練資料集](glossary://training%20dataset)只包含狗的影像，則模型會過度擬合來識別狗，代價是忽略其他哺乳動物（如兔子或鹿）。</string>
+				<key>Title</key>
+				<string>過度擬合</string>
+			</dict>
+		</dict>
+		<key>parameter</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>用來自訂[函數](glossary://function)如何運作的值。當你[呼叫](glossary://call)函數時，可以傳入不同的值來改變它的動作。
+
+在下方的函數中，`distance` 是一個參數，它接受 `Int` 類型的值：
+```
+func move(distance: Int) { 
+	for i in 1...distance { 
+		moveForward()
+	}
+}
+```
+The parameter value (`distance`) can be used in the body of the function to affect how it behaves. In this case, you can call this function with different integer values, such as `move(distance: 2)` or `move(distance: 5)` to travel different distances.</string>
+				<key>Title</key>
+				<string>參數</string>
+			</dict>
+		</dict>
+		<key>pass in</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>為函數的其中一個[參數](glossary://parameter)提供值。
+
+在下方的範例中，程式碼會將值 `Hello` 傳入給 `text` 參數。
+```
+speak(text: "Hello")
+```</string>
+				<key>Title</key>
+				<string>傳入</string>
+			</dict>
+		</dict>
+		<key>pattern</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>一組重複的情況或資料。</string>
+				<key>Title</key>
+				<string>模式</string>
+			</dict>
+		</dict>
+		<key>persistence</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>儲存使用者資料的過程，以便在每次 App 啟動時都可以重新載入。如果沒有持續性資料，你的 App 狀態和資料將在每次重新啟動 App 時重置。</string>
+				<key>Title</key>
+				<string>持續性</string>
+			</dict>
+		</dict>
+		<key>pi</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Pi（π）是一個數學常數，大約等於 3.14。它是圓的周長與其直徑的比值。</string>
+				<key>Title</key>
+				<string>pi</string>
+			</dict>
+		</dict>
+		<key>pitch</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>當裝置是橫向時，裝置左右旋轉或傾斜的測量值。  在數學上，振動是圍繞裝置 x 軸的旋轉。它以弧度為單位，範圍是 `-π/2` 到 `π/2`。</string>
+				<key>Title</key>
+				<string>振動</string>
+			</dict>
+		</dict>
+		<key>pitch audio</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>聲音的音高取決於聲波的振動頻率。在特定時間週期內產生的聲波愈多，音調就越高。
+
+					在音樂中，音高描述了一個音符聽起來是「低」或「高」。例如，鳥叫聲的音調高，而獅子的低吼聲則以低的音調發出。</string>
+				<key>Title</key>
+				<string>音高</string>
+			</dict>
+		</dict>
+		<key>placeholder view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>臨時顯示的顯示區，用於指示最終內容將被載入或輸入的位置。範例是用於顯示載入影像的 `ProgressView`，或是可輸入文字的灰色矩形。</string>
+				<key>Title</key>
+				<string>暫存區顯示區</string>
+			</dict>
+		</dict>
+		<key>prediction</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>在機器學習中，預測是機器學習模型在接收輸入時產生的輸出。
+
+例如，黃金獵犬可能是來自機器學習模型的有效預測，該模型經過訓練可以辨識不同的犬種。</string>
+				<key>Title</key>
+				<string>預測</string>
+			</dict>
+		</dict>
+		<key>private</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>關鍵字 private 會使程式碼只能在特定的來源檔案中使用。
+- callout(範例):
+`private class MyApp: App { }`</string>
+				<key>Title</key>
+				<string>private</string>
+			</dict>
+		</dict>
+		<key>property</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>在[類型](glossary://type)中定義的變數（存儲值的命名容器）。
+
+可以透過使用[點記法](glossary://dot%20notation)類型的[實例](glossary://instance)來取用的屬性。在下方的程式碼中，`isFacingHole` 是 `Hopper` 類型的一個屬性。
+```
+if hopper.isFacingHole { 
+	// code 
+}
+```</string>
+				<key>Title</key>
+				<string>屬性</string>
+			</dict>
+		</dict>
+		<key>property wrapper</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>屬性包覆是一種將常用的行為模式應用到屬性的簡單方法。這個包覆是一種對屬性的註解方式，定義了讀取時屬性會如何被儲存或計算。  例如，`@State` 屬性包覆告訴 SwiftUI 管理值的儲存空間，並在值發生改變時，更新顯示區中任何使用了這個值的部分。</string>
+				<key>Title</key>
+				<string>屬性包覆</string>
+			</dict>
+		</dict>
+		<key>protocol</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>一組可被類型（如類別、結構或列舉）採用（或遵循）的需求，如方法和屬性。  當類型採用一個協定時，它為符合協定的需求提供了自己的實作方式，即符合這個協定。</string>
+				<key>Title</key>
+				<string>協定</string>
+			</dict>
+		</dict>
+		<key>pseudocode</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>簡單易讀的演算法描述，通常混合日常用語和程式碼一起編寫。</string>
+				<key>Title</key>
+				<string>虛擬碼</string>
+			</dict>
+		</dict>
+		<key>public</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>關鍵字 public 會使程式碼可在計畫案的任何檔案中使用。
+                        
+- callout(範例):
+`public func decorateWithSticker(space: Space) { }`
+                    </string>
+				<key>Title</key>
+				<string>public</string>
+			</dict>
+		</dict>
+		<key>publish</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>當指定的[發佈屬性](glossary://published%20value)更改時，向[可觀察的物件](glossary://observable%20object)的所有[觀測器](glossary://observer)廣播通知。</string>
+				<key>Title</key>
+				<string>發佈</string>
+			</dict>
+		</dict>
+		<key>published value</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>加入 `@Published` [屬性包覆](glossary://property%20wrapper)以聲明一個在屬性值即將更改時通知所有[觀測器](glossary://observer)的屬性。當值更改時，SwiftUI 會更新所有使用其資料的顯示區。</string>
+				<key>Title</key>
+				<string>發佈數值</string>
+			</dict>
+		</dict>
+		<key>radians</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>弧度是角度的度量單位，如度數。以弧度為單位的角度等於弧長與圍繞該角度繪製的圓的半徑比值。1 弧度等於 180 度除以 [pi](glossary://pi)。</string>
+				<key>Title</key>
+				<string>弧度</string>
+			</dict>
+		</dict>
+		<key>range</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>[下限](glossary://lower%20bound)和[上限](glossary://upper%20bound)之間的間隔。
+
+有多種建立範圍的方法，包含[封閉範圍](glossary://closed%20range)和[半開放範圍](glossary://half%20open%20range)。
+
+```
+let closedRange = 1...4 
+for i in closedRange { 
+	print(i) // 1 2 3 4
+}
+
+let halfOpenRange = 1..&lt;4 
+for i in halfOpenRange { 
+	print(i) // 1 2 3
+}
+```</string>
+				<key>Title</key>
+				<string>範圍</string>
+			</dict>
+		</dict>
+		<key>reference type</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>當你建立參照類型的[實例](glossary://instance)（如類別或主角）時，其資料會儲存在共享記憶體中。因此，實例只包含對資料的參照，而不是它自己的獨有複本。如果你[指定](glossary://assignment)實例給一個變數，或者將它作為[引數](glossary://argument)傳入一個函數，Swift 會建立對相同資料的另一個參照。
+
+實例是由參照複製，如下方範例所示：
+
+```
+class Bicycle {
+  var color: Color
+   init(color: Color) {
+     self.color = color
+   }
+}
+
+var redBike = Bicycle(color: .red)
+var blueBike = redBike
+blueBike.color = .blue
+print(redBike.color) // =&gt; blue
+print(blueBike.color) // =&gt; blue
+// redBike and blueBike share a reference to the same data
+```</string>
+				<key>Title</key>
+				<string>參照類型</string>
+			</dict>
+		</dict>
+		<key>responsive</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>如果你的程式碼或使用者介面能對[使用者互動](glossary://user%20interaction)快速做出反應，或者適當地對應其環境變化（如顯示區大小的改變），那麼它們就是回應式的。</string>
+				<key>Title</key>
+				<string>回應式</string>
+			</dict>
+		</dict>
+		<key>return</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>將數值傳送回給[函數](glossary://function)的呼叫者。例如，函數 `contains(3)` 在陣列 `[0,1,2]` 上執行時會傳回布林值 `false`，因為陣列不包含值 `3`。</string>
+				<key>Title</key>
+				<string>返回</string>
+			</dict>
+		</dict>
+		<key>return type</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>當你定義函數時，你可以選擇定義一個數值的類型，讓函數完成時傳回做為輸出，稱之為它的傳回類型。</string>
+				<key>Title</key>
+				<string>傳回類型</string>
+			</dict>
+		</dict>
+		<key>reusability</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>程式碼的一種特性，允許在應用程式中的不同情況下使用程式碼。</string>
+				<key>Title</key>
+				<string>可重用性</string>
+			</dict>
+		</dict>
+		<key>roll</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>當裝置是橫向時，裝置旋轉或前後傾斜的測量值。  在數學上，這是圍繞裝置 y 軸的旋轉。它以弧度為單位，範圍是 `-π` 到 `π`。</string>
+				<key>Title</key>
+				<string>滾轉</string>
+			</dict>
+		</dict>
+		<key>root view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>此顯示區包含其他所有顯示區。也稱為[最上層顯示區](glossary://top-level%20view)，此顯示區位於[顯示區階層](glossary://view%20hierarchy)最上方，是階層中所有[子顯示區](glossary://subview)的[容器顯示區](glossary://container)。</string>
+				<key>Title</key>
+				<string>根顯示區</string>
+			</dict>
+		</dict>
+		<key>rubber ducky method</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>一種學習方法，你可以在其中向無生命的物體（例如橡皮鴨）詳細解釋一個概念。若要執行此技術，請取得一個無生命的物體並開始大聲解釋這個概念，確定其中包含鴨子要瞭解的所有必要資訊。在你解釋的過程中，如果你意識到自己遺漏了一些資訊，請記下來以便事後研究。你可以在之後對橡皮鴨解釋時包含你的新發現。</string>
+				<key>Title</key>
+				<string>橡皮鴨方法</string>
+			</dict>
+		</dict>
+		<key>saturation</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>色相的強度，從灰色調到完全的顏色。飽和度是範圍從 `0` 到 `1` 的兩位數（小數）。</string>
+				<key>Title</key>
+				<string>飽和度</string>
+			</dict>
+		</dict>
+		<key>scope</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>你可以在其中取用數值或類型的計畫案區域。雖然在[通用範圍](glossary://global%20scope)中定義的符號可以被[模組](glossary://module)中的任何檔案取用，但在[區域範圍](glossary:// local%20scope)中定義的符號則可在與區域範圍相同或較低層級的程式碼中使用。</string>
+				<key>Title</key>
+				<string>範圍</string>
+			</dict>
+		</dict>
+		<key>sensor</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>感測器是用來偵測事件（例如熱度、光線、聲音或動作的更動）的裝置，並且會傳回值。</string>
+				<key>Title</key>
+				<string>感測器</string>
+			</dict>
+		</dict>
+		<key>sequence</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>使用[反覆運算](glossary://iteration)一次可以逐步執行的數值列表。
+
+你可以使用 `for`-`in` 迴圈反覆運算一個序列，如下方範例中的 `healthySnacks` 陣列：
+```
+let healthySnacks = ["apple", "pear", "banana"]
+for snack in healthySnacks {
+	eat(snack)
+}
+```</string>
+				<key>Title</key>
+				<string>順序</string>
+			</dict>
+		</dict>
+		<key>source of truth</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>一個在 App 建構中修改所有資料的位置。與這個資料的所有其他關聯僅供參考，這可避免其資訊在其他位置出現重覆。</string>
+				<key>Title</key>
+				<string>真實來源</string>
+			</dict>
+		</dict>
+		<key>speech synthesis</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>由電腦產生，類似人類說話的語音，通常從文字產生。</string>
+				<key>Title</key>
+				<string>語音合成</string>
+			</dict>
+		</dict>
+		<key>state</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>在指定的時間儲存在變數、應用程序或系統中的資訊。例如，如果變數 `level` 包含數值 `4`，則其目前狀態為 `4`。</string>
+				<key>Title</key>
+				<string>狀態</string>
+			</dict>
+		</dict>
+		<key>state change</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>儲存在變數、應用程式或系統中的資訊變化。例如，如果變數 `level` 的值從 `4` 變成 `5`，則它的狀態已經改變了。</string>
+				<key>Title</key>
+				<string>狀態更動</string>
+			</dict>
+		</dict>
+		<key>state object</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>加入 `@StateObject` [屬性包覆](glossary://property%20wrapper)以聲明狀態物件，並提供一個符合 `ObservableObject` [協定](glossary://protocol)的初始值。SwiftUI 會管理狀態物件的儲存，並在其發佈數值改變時更新所有使用該數值的子顯示區。</string>
+				<key>Title</key>
+				<string>狀態物件</string>
+			</dict>
+		</dict>
+		<key>state property</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>在顯示區的[屬性](glossary://property)前加入 `@State`，告訴 SwiftUI 來管理數值的儲存。當數值更改時，SwiftUI 會更新顯示區中使用該數值的任何部分。
+
+```
+@State var isOn = false
+```
+</string>
+				<key>Title</key>
+				<string>狀態屬性</string>
+			</dict>
+		</dict>
+		<key>state value</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>在變數前面加入 `@State` 來告訴 SwiftUI 管理數值的儲存內容。當數值改變時，SwiftUI 會更新使用該數值的顯示區的任意部分。</string>
+				<key>Title</key>
+				<string>狀態值</string>
+			</dict>
+		</dict>
+		<key>statement</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>如迴圈或 `if` 語句的結構，用於組織應用程式中的程式碼。</string>
+				<key>Title</key>
+				<string>語句</string>
+			</dict>
+		</dict>
+		<key>string component</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>字串的一部分或子字串，在字串被分隔符號分隔成幾個部分後形成。比方說，如果字串 `"dog+cat+fish"` 被分隔符號 `"+"` 分隔，則會產生字串 `"dog"`、`"cat"` 和 `"fish"` 這幾個部分。</string>
+				<key>Title</key>
+				<string>字串組件</string>
+			</dict>
+		</dict>
+		<key>string concatenation</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>透過將一個字串加到另一個字串的結尾來結合字串的操作。例如 `"foot"` 和 `"ball"` 連接後變成 `"football"`。</string>
+				<key>Title</key>
+				<string>字串聯接</string>
+			</dict>
+		</dict>
+		<key>string interpolation</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>在較長字串中使用常數、變數或程式碼表示式，讓它們替換為其目前的值以計算字串的值。例如，在字串 `"Katy ate a \(fruit)."` 中，如果 `fruit` 是帶有值 `"peach"` 的變數，那麼在計算字串的值時，`\(fruit)` 會被 `"peach"` 替換，變成 `"Katy ate a peach."`。</string>
+				<key>Title</key>
+				<string>字串插值</string>
+			</dict>
+		</dict>
+		<key>structure</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>結構是程式碼的容器，它的作用如同藍圖用來建立多個相同類型物件的[實例](glossary://instance)。就像藍圖可能定義了一個物件（例如腳踏車）的功能和動作，結構會將這些定義為[屬性](glossary://property)和[方法](glossary://method)。
+
+當你建立結構的實例時，該實例會包含藍圖的所有屬性和方法。每一個實例會共享相同的屬性和方法，但你可以個別地更改其屬性值，讓你能自訂每個你建立或從結構實例化的實例。例如，一個腳踏車結構可能會包含顏色屬性，讓你能製作紅色或藍色的腳踏車。
+
+結構與[類別](glossary://class)相似，但在兩個重要的方面有所不同：結構是一個[數值類型](glossary://value%20type)，它都是由數值複製，且結構不支援從另一個結構繼承。
+
+```
+struct Bicycle { 
+	var color : Color 
+	var type : BikeCategory
+}
+```</string>
+				<key>Title</key>
+				<string>結構</string>
+			</dict>
+		</dict>
+		<key>subview</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>一種包含在[容器](glossary://container)顯示區內的顯示區。容器可以包含任意數量的子顯示區，每個子顯示區可包含自己的子顯示區，依此類推。顯示區及其所有下層形成了[顯示區階層](glossary://view%20hierarchy)。</string>
+				<key>Title</key>
+				<string>子顯示區</string>
+			</dict>
+		</dict>
+		<key>syntax</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>編寫電腦可以理解並執行之程式碼的規則。</string>
+				<key>Title</key>
+				<string>語法</string>
+			</dict>
+		</dict>
+		<key>task</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>任務對於處理 App 中不連續的工作單位很有用，讓你的程式碼可以繼續進行重要的事情，例如處理 UI。當你建立任務時，它會作為程式的一部分[非同步](glossary://asynchronous%20process)地執行其程式碼。這樣能讓你的其他程式碼繼續處理其他工作。需要此任務資料的程式碼部分可以`等待`任務的結果。</string>
+				<key>Title</key>
+				<string>任務</string>
+			</dict>
+		</dict>
+		<key>ternary conditional operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>一種編寫條件語句的特殊速記方法。[運算子](glossary://operator)包含三個部分，形式為 `condition ? trueValue : falseValue`。這就像一個 [`if` 語句](glossary://if%20statement)，如果 `condition` 為 `true` 會傳回 `trueValue`，如果為 `false` 則傳回 `falseValue`。
+
+在下面的程式碼中，如果 `isOn` 為 `true`，矩形將為綠色。如果 `isOn` 為 `false`，則矩形將為紅色。
+
+```
+Rectangle()
+     .foregroundColor(isOn ? .green : .red)
+```
+
+上面的程式碼可以解讀為：如果值 `isOn` 為 `true`，則傳回值 `.green`，否則，會傳回值 `.red`。
+</string>
+				<key>Title</key>
+				<string>三元條件運算子</string>
+			</dict>
+		</dict>
+		<key>toolbar</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>用來執行特定功能的一列圖像。工具列修飾符會預期使用你可加入一組顯示區來提供的一組工具列項目。</string>
+				<key>Title</key>
+				<string>工具列</string>
+			</dict>
+		</dict>
+		<key>top-level view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>此顯示區包含其他所有顯示區。也稱為[根顯示區](glossary://root%20view)，此顯示區位於[顯示區階層](glossary://view%20hierarchy)最上方，是階層中所有[子顯示區](glossary://subview)的[容器顯示區](glossary://container)。</string>
+				<key>Title</key>
+				<string>最上層顯示區</string>
+			</dict>
+		</dict>
+		<key>trailing edge</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>說到顯示區中的內容時，後緣指的是內容結尾的水平位置。後緣的位置視你的偏好設定而定，通常是基於你的地區和語言設定。
+                    例如，對於由左至右的語言（像是英文和荷蘭文），後緣位於右側。對於由右至左的語言（像是阿拉伯文或希伯來文），後緣則位於左側。</string>
+				<key>Title</key>
+				<string>末尾邊緣</string>
+			</dict>
+		</dict>
+		<key>training</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>機器學習就是機器學習的演算法從資料集中學習的過程。
+
+在監管學習中，模型會嘗試在資料特徵和資料的標籤之間建立最準確的數學關係。在非監管學習中，模型則會嘗試找到資料特徵本身之間的關係。</string>
+				<key>Title</key>
+				<string>訓練</string>
+			</dict>
+		</dict>
+		<key>training dataset</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>機器學習模型[訓練](glossary://training)自身用於產生其[預測](glossary://prediction)的資料集合。</string>
+				<key>Title</key>
+				<string>訓練資料集</string>
+			</dict>
+		</dict>
+		<key>type</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>一種資料的屬性（特徵）和方法（動作）的命名分組。
+
+類型是一種用來建立一組相關功能的方法，以便可以更輕鬆地取用它。
+
+```
+struct Person { 
+	var name : Int
+	var age : String 
+
+	func greet() { 
+		print("Hello, friend!")
+	}
+}
+```</string>
+				<key>Title</key>
+				<string>類型</string>
+			</dict>
+		</dict>
+		<key>typography</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>排列類型使書寫的語言在顯示時更為清楚易讀、更具吸引力的藝術和技巧。</string>
+				<key>Title</key>
+				<string>排版</string>
+			</dict>
+		</dict>
+		<key>unwrap</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>若要從[選擇性](glossary://optional)類型的[實例](glossary://instance)中擷取包覆值。
+				
+要從選擇性類型中解開數值，常用的方法是使用 `if`-`let`：
+```
+var count: Int? = 48
+if let unwrappedCount = count {
+	print(unwrappedCount)
+} else {
+	print("count has no value")
+}
+```</string>
+				<key>Title</key>
+				<string>解開</string>
+			</dict>
+		</dict>
+		<key>upper bound</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>在[範圍](glossary://range%20value)中，往下計數的結束值。
+
+```
+let closedRange = 1...5 // Lower bound is 1, upper bound is 5
+for i in closedRange { 
+	print(i) // 1 2 3 4 5
+}
+```</string>
+				<key>Title</key>
+				<string>上限</string>
+			</dict>
+		</dict>
+		<key>user</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>使用你的 App 的人。</string>
+				<key>Title</key>
+				<string>使用者</string>
+			</dict>
+		</dict>
+		<key>user input</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>應用程式從與使用者的互動中所得到的資訊，例如使用者觸碰螢幕、使用鍵盤輸入文字，或使用麥克風說話。
+</string>
+				<key>Title</key>
+				<string>使用者輸入</string>
+			</dict>
+		</dict>
+		<key>user interaction</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>[使用者](glossary://user)使用你的 App 所執行的操作。點按按鈕、在螢幕上向左滑動、旋轉裝置、從 `ColorPicker` 選取顏色，以及在文字欄位中輸入字元都是使用者互動的例子。</string>
+				<key>Title</key>
+				<string>使用者互動</string>
+			</dict>
+		</dict>
+		<key>user interface</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>使用者控制 App 的工具。也稱為「UI」，這個詞通常是指使用者互動的 App 視覺部分，其中的元件包含影像、文字、按鈕、滑桿、捲動顯示區等等。</string>
+				<key>Title</key>
+				<string>使用者介面</string>
+			</dict>
+		</dict>
+		<key>validation dataset</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>從機器學習模型的[訓練資料集](glossary://training%20dataset)中保留的資料取樣。模型會使用驗證資料集來評估其預測的準確性。</string>
+				<key>Title</key>
+				<string>驗證資料集</string>
+			</dict>
+		</dict>
+		<key>value type</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>當你建立數值類型的[實例](glossary://instance)（如[結構](glossary://structure)）時，它的資料會儲存在實例本身之中。如果你[指定](glossary://assignment)實例給一個變數，或將它作為[引數](glossary://argument)傳入一個函數，Swift 會建立一個帶有資料獨立複本的新實例。
+
+實例是由數值複製，如下方範例所示：
+
+```
+struct Bicycle {
+  var color: Color
+}
+
+var redBike = Bicycle(color: .red)
+var blueBike = redBike
+blueBike.color = .blue
+print(redBike.color) // =&gt; red
+print(blueBike.color) // =&gt; blue
+// redBike and blueBike each have their own copy of the data
+```</string>
+				<key>Title</key>
+				<string>數值類型</string>
+			</dict>
+		</dict>
+		<key>variable</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>一種已命名的容器，用來儲存可更改的值。
+
+變數可以儲存不同[類型](glossary://type)的值，如[整數](glossary://Int)、[字串](glossary://String)和[範圍](glossary:/ /range)。
+```
+var favoriteNumber = 7 // Stores an integer
+var greeting = "Hello" // Stores a string
+var repetitions = 1...5 // Stores a range
+```
+</string>
+				<key>Title</key>
+				<string>變數</string>
+			</dict>
+		</dict>
+		<key>velocity</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>指定方向上的物件速度。</string>
+				<key>Title</key>
+				<string>速度</string>
+			</dict>
+		</dict>
+		<key>view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>顯示區是 App 使用者介面的建構區塊，代表[符合](glossary://conform) `View` [協定](glossary://protocol)的任何視覺元件。
+
+一些 SwiftUI 中的顯示區範例有文字顯示區、影像顯示區、滑桿、網格、按鈕和形狀。</string>
+				<key>Title</key>
+				<string>顯示區</string>
+			</dict>
+		</dict>
+		<key>view hierarchy</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>此結構定義了相對於其他顯示區的顯示區佈局，並參照階層最上方的最上層顯示區實例。最上層顯示區可包含任何數量的子顯示區，而每個子顯示區都可以包含自己的子顯示區，依此類推。</string>
+				<key>Title</key>
+				<string>顯示區階層</string>
+			</dict>
+		</dict>
+		<key>volume</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>「音量」是[感測器](glossary://sensor)偵測到的聲音響度。範圍介於 0 和 1 之間。</string>
+				<key>Title</key>
+				<string>音量</string>
+			</dict>
+		</dict>
+		<key>while loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>指定條件為 `true` 時執行的一個程式碼區塊。當條件更改為 `false` 時，迴圈即停止執行。</string>
+				<key>Title</key>
+				<string>while 迴圈</string>
+			</dict>
+		</dict>
+		<key>wireframe</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>關卡世界中項目（如寶石、開關或磚塊）的外框。線框用於指示每次關卡執行時可能隨機出現的項目。</string>
+				<key>Title</key>
+				<string>線框</string>
+			</dict>
+		</dict>
+		<key>yaw</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>將裝置放在平面上時圍繞中心點旋轉的測量值。  在數學上，這是圍繞裝置 z 軸的旋轉。它以弧度為單位，範圍為是 `-π` 到 `π`。</string>
+				<key>Title</key>
+				<string>偏航</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

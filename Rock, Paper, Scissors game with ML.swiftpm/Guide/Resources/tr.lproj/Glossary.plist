@@ -1,0 +1,2674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>Alpha</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Alfa veya *alfa kanalı*, rengin opaklığıyla ilgili ve `0` (tamamen saydam) ile `1` (tamamen opak) aralığında bir değerdir. Alfa verisi, 0 ile 1 aralığında bir double’dır (ondalık sayı).</string>
+				<key>Title</key>
+				<string>alfa</string>
+			</dict>
+		</dict>
+		<key>Boolean</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`true` veya `false` değerine sahip bir tip. Örneğin `9 &lt; 7`, `false` Boole değerini döndürür çünkü `9`, `7`’den küçük değildir.
+```
+var isRunning = false
+```</string>
+				<key>Title</key>
+				<string>Boole</string>
+			</dict>
+		</dict>
+		<key>Double</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kesirli kısma sahip sayıları (örneğin 3.14) saklayan bir tip.</string>
+				<key>Title</key>
+				<string>Double</string>
+			</dict>
+		</dict>
+		<key>ForEach</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Koleksiyondaki her bir öğeyi için görüntüler yaratmak üzere (bir dizi gibi) veri [koleksiyonu](glossary://collection) üzerinden [tekrarlanan](glossary://iteration) bir yapı. 
+
+`ForEach` yapısı, her öğenin `ForEach` [ilk değer atayıcısında](glossary://initialization) açık bir şekilde ya da `Identifiable` protokolüne uyarak bir `id` sağlamasını gerektirir. Bu, SwiftUI’ın `ForEach`’ten oluşturulan her bir görüntüyü birbirinden bağımsız olarak tanımlamasına ve güncellemesine izin verir.
+
+```
+ForEach(symbols) { symbol in 
+    Text(symbol.name)
+}
+```
+</string>
+				<key>Title</key>
+				<string>ForEach</string>
+			</dict>
+		</dict>
+		<key>Int</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Tam sayı (`10` veya `-42` gibi kesirli olmayan bir sayı) saklayan bir tip.</string>
+				<key>Title</key>
+				<string>Int</string>
+			</dict>
+		</dict>
+		<key>String</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`"Merhaba dünya"` veya `"dans eden kedicikler"` gibi karakter dizilerini saklayan bir tip.</string>
+				<key>Title</key>
+				<string>Dizgi</string>
+			</dict>
+		</dict>
+		<key>Swift</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Apple’ın iPhone, iPad, Mac, Apple Watch ve Apple TV için uygulama yazmak amacıyla kullanılan programlama dili.</string>
+				<key>Title</key>
+				<string>Swift</string>
+			</dict>
+		</dict>
+		<key>SwiftUI</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>SwiftUI, tüm Apple platformları için kullanıcı arayüzlerini bildirmenin modern bir yoludur. Uygulamanın kullanıcı arayüzünü bildirmek için görüntüler, denetimler ve yerleşim yapıları sağlar. Framework; uygulamana yönelik dokunma, hareket ve diğer giriş türlerini sunmak amacıyla olay işleyicileri ve uygulamanın modellerinden gelen ve kullanıcıların görüp etkileşim kuracağı görüntülere ve denetimlere giden veri akışını yönetmeye yönelik araçları sunar.</string>
+				<key>Title</key>
+				<string>SwiftUI</string>
+			</dict>
+		</dict>
+		<key>absolute value</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Sayının işaretsiz değeri. Örneğin -12’nin mutlak değeri 12 ve 23.4’ün mutlak değeri 23.4’tür.</string>
+				<key>Title</key>
+				<string>mutlak değer</string>
+			</dict>
+		</dict>
+		<key>abstraction</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Daha karmaşık bir şeyin basitleştirilmiş sürümü.   Soyutlama, kodunun parçalarıyla ilgili düşünebilmen ve bunları daha kolay bir şekilde birleştirebilmen için ayrıntıları gizler.   Örneğin, bir [tip](glossary://type) o tipin örneğinin ayarını, özelliklerini ve metotlarını gizleyen bir soyutlamadır.</string>
+				<key>Title</key>
+				<string>soyutlama</string>
+			</dict>
+		</dict>
+		<key>accelerometer</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Aygıtının ivmesini üç boyutta ölçen bir sensör: yukarı ve aşağı, ileri ve geri, sola ve sağa.
+
+Aygıtın düz bir yüzey üzerinde yatay yönde dururken yukarı ve aşağı hareketler z eksenindeki ivmeyi, sağa ve sola hareketler y eksenindeki ivmeyi, ileri ve geri hareketler ise x eksenindeki ivmeyi ölçer.</string>
+				<key>Title</key>
+				<string>akselerometre</string>
+			</dict>
+		</dict>
+		<key>adopt</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir protokol benimsemek için tip, listelenen metotları ve özellikleri gibi protokolün gereksinimlerine yönelik kendine ait bir dizi uygulama sağlar.</string>
+				<key>Title</key>
+				<string>benimseme</string>
+			</dict>
+		</dict>
+		<key>algorithm</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir sorunu çözmek için kullanılan adım adım yönerge veya kural kümesi. Örneğin bir bardak çay hazırlamak için kullanılan adımların listesi bir algoritma sayılabilir.</string>
+				<key>Title</key>
+				<string>algoritma</string>
+			</dict>
+		</dict>
+		<key>append</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Başka bir şeyin sonuna eklemek. Örneğin bir dizgiyi başka bir dizginin sonuna ekleyebilir veya bir öğeyi öğelerden oluşan bir dizinin sonuna ekleyebilirsin.
+</string>
+				<key>Title</key>
+				<string>sona ekleme</string>
+			</dict>
+		</dict>
+		<key>application</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Belirli görevleri gerçekleştirmeni sağlayan ve koddan oluşan yazılım. Örneğin mesaj alıp göndermek için Mesajlar uygulamasını kullanırsın.</string>
+				<key>Title</key>
+				<string>uygulama</string>
+			</dict>
+		</dict>
+		<key>argument</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Davranışını özelleştirmek için fonksiyona geçirilen bir girdi değeri. Örneğin `move(distance: 3)` fonksiyon çağrısında `3` sayısı, kaç aralık ileri gidileceğini belirten bir argümandır.</string>
+				<key>Title</key>
+				<string>argüman</string>
+			</dict>
+		</dict>
+		<key>arithmetic operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir veya birden fazla sayıyla temel matematik işlemi gerçekleştiren `+`, `-`, `*` veya `/` gibi bir sembol. Örneğin `42 / 7` ve `17 - 5` aritmetik işleç kullanır.</string>
+				<key>Title</key>
+				<string>aritmetik işleç</string>
+			</dict>
+		</dict>
+		<key>array</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Aynı tipteki öğelerin sıralı listesini saklayan bir koleksiyon. Aynı öğe, farklı konumlarda birden fazla kez görünebilir. 
+
+Aşağıdaki kodda `highScores`, [tamsayılardan](glossary://Int) oluşan bir dizi ve `greetings`, [dizgilerden](glossary://String) oluşan bir dizidir.
+```
+let highScores = [37, 34, 29, 29, 26]
+let greetings = ["merhaba", "hoşça kal", "iyi günler"]
+```</string>
+				<key>Title</key>
+				<string>dizi</string>
+			</dict>
+		</dict>
+		<key>aspect ratio</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Görüntüde veya ekranda genişliğin yüksekliğe oranı.
+
+Örneğin 2:1 en boy oranına sahip bir görüntünün genişliği yüksekliğinin iki katıdır. En boy oranı 1:1 olan bir görüntünün genişliği ile yüksekliği eşittir.</string>
+				<key>Title</key>
+				<string>en boy oranı</string>
+			</dict>
+		</dict>
+		<key>asset</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Öğeler, uygulamanın kullandığı resimler, sesler ve diğer nesnelerdir. Öğeleri Dosyalar ve Fotoğraflar gibi diğer uygulamalardan Swift Playgrounds’a aktarabilirsin.</string>
+				<key>Title</key>
+				<string>öğe</string>
+			</dict>
+		</dict>
+		<key>assignment</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Değişkenin veya sabitin değerini ayarlayan bir eylem.</string>
+				<key>Title</key>
+				<string>atama</string>
+			</dict>
+		</dict>
+		<key>assignment operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`=` sembolü, bir değişkenin değerini ayarlamak için kullanılır. Örneğin `greeting = "merhaba"` ifadesi `greeting` değerini `"merhaba"` olarak ayarlar.</string>
+				<key>Title</key>
+				<string>atama işleci</string>
+			</dict>
+		</dict>
+		<key>asynchronous process</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Uygulamanın veya programının geri kalanı çalışmayı sürdürürken çalışabilen bir kod öbeği. Tamamlanana kadar program çalıştırmayı engelleyen eşzamanlı işlemin tersine, eşzamansız işlem uygulama kodunun geri kalanıyla aynı anda çalışabilir.</string>
+				<key>Title</key>
+				<string>eşzamansız işleme</string>
+			</dict>
+		</dict>
+		<key>asynchronous stream</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Değerlerinin hepsi aynı anda kullanılamayan, ancak değerler akışı olarak zaman aralıklarıyla üretilen bir [diziliş](glossary://sequence). Eşzamansız bir akış üzerinden tekrarlamak için üzerinde işlem yapmadan önce her bir yeni değeri beklemen gerekir.
+				
+Eşzamansız akış genellikle yer sarsıntıları veya video kareleri gibi zaman içinde ulaşan veriler için kullanılır.</string>
+				<key>Title</key>
+				<string>eşzamansız akış</string>
+			</dict>
+		</dict>
+		<key>binding</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Verileri saklayan özellik ile verileri gösteren ve değiştiren görüntü arasında iki yönlü bir bağlantı yaratmak için `@Binding` [özellik sarmalayıcıyı](glossary://property%20wrapper) ekle. Bağlama, verileri doğrudan saklamak yerine bir özelliği başka bir yerde saklanan gerçeklik kaynağına bağlar.
+
+Örneğin, oynatma ve duraklatma arasında değişen bir düğme, `@Binding` özellik sarmalayıcıyı kullanarak [kapsayıcı görüntüsünün](glossary://container) özelliğine bir bağlama yaratabilir.</string>
+				<key>Title</key>
+				<string>bağlama</string>
+			</dict>
+		</dict>
+		<key>body</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir [görüntünün](glossary://view) gövdesi, SwiftUI’ın sağladığı en az bir [yerleşik görüntü](glossary://built-in%20view) ya da daha önce yarattığın [oluşturulmuş görüntülerden](glossary://composed%20view) oluşan görüntünün içeriğini sağladığın yerdir.</string>
+				<key>Title</key>
+				<string>gövde</string>
+			</dict>
+		</dict>
+		<key>bounds</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir dizide, dizi indeksinin sahip olabileceği değer aralığı. Örneğin `[17, 42, 95]` dizisinde indeks değerleri 0 ile 2 arasında olabilir. Sınır denetimi, indeks değerinin dizi sınırları içinde olduğunu doğrulama işlemidir.</string>
+				<key>Title</key>
+				<string>sınırlar</string>
+			</dict>
+		</dict>
+		<key>brightness</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kameraya gelen ışık miktarı: `0` (ışık yok) ile `1` (tam ışık) aralığında. Parlaklık, `0` ile `1` arasında bir [Double](glossary://Double) (ondalık sayı) olur.</string>
+				<key>Title</key>
+				<string>parlaklık</string>
+			</dict>
+		</dict>
+		<key>bug</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kodda uygulamanın beklendiği gibi çalışmasını engelleyen bir sorun. 
+</string>
+				<key>Title</key>
+				<string>hata</string>
+			</dict>
+		</dict>
+		<key>built-in view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`Button`, `Text` veya `Image` görüntüsü gibi [SwiftUI](glossary://SwiftUI) framework’ü tarafından sağlanan bir [görüntü](glossary://view). Yerleşik görüntüler, [kullanıcı arayüzünde](glossary://user%20interface) daha karmaşık [oluşturulmuş görüntüler](glossary://composed%20view) yaratmak için yapı taşı olarak kullanılır.</string>
+				<key>Title</key>
+				<string>yerleşik görüntü</string>
+			</dict>
+		</dict>
+		<key>bundle</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Uygulama kodunu; veri dosyaları, görüntüler, sesler gibi gereken diğer kaynaklarla birlikte bir pakette saklar. Her uygulamanın bir ana paketi vardır ve adlandırılmış başka paketleri olabilir. Paket diskteki bir klasördür ve içindeki kaynaklar iyi tanımlı alt klasörler hâlinde düzenlenmiştir. Paket yapısı, platforma ve paketin türüne göre değişiklik gösterir.</string>
+				<key>Title</key>
+				<string>paket</string>
+			</dict>
+		</dict>
+		<key>call</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kodda bir fonksiyonu çağırmak, o fonksiyonun çalışıp içinde tanımlanmış olan eylemleri gerçekleştirmesi talimatını vermektir.</string>
+				<key>Title</key>
+				<string>çağırma</string>
+			</dict>
+		</dict>
+		<key>callback</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kimi zaman bir fonksiyonun veya nesnenin veri sağlamak ya da çalışırken önemli bir şeyin oluştuğunu bildirmek için çağrıyı tekrar sana yönlendirmesi gerekebilir. Bunu çağrıda aracılık yapacak bir fonksiyon veya bir [temsilci](glossary://delegate) nesne geçirerek yapabilirsin.
+
+Geri çağırmalar, [eşzamansız](glossary://asynchronous%20process) işlemlerle çalışmak için sıklıkla kullanılan bir araçtır.</string>
+				<key>Title</key>
+				<string>geri çağırma</string>
+			</dict>
+		</dict>
+		<key>chaining</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Her bir fonksiyonun bir nesneyi döndürdüğü, bu nesnenin de bir sonraki fonksiyon tarafından işlendiği bir dizi [fonksiyonu](glossary://function) [çağırma](glossary://call) tekniği. Fonksiyon çağırmaları birbirine tek bir ifadede bağlanır. 
+				
+Örneğin, niteleyici bir [görüntüyü](glossary://view) alıp bazı değişiklikler uygulayan ve başka bir görüntü döndüren bir [metot](glossary://method) olduğundan SwiftUI [niteleyicilerini](glossary://modifier) birbirine bağlayabilirsin.</string>
+				<key>Title</key>
+				<string>bağlama</string>
+			</dict>
+		</dict>
+		<key>class</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Sınıf, aynı tipte şeylerin birden fazla [örneğini](glossary://instance) oluşturma planı gibi davranan bir kod kapsayıcısıdır. Tıpkı bir planın bir nesnenin (bisiklet gibi) özelliklerini ve davranışlarını tanımlaması gibi sınıf da bunları [özellikleri](glossary://property) ve [metotları](glossary://method) olarak tanımlar.
+
+Sınıfın bir örneğini yarattığında bu örnek, planda tanımlanmış özelliklerin ve metotların tümünü içerir. Her örnek aynı özellikleri ve metotları paylaşır ama özelliklerin ve metotların değerlerini bağımsız bir şekilde değiştirebilir ve sınıftan yarattığın (örneğini oluşturduğun) her örneği özelleştirebilirsin. Örneğin bisiklet sınıfında kırmızı veya mavi bisiklet yaratmanı sağlayan bir renk özelliği olabilir.
+
+Sınıf, [yapıya](glossary://structure) benzer ama aralarında iki önemli fark vardır: Sınıf bir [referans türüdür](glossary://reference%20type), her zaman referansa göre kopyalanır ve sınıf kendi tanımını başka bir sınıftan kalıt alabilir.</string>
+				<key>Title</key>
+				<string>sınıf</string>
+			</dict>
+		</dict>
+		<key>classification</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Makine öğreniminde sınıflandırma, etiketli bir veri kümesinden öğrenen ve öğrendiklerini yeni gözlemleri sınıflandırmak için kullanan bir algoritmadır.
+
+Örneğin bir köpek cinsi sınıflandırıcısı, etiketli köpek cinsi resimleriyle eğitilir. Bu sınıflandırıcıya yeni bir köpek resmi gösterirsen sınıflandırıcı, bu girişi bu cinslerden biri olarak sınıflandırabilir.</string>
+				<key>Title</key>
+				<string>sınıflandırma</string>
+			</dict>
+		</dict>
+		<key>closed range</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir alt sınırdan bir üst sınıra, üst sınırı da içeren bir aralık.
+
+Swift’te, 1-3 aralık değeri 1...3 olarak yazılabilir. Bu durumda aralık, alt sınır olan 1’den başlayarak üst sınır olan 3’e kadar sayar.
+```
+let closedRange = 1...3
+for i in closedRange { 
+	print(i) // 1 2 3
+}
+```</string>
+				<key>Title</key>
+				<string>kapalı aralık</string>
+			</dict>
+		</dict>
+		<key>closure</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kapamalar, bir ad gerekmeden yerinde çalıştırılan [fonksiyonlardır](glossary://function).
+					
+```
+scene.setOnStartHandler {
+    // Kapamanın gövde metni
+}
+```
+                    
+Kapamalar, herhangi bir sabite ve değişkene tanımlandığı bağlamda referans tutup saklayabilir. Bu, söz konusu sabitlerin ve değişkenlerin üzerinin kapanması olarak bilinir.</string>
+				<key>Title</key>
+				<string>kapama</string>
+			</dict>
+		</dict>
+		<key>code comment</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kod yorumu, programcıların kodlarını belgelemelerinin bir yoludur.   İki öne eğik çizgiyi takip eden bir boşlukla tek satırlı bir yorum başlatabilirsin; örneğin "// Bu benim yorumum.".   Kodunu çalıştırdığında, kod komutları çalıştırılmaz.</string>
+				<key>Title</key>
+				<string>kod yorumu</string>
+			</dict>
+		</dict>
+		<key>code expression</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir değer döndürmek için değerlendirilebilecek bir kod parçası. Örneğin `months` (aylar) 12 öğeden oluşan bir dizi ise `months.count - 1` kod ifadesi `11` değerini döndürür.</string>
+				<key>Title</key>
+				<string>kod ifadesi</string>
+			</dict>
+		</dict>
+		<key>coding</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir uygulama yaratmak için komutları, kod yapılarını ve algoritmaları birleştirme eylemi.</string>
+				<key>Title</key>
+				<string>kodlama</string>
+			</dict>
+		</dict>
+		<key>collection</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Birden fazla veri saklamak için kullanılan [dizi](glossary://array) veya [aralık](glossary://range) gibi bir veri yapısı. 
+```
+let heights = [1, 5, 7]
+let closedRange = 1...8
+```</string>
+				<key>Title</key>
+				<string>koleksiyon</string>
+			</dict>
+		</dict>
+		<key>command</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Uygulamaya belirli bir eylemi gerçekleştirmesini söyleyen kod. </string>
+				<key>Title</key>
+				<string>komut</string>
+			</dict>
+		</dict>
+		<key>comment out</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir kod satırının çalıştırılmasını engellemek için onu [kod yorumuna](glossary://code%20comment) dönüştürmek. Kod satırının önüne `//` ekleyerek bunu yapabilirsin. Örneğin:
+                
+`// level.run()`</string>
+				<key>Title</key>
+				<string>dışarıda bırak</string>
+			</dict>
+		</dict>
+		<key>comparison operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>İki değeri karşılaştırmak için kullanılan `==`, `!=`, `&lt;`, `&gt;`, `&lt;=` veya `&gt;=` gibi bir sembol. Karşılaştırma işleci, `if` ifadesinin veya `while` döngüsünün bir koşulundaki karşılaştırmanın `true` (doğru) olup olmadığını belirten bir Boole değeri döndürmek için kullanılabilir. Örneğin `6 &gt; 8`, `6` ile `8`’i karşılaştırır ve `false` (yanlış) değerini döndürür.</string>
+				<key>Title</key>
+				<string>karşılaştırma işleci</string>
+			</dict>
+		</dict>
+		<key>compiler error</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Derleyici hataları, koddaki yanlışlardan kaynaklanır. Bunları soldaki marjda ve araç çubuğunda kırmızı nokta olarak görürsün.</string>
+				<key>Title</key>
+				<string>derleyici hatası</string>
+			</dict>
+		</dict>
+		<key>composed view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir veya daha fazla [yerleşik](glossary://built-in%20view) ya da oluşturulmuş görüntüyü birleştirerek yaratılan [görüntü](glossary://view).
+</string>
+				<key>Title</key>
+				<string>oluşturulmuş görüntü</string>
+			</dict>
+		</dict>
+		<key>composition</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Birlikte çalışması ve anlaşılması daha basit daha büyük parçalar oluşturmak üzere uygulamanın küçük parçalarını birleştirme işlemi.</string>
+				<key>Title</key>
+				<string>birleştirme</string>
+			</dict>
+		</dict>
+		<key>compound assignment operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Atamayı (değişkenin değerini ayarlama), toplama veya çıkarma gibi başka bir işlemle birleştiren bir işleç. Örneğin `a`’nın mevcut değeri `1` ise `a += 3` kullanıldığında, `3`’e `1` eklenir ve sonuç `a`’ya atanır, böylece `a`’nın değeri artık `4` olur.</string>
+				<key>Title</key>
+				<string>bileşik atama işleci</string>
+			</dict>
+		</dict>
+		<key>computed property</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir değeri doğrudan saklamak yerine, hesaplanan özellik bir değer alındığında o değeri diğer ilgili değerlerin şu anki durumuna göre hesaplar.
+
+Aşağıdaki örnekte, alan hesaplanan bir özellik, `width` ve `height` ise saklanan özelliklerdir:
+
+```
+struct RectangleCalculator { 
+    var width = 10.0
+    var height = 10.0
+    
+    var area : Double { 
+        return width * height
+    }
+} 
+```</string>
+				<key>Title</key>
+				<string>hesaplanan özellik</string>
+			</dict>
+		</dict>
+		<key>condition</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>[if ifadesi](glossary://if%20statement) gibi bir [koşullu kod](glossary://conditional%20code) öbeğinde koşul, öbeğin içindeki kodun çalıştırılıp çalıştırılmayacağını belirleyen bir [Boole](glossary://Boolean) değeridir. 
+
+Koşul doğru (`true`) ise kod öbeği çalıştırılır. Yanlışsa (`false`) koşullu kod atlanır.
+```
+let x = 4
+
+if x &lt; 5 { 
+	// Koşul doğru; if öbeğindeki kod çalıştırılır. 
+}
+
+if x &gt; 5 { 
+	// Koşul yanlış; if öbeğindeki kod çalıştırılmaz. 
+}
+```</string>
+				<key>Title</key>
+				<string>koşul</string>
+			</dict>
+		</dict>
+		<key>conditional code</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Yalnızca belirli koşullar sağlandığında çalışan kod. Örneğin [if ifadeleri](glossary://if%20statement) ve [while döngüleri](glossary://while%20loop) yalnızca bir koşul `true` ise (sağlanıyorsa) veya `true` olduğu (sağlandığı) sürece çalışan koşullu kod içerir.
+```
+if x &gt; 5 { 
+	// Kod yalnızca x 5’ten büyükse çalışır
+}
+```</string>
+				<key>Title</key>
+				<string>koşullu kod</string>
+			</dict>
+		</dict>
+		<key>confidence</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Makine öğreniminde güvenilirlik, makine öğrenimi modelinin [tahmin](glossary://prediction) olasılığıdır. Tahminin güvenilirliği, makine öğrenimi modelinin ne kadar iyi çalıştığına dair bilgi sunar.</string>
+				<key>Title</key>
+				<string>güvenilirlik</string>
+			</dict>
+		</dict>
+		<key>conform</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir protokolün gereksinimlerine yönelik kendi uygulamalarını sağladığında, bir tipe o protokole uyması söylenir.</string>
+				<key>Title</key>
+				<string>uyma</string>
+			</dict>
+		</dict>
+		<key>console</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Çalıştığı sırada kodundan bir hata ayıklama çıktısını görüntüleyebileceğin yer. Kodunda `print(_:)` fonksiyonunu çağırdığında, geçirdiğin değer konsolda görüntülenir.</string>
+				<key>Title</key>
+				<string>konsol</string>
+			</dict>
+		</dict>
+		<key>constant</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Değiştirilemeyen bir değer saklayan adlandırılmış bir kapsayıcı.</string>
+				<key>Title</key>
+				<string>sabit</string>
+			</dict>
+		</dict>
+		<key>container</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kapsayıcı, diğer görüntüleri içinde tutan bir görüntüdür.</string>
+				<key>Title</key>
+				<string>kapsayıcı</string>
+			</dict>
+		</dict>
+		<key>coordinates</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Uzaydaki bir konumu benzersiz bir şekilde belirleyen sayı grubu. Örneğin (100, -200), 2B bir uzayda bir noktanın koordinatlarıdır; x koordinatı 100, y koordinatı ise -200’dür.</string>
+				<key>Title</key>
+				<string>koordinatlar</string>
+			</dict>
+		</dict>
+		<key>data</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bilgisayar tarafından işlenen veya saklanan ve onunla işlem yapan koddan ayrı olan bilgiler.</string>
+				<key>Title</key>
+				<string>veri</string>
+			</dict>
+		</dict>
+		<key>data cleaning</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Veri kümesini gözden geçirip yanlış, eksik, yinelenen veya uygun olmayan bir şekilde biçimlenmiş verileri silme işlemidir.
+
+Veri temizleme, makine öğrenimi modelinin yalnızca en ilgili ve doğru verilerle [eğitilmesini](glossary://training) sağlayarak doğruluğunu artırır.</string>
+				<key>Title</key>
+				<string>veri temizleme</string>
+			</dict>
+		</dict>
+		<key>data flow</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Uygulaman genelinde verilerin hareketi ve bu verilerdeki değişikliklerin uygulamanın durumundaki veya kullanıcı arayüzündeki değişikliklerle sonuçlanma biçimi.</string>
+				<key>Title</key>
+				<string>veri akışı</string>
+			</dict>
+		</dict>
+		<key>data model</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Veri organizasyonunu yansıtan uygulamanda kullanılan verilerin kod temsili. [Kullanıcı arayüzün](glossary://user%20interface) veri modelinden gelen verileri görüntüleyebilir ve verileri değiştirmek için etkileşim kurabilir. Veri modelin uygulaman için [gerçeklik kaynağı](glossary://source%20of%20truth) görevi görür.</string>
+				<key>Title</key>
+				<string>veri modeli</string>
+			</dict>
+		</dict>
+		<key>data separation</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir uygulamanın [veri modelinin](glossary://data%20model) bu verileri görüntülemek ve onlarla etkileşim kurmak için kullanılan [kullanıcı arabiriminden](glossary://user%20interface) ayrı olarak tanımlanması gerekliliği kavramı. Veri ayırma, veri modelini ve kullanıcı arayüzünü birbirinden bağımsız olarak değiştirmene izin verir, uygulamanın nasıl çalıştığını anlamayı kolaylaştırır ve uygulamanın test edilebilirliğini iyileştirir.</string>
+				<key>Title</key>
+				<string>veri ayırma</string>
+			</dict>
+		</dict>
+		<key>debug</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kodda uygulamanın doğru çalışmasını engelleyen hataları bulup düzeltmek. </string>
+				<key>Title</key>
+				<string>hata ayıklama</string>
+			</dict>
+		</dict>
+		<key>declaration</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Uygulamanda fonksiyon, değişken veya özel tip gibi yeni bir şeyler yaratan kod parçası. Örneğin `let planet = "Dünya"` ifadesi `planet` adında yeni bir sabit bildirir ve ona `"Dünya"` değerini verir.
+
+Aşağıdaki kod, `AppData` tipinde bir `data` değişkeni bildirir ama ona bir ilk değer vermez.
+
+```
+var data : AppData
+```</string>
+				<key>Title</key>
+				<string>bildirim</string>
+			</dict>
+		</dict>
+		<key>decode</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Verileri JSON gibi verimli bir saklama biçiminden kodda çalışmayı kolaylaştıran bir biçime dönüştürmek.</string>
+				<key>Title</key>
+				<string>kod çözme</string>
+			</dict>
+		</dict>
+		<key>decomposition</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Büyük bir sorunu daha küçük ve yönetilebilir parçalara bölme işlemi.</string>
+				<key>Title</key>
+				<string>ayrıştırma</string>
+			</dict>
+		</dict>
+		<key>decrement</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Sayıyı bir tam sayı değeri kadar (çoğunlukla 1) azaltmak.</string>
+				<key>Title</key>
+				<string>azaltma</string>
+			</dict>
+		</dict>
+		<key>define</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Fonksiyon, değişken veya özel tip gibi yeni yaratılmış bir kod parçasının açık değerini veya davranışını vermek. Örneğin bir fonksiyonu, fonksiyonun ne yapacağını söylemek amacıyla içinde bir komut kümesi vererek tanımlarsın.</string>
+				<key>Title</key>
+				<string>tanımlama</string>
+			</dict>
+		</dict>
+		<key>delegate</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Önemli olaylar meydana geldiğinde seni bilgilendirmek için başka bir nesneye sağlanan özel bir nesne. Temsilci nesne genellikle kodunla iletişim kurmak için çağrılabilecek fonksiyonlara sahip bir [protokole](glossary://protocol) uyar. Bir temsilci fonksiyonun çağrılması, temsilci [geri çağırma](glossary://callback) olarak bilinir.
+
+Temsilci, özellikle [eşzamansız](glossary://asynchronous%20process) işlemlerde nesneler arasında iletişim kurmak için kullanılan yaygın bir örüntüdür.</string>
+				<key>Title</key>
+				<string>temsilci</string>
+			</dict>
+		</dict>
+		<key>destination view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>[Kullanıcı](glossary://user) bir `NavigationStack`’deki veya `NavigationSplitView`’daki bir `NavigationLink`’e tıkladığında veya dokunduğunda gösterilen görüntü.</string>
+				<key>Title</key>
+				<string>hedef görüntü</string>
+			</dict>
+		</dict>
+		<key>dot notation</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir örneğin özelliklerine erişmek veya metotlarını çağırmak için kullanılan söz dizimi biçimi. Örneğin `expert.toggleSwitch()`, `expert` örneğinde `toggleSwitch()` metodunu çağırır.</string>
+				<key>Title</key>
+				<string>nokta notasyonu</string>
+			</dict>
+		</dict>
+		<key>edge case</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir çalışma parametresinin nadir veya ekstrem koşullarında oluşan, beklenen veya beklenmeyen bir durum. 
+
+Örneğin bir iPad uygulaması oluştururken aygıtının dilini Arapça gibi sağdan sola bir alfabeyi kullanan bir dile güncellediğinde uygulamanın çökmesi. </string>
+				<key>Title</key>
+				<string>uç durum</string>
+			</dict>
+		</dict>
+		<key>efficiency</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir kod parçasının ne kadar iyi olduğunun bir ölçüsü, mümkün olduğunca az kaynak (bellek veya güç gibi) kullanarak hedeflenen amacı hızlı bir şekilde gerçekleştirmesidir.</string>
+				<key>Title</key>
+				<string>verimlilik</string>
+			</dict>
+		</dict>
+		<key>element</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>[Dizi](glossary:///array) veya [aralık](glossary://range) gibi bir [koleksiyondaki](glossary://collection) öğe.
+
+```
+let letters = ["a", "b", "c"] // "a" birinci, "b" ikinci, "c" üçüncü öğedir. 
+```</string>
+				<key>Title</key>
+				<string>öğe</string>
+			</dict>
+		</dict>
+		<key>else block</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir `if` ifadesindeki son kod öbeği. Bu `else` öbeği, `if` ifadesindeki tüm diğer koşullar yanlış (`false`) ise çalıştırılır.
+
+```
+if hopper.isFacingStep { 
+	// if öbeği
+} else if hopper.isFacingUpdraft { 
+	// else if öbeği
+} else { 
+	// else öbeği
+}
+```</string>
+				<key>Title</key>
+				<string>else öbeği</string>
+			</dict>
+		</dict>
+		<key>else if block</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir `if` ifadesinde, [if öbeği](glossary://if%20block) tarafından veya başka bir `else if` öbeği tarafından denetlenmeyen bir koşulu denetlemek için kullanılan kod öbeği.
+
+```
+if hopper.isFacingStep { 
+	// if öbeği
+} else if hopper.isFacingUpdraft { 
+	// else if öbeği
+} else { 
+	// else öbeği
+}
+``</string>
+				<key>Title</key>
+				<string>else if öbeği</string>
+			</dict>
+		</dict>
+		<key>encode</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Verileri kodda çalışmayı kolaylaştıran bir biçimden, JSON gibi verimli bir saklama biçimine dönüştürmek.</string>
+				<key>Title</key>
+				<string>kodlama</string>
+			</dict>
+		</dict>
+		<key>enumeration</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Birbiriyle ilişkili *durum listesi* olarak adlandırılan değerler kümesini tanımlayan bir tip.
+
+Örneğin `Direction` enum sabiti her bir yön durumunu tanımlar: `north`, `south`, `east` ve `west`. 
+```
+enum Direction { 
+	case north, south, east, west
+}
+```
+Enum sabiti değerini başka bir öğeye [geçirirken](glossary://pass%20in) her zaman bu durumlardan yalnızca birini seçersin; örneğin:
+ ```
+ moveIn(direction: .north)
+```</string>
+				<key>Title</key>
+				<string>enum sabiti</string>
+			</dict>
+		</dict>
+		<key>environment</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Görüntünün ortamı, tanımlanan bir değerler koleksiyonuna erişim sağlar. Bunların bazıları sistem durumunu, kullanıcı ayarlarını veya görüntü durumunu otomatik olarak yansıtır. Örnekler görüntünün renk şemasını, metin stilini veya odak durumunu içerebilir. Diğerleri ise metin alanları için satır sınırı gibi yararlı saptanmış değerler sağlar. Ortam değerlerini `@Environment` [özellik sarmalayıcısı](glossary://property%20wrapper) yoluyla erişerek okuyabilirsin. Ortam değerlerinin tam listesi [burada](doc://com.apple.documentation/documentation/swiftui/environmentvalues) bulunabilir.</string>
+				<key>Title</key>
+				<string>ortam</string>
+			</dict>
+		</dict>
+		<key>environment object</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir kapsayıcı veya köken görüntüsü tarafından sağlanan gözlemlenebilir bir nesne özelliğini bildirmek için `@EnvironmentObject` [özellik sarmalayıcıyı](glossary://property%20wrapper) ekle. Bir özelliği ortam nesnesi olarak bildirdiğinde, `environmentObject(_:)` niteleyicisini çağırarak köken görüntüsünde karşılık gelen bir model örneği ayarladığından emin ol.</string>
+				<key>Title</key>
+				<string>ortam nesnesi</string>
+			</dict>
+		</dict>
+		<key>event</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bilgisayar uygulaması tarafından algılanabilecek bir eylem. Bir girdi (düğmeye basma veya ekranı döndürme gibi) bir olayı tetikler.</string>
+				<key>Title</key>
+				<string>olay</string>
+			</dict>
+		</dict>
+		<key>event handler</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir olay gerçekleştikten sonra olayı işlemek için çağrılan bir fonksiyon.</string>
+				<key>Title</key>
+				<string>olay işleyici</string>
+			</dict>
+		</dict>
+		<key>extension</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>[Sınıf](glossary://class), [yapı](glossary://structure), [enum sabiti](glossary://enumeration) veya [protokol](glossary://protocol) gibi var olan bir [tipe](glossary://type) yeni bir işlevsellik ekleme yolu.
+
+Genişletme, var olan bir tipe [metot](glossary://method) ve [özellik](glossary://property) eklemeni sağlar. Aşağıdaki kod, `Int` tipine `cubed()` metodunu ve `isOdd` özelliğini ekler:
+
+```
+extension Int { 
+	func cubed() -&gt; Int { 
+        return self * self * self
+    }
+    
+    var isOdd : Bool { 
+        return self % 2 == 1
+    }
+}
+
+let two : Int = 2
+print(two.cubed()) // 8
+print(two.isOdd) // false
+```</string>
+				<key>Title</key>
+				<string>genişletme</string>
+			</dict>
+		</dict>
+		<key>filtering</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir koleksiyondaki veya veri yapısındaki verileri yeni bir veri kümesi oluşturmak için işleme.</string>
+				<key>Title</key>
+				<string>filtreleme</string>
+			</dict>
+		</dict>
+		<key>focus state</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir görüntünün örneğin metin alanına yazma yoluyla kullanıcı girdisi alabilme özelliğini temsil eden değer. Odak değeri kullanıcı etkileşimine bağlı olarak otomatik güncellenecek ve aynı zamanda belirli bir zamanda programlı olarak odaklanabilecek veya odaklanmayacak bir görüntü yaratmak için `focused(_:equals:)` ve `focused(_:)` niteleyicilerinin yanı sıra `@FocusState` [özellik sarmalayıcısını](glossary://property%20wrapper) kullan.</string>
+				<key>Title</key>
+				<string>odak durumu</string>
+			</dict>
+		</dict>
+		<key>font</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Belirli bir tasarım stilinde, kalınlığında ve büyüklüğünde olan metin karakterleri kümesi. Fontun tasarım stili onun *yazı tipi* olarak bilinir ve bu tasarımın varyasyonları yazı tipi *ailesini* oluşturur. Örneğin HelveticaNeue bir yazı tipi ve 10 punto HelveticaNeue-Bold bir fonttur.</string>
+				<key>Title</key>
+				<string>font</string>
+			</dict>
+		</dict>
+		<key>for loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Belirli sayıda çalıştırılacak yinelenen kod öbeği. 
+
+Bir döngü [aralık](glossary://range%20value) veya [dizi](glossary://array) gibi bir veri [koleksiyonu](glossary://collection) kullanılıp koleksiyondaki her bir öğe için çalıştırılarak [yinelenebilir](glossary://iterate).
+
+Aşağıdaki örnekte döngü, koleksiyonda o anki öğenin değerine erişmeni sağlayan bir döngü değişkeni (`value`) tanımlıyor:
+```
+for value in 1...4 { 
+	byte.moveForward()
+	byte.jump(height: value)
+}
+```</string>
+				<key>Title</key>
+				<string>for döngüsü</string>
+			</dict>
+		</dict>
+		<key>framework</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Framework, paylaşılan kaynakları içeren bir dizindir. Bu kaynaklar tek bir pakette kaynak dosyaları, görüntü dosyalarını, yerelleştirilmiş dizgileri, referans belgelerini ve daha fazlasını içerebilir. Birden fazla uygulama bu kaynakların tamamını eşzamanlı olarak kullanabilir. Sistem bunları bir belleğe gereken şekilde yükler ve kaynağın bir kopyasını mümkün olan her zaman tüm uygulamalar arasında paylaşır.</string>
+				<key>Title</key>
+				<string>framework</string>
+			</dict>
+		</dict>
+		<key>full function name</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>İki noktayla (`:`) ayrılmış parametre adları da dahil olmak üzere fonksiyonun tam adı; örneğin `move(to:duration:)`.</string>
+				<key>Title</key>
+				<string>tam fonksiyon adı</string>
+			</dict>
+		</dict>
+		<key>function</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Adıyla [çağrıldığında](glossary://call) çalıştırılan adlandırılmış bir kod öbeği. Bir fonksiyona [parametre](glossary://parameter) biçiminde veri geçirilebilir ve fonksiyon, kodun çalıştırılması bittiğinde isteğe bağlı olarak veri [döndürebilir](glossary://return). Bir tipin içinde tanımlanmış fonksiyona [metot](glossary://method) denir.
+
+Aşağıda, `turnRight()` için bir fonksiyon tanımı örneği var. Bu fonksiyonu `turnRight()` yazarak çağırabilirsin; bu durumda kod çalıştırılır ve `turnLeft()` üç kez çağrılır.
+
+```
+func turnRight() { 
+	turnLeft()
+	turnLeft()
+	turnLeft()
+}
+```</string>
+				<key>Title</key>
+				<string>fonksiyon</string>
+			</dict>
+		</dict>
+		<key>function definition</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir fonksiyon tanımı; fonksiyonun ne yaptığını, ne almayı beklediğini ve işi bittiğinde ne döndüreceğini açıklar.</string>
+				<key>Title</key>
+				<string>fonksiyon tanımı</string>
+			</dict>
+		</dict>
+		<key>fuzzy autocomplete</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Eşleşen değişkenleri, sabitleri, tipleri ve diğer sembolleri bulmak için fuzzy dizgi araması kullanan otomatik tamamlama kodu metodu. Fuzzy dizgi araması tam bir arama değildir ama yazdığın karakterlere göre ilgili eşleşenleri bulur. 
+
+Örneğin “ölçekle” ile bir şekilde ilgili olan bir [görüntü niteleyici](glossary://modifier) arıyorsan `.scale` yazmaya başlaman yeterli; bu sana `.scale` ile başlayan `.scaledToFill` ve `.scaleEffect` gibi otomatik tamamlama seçeneklerini ve `.imageScale` ile `.grayscale` gibi daha “fuzzy” eşleşmeleri de döndürür.
+</string>
+				<key>Title</key>
+				<string>fuzzy otomatik tamamlama</string>
+			</dict>
+		</dict>
+		<key>g</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>İvme veya birim kütle başına kuvvet için bir ölçü birimi. Bir g veya g kuvveti, Dünya’nın yerçekimi ivmesine (yaklaşık 9,8 metre bölü saniyekare) eşittir.</string>
+				<key>Title</key>
+				<string>g</string>
+			</dict>
+		</dict>
+		<key>global function</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Projendeki herhangi bir dosyadan erişilebilen fonksiyon.</string>
+				<key>Title</key>
+				<string>genel fonksiyon</string>
+			</dict>
+		</dict>
+		<key>global scope</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Aynı [modüldeki](glossary://module) herhangi bir kaynak dosyadan erişilebilen semboller. Bir kaynak dosyanın üst düzeyinde tanımlanan örnekler, tipler veya fonksiyonlar saptanmış olarak genel bir kapsama sahiptir. </string>
+				<key>Title</key>
+				<string>genel kapsam</string>
+			</dict>
+		</dict>
+		<key>global variable</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Projendeki herhangi bir dosyadan erişilebilen değişken.</string>
+				<key>Title</key>
+				<string>genel değişken</string>
+			</dict>
+		</dict>
+		<key>grayscale</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Beyazdan siyaha uzanan gri tonu aralığı.</string>
+				<key>Title</key>
+				<string>gri tonlu</string>
+			</dict>
+		</dict>
+		<key>gyroscope</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Aygıtının yönünü üç boyutlu olarak ölçen bir sensör: önden arkaya eğimi, soldan sağa eğimi ve merkezi etrafında dönmesi.</string>
+				<key>Title</key>
+				<string>jiroskop</string>
+			</dict>
+		</dict>
+		<key>half open range</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir alt sınırdan bir üst sınıra kadar ama üst sınırı içermeyen yarı açık bir aralık.
+
+Swift’te, 1-3 aralık değeri 1..&lt;4 olarak yazılabilir. Bu durumda aralık, alt sınır değeri olan 1’den başlayarak 4’e kadar sayar ama 4 değerini içermez.
+```
+let halfOpenRange = 1..&lt;4
+for i in halfOpenRange { 
+	print(i) // 1 2 3
+}
+```</string>
+				<key>Title</key>
+				<string>yarı açık aralık</string>
+			</dict>
+		</dict>
+		<key>hertz</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Hertz (Hz), saniyede bir devirdir. Ses titreşimlerine uygulandığında, 1 Hz, saniyede bir ses dalgasıdır. İnsan kulağı 20 Hz ile 16.000 Hz arasındaki sesleri duyabilir.</string>
+				<key>Title</key>
+				<string>hertz</string>
+			</dict>
+		</dict>
+		<key>hue</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Renk tekerindeki rengin tonu. Bu, `0` ile `1` aralığında bir double’dır (ondalık sayı).</string>
+				<key>Title</key>
+				<string>renk özü</string>
+			</dict>
+		</dict>
+		<key>if block</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir `if` ifadesindeki ilk kod öbeği. `if` öbeği, `if` ifadesindeki koşul `true` ise (sağlanıyorsa) çalıştırılır.
+```
+if blu.isFacingStep { 
+	blu.jump()
+}
+```</string>
+				<key>Title</key>
+				<string>if öbeği</string>
+			</dict>
+		</dict>
+		<key>if statement</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir veya birden fazla koşulun değerine bağlı olarak kod çalıştırmak için kullanılan bir kod yapısı. Bir `if` ifadesindeki ilk kod öbeği `if` öbeğidir.
+```
+if blu.isFacingStep { 
+	blu.jump()
+}
+```
+`if` ifadesi, `else` öbeği ve `else if` öbeği gibi ek denetimler sağlayan başka öbekler de içerebilir.
+```
+if blu.isFacingStep { 
+	blu.jump()
+} else if blu.isFacingHole { 
+	blu.shapeShift(into: .bridge)
+} else { 
+	blu.moveForward()
+}
+```</string>
+				<key>Title</key>
+				<string>if ifadesi</string>
+			</dict>
+		</dict>
+		<key>import</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Swift’te bir içe aktarma (`import`) [bildirimi](glossary://declaration), şu anki dosyanın dışında tanımlanmış tipler, fonksiyonlar, özellikler ve metotlar gibi sembollere erişmeni sağlar. Bu sembolleri bir [modül](glossary://module) veya [SwiftUI](doc://com.apple.documentation/documentation/swiftui) ya da [CoreMotion](doc://com.apple.documentation/documentation/coremotion) gibi bir [framework](glossary://framework) olarak içe aktarabilirsin. Örneğin SwiftUI framework’ünü kullanmak için aşağıdaki bildirimi dosyanın en üstüne yerleştirirsin: 
+
+```
+import SwiftUI
+```
+</string>
+				<key>Title</key>
+				<string>içe aktarma</string>
+			</dict>
+		</dict>
+		<key>increment</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Sayıyı bir tam sayı değeri kadar (çoğunlukla 1) artırmak.</string>
+				<key>Title</key>
+				<string>artırma</string>
+			</dict>
+		</dict>
+		<key>index</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Öğenin [dizi](glossary://array) içindeki konumunu temsil eden bir sayı.</string>
+				<key>Title</key>
+				<string>indeks</string>
+			</dict>
+		</dict>
+		<key>index out of range error</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Dizinin aralığı dışında bir indeks kullanarak diziye erişmeye çalışmanın neden olduğu bir hata. Örneğin `2` indeksi şu dizinin aralığı dışındadır: `[17, 42]`.</string>
+				<key>Title</key>
+				<string>indeks aralığın dışında hatası</string>
+			</dict>
+		</dict>
+		<key>initialization</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir tipte, tipin özelliklerinin ilk değerlerini ayarlamayı da içeren, yeni bir örnek yaratma eylemi.</string>
+				<key>Title</key>
+				<string>ilk değer atama</string>
+			</dict>
+		</dict>
+		<key>initializer</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Tipin yeni bir [örneğini](glossary://instance) yaratmak için bir ilk değer atayıcı çağır. İlk değer atayıcı, tipin özelliklerinin tamamının ilk değer atama değerlerine sahip olmasını sağlamalıdır ve genellikle başka ayarlama kodu kapsar.</string>
+				<key>Title</key>
+				<string>ilk değer atayıcı</string>
+			</dict>
+		</dict>
+		<key>inner loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Başka bir (dış) döngünün içine yerleştirilmiş yinelenen kod öbeği (döngü).</string>
+				<key>Title</key>
+				<string>iç döngü</string>
+			</dict>
+		</dict>
+		<key>instance</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Belirli bir [tipteki](glossary://type) değer. Örneğin `let motion = MotionSensor()` ifadesinde `motion`, `MotionSensor` tipinde bir örnektir.</string>
+				<key>Title</key>
+				<string>örnek</string>
+			</dict>
+		</dict>
+		<key>integer</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`2` veya `-5` gibi kesirli olmayan bir sayı.</string>
+				<key>Title</key>
+				<string>tamsayı</string>
+			</dict>
+		</dict>
+		<key>iterate</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Dizi veya aralık gibi bir [koleksiyondaki](glossary://collection) her [öğe](glossary://element) için bir kod öbeğini yinelemek.
+
+Aşağıdaki örnekte for döngüsü `days` dizisi için yinelenerek her seferinde haftanın bir gününü yazdırır:
+```
+let days = ["Pazartesi", "Salı", "Çarşamba"]
+
+for value in days { 
+	print(value)
+}
+
+// İlk yineleme: "Pazartesi" yazdırır
+// İkinci yineleme: "Salı" yazdırır
+// Üçüncü yineleme: "Çarşamba" yazdırır
+```</string>
+				<key>Title</key>
+				<string>tekrarlama</string>
+			</dict>
+		</dict>
+		<key>iteration</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir işlemi yineleme eylemi (dizinin her bir öğesinde aynı eylemi gerçekleştirme gibi).</string>
+				<key>Title</key>
+				<string>tekrar</string>
+			</dict>
+		</dict>
+		<key>label</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir [görüntü](glossary://view) olarak yaratılan kullanıcı arayüzü öğesinin görsel gösterimi.
+
+Pek çok SwiftUI [yerleşik görüntüsü](glossary://built-in%20view) hem bir `NavigationLink` için [hedef görüntü](glossary://destination%20view) gibi diğer özelleştirme noktalarının yanı sıra bir etikete (görsel gösterim) ya da bir `Button` için eylem [geri çağırmaya](glossary://callback) sahiptir.</string>
+				<key>Title</key>
+				<string>etiket</string>
+			</dict>
+		</dict>
+		<key>lag</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>İşleme taleplerinin, işleme gücünün veya her ikisinin de bir sonucu olarak uygulama hızında veya yanıt verebilirliğinde azalma.</string>
+				<key>Title</key>
+				<string>gecikme</string>
+			</dict>
+		</dict>
+		<key>leading edge</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Başlangıç kenarı, bir görüntünün içindeki içeriğe referans olarak kullanıldığında, içeriğin başlangıcının yatay konumuna referans verir. Başlangıç kenarının konumu tercihlerine ve de genellikle diline ve dil ayarlarına bağlıdır.
+                    Örneğin, İngilizce veya Flemenkçe gibi soldan sağa okunan dillerde başlangıç kenarı soldadır. Arapça veya İbranice gibi sağdan sola okunan dillerde ise başlangıç kenarı sağdadır.</string>
+				<key>Title</key>
+				<string>başlangıç kenarı</string>
+			</dict>
+		</dict>
+		<key>literal</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Hazır bilgiler, görüntü arşivini veya renk seçiciyi kullanarak görüntüleri veya renkleri doğrudan koduna gömebilmeni sağlar. Hazır bilgiler, doğrudan düzenleyicide kendi doğal biçimlerinde gösterilen gerçek veri değerleridir.</string>
+				<key>Title</key>
+				<string>hazır bilgi</string>
+			</dict>
+		</dict>
+		<key>local scope</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>[Genel kapsamın](glossary://global%20scope) altındaki kod organizasyonunun her yeni düzeyinde yerel bir kapsam oluşturulur. Örneğin, yeni bir [tip](glossary://type) yeni bir yerel kapsam oluşturur; bu tipin içindeki fonksiyonlar ve kod blokları ise kendi [kapsam](glossary://scope) düzeyini oluşturur. Belirtildiği yere bağlı olarak, bir sembole yalnızca kapsamla aynı veya daha düşük düzeyde olan koddan erişilebilir.
+
+Örneğin bir değişken bir tipin içinde tanımlanırsa bu değişkene o tipin içindeki tüm fonksiyonlarda ve kod bloklarında erişilebilir. Ancak bir metodun içinde tanımlanan bir sabite ise yalnızca metot tanımının içinden erişilebilir.</string>
+				<key>Title</key>
+				<string>yerel kapsam</string>
+			</dict>
+		</dict>
+		<key>logical AND operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kodun tamamının “true” değerine sahip olabilmesi için her iki değerin de “true” olması gerektiği durumlarda iki Boole değerini birleştiren bir sembol (`&amp;&amp;`). Örneğin `a &amp;&amp; b` ifadesi yalnızca hem `a` hem de `b` `true` değerine sahipken “true” olur.</string>
+				<key>Title</key>
+				<string>mantıksal AND işleci</string>
+			</dict>
+		</dict>
+		<key>logical NOT operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir kod parçasının Boole değerini tersine çeviren bir sembol (`!`). Örneğin `a` `true` ise `!a` `false` olur.</string>
+				<key>Title</key>
+				<string>mantıksal NOT işleci</string>
+			</dict>
+		</dict>
+		<key>logical OR operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kodun tamamının “true” değerine sahip olabilmesi için değerlerden yalnızca birinin “true” olması gerektiği durumda iki Boole değerini birleştiren bir sembol (`||`). Örneğin `a || b` ifadesi, `a` veya `b` (ya da her ikisi birden) `true` iken `true` olur.</string>
+				<key>Title</key>
+				<string>mantıksal OR işleci</string>
+			</dict>
+		</dict>
+		<key>logical operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`true` ve `false` mantıksal Boole değerlerini değiştiren veya birleştiren `&amp;&amp;`, `||` veya `!` gibi bir sembol.</string>
+				<key>Title</key>
+				<string>mantıksal işleç</string>
+			</dict>
+		</dict>
+		<key>loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Belirli sayıda (örneğin `for` döngüsü) veya bir koşul sağlanana dek (örneğin `while` döngüsü) yinelenen bir kod öbeği.</string>
+				<key>Title</key>
+				<string>döngü</string>
+			</dict>
+		</dict>
+		<key>loop variable</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir [for döngüsünde](glossary://for%20loop), öğelerini kullanarak [tekrarladığın](glosssary://iterate) [koleksiyonun](glossary://collection) o anki öğesinin değeri.
+
+Bir döngü değişkeni bu değeri saklar ve onu `for` döngüsünün gövdesinde kullanmanı sağlar. 
+
+Aşağıdaki örneklerde `value` ve `letter` döngü değişkenleridir:
+```
+for value in 1...4 { 
+	print(value) // 1 2 3 4
+}
+
+for letter in ["c", "o", "d", "e"] { 
+	print(letter) // c o d e 
+}
+```</string>
+				<key>Title</key>
+				<string>döngü değişkeni</string>
+			</dict>
+		</dict>
+		<key>lower bound</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir [aralıkta](glossary://range) saymaya başlanılan başlangıç değeri.
+
+```
+let closedRange = 1...5 // Alt sınır 1, üst sınır 5
+for i in closedRange { 
+	print(i) // 1 2 3 4 5
+}
+```</string>
+				<key>Title</key>
+				<string>alt sınır</string>
+			</dict>
+		</dict>
+		<key>machine learning</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Makinelere belirli bir işlemi nasıl öğrenip iyileştirebileceklerini öğretmek için büyük miktarda veri kullanan [algoritmaları](glossary://algorithm) geliştirmeye odaklanan bir bilgisayar bilimi dalı. 
+
+Örneğin bir resim [sınıflandırıcısı](glossary://classification) kullanıp çiçek resimlerinden oluşan büyük bir veri kümesi sağlayarak makineye belirli bir çiçek türünü tanımayı öğretmek.</string>
+				<key>Title</key>
+				<string>makine öğrenimi</string>
+			</dict>
+		</dict>
+		<key>machine learning model</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir makine öğrenimi [algoritmasını](glossary://algorithm) bir [eğitim veri kümesine](glossary://training%20dataset) uygulayarak yarattığın [veri modeli](glossary://data%20model) tipi. Makine öğrenimi modelleri, bir giriş kaynağını [tahmin](glossary://prediction) etmek için kullanılır.</string>
+				<key>Title</key>
+				<string>makine öğrenimi modeli</string>
+			</dict>
+		</dict>
+		<key>magnitude</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Pozitif veya negatif olmasından bağımsız olarak bir değerin büyüklüğü. Buna sayının [mutlak değeri](glossary://absolute%value) de denir. 
+
+Örneğin `5` ve `-5` sayılarının her ikisinin de büyüklüğü `5`’tir.</string>
+				<key>Title</key>
+				<string>büyüklük</string>
+			</dict>
+		</dict>
+		<key>memory</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bilgisayarın, uygulama kodunu ve uygulamanın kullandığı verileri geçici veya kalıcı olarak saklayan bölümü.</string>
+				<key>Title</key>
+				<string>bellek</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Verilerle ilgili ek bilgiler. Örneğin, bir fotoğraf çekildiği konumla ilgili üst veriler içerebilir.</string>
+				<key>Title</key>
+				<string>üst veriler</string>
+			</dict>
+		</dict>
+		<key>method</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Adıyla [çağrıldığında](glossary://call) çalıştırılan adlandırılmış bir kod öbeği. 
+
+Metot bir [fonksiyondur](glossary://function) ama bir [tipin](glossary://type) içinde tanımlanır. 
+
+Bu kod, `moveForward()` metodunu `byte` adlı bir [örnekten](glossary://instance) çağırır:
+```
+let byte = Byte()
+
+byte.moveForward()
+```</string>
+				<key>Title</key>
+				<string>metot</string>
+			</dict>
+		</dict>
+		<key>miter</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Köşelerin yuvarlak veya eğimli değil de keskin olduğu durumda iki çizgiyi birleştirme stili.</string>
+				<key>Title</key>
+				<string>gönyeleme</string>
+			</dict>
+		</dict>
+		<key>modifier</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>SwiftUI’da, bir görüntünün görünümünü veya davranışını özelleştirmek için niteleyici kullanılır.
+
+					Aşağıdaki kodda, `foregroundColor` niteleyicisi `Rectangle` görüntüsünün rengini mavi olarak değiştirir.
+					```
+					Rectangle()
+							.foregroundColor(.blue)
+					```
+
+					Niteleyicilerin daha okunabilir hâle gelmesi için her biri nitelediği görüntünün altında ayrı satırlara yerleştirilir. Bu örnekte, ilk olarak `foregroundColor(.blue)` niteleyicisi, ardından da `border(.green)` uygulanacaktır.
+					```
+					Rectangle()
+							.foregroundColor(.blue)
+							.border(.green)
+					```
+					
+					Niteleyiciler sırayla uygulandığından, konumlarının değiştirilmesi sonuçta oluşacak görüntünün görünümünü veya davranışını değiştirebilir. 
+				</string>
+				<key>Title</key>
+				<string>niteleyici</string>
+			</dict>
+		</dict>
+		<key>modularity</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Uygulamanı, arayüzünün tek bir bölümünü gösterme ya da uygulama verilerini saklama gibi, uygulamana yönelik tek bir işlevi yerine getirmesi gereken her şeyi kapsayan bağımsız parçalara ayırma prensibi.
+
+Modülerlik, ayrı işlevsellik parçalarını daha iyi anlamana ve bunlarla daha iyi çalışmana olanak sağladığı için önemli bir uygulama yaratma prensibidir. Bu, uygulamanda bir hata olduğunda sorunun nerede olduğunu kolayca saptamanı sağlar.</string>
+				<key>Title</key>
+				<string>modüler</string>
+			</dict>
+		</dict>
+		<key>module</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Tek bir birim olarak oluşturulan ve gönderilen ve Swift’in içe aktarma ([import](glossary://import)) anahtar sözcüğü ile başka bir modül tarafından içe aktarılabilen tek bir kod dağıtımı birimi (bir [framework](glossary://framework) veya uygulama).</string>
+				<key>Title</key>
+				<string>modül</string>
+			</dict>
+		</dict>
+		<key>modulo operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir sayı başka bir sayıya bölündüğünde kalanı döndüren bir sembol (`%`). Örneğin `17 % 5`, `2` değerini döndürür.</string>
+				<key>Title</key>
+				<string>mod işleci</string>
+			</dict>
+		</dict>
+		<key>navigation bar</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Hedefe ulaşana kadar ekran başına tek bir seçim yapmana izin veren bir dolaşma arayüzü. Başka bir hedefe gitmek için adımlarını izlemeli veya baştan başlayıp farklı seçimler yapmalısın. Ekranın en üstündeki dolaşma çubuğu, nerede olduğunu anımsamana yardımcı olacak bir başlık gösterir ve önceki ekrana dönebilmen için bir geri düğmesi sunar.</string>
+				<key>Title</key>
+				<string>dolaşma çubuğu</string>
+			</dict>
+		</dict>
+		<key>navigation link</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kullanıcı dokunduğunda [hedef görüntüye](glossary://destination%20view) giden bir SwiftUI [yerleşik görüntüsü](glossary://built-in%20view). Dolaşma bağlantısının görünüşünü belirleyen bir [etiketi](glossary://label) de vardır.</string>
+				<key>Title</key>
+				<string>dolaşma bağlantısı</string>
+			</dict>
+		</dict>
+		<key>nest</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Döngü gibi yinelenen bir kod öbeğini başka bir yinelenen kod öbeğinin içine yerleştirmek.</string>
+				<key>Title</key>
+				<string>iç içe yerleştirme</string>
+			</dict>
+		</dict>
+		<key>normalization</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir veri kümesini, ölçekleme sonucunda oluşan değerler `0` ile `1` aralığında olacak şekilde ölçekleme işlemi.</string>
+				<key>Title</key>
+				<string>normalleştirme</string>
+			</dict>
+		</dict>
+		<key>observable object</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir sınıf `ObservableObject` protokolüne [uyduğunda](glossary://conform), yayımlanan değerlerinde yapılan değişiklikler bu değerleri kullanan tüm görüntülerin değişiklikleri yansıtacak şekilde otomatik olarak güncellenmesine neden olur.</string>
+				<key>Title</key>
+				<string>gözlemlenebilir nesne</string>
+			</dict>
+		</dict>
+		<key>observe</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir nesnenin [durumundaki değişikliği](glossary://state%20change) izlemek.</string>
+				<key>Title</key>
+				<string>gözlemleme</string>
+			</dict>
+		</dict>
+		<key>observed object</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir [görüntünün](glossary://view) içinde, SwiftUI `@ObservedObject` [özellik sarmalayıcısını](glossary://property%20wrapper) kullanan tüm [özelliklerdeki](glossary://property) değişiklikleri izler. Değeri değişirse, SwiftUI görüntüyü günceller.
+
+Gözlemlenen nesne özelliğinin tipi `ObservableObject` protokolüne [uymalıdır](glossary://conform).
+				</string>
+				<key>Title</key>
+				<string>gözlemlenen nesne</string>
+			</dict>
+		</dict>
+		<key>observer</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>[Gözlemlenebilir bir nesneye](glossary://observable%20object) nazaran, gözlemci gözlemlenebilir nesnenin verilerini kullanan herhangi bir görüntü ya da nesnedir. Gözlemlenebilir nesnenin verileri değiştiğinde, SwiftUI değişikliği fark eder ve gözlemcilere güncellemelerini söyler.</string>
+				<key>Title</key>
+				<string>gözlemci</string>
+			</dict>
+		</dict>
+		<key>operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir veya birden fazla değer üzerindeki bir eylemi temsil eden `+`, `-` veya `&amp;&amp;` gibi bir sembol. Örneğin `1 + 2` ifadesinde toplama işleci olan (`+`), `1` ve `2` sayılarını toplar.</string>
+				<key>Title</key>
+				<string>işleç</string>
+			</dict>
+		</dict>
+		<key>optional</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Sarmalanan bir değeri temsil eden veya hiçbir değeri temsil etmeyen bir tip. İsteğe bağlı tip genellikle bitiş soru işareti (`?`) ile ifade edilir.
+				
+Örneğin, `Int?` tipinin bir değişkeni sarmalanan bir `-43` veya `6` `Int` değerini kapsayabilir ya da değeri `nil` olabilir; bu durumda atanan değeri olmaz.</string>
+				<key>Title</key>
+				<string>isteğe bağlı</string>
+			</dict>
+		</dict>
+		<key>outer loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Başka bir (iç) döngü içeren yinelenen kod öbeği (döngü).</string>
+				<key>Title</key>
+				<string>dış döngü</string>
+			</dict>
+		</dict>
+		<key>overfitting</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Makine öğreniminde, belirli bir veri kümesine aşırı uyum gösteren bir modelin üretimi. 
+
+Örneğin modelin memeli resimlerini algılayan bir [sınıflandırıcı](glossary://classification) ise ve [eğitim veri kümesi](glossary://training%20dataset) yalnızca köpek resimlerini içeriyorsa model, tavşan veya geyik gibi diğer memelileri yok sayma pahasına köpekleri tanıma konusunda aşırı uyum gösterecektir.</string>
+				<key>Title</key>
+				<string>aşırı uyum</string>
+			</dict>
+		</dict>
+		<key>parameter</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir [fonksiyonun](glossary://function) davranışını özelleştirmek için kullanılan bir değer. Fonksiyonu [çağırırken](glossary://call) davranışını değiştirmek için ona farklı değerler geçirebilirsin.
+
+Aşağıdaki fonksiyonda `distance`, `Int` tipinde değer kabul eden bir parametredir:
+```
+func move(distance: Int) { 
+	for i in 1...distance { 
+		moveForward()
+	}
+}
+```
+Parametre değeri (`distance`), fonksiyonun davranışını etkilemek için gövdesinde kullanılabilir. Bu durumda, farklı uzaklıklara gitmek için bu fonksiyonu `move(distance: 2)` veya `move(distance: 5)` gibi farklı tamsayı değerleriyle çağırabilirsin.</string>
+				<key>Title</key>
+				<string>parametre</string>
+			</dict>
+		</dict>
+		<key>pass in</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Fonksiyonun [parametrelerinden](glossary://parameter) birine bir değer sağlamak. 
+
+Aşağıdaki örnekte kod, `text` parametresine "Merhaba" değerini geçirir.
+```
+speak(text: "Merhaba")
+```</string>
+				<key>Title</key>
+				<string>geçirmek</string>
+			</dict>
+		</dict>
+		<key>pattern</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Yinelenen durum veya veri kümesi.</string>
+				<key>Title</key>
+				<string>örüntü</string>
+			</dict>
+		</dict>
+		<key>persistence</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kullanıcı verilerinin, uygulama her başlatıldığında yeniden yüklenebilmesi için saklanması işlemi. Kalıcılık olmadan uygulamanın durumu ve verileri uygulaman her yeniden başlatıldığında sıfırlanır.</string>
+				<key>Title</key>
+				<string>kalıcılık</string>
+			</dict>
+		</dict>
+		<key>pi</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Pi (π), yaklaşık 3,14 değerine eşit bir matematik sabitidir. Bir dairenin çevresinin çapına oranıdır.</string>
+				<key>Title</key>
+				<string>pi</string>
+			</dict>
+		</dict>
+		<key>pitch</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Aygıt yatay yöndeyken aygıtı sağa ve sola döndürme veya eğme miktarının ölçümü.  Matematiksel olarak yunuslama, aygıtın x ekseni etrafındaki dönmedir. Radyan cinsinden ölçülür ve `-π/2` ile `π/2` aralığındadır.</string>
+				<key>Title</key>
+				<string>perde</string>
+			</dict>
+		</dict>
+		<key>pitch audio</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Sesin perdesi, ses dalgalarının titreşim frekansına bağlıdır. Belirli bir zaman aralığında ne kadar çok ses dalgası üretilirse sesin perdesi de o kadar yüksek olur. 
+
+					Müzikte perde, notanın “kalın” mı “ince” mi duyulacağını açıklar. Örneğin kuş cıvıltısı yüksek perdeden duyulurken aslan kükremesi düşük perdede bir ses yaratır.</string>
+				<key>Title</key>
+				<string>perde</string>
+			</dict>
+		</dict>
+		<key>placeholder view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Son içeriğin yükleneceği veya girileceği yeri belirtmek için geçici olarak görüntülenen bir görüntü. Örnek olarak yüklenen bir Görüntü’yü ya da metnin girilebileceği soluklaşmış bir dikdörtgeni göstermek için kullanılan `ProgressView` verilebilir.</string>
+				<key>Title</key>
+				<string>yer tutucu görüntü</string>
+			</dict>
+		</dict>
+		<key>prediction</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Makine öğreniminde tahmin, makine öğrenimi modeline bir girdi verildikten sonra alınan çıktıdır. 
+
+Örneğin golden retriever, farklı köpek cinslerini tanımak üzerine eğitilmiş bir makine öğrenimi modelinden geçerli bir tahmin olabilir.</string>
+				<key>Title</key>
+				<string>tahmin</string>
+			</dict>
+		</dict>
+		<key>private</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Private anahtar sözcüğü, kodu yalnızca belirli kaynak dosyada kullanılabilir hâle getirir.
+- callout(Örnek):
+`private class MyApp: App { }`</string>
+				<key>Title</key>
+				<string>private</string>
+			</dict>
+		</dict>
+		<key>property</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir [tipin](glossary://type) içinde tanımlanmış bir değişken (değer saklayan adlandırılmış bir kapsayıcı).
+
+Bir özelliğe, tipin bir [örneği](glossary://instance) aracılığıyla [nokta notasyonu](glossary://dot%20notation) kullanılarak erişilebilir. Aşağıdaki kodda `isFacingHole`, `Hopper` tipinin bir özelliğidir.
+```
+if hopper.isFacingHole { 
+	// kod 
+}
+```</string>
+				<key>Title</key>
+				<string>özellik</string>
+			</dict>
+		</dict>
+		<key>property wrapper</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Özellik sarmalayıcı, bir özelliğe genel bir davranış örüntüsü uygulamanın basit bir yoludur. Bu sarmalayıcı, nasıl saklanacağını veya okumada nasıl hesaplanacağını tanımlayan özelliğe açıklama eklemenin bir yoludur.   Örneğin, `@State` özellik sarmalayıcısı SwiftUI’a bir değerin saklama alanını yönetmesini ve bu değer her değiştiğinde görüntünün bu değeri kullanan her bölümünü güncellemesini söyler.</string>
+				<key>Title</key>
+				<string>özellik sarmalayıcı</string>
+			</dict>
+		</dict>
+		<key>protocol</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir sınıf, yapı veya enum sabiti tarafından benimsenebilecek (veya izlenebilecek) metotlar ve özellikle gibi bir dizi gereksinim.   Bir tip bir protokolü benimsediğinde, protokol gereksinimlerine yönelik kendi uygulamalarını sağlar ve ona bu protokole uyması söylenir.</string>
+				<key>Title</key>
+				<string>protokol</string>
+			</dict>
+		</dict>
+		<key>pseudocode</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Algoritmanın, genellikle günlük dil ve kod karışımı kullanılarak yazılmış kolay okunabilir bir açıklaması.</string>
+				<key>Title</key>
+				<string>sözde kod</string>
+			</dict>
+		</dict>
+		<key>public</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Public anahtar sözcüğü, kodu projendeki herhangi bir dosyada kullanılabilir hâle getirir.
+                        
+- callout(Örnek):
+`public func decorateWithSticker(space: Space) { }`
+                    </string>
+				<key>Title</key>
+				<string>public</string>
+			</dict>
+		</dict>
+		<key>publish</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Belirtilen bir [yayımlanan özelliğin](glossary://published%20value) değeri değiştiğinde [gözlemlenebilir nesnenin](glossary://observable%20object) tüm [gözlemcilerine](glossary://observer) bir bildirim yayımlamak.</string>
+				<key>Title</key>
+				<string>yayımlama</string>
+			</dict>
+		</dict>
+		<key>published value</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Değeri değişmek üzere olduğunda tüm [gözlemcilere](glossary://observer) bildirmek üzere `@Published` [özellik sarmalayıcıyı](glossary://property%20wrapper) ekle. Değer değiştiğinde, SwiftUI onun verilerini kullanan tüm görüntüleri günceller.</string>
+				<key>Title</key>
+				<string>yayımlanan değer</string>
+			</dict>
+		</dict>
+		<key>radians</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Radyan, açılar için derece gibi bir ölçü birimidir. Radyan cinsinden açı, yay uzunluğunun o açının etrafına çizilen çemberin yarıçapına oranıdır. 180 derece bölü [pi](glossary://pi) bir radyana eşittir.</string>
+				<key>Title</key>
+				<string>radyan</string>
+			</dict>
+		</dict>
+		<key>range</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir [alt sınır](glossary://lower%20bound) ile bir [üst sınır](glossary://upper%20bound) arasındaki aralık. 
+
+[Kapalı aralık](glossary://closed%20range) ve [yarı açık aralık](glossary://half%20open%20range) da dahil olmak üzere aralık yaratmanın birçok yolu vardır.
+
+```
+let closedRange = 1...4 
+for i in closedRange { 
+	print(i) // 1 2 3 4
+}
+
+let halfOpenRange = 1..&lt;4 
+for i in halfOpenRange { 
+	print(i) // 1 2 3
+}
+```</string>
+				<key>Title</key>
+				<string>aralık</string>
+			</dict>
+		</dict>
+		<key>reference type</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Sınıf veya oyuncu gibi referans türünde bir [örnek](glossary://instance) yarattığında örnek verileri paylaşılan bellekte saklanır. Sonuç olarak örnek, kendi benzersiz kopyası yerine veriye bir referans içerir. Örneği bir değişkene [atarsan](glossary://assignment) veya bir fonksiyona [argüman](glossary://argument) olarak geçirirsen Swift aynı veriye başka bir referans yaratır.
+
+Örnek, aşağıdaki örnekte gösterildiği gibi referansa göre kopyalanır:
+
+```
+class Bicycle {
+  var color: Color
+   init(color: Color) {
+     self.color = color
+   }
+}
+
+var redBike = Bicycle(color: .red)
+var blueBike = redBike
+blueBike.color = .blue
+print(redBike.color) // =&gt; blue
+print(blueBike.color) // =&gt; blue
+// redBike ve blueBike aynı veriye referansı paylaşır
+```</string>
+				<key>Title</key>
+				<string>referans türü</string>
+			</dict>
+		</dict>
+		<key>responsive</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kodun veya kullanıcı arayüzün [kullanıcı etkileşimine](glossary://user%20interaction) hızlıca tepki veriyorsa ya da görüntünün büyüklüğündeki değişiklik gibi ortamındaki değişikliklere uygun şekilde adapte oluyorsa yanıt veriyordur.</string>
+				<key>Title</key>
+				<string>yanıt veren</string>
+			</dict>
+		</dict>
+		<key>return</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir [fonksiyonun](glossary://function) çağıranına bir değer geri göndermek. Örneğin `contains(3)` fonksiyonu, [0,1,2] dizisinde çalıştırıldığında `false` Boole değerini döndürür, çünkü dizi `3` değerini içermez.</string>
+				<key>Title</key>
+				<string>döndürme</string>
+			</dict>
+		</dict>
+		<key>return type</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir fonksiyon tanımlarken isteğe bağlı olarak dönüş tipini yani fonksiyonun işi bittiğinde çıktı olarak vereceği değerin tipini tanımlayabilirsin.</string>
+				<key>Title</key>
+				<string>dönüş tipi</string>
+			</dict>
+		</dict>
+		<key>reusability</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kodun, uygulama içinde farklı durumlarda kullanılabilmesini sağlayan bir özelliği.</string>
+				<key>Title</key>
+				<string>yeniden kullanılabilirlik</string>
+			</dict>
+		</dict>
+		<key>roll</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Aygıt yatay yöndeyken aygıtı ileri ve geri döndürme veya eğme miktarının ölçümü.   Matematiksel olarak bu, aygıtın y ekseni etrafındaki dönmedir. Radyan cinsinden ölçülür ve `-π` ile `π` aralığındadır.</string>
+				<key>Title</key>
+				<string>yuvarlanma</string>
+			</dict>
+		</dict>
+		<key>root view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Tüm diğer görüntülerin yerleştirildiği görüntü. [Üst düzey görüntü](glossary://top-level%20view) olarak da bilinen bu görüntü bir [görüntü hiyerarşisinin](glossary://view%20hierarchy) en üstünde yer alır ve hiyerarşideki tüm [alt görüntülerin](glossary://subview) [kapsayıcı görüntüsü](glossary://container) olarak görev yapar.</string>
+				<key>Title</key>
+				<string>kök görüntü</string>
+			</dict>
+		</dict>
+		<key>rubber ducky method</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Plastik ördek gibi cansız bir nesneye bir kavramı oldukça detaylı olarak açıkladığın bir öğrenme metodu. Bu tekniği gerçekleştirmek için cansız bir nesne al ve kavramı sesli olarak açıklamaya başla, ördeğin anlaması için gereken tüm bilgileri verdiğinden emin ol. Açıklaman sırasında bilgilerinde eksiklikler olduğunu fark edersen daha sonra araştırmak üzere not al. Plastik ördekle ilgili sonraki açıklamalara yeni bulgularını dahil edebilirsin.</string>
+				<key>Title</key>
+				<string>plastik ördek metodu</string>
+			</dict>
+		</dict>
+		<key>saturation</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Grinin bir tonuyla tam renk arasında renk özü yoğunluğu. Doyma, `0` ile `1` aralığında bir double’dır (ondalık sayı).</string>
+				<key>Title</key>
+				<string>doyma</string>
+			</dict>
+		</dict>
+		<key>scope</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir değere veya tipe erişebileceğin projenin bölümleri. [Genel kapsamda](glossary://global%20scope) tanımlanan sembollere [modüldeki](glossary://module) herhangi bir dosya tarafından erişilebilirken, [yerel kapsamda](glossary://local%20scope) tanımlananlar aynı veya daha düşük bir yerel kapsam düzeyindeki kodda bulunabilir.</string>
+				<key>Title</key>
+				<string>kapsam</string>
+			</dict>
+		</dict>
+		<key>sensor</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Sensör, olayları (sıcaklık, ışık, ses veya hareket ile ilgili bir değişiklik gibi) algılayıp bir değer döndüren aygıttır.</string>
+				<key>Title</key>
+				<string>sensör</string>
+			</dict>
+		</dict>
+		<key>sequence</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>[Tekrarlamayı](glossary://iteration) kullanarak tek seferde bir tane ilerleyebileceğin değerler listesi.
+
+Aşağıdaki örnekteki `healthySnacks` dizisi gibi bir diziliş üzerinden tekrarlamak için `for`-`in` döngüsünü kullanabilirsin:
+```
+let healthySnacks = ["elma", "armut", "muz"]
+for snack in healthySnacks {
+	eat(snack)
+}
+```</string>
+				<key>Title</key>
+				<string>diziliş</string>
+			</dict>
+		</dict>
+		<key>source of truth</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Uygulama oluşturmada, tüm verilerin değiştirildiği tekil konum. Diğer konumlarda bilgilerinin çoğaltılmasını önlemek amacıyla bu verilerle olan tüm diğer bağlantılar yalnızca referansa tabidir. </string>
+				<key>Title</key>
+				<string>gerçeklik kaynağı</string>
+			</dict>
+		</dict>
+		<key>speech synthesis</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Genellikle metinden oluşturulan ve insan konuşmasına benzeyen, bilgisayar tarafından oluşturulmuş ses.</string>
+				<key>Title</key>
+				<string>konuşma sentezleme</string>
+			</dict>
+		</dict>
+		<key>state</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Belirli bir zamanda bir değişkende, uygulamada veya sistemde saklanan bilgiler. Örneğin, `level` değişkeni `4` değerini kapsıyorsa, şu anki durumu `4`’tür.</string>
+				<key>Title</key>
+				<string>durum</string>
+			</dict>
+		</dict>
+		<key>state change</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir değişkende, uygulamada veya sistemde saklanan bilgilerdeki değişiklik. Örneğin, `level` değişkeninin değeri `4` iken `5` olarak değişirse durumu değişir.</string>
+				<key>Title</key>
+				<string>durum değişikliği</string>
+			</dict>
+		</dict>
+		<key>state object</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir durum nesnesi bildirmek için `@StateObject` [özellik sarmalayıcısını](glossary://property%20wrapper) ekle ve `ObservableObject` [protokolüne](glossary://protocol) uyan bir ilk değer sağla. SwiftUI bir durum nesnesinin saklama alanını yönetir ve yayımlanan değerleri değiştiğinde değeri kullanan alt görüntülerin tamamını günceller.</string>
+				<key>Title</key>
+				<string>durum nesnesi</string>
+			</dict>
+		</dict>
+		<key>state property</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>SwiftUI’a bir değerin saklanmasını yönetmesini söylemek için [özellikten](glossary://property) önce `@State` ekle. Değer değiştiğinde SwiftUI, bu değeri kullanan görüntü bölümlerini günceller.
+
+```
+@State var isOn = false
+```
+</string>
+				<key>Title</key>
+				<string>durum özelliği</string>
+			</dict>
+		</dict>
+		<key>state value</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>SwiftUI’a bir değerin saklanmasını yönetmesini söylemek için değişkenden önce `@State` ekle. Değer değiştiğinde SwiftUI, bu değeri kullanan görüntü bölümlerini günceller.</string>
+				<key>Title</key>
+				<string>durum değeri</string>
+			</dict>
+		</dict>
+		<key>statement</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Uygulamadaki kodu düzenleyen döngü veya `if` ifadesi gibi bir yapı.</string>
+				<key>Title</key>
+				<string>ifade</string>
+			</dict>
+		</dict>
+		<key>string component</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Dizgi bir ayırıcı tarafından bölümlere ayrıldıktan sonra dizginin bir parçası (veya alt dizgi). Örneğin `"köpek+kedi+balık"` dizgisi, `"+"` ayırıcısı ile ayrılırsa sonuçta oluşan bileşenler `"köpek"`, `"kedi"` ve `"balık"` dizgileridir.</string>
+				<key>Title</key>
+				<string>dizgi bileşeni</string>
+			</dict>
+		</dict>
+		<key>string concatenation</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir dizgiyi diğerinin ucuna ekleyerek dizgileri birleştirme işlemi. Örneğin `"sivri"` ve `"sinek"` birleştirildiğinde `"sivrisinek"` olur.</string>
+				<key>Title</key>
+				<string>dizgi birleştirme</string>
+			</dict>
+		</dict>
+		<key>string interpolation</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Uzun bir dizgide sabitlerin, değişkenlerin veya kod ifadelerinin kullanılıp dizgi değerlendirildiğinde o anki değerlerin bunların yerine kullanılması. Örneğin `"Deniz bir \(meyve) yedi."` dizgisinde `meyve` `"şeftali"` değerine sahip bir değişkense dizgi hesaplandığında `\(meyve)` yerine `"şeftali"` gelir ve dizgi `"Deniz bir şeftali yedi."` olur.</string>
+				<key>Title</key>
+				<string>dizgiye ara değer ekleme</string>
+			</dict>
+		</dict>
+		<key>structure</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Yapı, aynı tipte şeylerin birden fazla [örneğini](glossary://instance) oluşturma planı gibi davranan bir kod kapsayıcısıdır. Tıpkı bir planın bir nesnenin (bisiklet gibi) özelliklerini ve davranışlarını tanımlaması gibi yapı da bunları [özellikleri](glossary://property) ve [metotları](glossary://method) olarak tanımlar.
+
+Yapının bir örneğini yarattığında bu örnek, planda tanımlanmış özelliklerin ve metotların tümünü içerir. Her örnek aynı özellikleri ve metotları paylaşır ama özelliklerin ve metotların değerlerini bağımsız bir şekilde değiştirebilir ve yapıdan yarattığın (örneğini oluşturduğun) her örneği özelleştirebilirsin. Örneğin bisiklet yapısında kırmızı veya mavi bisiklet yaratmanı sağlayan bir renk özelliği olabilir.
+
+Yapı, [sınıfa](glossary://class) benzer ama aralarında iki önemli fark vardır: Yapı bir [değer türüdür](glossary://value%20type), her zaman değere göre kopyalanır ve yapı, başka bir yapıdan kalıt almayı desteklemez.
+
+```
+struct Bicycle { 
+	var color : Color 
+	var type : BikeCategory
+}
+```</string>
+				<key>Title</key>
+				<string>yapı</string>
+			</dict>
+		</dict>
+		<key>subview</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir [kapsayıcıda](glossary://container) bulunan görüntü. Kapsayıcı, sayısız alt görüntü içerebilir ve onlar da kendi alt görüntülerini içerebilir. Bir görüntü ve onun tüm alt öğeleri bir [görüntü hiyerarşisi](glossary://view%20hierarchy) oluşturur.</string>
+				<key>Title</key>
+				<string>alt görüntü</string>
+			</dict>
+		</dict>
+		<key>syntax</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bilgisayarların anlayıp çalıştırabileceği kod yazma kuralları.</string>
+				<key>Title</key>
+				<string>söz dizimi</string>
+			</dict>
+		</dict>
+		<key>task</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Görevler, uygulamanda farklı işleri halletmek için yararlıdır, böylece kodun kullanıcı arayüzünü işleme gibi önemli işleri yapmayı sürdürebilir. Bir görev yarattığında görevin kodu, programının bir parçası olarak [eşzamansız](glossary://asynchronous%20process) bir şekilde çalıştırılır. Bu, kodun geri kalanının diğer işleri devam ettirmesini sağlar. Kodunun bu görevin verilerine ihtiyaç duyan bölümleri görevin sonuçlarını bekleyebilir (`await`).</string>
+				<key>Title</key>
+				<string>görev</string>
+			</dict>
+		</dict>
+		<key>ternary conditional operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Koşullu ifade yazmanın özel bir kısa yolu. [İşlecin](glossary://operator), `condition ? trueValue : falseValue` biçiminde üç bölümü vardır. Koşul (`condition`) doğru (`true`) ise `trueValue`, yanlış (`false`) ise (`falseValue`) değerini döndüren bir [`if` ifadesi](glossary://if%20statement) gibidir. 
+
+Aşağıdaki kodda `isOn` doğru (`true`) ise dikdörtgen yeşil olur. `isOn` yanlış (`false`) ise dikdörtgen kırmızı olur.
+
+```
+Rectangle()
+     .foregroundColor(isOn ? .green : .red)
+```
+
+Yukarıdaki kod şu şekilde okunabilir: `isOn` değeri doğru (`true`) ise `.green` değerini, değilse `.red` değerini döndür.
+</string>
+				<key>Title</key>
+				<string>üçlü koşullu işleç</string>
+			</dict>
+		</dict>
+		<key>toolbar</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Belirli işlevleri gerçekleştirmek için kullanılan simgeler çubuğu. Araç çubuğu niteleyicisi, bir görüntü koleksiyonu ekleyerek sağlayabileceğin bir araç çubuğu öğeleri koleksiyonu bekler.</string>
+				<key>Title</key>
+				<string>araç çubuğu</string>
+			</dict>
+		</dict>
+		<key>top-level view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Tüm diğer görüntülerin yerleştirildiği görüntü. [Kök görüntü](glossary://root%20view) olarak da bilinen bu görüntü bir [görüntü hiyerarşisinin](glossary://view%20hierarchy) en üstünde yer alır ve hiyerarşideki tüm [alt görüntülerin](glossary://subview) [kapsayıcı görüntüsü](glossary://container) olarak görev yapar.</string>
+				<key>Title</key>
+				<string>üst düzey görüntü</string>
+			</dict>
+		</dict>
+		<key>trailing edge</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bitiş kenarı, bir görüntünün içindeki içeriğe referans olarak kullanıldığında, içeriğin bitişinin yatay konumuna referans verir. Bitiş kenarının konumu tercihlerine ve de genellikle diline ve dil ayarlarına bağlıdır.
+                    Örneğin, İngilizce veya Flemenkçe gibi soldan sağa okunan dillerde bitiş kenarı sağdadır. Arapça veya İbranice gibi sağdan sola okunan dillerde ise bitiş kenarı soldadır.</string>
+				<key>Title</key>
+				<string>bitiş kenarı</string>
+			</dict>
+		</dict>
+		<key>training</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Makine öğreniminde, makine öğrenimi algoritmasının bir veri kümesinden öğrenim süreci.
+
+Gözetimli öğrenmede model, veri özellikleriyle o veri için olan etiket arasında en doğru matematiksel ilişkiyi oluşturmaya çalışır. Gözetimsiz öğrenmede model, veri özelliklerinin kendileri arasındaki ilişkiyi bulmaya çalışır.</string>
+				<key>Title</key>
+				<string>eğitim</string>
+			</dict>
+		</dict>
+		<key>training dataset</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Makine öğrenimi modelinin, [tahminlerini](glossary://prediction) oluşturmak için kendisini [eğittiği](glossary://training) veri koleksiyonu.</string>
+				<key>Title</key>
+				<string>eğitim veri kümesi</string>
+			</dict>
+		</dict>
+		<key>type</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Veri tipindeki özelliklerin (niteliklerin) ve metotların (davranışların) adlandırılmış bir grubu.
+
+Tip, daha kolay erişebilmek amacıyla ilişkili işlevsellikler grubu yaratmanın bir yoludur.
+
+```
+struct Person { 
+	var name : Int
+	var age : String 
+
+	func greet() { 
+		print("Merhaba arkadaşım!")
+	}
+}
+```</string>
+				<key>Title</key>
+				<string>tip</string>
+			</dict>
+		</dict>
+		<key>typography</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Yazılı dili görüntülendiğinde açık, okunaklı ve çekici yapmak amacıyla yazıyı düzenleme sanatı ve tekniği.</string>
+				<key>Title</key>
+				<string>tipografi</string>
+			</dict>
+		</dict>
+		<key>unwrap</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>[İsteğe bağlı](glossary://optional) bir tipin [örneğinden](glossary://instance) sarmalayan değeri çıkarmak 
+				
+İsteğe bağlı bir tipteki değeri açmanın yaygın bir yolu da `if`-`let`’i kullanmaktır:
+```
+var count: Int? = 48
+if let unwrappedCount = count {
+	print(unwrappedCount)
+} else {
+	print("sayının değeri yok")
+}
+```</string>
+				<key>Title</key>
+				<string>paketi açma</string>
+			</dict>
+		</dict>
+		<key>upper bound</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir [aralıkta](glossary://range%20value), sayımın sonlandırılacağı bitiş değeri.
+
+```
+let closedRange = 1...5 // Alt sınır 1, üst sınır 5
+for i in closedRange { 
+	print(i) // 1 2 3 4 5
+}
+```</string>
+				<key>Title</key>
+				<string>üst sınır</string>
+			</dict>
+		</dict>
+		<key>user</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Uygulamanı kullanan bir kişi.</string>
+				<key>Title</key>
+				<string>kullanıcı</string>
+			</dict>
+		</dict>
+		<key>user input</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Uygulamanın kullanıcıyla etkileşiminden (kullanıcının ekrana dokunması, klavyeyle metin girmesi veya mikrofona konuşması gibi) aldığı bilgiler. 
+</string>
+				<key>Title</key>
+				<string>kullanıcı girdisi</string>
+			</dict>
+		</dict>
+		<key>user interaction</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Uygulamanı kullanarak bir [kullanıcı](glossary://user) tarafından gerçekleştirilen eylem. Bir düğmeye dokunmak, ekranda sola kaydırmak, aygıtı döndürmek, bir `ColorPicker`’dan renk seçmek ve metin alanına karakter yazmak gibi eylemlerin tümü kullanıcı etkileşiminin örnekleridir.</string>
+				<key>Title</key>
+				<string>kullanıcı etkileşimi</string>
+			</dict>
+		</dict>
+		<key>user interface</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kullanıcının bir uygulamayı denetleme yolları. Diğer adıyla "UI" olan bu terim; görüntü, metin, düğme, sürgü, kaydırma görüntüsü vb. öğeler ile genellikle bir uygulamanın kullanıcının etkileşime geçtiği görsel bölümüne referans verir.</string>
+				<key>Title</key>
+				<string>kullanıcı arayüzü</string>
+			</dict>
+		</dict>
+		<key>validation dataset</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Makine öğrenimi modelinin [eğitim veri kümesinden](glossary://training%20dataset) alınmış bir veri örneği. Model, tahminlerinin ne kadar doğru olduğunu değerlendirmek için doğrulama veri kümesini kullanır.</string>
+				<key>Title</key>
+				<string>doğrulama veri kümesi</string>
+			</dict>
+		</dict>
+		<key>value type</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>[Yapı](glossary://structure) gibi değer türünde bir [örnek](glossary://instance) yarattığında örnek verileri örneğin kendisinde saklanır. Örneği bir değişkene [atarsan](glossary://assignment) veya bir fonksiyona [argüman](glossary://argument) olarak geçirirsen Swift, verinin bağımsız bir kopyasıyla yeni bir örnek oluşturur.
+
+Örnek, aşağıdaki örnekte gösterildiği gibi değere göre kopyalanır:
+
+```
+struct Bicycle {
+  var color: Color
+}
+
+var redBike = Bicycle(color: .red)
+var blueBike = redBike
+blueBike.color = .blue
+print(redBike.color) // =&gt; red
+print(blueBike.color) // =&gt; blue
+// redBike ve blueBike değişkenlerinin her birinin kendi veri kopyaları vardır
+```</string>
+				<key>Title</key>
+				<string>değer türü</string>
+			</dict>
+		</dict>
+		<key>variable</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Değiştirilebilen bir değer saklayan adlandırılmış bir kapsayıcı.
+
+Bir değişken, [tamsayı](glossary://Int), [dizgi](glossary://String) ve [aralık](glossary://range) gibi farklı [tiplerde](glossary://type) değer saklayabilir.  
+```
+var favoriteNumber = 7 // Bir tamsayı saklar
+var greeting = "Merhaba" // Bir dizgi saklar
+var repetitions = 1...5 // Bir aralık saklar
+```</string>
+				<key>Title</key>
+				<string>değişken</string>
+			</dict>
+		</dict>
+		<key>velocity</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir şeyin verilen yöndeki hızı.</string>
+				<key>Title</key>
+				<string>hız</string>
+			</dict>
+		</dict>
+		<key>view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Görüntü, uygulamanın kullanıcı arayüzünün yapı taşıdır ve `View` [protokolüne](glossary://protocol) [uyan](glossary://conform) tüm görsel öğeleri temsil eder.
+
+SwiftUI’daki görüntülere örneklerden bazıları metin görüntüleri, resim görüntüleri, sürgüler, ızgaralar, düğmeler ve şekillerdir.</string>
+				<key>Title</key>
+				<string>görüntü</string>
+			</dict>
+		</dict>
+		<key>view hierarchy</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Hiyerarşinin en üstündeki üst düzey görüntü örneği referansı ile görüntülerin yerleşimini diğer görüntülere göre tanımlayan bir yapı. Üst düzey görüntü sayısız alt görüntü içerebilir, bunların her biri de kendi alt görüntülerini içerebilir ve bu şekilde devam eder.</string>
+				<key>Title</key>
+				<string>görüntü hiyerarşisi</string>
+			</dict>
+		</dict>
+		<key>volume</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Ses yüksekliği, sesin [sensör](glossary://sensor) tarafından algılanan yüksekliğidir. 0 ile 1 aralığındadır.</string>
+				<key>Title</key>
+				<string>ses yüksekliği</string>
+			</dict>
+		</dict>
+		<key>while loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Belirli bir koşul `true` olduğu (sağlandığı) sürece çalıştırılan kod öbeği. Koşul `false` değerine değişirse döngü durdurulur.</string>
+				<key>Title</key>
+				<string>while döngüsü</string>
+			</dict>
+		</dict>
+		<key>wireframe</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bulmaca dünyasında mücevher, düğme veya blok gibi bir öğenin iskeleti. Tel kafes, bulmacanın her çalıştırılışında öğenin rasgele görünme olasılığını belirtmek için kullanılır.</string>
+				<key>Title</key>
+				<string>tel kafes</string>
+			</dict>
+		</dict>
+		<key>yaw</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Aygıt düz bir yüzey üzerinde dururken aygıtın merkez noktası etrafındaki döndürme miktarının ölçümü.   Matematiksel olarak bu, aygıtın z ekseni etrafındaki dönmedir. Radyan cinsinden ölçülür ve `-π` ile `π` aralığındadır.</string>
+				<key>Title</key>
+				<string>sapma</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

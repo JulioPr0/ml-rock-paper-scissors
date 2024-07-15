@@ -1,0 +1,2675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>Alpha</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>อัลฟา หรือ *ช่องอัลฟา* เกี่ยวข้องกับความทึบของสี โดยมีช่วงตั้งแต่ `0` (โปร่งใสทั้งหมด) ถึง `1` (ทึบทั้งหมด) ข้อมูลอัลฟาจะเป็นค่า Double (เลขทศนิยม) ที่มีระยะตั้งแต่ 0 ถึง 1</string>
+				<key>Title</key>
+				<string>อัลฟา</string>
+			</dict>
+		</dict>
+		<key>Boolean</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ประเภทที่มีค่า `true` หรือ `false` ตัวอย่างเช่น `9 &lt; 7` จะคืนค่าบูลีนเป็น `false` เพราะ `9` ไม่น้อยกว่า `7`
+```
+var isRunning = false
+```</string>
+				<key>Title</key>
+				<string>บูลีน</string>
+			</dict>
+		</dict>
+		<key>Double</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ประเภทที่จัดเก็บตัวเลขที่มีส่วนที่เป็นเศษส่วน ตัวอย่างเช่น 3.14</string>
+				<key>Title</key>
+				<string>Double</string>
+			</dict>
+		</dict>
+		<key>ForEach</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>โครงสร้างที่[ทำซ้ำ](glossary://iteration)กับ[คอลเลกชั่น](glossary://collection)ของข้อมูล (เช่น อาร์เรย์) เพื่อสร้างมุมมองสำหรับแต่ละองค์ประกอบในคอลเลกชั่น 
+
+โครงสร้าง `ForEach` กำหนดให้แต่ละองค์ประกอบระบุ `id` ไม่ว่าจะระบุอย่างชัดแจ้งใน[ตัวเริ่มต้น](glossary://initialization) `ForEach` หรือโดยปรับให้เข้ากับโปรโตคอล `Identifiable` การทำเช่นนี้จะช่วยให้ SwiftUI ระบุและอัปเดตแต่ละมุมมองที่สร้างจาก`ForEach` ได้อย่างเป็นอิสระจากกันและกัน
+
+```
+ForEach(symbols) { symbol in 
+    Text(symbol.name)
+}
+```
+</string>
+				<key>Title</key>
+				<string>ForEach</string>
+			</dict>
+		</dict>
+		<key>Int</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ประเภทที่จัดเก็บจำนวนเต็ม ซึ่งเป็นจำนวนเต็ม เช่น `10` หรือ `-42`</string>
+				<key>Title</key>
+				<string>Int</string>
+			</dict>
+		</dict>
+		<key>String</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ประเภทที่จัดเก็บชุดอักขระ เช่น `"สวัสดีชาวโลก"` หรือ `"แมวเหมียวเต้นระบำ"`</string>
+				<key>Title</key>
+				<string>String</string>
+			</dict>
+		</dict>
+		<key>Swift</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ภาษาโปรแกรมของ Apple ที่ใช้เขียนแอปสำหรับ iPhone, iPad, Mac, Apple Watch และ Apple TV</string>
+				<key>Title</key>
+				<string>Swift</string>
+			</dict>
+		</dict>
+		<key>SwiftUI</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>SwiftUI เป็นวิธีที่ทันสมัยในการประกาศอินเทอร์เฟซผู้ใช้สำหรับแพลตฟอร์ม Apple โดยมอบมุมมอง ตัวควบคุม และโครงสร้างเค้าโครงสำหรับการประกาศอินเทอร์เฟซผู้ใช้ของแอปของคุณ เฟรมเวิร์คมีตัวจัดการอีเวนต์สำหรับส่งการแตะ คำสั่งนิ้ว และ input ประเภทอื่นๆ ไปยังแอปของคุณ และมีเครื่องมือในการจัดการลำดับของข้อมูลจากโมเดลของแอปของคุณไปจนถึงมุมมองและตัวควบคุมที่ผู้ใช้จะเห็นและโต้ตอบด้วย</string>
+				<key>Title</key>
+				<string>SwiftUI</string>
+			</dict>
+		</dict>
+		<key>absolute value</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ค่าที่ไม่ได้ถูกตั้งชื่อของตัวเลข ตัวอย่างเช่น ค่าสัมบูรณ์ของ -12 คือ 12 และค่าสัมบูรณ์ของ 23.4 คือ 23.4</string>
+				<key>Title</key>
+				<string>ค่าสัมบูรณ์</string>
+			</dict>
+		</dict>
+		<key>abstraction</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>เวอร์ชั่นที่เรียบง่ายของสิ่งที่มีความซับซ้อนกว่า  การลดรายละเอียดจะซ่อนรายละเอียดต่างๆ เพื่อให้คุณสามารถคิดคำนวณและรวมส่วนต่างๆ ของโค้ดของคุณเข้าด้วยกันได้ง่ายยิ่งขึ้น  ตัวอย่างเช่น [ประเภท](glossary://type)เป็นการลดรายละเอียดที่ซ่อนการตั้งค่า คุณสมบัติ และวิธีการของชื่อแทนประเภทของประเภทนั้นๆ</string>
+				<key>Title</key>
+				<string>การลดรายละเอียด</string>
+			</dict>
+		</dict>
+		<key>accelerometer</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>เซ็นเซอร์ที่วัดความเร่งของอุปกรณ์ของคุณในรูปแบบสามมิติ: ขึ้นและลง ไปข้างหน้าและข้างหลัง และซ้ายและขวา
+
+เมื่ออุปกรณ์ของคุณวางอยู่บนพื้นผิวที่ราบเรียบในแนวนอน การเคลื่อนไหวขึ้นและลงจะวัดความเร่งบนแกน z การเคลื่อนไหวไปทางขวาและซ้ายจะวัดความเร่งบนแกน y และการเคลื่อนไหวไปข้างหน้าและข้างหลังจะวัดความเร่งบนแกน x</string>
+				<key>Title</key>
+				<string>อุปกรณ์ตรวจจับการเคลื่อนไหว</string>
+			</dict>
+		</dict>
+		<key>adopt</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ในการรับโปรโตคอลมาใช้ ประเภทจะมีชุดของการใช้งานของตัวเองสำหรับข้อกำหนดของโปรโตคอล เช่น วิธีการและคุณสมบัติที่แสดงในรายการ</string>
+				<key>Title</key>
+				<string>รับมาใช้</string>
+			</dict>
+		</dict>
+		<key>algorithm</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>คำแนะนำหรือกฎแบบเป็นลำดับขั้นตอนสำหรับแก้ไขปัญหา ตัวอย่างเช่น รายการขั้นตอนต่างๆ ในการชงชาอาจเรียกได้ว่าเป็นอัลกอริทึม</string>
+				<key>Title</key>
+				<string>อัลกอริทึม</string>
+			</dict>
+		</dict>
+		<key>append</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ในการเพิ่มที่จุดสิ้นสุดของบางอย่าง คุณสามารถผนวกสตริงไปยังจุดสิ้นสุดของสตริงอื่น หรือผนวกรายการไปยังอาร์เรย์ของรายการได้
+</string>
+				<key>Title</key>
+				<string>ผนวก</string>
+			</dict>
+		</dict>
+		<key>application</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ซอฟต์แวร์นั้นประกอบไปด้วยโค้ดที่ช่วยให้คุณสามารถทำงานเฉพาะอย่างได้ ตัวอย่างเช่น คุณใช้แอปพลิเคชัน (แอป) ข้อความเพื่อส่งและรับข้อความ</string>
+				<key>Title</key>
+				<string>แอปพลิเคชัน</string>
+			</dict>
+		</dict>
+		<key>argument</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ค่า input ที่ส่งผ่านไปในฟังก์ชั่นเพื่อปรับแต่งลักษณะการทำงานของฟังก์ชั่น ตัวอย่างเช่น ในการเรียกใช้ฟังก์ชั่น `move(distance: 3)` ตัวเลข `3` คืออาร์กิวเมนต์ที่กำหนดจำนวนช่องในการเคลื่อนที่</string>
+				<key>Title</key>
+				<string>อาร์กิวเมนต์</string>
+			</dict>
+		</dict>
+		<key>arithmetic operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>สัญลักษณ์ต่างๆ เช่น `+`, `-`, `*` หรือ `/` ที่ใช้ในการคำนวณทางคณิตศาสตร์ขั้นพื้นฐานกับตัวเลขตั้งแต่หนึ่งตัวขึ้นไป ตัวอย่างเช่น  `42 / 7` และ `17 - 5` ก็ใช้ตัวดำเนินการคำนวณ</string>
+				<key>Title</key>
+				<string>ตัวดำเนินการคำนวณ</string>
+			</dict>
+		</dict>
+		<key>array</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>คอลเลกชั่นที่จัดเก็บรายการประเภทเดียวกันโดยเรียงตามลำดับ รายการเดียวกันอาจแสดงได้หลายครั้งในตำแหน่งที่แตกต่างกัน
+
+ในโค้ดด้านล่าง: `highScores` เป็นอาร์เรย์ของ[จำนวนเต็ม](glossary://Int) และ `greetings` เป็นอาร์เรย์ของ[สตริง](glossary://String).
+```
+let highScores = [37, 34, 29, 29, 26]
+let greetings = ["สวัสดี", "ลาก่อน", "โชคดี"]
+```</string>
+				<key>Title</key>
+				<string>อาร์เรย์</string>
+			</dict>
+		</dict>
+		<key>aspect ratio</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>อัตราส่วนความกว้างต่อความสูงของภาพหรือหน้าจอ
+
+ตัวอย่างเช่น ภาพที่มีอัตราสัดส่วนแบบ 2:1 มีความกว้างเป็นสองเท่าของความสูง ภาพที่มีอัตราสัดส่วนแบบ 1:1 มีความกว้างและความสูงเท่ากัน</string>
+				<key>Title</key>
+				<string>อัตราสัดส่วน</string>
+			</dict>
+		</dict>
+		<key>asset</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>แอสเซทคือภาพ เสียง และรายการอื่นๆ ที่แอปของคุณใช้ คุณสามารถนำเข้าแอสเซทไปยัง Swift Playgrounds จากแอปอื่นๆ ได้ เช่น ไฟล์และรูปภาพ</string>
+				<key>Title</key>
+				<string>แอสเซท</string>
+			</dict>
+		</dict>
+		<key>assignment</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>การทำงานที่กำหนดค่าของตัวแปรหรือค่าคงที่</string>
+				<key>Title</key>
+				<string>การกำหนดค่า</string>
+			</dict>
+		</dict>
+		<key>assignment operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>สัญลักษณ์ `=` ที่ใช้ในการตั้งอาร์กิวเมนต์ ตัวอย่างเช่น `greeting = "สวัสดี"` จะตั้งค่า `greeting` เป็น `"สวัสดี"`</string>
+				<key>Title</key>
+				<string>ตัวดำเนินการกำหนดค่า</string>
+			</dict>
+		</dict>
+		<key>asynchronous process</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>บล็อกของโค้ดที่สามารถรันในระหว่างที่ส่วนที่เหลือของแอปหรือโปรแกรมของคุณดำเนินการต่อ กระบวนการแบบอะซิงโครนัสสามารถรันพร้อมกับส่วนที่เหลือของโค้ดแอปของคุณได้ ซึ่งต่างจากกระบวนการแบบซิงโครนัสที่จะปิดกั้นการทำงานของโปรแกรมจนกว่าจะเสร็จ</string>
+				<key>Title</key>
+				<string>กระบวนการแบบอะซิงโครนัส</string>
+			</dict>
+		</dict>
+		<key>asynchronous stream</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>[ลำดับ](glossary://sequence)ที่มีค่าให้ใช้ไม่พร้อมกันทั้งหมด แต่มีการสร้างตามช่วงเวลาในรูปแบบสตรีมของค่า ในการทำซ้ำสตรีมแบบอะซิงโครนัส คุณจะต้องรอค่าใหม่แต่ละค่าก่อนจะดำเนินการกับค่านั้น
+				
+สตรีมแบบอะซิงโครนัสมักใช้กับข้อมูลที่มาถึงเมื่อเวลาผ่านไประยะหนึ่ง ตัวอย่างเช่น แผ่นดินไหวหรือเฟรมวิดีโอ</string>
+				<key>Title</key>
+				<string>สตรีมแบบอะซิงโครนัส</string>
+			</dict>
+		</dict>
+		<key>binding</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>เพิ่ม[ตัวหุ้มคุณสมบัติ](glossary://property%20wrapper) `@Binding` เพื่อสร้างการเชื่อมต่อแบบสองทางระหว่างคุณสมบัติที่จัดเก็บข้อมูลและมุมมองที่แสดงและเปลี่ยนแปลงข้อมูล การรวมจะเชื่อมต่อคุณสมบัติกับแหล่งข้อมูลจริงที่จัดเก็บไว้ที่อื่น แทนที่จะจัดเก็บข้อมูลโดยตรง 
+
+ตัวอย่างเช่น ปุ่มที่สลับระหว่างเปิดหรือปิดการเล่นและการหยุดพักสามารถสร้างการรวมให้กับคุณสมบัติของ[มุมมองคอนเทนเนอร์](glossary://container)โดยใช้ตัวหุ้มคุณสมบัติ `@Binding` ได้
+</string>
+				<key>Title</key>
+				<string>การรวม</string>
+			</dict>
+		</dict>
+		<key>body</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>เนื้อหาของ[มุมมอง](glossary://view)คือที่ที่คุณระบุเนื้อหาของมุมมองซึ่งประกอบด้วย[มุมมองในตัว](glossary://built-in%20view)อย่างน้อยหนึ่งมุมมองที่ SwiftUI ระบุหรือ[มุมมองที่ถูกประกอบ](glossary://composed%20view)ใดๆ ที่คุณสร้างไว้แล้ว</string>
+				<key>Title</key>
+				<string>เนื้อหา</string>
+			</dict>
+		</dict>
+		<key>bounds</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ในอาร์เรย์ ระยะของค่าที่ดัชนีต่ออาร์เรย์สามารถมีได้ ตัวอย่างเช่น อาร์เรย์ `[17, 42, 95]` สามารถมีค่าดัชนีได้ตั้งแต่ 0 ถึง 2 การตรวจสอบขอบเขตคือกระบวนการตรวจสอบยืนยันว่าค่าดัชนีนั้นอยู่ภายในขอบเขตของอาร์เรย์</string>
+				<key>Title</key>
+				<string>ขอบเขต</string>
+			</dict>
+		</dict>
+		<key>brightness</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ปริมาณของแสงที่ผ่านเข้ามาในกล้อง ตั้งแต่ `0` (ไม่มีแสง) ถึง `1` (มีแสงเต็มที่) ค่าความสว่างจะเป็น[ค่า Double](glossary://Double) (เลขทศนิยม) ตั้งแต่ `0` ถึง `1`</string>
+				<key>Title</key>
+				<string>ความสว่าง</string>
+			</dict>
+		</dict>
+		<key>bug</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ข้อผิดพลาดในโค้ดที่ป้องกันไม่ให้แอปพลิเคชันทำงานตามที่คาดไว้ 
+</string>
+				<key>Title</key>
+				<string>บั๊ก</string>
+			</dict>
+		</dict>
+		<key>built-in view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>[มุมมอง](glossary://view)ที่ได้มาจากเฟรมเวิร์ค [SwiftUI](glossary://SwiftUI) เช่น มุมมอง `Button`, `Text` หรือ `Image` มุมมองในตัวจะถูกใช้เป็นองค์ประกอบหลักเพื่อสร้าง[มุมมองที่ถูกประกอบ](glossary://composed%20view)ที่ซับซ้อนมากขึ้นใน[อินเทอร์เฟซผู้ใช้](glossary://user%20interface)ของคุณ</string>
+				<key>Title</key>
+				<string>มุมมองในตัว</string>
+			</dict>
+		</dict>
+		<key>bundle</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>แอปจะจัดเก็บโค้ด รวมถึงแหล่งข้อมูลที่จำเป็นสำหรับแอป เช่น ไฟล์ข้อมูล ภาพ เสียง ไว้ในชุดรวม แต่ละแอปจะมีชุดรวมหลักและอาจมีชุดรวมที่มีชื่ออื่นๆ ชุดรวมคือโฟลเดอร์บนดิสก์ และแหล่งข้อมูลภายในมีการจัดระเบียบเข้าเป็นโฟลเดอร์ย่อยที่ชัดเจน โครงสร้างของชุดรวมจะแตกต่างกันไปตามแพลตฟอร์มและประเภทของชุดรวม</string>
+				<key>Title</key>
+				<string>ชุดรวม</string>
+			</dict>
+		</dict>
+		<key>call</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>การเรียกใช้ฟังก์ชั่นในโค้ดก็คือการสั่งให้ฟังก์ชั่นทำงานและดำเนินการทำงานตามที่ได้กำหนดไว้ภายในตัวของฟังก์ชั่น</string>
+				<key>Title</key>
+				<string>เรียกใช้</string>
+			</dict>
+		</dict>
+		<key>callback</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>บางครั้งฟังก์ชั่นหรือวัตถุอาจต้องเรียกคุณกลับมาเพื่อให้ข้อมูล หรือแจ้งให้คุณทราบว่ามีบางอย่างที่สำคัญเกิดขึ้นขณะที่กำลังรัน คุณทำสิ่งนี้ให้เป็นไปได้โดยส่งผ่านฟังก์ชั่น หรือวัตถุ[ตัวแทน](glossary://delegate) ที่ใช้สร้างการเรียกกลับ
+
+การเรียกกลับเป็นเครื่องมือหนึ่งอย่างที่มักใช้จัดการกระบวนการแบบ[อะซิงโครนัส](glossary://asynchronous%20process)</string>
+				<key>Title</key>
+				<string>การเรียกกลับ</string>
+			</dict>
+		</dict>
+		<key>chaining</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>เทคนิคใน[การเรียกใช้](glossary://call)ชุดของ[ฟังก์ชั่น](glossary://function)ซึ่งแต่ละฟังก์ชั่นจะคืนค่าวัตถุที่จะถูกดำเนินการโดยฟังก์ชั่นถัดไป การเรียกใช้ฟังก์ชั่นจะถูกเชื่อมโยงเข้าด้วยกันเป็นชุดคำสั่งเดียว 
+				
+ตัวอย่างเช่น คุณสามารถเชื่อมโยง[ปุ่มปรับค่า](glossary://modifier)ของ SwiftUI เข้าด้วยกันได้ เนื่องจากปุ่มปรับค่าเป็น[วิธีการ](glossary://method)ที่ใช้[มุมมอง](glossary://view) ปรับใช้การเปลี่ยนแปลง และคืนค่าอีกมุมมองหนึ่ง</string>
+				<key>Title</key>
+				<string>การเชื่อมโยง</string>
+			</dict>
+		</dict>
+		<key>class</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>คลาสคือคอนเทนเนอร์สำหรับโค้ดที่ทำหน้าที่เหมือนแม่แบบสำหรับสร้าง[ชื่อแทนประเภท](glossary://instance)จำนวนมากของสิ่งของประเภทเดียวกัน เช่นเดียวกับที่พิมพ์เขียวต้องระบุคุณสมบัติและลักษณะการทำงานของวัตถุ เช่น จักรยาน คลาสจะระบุสิ่งเหล่านี้เป็น[คุณสมบัติ](glossary://property)และ[วิธีการ](glossary://method)
+
+เมื่อคุณสร้างชื่อแทนประเภทของคลาส ชื่อแทนประเภทนั้นจะมีคุณสมบัติและและวิธีการทั้งหมดที่กำหนดไว้ในแม่แบบของคุณ ชื่อแทนประเภททั้งหมดจะมีคุณสมบัติและวิธีการเหมือนกัน แต่คุณสามารถเปลี่ยนแปลงค่าของคุณสมบัติได้อย่างอิสระ ซึ่งทำให้คุณสามารถปรับแต่งชื่อแทนประเภทที่คุณสร้างหรือทำให้คลาสเป็นชื่อแทนประเภทได้ ตัวอย่างเช่น คลาสจักรยานอาจมีคุณสมบัติสี ซึ่งทำให้คุณสามารถสร้างจักรยานสีแดงหรือสีน้ำเงินได้
+
+คลาสคล้ายกับ[โครงสร้าง](glossary://structure) แต่จะแตกต่างกันในสองประการสำคัญ ได้แก่ คลาสคือ[ประเภทการอ้างอิง](glossary://reference%20type) ซึ่งจะคัดลอกด้วยการอ้างอิงเสมอ และคลาสสามารถสืบทอดการกำหนดค่าจากคลาสอื่นได้</string>
+				<key>Title</key>
+				<string>คลาส</string>
+			</dict>
+		</dict>
+		<key>classification</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ในการเรียนรู้ของเครื่อง การจัดประเภทคืออัลกอริทึมที่เรียนรู้จากชุดข้อมูลที่ติดป้ายและใช้สิ่งที่เรียนรู้เพื่อจัดประเภทการสังเกตใหม่ๆ
+
+ตัวอย่างเช่น ตัวจัดประเภทพันธุ์สุนัขที่ฝึกด้วยภาพสุนัขพันธุ์ต่างๆ ที่ติดป้าย ถ้าคุณแสดงภาพสุนัขภาพใหม่ให้กับตัวจัดประเภทนี้ ตัวจัดประเภทจะสามารถจัดประเภท input นี้เป็นหนึ่งในพันธุ์สุนัขเหล่านั้นได้</string>
+				<key>Title</key>
+				<string>การจัดประเภท</string>
+			</dict>
+		</dict>
+		<key>closed range</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ช่วงตั้งแต่ขอบเขตล่างขึ้นไปถึงขอบเขตบน โดยรวมขอบเขตบนด้วย
+
+ใน Swift ค่าของช่วง 1-3 สามารถเขียนเป็น 1...3 ได้ โดยในกรณีนี้ ช่วงจะรวมขอบเขตล่างซึ่งก็คือ 1 และนับจนถึงขอบเขตบนซึ่งก็คือ 3
+```
+let closedRange = 1...3
+for i in closedRange { 
+	print(i) // 1 2 3
+}
+```</string>
+				<key>Title</key>
+				<string>ช่วงแบบปิด</string>
+			</dict>
+		</dict>
+		<key>closure</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>การปิดคือ[ฟังก์ชั่น](glossary://function)ที่รันได้ในจุดที่ตั้งอยู่ โดยไม่จำเป็นต้องมีชื่อ
+					
+```
+scene.setOnStartHandler {
+    // เนื้อหาของการปิด
+}
+```
+                    
+การปิดสามารถบันทึกและจัดเก็บสิ่งอ้างอิงไปยังค่าคงที่และตัวแปรจากบริบทที่ค่าคงที่และตัวแปรถูกกำหนดได้ โดยเรียกว่าการปิดค่าคงที่และตัวแปรเหล่านั้น</string>
+				<key>Title</key>
+				<string>การปิด</string>
+			</dict>
+		</dict>
+		<key>code comment</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ความคิดเห็นเกี่ยวกับโค้ดเป็นวิธีการที่นักเขียนโปรแกรมใช้บันทึกโค้ดของพวกเขา  คุณสามารถเริ่มเขียนความคิดเห็นแบบบรรทัดเดียวได้โดยใช้เครื่องหมายทับซ้ายสองตัวแล้วตามด้วยเว้นวรรค ตัวอย่างเช่น "// นี่คือความคิดเห็นของฉัน"  เมื่อคุณรันโค้ดของคุณ ความคิดเห็นเกี่ยวกับโค้ดจะไม่ดำเนินการ</string>
+				<key>Title</key>
+				<string>ความคิดเห็นเกี่ยวกับโค้ด</string>
+			</dict>
+		</dict>
+		<key>code expression</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ส่วนของโค้ดที่สามารถหาค่าเพื่อส่งคืนค่าได้ ตัวอย่างเช่น ถ้า `months` คืออาร์เรย์ที่มี 12 รายการ นิพจน์ของโค้ด `months.count - 1` จะส่งคืนเป็นค่า `11`</string>
+				<key>Title</key>
+				<string>นิพจน์โค้ด</string>
+			</dict>
+		</dict>
+		<key>coding</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>การเขียนคำสั่ง โครงสร้างโค้ด และอัลกอริทึมเพื่อสร้างแอปพลิเคชัน</string>
+				<key>Title</key>
+				<string>การเขียนโค้ด</string>
+			</dict>
+		</dict>
+		<key>collection</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>โครงสร้างข้อมูล เช่น [อาร์เรย์](glossary://array)หรือ[ช่วง](glossary://range) ที่ใช้สำหรับจัดเก็บข้อมูลหลายๆ ชิ้น
+```
+let heights = [1, 5, 7]
+let closedRange = 1...8
+```</string>
+				<key>Title</key>
+				<string>คอลเลกชั่น</string>
+			</dict>
+		</dict>
+		<key>command</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>โค้ดที่แจ้งให้แอปพลิเคชันดำเนินการทำงานบางอย่าง </string>
+				<key>Title</key>
+				<string>คำสั่ง</string>
+			</dict>
+		</dict>
+		<key>comment out</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ในการเปลี่ยนบรรทัดโค้ดให้เป็น[ความคิดเห็นเกี่ยวกับโค้ด](glossary://code%20comment)เพื่อป้องกันไม่ให้บรรทัดโค้ดรัน คุณสามารถเพิ่ม `//` ข้างหน้าบรรทัดโค้ดใดๆ ได้ ตัวอย่างเช่น:
+                
+`// level.run()`</string>
+				<key>Title</key>
+				<string>ทำให้เป็นความคิดเห็น</string>
+			</dict>
+		</dict>
+		<key>comparison operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>สัญลักษณ์อย่างเช่น `==`, `!=`, `&lt;`, `&gt;`, `&lt;=` หรือ `&gt;=` ที่ใช้เปรียบเทียบระหว่างค่าสองค่า คุณสามารถใช้ตัวดำเนินการเปรียบเทียบในเงื่อนไขของชุดคำสั่ง `if` หรือ `while` loop ได้ เพื่อให้ได้ค่าบูลีนที่ระบุว่าการเปรียบเทียบเป็น `true` หรือไม่ ตัวอย่างเช่น `6 &gt; 8` เปรียบเทียบ `6` กับ `8` แล้วจะได้ `false`</string>
+				<key>Title</key>
+				<string>ตัวดำเนินการเปรียบเทียบ</string>
+			</dict>
+		</dict>
+		<key>compiler error</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ข้อผิดพลาดของคอมไพเลอร์เกิดจากโค้ดไม่ถูกต้อง คุณจะเห็นข้อผิดพลาดนี้เป็นจุดสีแดงที่ระยะขอบด้านซ้ายมือ หรือในแถบเครื่องมือ</string>
+				<key>Title</key>
+				<string>ข้อผิดพลาดของคอมไพเลอร์</string>
+			</dict>
+		</dict>
+		<key>composed view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>[มุมมอง](glossary://view)ที่สร้างโดยรวมมุมมอง[ในตัว](glossary://built-in%20view)หรือมุมมองที่ถูกประกอบอย่างน้อยหนึ่งมุมมอง
+</string>
+				<key>Title</key>
+				<string>มุมมองที่ถูกประกอบ</string>
+			</dict>
+		</dict>
+		<key>composition</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>กระบวนการการรวมส่วนเล็กๆ ของแอปพลิเคชันเพื่อสร้างชิ้นส่วนที่ใหญ่ขึ้นซึ่งช่วยให้ทำงานและทำความเข้าใจได้ง่ายยิ่งขึ้น</string>
+				<key>Title</key>
+				<string>การทำงานร่วมกัน</string>
+			</dict>
+		</dict>
+		<key>compound assignment operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ตัวดำเนินการที่นำเท่ากับ (การกำหนดค่าของตัวแปร) มารวมกับการดำเนินการอย่างอื่น เช่น การบวกหรือการลบ ตัวอย่างเช่น ถ้าค่าปัจจุบันของ `a` คือ `1` การใช้ `a += 3` จะบวก `3` กับ `1` แล้วกำหนดผลลัพธ์ให้เท่ากับ `a` ดังนั้นค่าของ `a` ในตอนนี้คือ `4`</string>
+				<key>Title</key>
+				<string>ตัวดำเนินการกำหนดค่าแบบผสม</string>
+			</dict>
+		</dict>
+		<key>computed property</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>แทนที่จะจัดเก็บค่าโดยตรง คุณสมบัติที่คำนวณแล้วจะคำนวณค่าโดยอิงจากสถานะปัจจุบันของค่าอื่นๆ ที่เกี่ยวข้องเมื่อดึงข้อมูล
+
+ในตัวอย่างด้านล่าง พื้นที่จะเป็นคุณสมบัติที่คำนวณแล้ว ในขณะที่ `width` และ `height` จะเป็นคุณสมบัติที่จัดเก็บไว้:
+
+```
+struct RectangleCalculator { 
+    var width = 10.0
+    var height = 10.0
+    
+    var area : Double { 
+        return width * height
+    }
+} 
+```</string>
+				<key>Title</key>
+				<string>คุณสมบัติที่คำนวณแล้ว</string>
+			</dict>
+		</dict>
+		<key>condition</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ในบล็อก[โค้ดที่ทำงานผ่านเงื่อนไข](glossary://conditional%20code) เช่น [ชุดคำสั่ง if](glossary://if%20statement) เงื่อนไขคือค่า[บูลีน](glossary://Boolean)ที่กำหนดว่าโค้ดภายในบล็อกจะรันหรือไม่
+
+ถ้าเงื่อนไขเป็น `true` บล็อกโค้ดจะรัน แต่ถ้าเป็น `false` โค้ดที่ทำงานผ่านเงื่อนไขจะถูกข้ามไป
+```
+let x = 4
+
+if x &lt; 5 { 
+	// เงื่อนไขเป็น true โค้ดในบล็อก if รัน 
+}
+
+if x &gt; 5 { 
+	// เงื่อนไขเป็น false โค้ดในบล็อก if ไม่รัน
+}
+```</string>
+				<key>Title</key>
+				<string>เงื่อนไข</string>
+			</dict>
+		</dict>
+		<key>conditional code</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>โค้ดที่จะรันก็ต่อเมื่อเงื่อนไขบางประการเป็นไปตามที่กำหนด ตัวอย่างเช่น [ชุดคำสั่ง if](glossary://if%20statement) และ [while loop](glossary://while%20loop) มีโค้ดที่ทำงานผ่านเงื่อนไข ซึ่งจะรันก็ต่อเมื่อเงื่อนไข if หรือ while เป็น `true` เท่านั้น
+```
+if x &gt; 5 { 
+	// โค้ดจะรันก็ต่อเมื่อ x มากกว่า 5 เท่านั้น
+}
+```</string>
+				<key>Title</key>
+				<string>โค้ดที่ทำงานผ่านเงื่อนไข</string>
+			</dict>
+		</dict>
+		<key>confidence</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ในการเรียนรู้ของเครื่อง ความมั่นใจคือความเป็นไปได้ของ[การคาดคะเน](glossary://prediction)ของโมเดลการเรียนรู้ของเครื่อง ความมั่นใจของการคาดคะเนจะให้ข้อมูลเชิงลึกว่าโมเดล ML ทำงานได้ดีเพียงใด</string>
+				<key>Title</key>
+				<string>ความมั่นใจ</string>
+			</dict>
+		</dict>
+		<key>conform</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ประเภทที่ระบุว่าสอดคล้องกับโปรโตคอลเมื่อมีการใช้งานของตัวเองสำหรับข้อกำหนดของโปรโตคอลนั้น</string>
+				<key>Title</key>
+				<string>สอดคล้อง</string>
+			</dict>
+		</dict>
+		<key>console</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ที่ที่คุณสามารถดู output การแก้บั๊กจากโค้ดของคุณขณะที่โค้ดกำลังรันได้ เมื่อคุณเรียกใช้ `print(_:)` ในโค้ดของคุณ ค่าที่คุณส่งผ่านเข้าไปจะแสดงในจอคอนโซล</string>
+				<key>Title</key>
+				<string>จอคอนโซล</string>
+			</dict>
+		</dict>
+		<key>constant</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>คอนเทนเนอร์ที่มีชื่อซึ่งจัดเก็บค่าที่ไม่สามารถเปลี่ยนแปลงได้</string>
+				<key>Title</key>
+				<string>ค่าคงที่</string>
+			</dict>
+		</dict>
+		<key>container</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>คอนเทนเนอร์เป็นมุมมองที่มีมุมมองอื่นๆ อยู่ภายใน</string>
+				<key>Title</key>
+				<string>คอนเทนเนอร์</string>
+			</dict>
+		</dict>
+		<key>coordinates</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ชุดของตัวเลขที่กำหนดตำแหน่งในพื้นที่ว่างโดยไม่ซ้ำกัน ตัวอย่างเช่น (100, -200) คือพิกัดสำหรับจุดในพื้นที่ 2 มิติ โดยพิกัด x อยู่ที่ 100 และพิกัด y อยู่ที่ -200</string>
+				<key>Title</key>
+				<string>พิกัด</string>
+			</dict>
+		</dict>
+		<key>data</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ข้อมูลที่ถูกประมวลผลหรือจัดเก็บโดยคอมพิวเตอร์และแตกต่างกันอย่างชัดเจนเมื่อดูจากโค้ด</string>
+				<key>Title</key>
+				<string>ข้อมูล</string>
+			</dict>
+		</dict>
+		<key>data cleaning</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>กระบวนการตรวจสอบชุดข้อมูลและเอาข้อมูลออกหรือแก้ไขข้อมูลที่ไม่ถูกต้อง ไม่สมบูรณ์ ซ้ำซ้อน หรือมีรูปแบบไม่เหมาะสม
+
+การทำความสะอาดข้อมูลสามารถปรับปรุงความแม่นยำของโมเดลการเรียนรู้ของเครื่องได้โดยทำให้มั่นใจว่าจะ[ฝึก](glossary://training)ด้วยข้อมูลที่เกี่ยวข้องและถูกต้องที่สุดที่มีเท่านั้น</string>
+				<key>Title</key>
+				<string>การทำความสะอาดข้อมูล</string>
+			</dict>
+		</dict>
+		<key>data flow</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>การเคลื่อนไหวของข้อมูลผ่านแอปของคุณ และวิธีที่การเปลี่ยนแปลงในข้อมูลนั้นส่งผลให้เกิดการเปลี่ยนแปลงกับสถานะหรือ UI ของแอปของคุณ</string>
+				<key>Title</key>
+				<string>ลำดับข้อมูล</string>
+			</dict>
+		</dict>
+		<key>data model</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>การแทนข้อมูลด้วยโค้ดที่ใช้ในแอปของคุณซึ่งสะท้อนการจัดระเบียบของข้อมูล [อินเทอร์เฟซผู้ใช้](glossary://user%20interface)ของคุณอาจแสดงข้อมูลจากโมเดลข้อมูล และอาจโต้ตอบกับโมเดลข้อมูลเพื่อแก้ไขข้อมูล โมเดลข้อมูลของคุณทำหน้าที่เป็น[แหล่งข้อมูลจริง](glossary://source%20of%20truth)สำหรับแอปของคุณ</string>
+				<key>Title</key>
+				<string>โมเดลข้อมูล</string>
+			</dict>
+		</dict>
+		<key>data separation</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>แนวคิดที่ว่า[โมเดลข้อมูล](glossary://data%20model)ของแอปควรกำหนดแยกต่างหากจาก[อินเทอร์เฟซผู้ใช้](glossary://user%20interface)ที่ใช้แสดงและโต้ตอบกับข้อมูลนั้น การแยกข้อมูลช่วยให้คุณแก้ไขโมเดลข้อมูลและ UI ได้อย่างเป็นอิสระจากกันและกัน ซึ่งทำให้เข้าใจวิธีที่แอปของคุณทำงานได้ง่ายขึ้น และปรับปรุงการทดสอบได้ของแอป</string>
+				<key>Title</key>
+				<string>การแยกข้อมูล</string>
+			</dict>
+		</dict>
+		<key>debug</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ค้นหาและแก้ไขข้อผิดพลาดในโค้ดที่ป้องกันไม่ให้แอปพลิเคชันทำงานอย่างถูกต้อง </string>
+				<key>Title</key>
+				<string>แก้บั๊ก</string>
+			</dict>
+		</dict>
+		<key>declaration</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ส่วนของโค้ดที่สร้างสิ่งใหม่ในแอปพลิเคชันของคุณ เช่น ฟังก์ชั่น ตัวแปร หรือประเภทที่กำหนดเอง ตัวอย่างเช่น `let planet = "Earth"` ประกาศค่าคงที่ใหม่ `planet` และให้ค่าเป็น `"Earth"`
+
+โค้ดด้านล่างประกาศตัวแปร `data` ของประเภท `AppData` แต่ไม่ได้ให้ค่าเริ่มต้น
+
+```
+var data : AppData
+```</string>
+				<key>Title</key>
+				<string>การประกาศ</string>
+			</dict>
+		</dict>
+		<key>decode</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>แปลงข้อมูลจากรูปแบบการจัดเก็บข้อมูลที่มีประสิทธิภาพ เช่น JSON ให้เป็นรูปแบบที่ง่ายขึ้นต่อการทำงานกับโค้ด</string>
+				<key>Title</key>
+				<string>ถอดรหัส</string>
+			</dict>
+		</dict>
+		<key>decomposition</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ขั้นตอนของการแยกปัญหาใหญ่ๆ ให้เล็กลง ให้เป็นชิ้นส่วนที่สามารถจัดการได้ง่ายยิ่งขึ้น</string>
+				<key>Title</key>
+				<string>การแยกย่อย</string>
+			</dict>
+		</dict>
+		<key>decrement</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ลดค่าตัวเลขแบบจำนวนเต็ม ส่วนใหญ่จะเป็น 1</string>
+				<key>Title</key>
+				<string>การลดลง</string>
+			</dict>
+		</dict>
+		<key>define</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ระบุค่าหรือการทำงานที่ชัดเจนของชิ้นส่วนของโค้ดที่สร้างใหม่ เช่น ฟังก์ชั่น ตัวแปร หรือประเภทแบบกำหนดเอง ตัวอย่างเช่น คุณกำหนดฟังก์ชั่นโดยการระบุชุดคำสั่งภายในฟังก์ชั่นเพื่อสั่งให้ฟังก์ชั่นทำงาน</string>
+				<key>Title</key>
+				<string>กำหนด</string>
+			</dict>
+		</dict>
+		<key>delegate</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>วัตถุพิเศษที่มีให้กับวัตถุอื่นเพื่อแจ้งเตือนคุณเมื่อมีอีเวนต์ที่สำคัญเกิดขึ้น วัตถุตัวแทนโดยปกติแล้วจะสอดคล้องกับ[โปรโตคอล](glossary://protocol) โดยมีฟังก์ชั่นที่สามารถเรียกใช้เพื่อสื่อสารกลับไปยังโค้ดของคุณได้ เมื่อมีการเรียกใช้ฟังก์ชั่นตัวแทน จะเรียกว่า[การเรียกกลับ](glossary://callback)ตัวแทน
+
+การสร้างตัวแทนเป็นรูปแบบทั่วไปที่ใช้สื่อสารระหว่างวัตถุ โดยเฉพาะในกระบวนการแบบ[อะซิงโครนัส](glossary://asynchronous%20process)</string>
+				<key>Title</key>
+				<string>ตัวแทน</string>
+			</dict>
+		</dict>
+		<key>destination view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>มุมมองที่แสดงขึ้นหลังจากที่[ผู้ใช้](glossary://user)ได้คลิกหรือแตะบน `NavigationLink` ภายใน `NavigationStack` หรือ `NavigationSplitView`</string>
+				<key>Title</key>
+				<string>มุมมองปลายทาง</string>
+			</dict>
+		</dict>
+		<key>dot notation</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>รูปแบบหนึ่งของไวยากรณ์ที่ใช้เข้าถึงคุณสมบัติหรือเรียกใช้วิธีการของชื่อแทนประเภท ตัวอย่างเช่น `expert.toggleSwitch()` เรียกใช้วิธีการ `toggleSwitch()` บนชื่อแทนประเภท `expert`</string>
+				<key>Title</key>
+				<string>จุด</string>
+			</dict>
+		</dict>
+		<key>edge case</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>สถานการณ์ทั้งที่คาดเดาได้และคาดเดาไม่ได้ ที่เกิดขึ้นในสภาวะที่พบได้ไม่บ่อยหรือที่พารามิเตอร์ปฏิบัติการที่สุดโต่ง 
+
+ตัวอย่างเช่น เมื่อสร้างแอป iPad แอปของคุณจะปิดตัวลงเมื่อคุณอัปเดตภาษาของอุปกรณ์เป็นภาษาที่ใช้การเขียนแบบขวาไปซ้าย เช่น ภาษาอาหรับ</string>
+				<key>Title</key>
+				<string>Edge case</string>
+			</dict>
+		</dict>
+		<key>efficiency</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>การวัดว่าโค้ดสามารถใช้งานได้อย่างรวดเร็วตามจุดประสงค์ได้ดีแค่ไหน ในขณะที่ใช้ทรัพยากร เช่น หน่วยความจำหรือพลังงาน อย่างน้อยที่สุดเท่าที่จะทำได้</string>
+				<key>Title</key>
+				<string>ประสิทธิภาพ</string>
+			</dict>
+		</dict>
+		<key>element</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>รายการใน[คอลเลกชั่น](glossary://collection) เช่น [อาร์เรย์](glossary:///array)หรือ[ช่วง](glossary://range)
+
+```
+let letters = ["a", "b", "c"] // "a" เป็นองค์ประกอบแรก, "b" เป็นองค์ประกอบที่สอง, "c" เป็นองค์ประกอบที่สาม
+```</string>
+				<key>Title</key>
+				<string>องค์ประกอบ</string>
+			</dict>
+		</dict>
+		<key>else block</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>บล็อกสุดท้ายของโค้ดในชุดคำสั่ง `if` บล็อกของ `else` จะรันหากเงื่อนไขอื่นๆ ทั้งหมดที่อยู่ในชุดคำสั่ง `if` เป็น `false`
+
+```
+if hopper.isFacingStep { 
+	// บล็อก if
+} else if hopper.isFacingUpdraft { 
+	// บล็อก else if
+} else { 
+	// บล็อก else
+}
+```</string>
+				<key>Title</key>
+				<string>บล็อก else</string>
+			</dict>
+		</dict>
+		<key>else if block</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>บล็อกของโค้ดในชุดคำสั่ง `if` ที่ใช้ตรวจสอบเงื่อนไขที่ไม่ถูกตรวจสอบโดย[บล็อก if](glossary://if%20block) หรือบล็อก `else if` อื่นๆ
+
+```
+if hopper.isFacingStep { 
+	// บล็อก if
+} else if hopper.isFacingUpdraft { 
+	// บล็อก else if
+} else { 
+	// บล็อก else
+}
+``</string>
+				<key>Title</key>
+				<string>บล็อก else if</string>
+			</dict>
+		</dict>
+		<key>encode</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>แปลงข้อมูลจากรูปแบบที่ง่ายต่อการทำงานกับโค้ดให้เป็นรูปแบบการจัดเก็บข้อมูลที่มีประสิทธิภาพ เช่น JSON</string>
+				<key>Title</key>
+				<string>เข้ารหัส</string>
+			</dict>
+		</dict>
+		<key>enumeration</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ประเภทที่กำหนดชุดของค่าที่สัมพันธ์กัน ซึ่งเรียกว่า *เคส*
+
+ตัวอย่างเช่น การกำหนดตัวแปรขึ้นมาใช้เอง `Direction` จะกำหนดเคสสำหรับแต่ละทิศทาง ได้แก่: `north`, `south`, `east` และ `west` 
+```
+enum Direction { 
+	case north, south, east, west
+}
+```
+เมื่อ[ส่งผ่าน](glossary://pass%20in)ค่าการกำหนดตัวแปรขึ้นมาใช้เอง คุณจะต้องเลือกเพียงเคสเดียวจากเคสทั้งหมดเสมอ เช่น:
+ ```
+ moveIn(direction: .north)
+```</string>
+				<key>Title</key>
+				<string>การกำหนดตัวแปรขึ้นมาใช้เอง</string>
+			</dict>
+		</dict>
+		<key>environment</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>สภาพแวดล้อมของมุมมองจะให้การเข้าถึงคอลเลกชั่นของค่าที่กำหนดไว้ ค่าเหล่านี้บางค่าสะท้อนสถานะของระบบ การตั้งค่าผู้ใช้ หรือสถานะมุมมองโดยอัตโนมัติ ตัวอย่างเช่น ชุดสี ลักษณะข้อความ หรือสถานะโฟกัสของมุมมอง ค่าอื่นๆ จะให้ค่าเริ่มต้นที่เป็นประโยชน์ เช่น การจำกัดบรรทัดสำหรับช่องข้อความ คุณสามารถอ่านค่าสภาพแวดล้อมได้โดยเข้าถึงค่าเหล่านี้ผ่าน[ตัวหุ้มคุณสมบัติ](glossary://property%20wrapper) `@Environment` รายการค่าสภาพแวดล้อมทั้งหมดสามารถพบได้[ที่นี่](doc://com.apple.documentation/documentation/swiftui/environmentvalues)</string>
+				<key>Title</key>
+				<string>สภาพแวดล้อม</string>
+			</dict>
+		</dict>
+		<key>environment object</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>เพิ่ม[ตัวหุ้มคุณสมบัติ](glossary://property%20wrapper) `@EnvironmentObject` เพื่อประกาศคุณสมบัติวัตถุที่สังเกตเห็นได้ที่ระบุโดยมุมมองคอนเทนเนอร์หรือโหนดแม่ ถ้าคุณประกาศคุณสมบัติเป็นวัตถุสภาพแวดล้อม ให้ตรวจสอบให้แน่ใจว่าได้ตั้งค่าชื่อแทนประเภทโมเดลที่เกี่ยวข้องบนมุมมองโหมดแม่แล้วโดยการเรียกใช้ปุ่มปรับค่า `environmentObject(_:)`</string>
+				<key>Title</key>
+				<string>วัตถุสภาพแวดล้อม</string>
+			</dict>
+		</dict>
+		<key>event</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>การทำงานที่สามารถตรวจพบได้ด้วยแอปพลิเคชันของคอมพิวเตอร์ input เช่น การกดปุ่มหรือการหมุนหน้าจอ จะสั่งทำงานอีเวนต์</string>
+				<key>Title</key>
+				<string>อีเวนต์</string>
+			</dict>
+		</dict>
+		<key>event handler</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ฟังก์ชั่นที่จะถูกเรียกใช้หลังจากที่อีเวนต์เกิดขึ้นเพื่อจัดการกับอีเวนต์</string>
+				<key>Title</key>
+				<string>ตัวจัดการอีเวนต์</string>
+			</dict>
+		</dict>
+		<key>extension</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>วิธีหนึ่งในการเพิ่มฟังก์ชั่นการทำงานใหม่ไปยัง[ประเภท](glossary://type)ที่มีอยู่แล้ว เช่น [คลาส](glossary://class) [โครงสร้าง](glossary://structure) [การกำหนดตัวแปรขึ้นมาใช้เอง](glossary://enumeration) หรือ[โปรโตคอล](glossary://protocol)
+
+ส่วนขยายทำให้คุณสามารถเพิ่ม[วิธีการ](glossary://method)และ[คุณสมบัติ](glossary://property)ไปยังประเภทที่มีอยู่แล้วได้ โดยโค้ดด้านล่างได้เพิ่มวิธีการ `cubed()` และคุณสมบัติ `isOdd` ไปยังประเภท `Int`:
+
+```
+extension Int { 
+	func cubed() -&gt; Int { 
+        return self * self * self
+    }
+    
+    var isOdd : Bool { 
+        return self % 2 == 1
+    }
+}
+
+let two : Int = 2
+print(two.cubed()) // 8
+print(two.isOdd) // false
+```</string>
+				<key>Title</key>
+				<string>ส่วนขยาย</string>
+			</dict>
+		</dict>
+		<key>filtering</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>การประมวลผลข้อมูลในคอลเลกชั่นหรือโครงสร้างข้อมูลเพื่อสร้างข้อมูลชุดใหม่</string>
+				<key>Title</key>
+				<string>การฟิลเตอร์</string>
+			</dict>
+		</dict>
+		<key>focus state</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ค่าที่แสดงถึงความพร้อมใช้งานของมุมมองในการรับ input ของผู้ใช้ เช่น การป้อนลงในช่องข้อความ ใช้[ตัวหุ้มคุณสมบัติ](glossary://property%20wrapper) `@FocusState` รวมถึงปุ่มปรับค่า `focused(_:equals:)` และ `focused(_:)` เพื่อสร้างมุมมองที่ค่าโฟกัสจะอัปเดตโดยอัตโนมัติตามการโต้ตอบของผู้ใช้และยังสามารถโปรแกรมให้โฟกัสหรือเลิกโฟกัสตามเวลาที่เจาะจงได้</string>
+				<key>Title</key>
+				<string>สถานะโฟกัส</string>
+			</dict>
+		</dict>
+		<key>font</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ชุดของอักขระข้อความในลักษณะดีไซน์ น้ำหนัก และขนาดที่เฉพาะเจาะจง ดีไซน์ของแบบอักษรเรียกว่า *แบบตัวพิมพ์* และชุดรูปแบบของดีไซน์นี้จะรวมกันเป็น *ตระกูล* แบบตัวพิมพ์ ตัวอย่างเช่น HelveticaNeue คือแบบตัวพิมพ์ และ 10-point HelveticaNeue-Bold คือแบบอักษร</string>
+				<key>Title</key>
+				<string>แบบอักษร</string>
+			</dict>
+		</dict>
+		<key>for loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>บล็อกของโค้ดที่ซ้ำกัน ซึ่งรันตามจำนวนครั้งที่กำหนด 
+
+loop อาจ[ทำซ้ำ](glossary://iterate)กับ[คอลเลกชั่น](glossary://collection)ของข้อมูล เช่น [ช่วง](glossary://range%20value)หรือ[อาร์เรย์](glossary://array) โดยการรันบล็อก loop สำหรับแต่ละองค์ประกอบในคอลเลกชั่น
+
+ในตัวอย่างด้านล่าง loop จะกำหนดตัวแปร loop นั่นก็คือ `value` ซึ่งทำให้คุณสามารถเข้าถึงค่าขององค์ประกอบปัจจุบันในคอลเลกชั่นได้:
+```
+for value in 1...4 { 
+	byte.moveForward()
+	byte.jump(height: value)
+}
+```</string>
+				<key>Title</key>
+				<string>for loop</string>
+			</dict>
+		</dict>
+		<key>framework</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>เฟรมเวิร์คคือไดเรกทอรีที่มีแหล่งข้อมูลที่แชร์ แหล่งข้อมูลเหล่านี้อาจรวมถึงไฟล์ต้นทาง ไฟล์ภาพ สตริงที่แปล เอกสารอ้างอิง และอื่นๆ ในแพ็คเกจเดียว แอปพลิเคชันหลายแอปสามารถใช้แหล่งข้อมูลทั้งหมดนี้ได้พร้อมกัน ระบบจะโหลดแหล่งข้อมูลเหล่านั้นไปยังหน่วยความจำตามความจำเป็นและแชร์สำเนาของแหล่งข้อมูลหนึ่งชุดกับแอปพลิเคชันทั้งหมดเมื่อทำได้</string>
+				<key>Title</key>
+				<string>เฟรมเวิร์ค</string>
+			</dict>
+		</dict>
+		<key>full function name</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ชื่อเต็มของฟังก์ชั่น ซึ่งรวมถึงชื่อของพารามิเตอร์ที่คั่นด้วยเครื่องหมายทวิภาค (`:`) ตัวอย่างเช่น `move(to:duration:)`</string>
+				<key>Title</key>
+				<string>ชื่อฟังก์ชั่นแบบเต็ม</string>
+			</dict>
+		</dict>
+		<key>function</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>บล็อกของโค้ดที่มีชื่อ ซึ่งจะรันเมื่อถูก[เรียกใช้](glossary://call)ตามชื่อ ฟังก์ชั่นอาจเป็นข้อมูลที่ส่งผ่านในรูปแบบ[พารามิเตอร์](glossary://parameter) และอาจเลือก[คืนค่า](glossary://return)ข้อมูลเมื่อโค้ดรันเสร็จ ฟังก์ชั่นที่กำหนดภายในประเภทจะเรียกว่า[วิธีการ](glossary://method)
+
+ด้านล่างคือตัวอย่างคำจำกัดความของฟังก์ชั่น `turnRight()` คุณสามารถเรียกใช้ฟังก์ชั่นนี้ได้โดยเขียน `turnRight()` จากนั้นโค้ดจะดำเนินการโดยรัน `turnLeft()` สามครั้ง
+
+```
+func turnRight() { 
+	turnLeft()
+	turnLeft()
+	turnLeft()
+}
+```</string>
+				<key>Title</key>
+				<string>ฟังก์ชั่น</string>
+			</dict>
+		</dict>
+		<key>function definition</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>คำจำกัดความของฟังก์ชั่นจะอธิบายว่าฟังก์ชั่นนั้นทำอะไร คาดว่าจะได้รับอะไร และสิ่งที่จะส่งกลับเมื่อทำเสร็จ</string>
+				<key>Title</key>
+				<string>คำจำกัดความของฟังก์ชั่น</string>
+			</dict>
+		</dict>
+		<key>fuzzy autocomplete</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>วิธีการในการเติมโค้ดให้สมบูรณ์โดยอัตโนมัติซึ่งใช้การค้นหาสตริงฟัซซี่เพื่อค้นหาตัวแปร ค่าคงที่ ประเภท และสัญลักษณ์อื่นๆ ที่ตรงกัน การค้นหาสตริงฟัซซี่จะไม่เหมือนกันทั้งหมด แต่จะค้นหารายการที่ตรงกันที่เกี่ยวข้องโดยอิงจากอักขระที่คุณป้อน 
+
+ตัวอย่างเช่น ถ้าคุณกำลังค้นหา[ปุ่มปรับค่ามุมมอง](glossary://modifier)ที่เกี่ยวข้องกับ "scale" คุณอาจเริ่มต้นง่ายๆ ด้วยการป้อน `.scale` ซึ่งจะคืนค่าตัวเลือกการเติมอัตโนมัติที่เริ่มต้นด้วย `.scale` เช่น `.scaledToFill` และ `.scaleEffect` รวมถึงรายการที่ตรงกันแบบ 'ฟัซซี่' เพิ่มเติม อย่างเช่น `.imageScale` และ `.grayscale`
+</string>
+				<key>Title</key>
+				<string>การเติมอัตโนมัติแบบฟัซซี่</string>
+			</dict>
+		</dict>
+		<key>g</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>หน่วยวัดความเร่ง หรือแรงต่อมวลหนึ่งหน่วย หนึ่ง g หรือแรง g เท่ากับความเร่งของแรงโน้มถ่วงบนโลก หรือประมาณ 9.8 เมตรต่อวินาทียกกำลังสอง</string>
+				<key>Title</key>
+				<string>g</string>
+			</dict>
+		</dict>
+		<key>global function</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ฟังก์ชั่นที่สามารถเข้าถึงได้จากทุกไฟล์ในโปรเจ็กต์ของคุณ</string>
+				<key>Title</key>
+				<string>ฟังก์ชั่นกลาง</string>
+			</dict>
+		</dict>
+		<key>global scope</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>สัญลักษณ์ที่สามารถเข้าถึงได้จากโค้ดในไฟล์ต้นทางใดๆ ใน[โมดูล](glossary://module)เดียวกัน ชื่อแทนประเภท ประเภท หรือฟังก์ชั่นที่กำหนดไว้ระดับบนสุดของไฟล์ต้นทางจะมีขอบเขตภายนอกตามค่าเริ่มต้น </string>
+				<key>Title</key>
+				<string>ขอบเขตภายนอก</string>
+			</dict>
+		</dict>
+		<key>global variable</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ตัวแปรที่สามารถเข้าถึงได้จากทุกไฟล์ในโปรเจ็กต์ของคุณ</string>
+				<key>Title</key>
+				<string>ตัวแปรกลาง</string>
+			</dict>
+		</dict>
+		<key>grayscale</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>กลุ่มเฉดสีเทาไล่ตั้งแต่สีขาวถึงสีดำ</string>
+				<key>Title</key>
+				<string>ระดับสีเทา</string>
+			</dict>
+		</dict>
+		<key>gyroscope</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>เซ็นเซอร์ที่วัดแนวของอุปกรณ์ของคุณในรูปแบบสามมิติ: ความเอียงจากด้านหน้าไปด้านหลัง ความเอียงจากซ้ายไปขวา และการหมุนรอบจุดศูนย์กลาง</string>
+				<key>Title</key>
+				<string>ไจโรสโคป</string>
+			</dict>
+		</dict>
+		<key>half open range</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ช่วงครึ่งเปิดตั้งแต่ขอบเขตล่างขึ้นไปถึงขอบเขตบน แต่ไม่รวมขอบเขตบน
+
+ใน Swift ค่าของช่วง 1-3 สามารถเขียนเป็น 1..&lt;4 ได้ ในกรณีนี้ ช่วงจะรวมขอบเขตล่างซึ่งก็คือ 1 และนับขึ้นจนถึงขอบเขตบนซึ่งก็คือค่า 4 แต่ไม่รวมขอบเขตบน
+```
+let halfOpenRange = 1..&lt;4
+for i in halfOpenRange { 
+	print(i) // 1 2 3
+}
+```</string>
+				<key>Title</key>
+				<string>ช่วงครึ่งเปิด</string>
+			</dict>
+		</dict>
+		<key>hertz</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>เฮิรตซ์ (Hz) คือหนึ่งรอบต่อวินาที เมื่อเปรียบเทียบกับการสั่นของเสียง 1 Hz จะเท่ากับคลื่นเสียงหนึ่งคลื่นต่อวินาที ทั้งนี้ มนุษย์สามารถได้ยินเสียงอยู่ที่ระหว่าง 20 Hz ถึง 16,000 Hz</string>
+				<key>Title</key>
+				<string>เฮิรตซ์</string>
+			</dict>
+		</dict>
+		<key>hue</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>โทนสีบนวงล้อสี ค่านี้จะเป็นค่า Double (เลขทศนิยม) ตั้งแต่ `0` ถึง `1`</string>
+				<key>Title</key>
+				<string>สีสัน</string>
+			</dict>
+		</dict>
+		<key>if block</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>บล็อกแรกของโค้ดในชุดคำสั่ง `if` บล็อก `if` จะรันหากเงื่อนไขที่อยู่ในชุดคำสั่ง `if` เป็น `true`
+```
+if blu.isFacingStep { 
+	blu.jump()
+}
+```</string>
+				<key>Title</key>
+				<string>บล็อก if</string>
+			</dict>
+		</dict>
+		<key>if statement</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>โครงสร้างโค้ดที่ใช้รันโค้ดโดยอิงจากค่าของเงื่อนไขตั้งแต่หนึ่งรายการขึ้นไป โค้ดบล็อกแรกในชุดคำสั่ง `if` คือบล็อก `if`
+```
+if blu.isFacingStep { 
+	blu.jump()
+}
+```
+ในชุดคำสั่ง `if` ยังอาจมีบล็อกอื่นๆ ที่ให้การตรวจสอบเพิ่มเติมอีกด้วย เช่น บล็อก `else` และบล็อก `else if`
+```
+if blu.isFacingStep { 
+	blu.jump()
+} else if blu.isFacingHole { 
+	blu.shapeShift(into: .bridge)
+} else { 
+	blu.moveForward()
+}
+```</string>
+				<key>Title</key>
+				<string>ชุดคำสั่ง if</string>
+			</dict>
+		</dict>
+		<key>import</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ใน Swift [การประกาศ](glossary://declaration) `import` ทำให้คุณสามารถเข้าถึงสัญลักษณ์ เช่น ประเภท ฟังก์ชั่น คุณสมบัติ และวิธีการ ที่ถูกกำหนดนอกไฟล์ปัจจุบันได้ คุณสามารถนำเข้าสัญลักษณ์ใน[โมดูล](glossary://module)หรือ[เฟรมเวิร์ค](glossary://framework) เช่น [SwiftUI](doc://com.apple.documentation/documentation/swiftui) หรือ [CoreMotion](doc://com.apple.documentation/documentation/coremotion) ได้ ตัวอย่างเช่น ในการใช้เฟรมเวิร์ค SwiftUI ให้คุณวางการประกาศต่อไปนี้ไว้ที่ด้านบนสุดของไฟล์: 
+
+```
+import SwiftUI
+```
+</string>
+				<key>Title</key>
+				<string>นำเข้า</string>
+			</dict>
+		</dict>
+		<key>increment</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>เพิ่มค่าตัวเลขแบบจำนวนเต็ม ส่วนใหญ่จะเป็น 1</string>
+				<key>Title</key>
+				<string>การเพิ่มขึ้น</string>
+			</dict>
+		</dict>
+		<key>index</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ตัวเลขที่แสดงถึงตำแหน่งของรายการใน[อาร์เรย์](glossary://array)</string>
+				<key>Title</key>
+				<string>ดัชนี</string>
+			</dict>
+		</dict>
+		<key>index out of range error</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ข้อผิดพลาดที่เกิดจากการพยายามเข้าถึงอาร์เรย์โดยใช้ดัชนีที่อยู่นอกระยะของอาร์เรย์นั้น ตัวอย่างเช่น ดัชนี `2` อยู่นอกระยะของอาร์เรย์ต่อไปนี้: `[17, 42]`</string>
+				<key>Title</key>
+				<string>ข้อผิดพลาดดัชนีอยู่นอกระยะ</string>
+			</dict>
+		</dict>
+		<key>initialization</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>การสร้างชื่อแทนประเภทของประเภทใหม่ ซึ่งรวมถึงการตั้งค่าเริ่มต้นของคุณสมบัติของตัวแปรของประเภท</string>
+				<key>Title</key>
+				<string>การสร้างค่าเริ่มต้น</string>
+			</dict>
+		</dict>
+		<key>initializer</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>เรียกใช้ตัวเริ่มต้นเพื่อสร้าง[ชื่อแทนประเภท](glossary://instance)ใหม่ของประเภท ตัวเริ่มต้นจะต้องตรวจสอบให้แน่ใจว่าคุณสมบัติของประเภททั้งหมดมีค่าเริ่มต้นและมักจะมีโค้ดการตั้งค่าอื่นๆ</string>
+				<key>Title</key>
+				<string>ตัวเริ่มต้น</string>
+			</dict>
+		</dict>
+		<key>inner loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>บล็อกของโค้ด (loop) ที่ซ้ำกัน ซึ่งซ้อนอยู่ใน (outer) loop อื่น</string>
+				<key>Title</key>
+				<string>inner loop</string>
+			</dict>
+		</dict>
+		<key>instance</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ค่าของ[ประเภท](glossary://type)บางประเภท ตัวอย่างเช่น ใน `let motion = MotionSensor()``motion` เป็นชื่อแทนประเภทของประเภท `MotionSensor`</string>
+				<key>Title</key>
+				<string>ชื่อแทนประเภท</string>
+			</dict>
+		</dict>
+		<key>integer</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>เลขจำนวนเต็ม เช่น `2` หรือ `-5`</string>
+				<key>Title</key>
+				<string>จำนวนเต็ม</string>
+			</dict>
+		</dict>
+		<key>iterate</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ทำซ้ำบล็อกของโค้ดสำหรับทุก[องค์ประกอบ](glossary://element)ใน[คอลเลกชั่น](glossary://collection) เช่น อาร์เรย์หรือช่วง
+
+ในตัวอย่างด้านล่าง for loop จะทำซ้ำผ่านอาร์เรย์ `days` และแสดงวันในสัปดาห์ครั้งละหนึ่งวัน:
+```
+let days = ["วันจันทร์", "วันอังคาร", "วันพุธ"]
+
+for value in days { 
+	print(value)
+}
+
+// การทำซ้ำครั้งแรก: แสดงค่า "วันจันทร์"
+// การทำซ้ำครั้งที่สอง: แสดงค่า "วันอังคาร"
+// การทำซ้ำครั้งที่สาม: แสดงค่า "วันพุธ"
+```</string>
+				<key>Title</key>
+				<string>ทำซ้ำ</string>
+			</dict>
+		</dict>
+		<key>iteration</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>การทำขั้นตอนซ้ำ เช่น การดำเนินการการทำงานเดียวกันบนรายการแต่ละรายการในอาร์เรย์</string>
+				<key>Title</key>
+				<string>การทำซ้ำ</string>
+			</dict>
+		</dict>
+		<key>label</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>การแสดงถึงองค์ประกอบ UI ด้วยภาพซึ่งสร้างขึ้นเป็น[มุมมอง](glossary://view)
+
+[มุมมองในตัว](glossary://built-in%20view)ของ SwiftUI หลายมุมมองมีทั้งป้าย (การแสดงด้วยภาพ) รวมถึงการกำหนดเองในจุดอื่นๆ บางจุด เช่น [มุมมองปลายทาง](glossary://destination%20view)สำหรับ `NavigationLink` หรือ[การเรียกกลับ](glossary://callback)การทำงานสำหรับ `Button`</string>
+				<key>Title</key>
+				<string>ป้าย</string>
+			</dict>
+		</dict>
+		<key>lag</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ความเร็วหรือการตอบสนองของแอปลดลงเนื่องจากความต้องการในการประมวลผล ความสามารถในการประมวลผล หรือทั้งสองอย่าง</string>
+				<key>Title</key>
+				<string>ความล่าช้า</string>
+			</dict>
+		</dict>
+		<key>leading edge</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>เมื่อใช้ในการอ้างอิงถึงเนื้อหาภายในมุมมอง ขอบด้านหน้าจะหมายถึงตำแหน่งในแนวนอนของจุดเริ่มต้นของเนื้อหา ตำแหน่งของขอบด้านหน้าจะขึ้นอยู่กับการตั้งค่าของคุณ และโดยปกติแล้วจะอิงตามการตั้งค่าตำแหน่งที่ตั้งและภาษาของคุณ
+                    ตัวอย่างเช่น ภาษาที่อ่านจากซ้ายไปขวา เช่น อังกฤษหรือดัตช์ ขอบด้านหน้าจะอยู่ทางด้านซ้าย ส่วนภาษาที่อ่านจากขวาไปซ้าย เช่น อาหรับหรือฮีบรู ขอบด้านหน้าจะอยู่ทางด้านขวา</string>
+				<key>Title</key>
+				<string>ขอบด้านหน้า</string>
+			</dict>
+		</dict>
+		<key>literal</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>สัญพจน์ทำให้คุณสามารถฝังภาพและสีลงในโค้ดของคุณโดยตรงได้โดยใช้คลังภาพหรือตัวเลือกสี สัญพจน์คือค่าที่แท้จริงของข้อมูลของคุณที่แสดงในรูปแบบดั้งเดิมภายในตัวแก้ไขโดยตรง</string>
+				<key>Title</key>
+				<string>สัญพจน์</string>
+			</dict>
+		</dict>
+		<key>local scope</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ขอบเขตภายในจะถูกสร้างขึ้นที่ทุกระดับใหม่ของการจัดระเบียบโค้ดด้านล่าง[ขอบเขตภายนอก](glossary://global%20scope) ตัวอย่างเช่น [ประเภท](glossary://type)ใหม่จะสร้างขอบเขตภายในใหม่ และฟังก์ชั่นและบล็อกโค้ดภายในประเภทนั้นจะสร้างระดับ[ขอบเขต](glossary://scope)ของตัวเอง สัญลักษณ์จะเข้าถึงได้จากโค้ดที่อยู่ระดับขอบเขตเดียวกันหรือระดับขอบเขตที่ต่ำกว่าเท่านั้น ทั้งนี้ขึ้นอยู่กับว่ามีการประกาศสัญลักษณ์ที่ใด
+
+ตัวอย่างเช่น ถ้าตัวแปรถูกกำหนดภายในประเภท ตัวแปรนั้นจะเข้าถึงได้ในฟังก์ชั่นและบล็อกโค้ดทั้งหมดภายในประเภท อย่างไรก็ตาม ค่าคงที่ที่กำหนดภายในวิธีการจะเข้าถึงได้เฉพาะภายในการกำหนดวิธีการเท่านั้น</string>
+				<key>Title</key>
+				<string>ขอบเขตภายใน</string>
+			</dict>
+		</dict>
+		<key>logical AND operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>สัญลักษณ์ (`&amp;&amp;`) ที่รวมค่าบูลีนสองค่าเข้าด้วยกัน ซึ่งทั้งสองค่าจะต้องเป็น true เพื่อให้โค้ดทั้งหมดเป็น true ตัวอย่างเช่น `a &amp;&amp; b` จะเป็น true เมื่อ `a` และ `b` เป็น `true`</string>
+				<key>Title</key>
+				<string>ตัวดำเนินการตรรกะ AND</string>
+			</dict>
+		</dict>
+		<key>logical NOT operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>สัญลักษณ์ (`!`) ที่กลับค่าบูลีนของส่วนของโค้ด ตัวอย่างเช่น ถ้า `a` เป็น `true` ดังนั้น `!a` ก็จะเป็น `false`</string>
+				<key>Title</key>
+				<string>ตัวดำเนินการตรรกะ NOT</string>
+			</dict>
+		</dict>
+		<key>logical OR operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>สัญลักษณ์ (`||`) ที่รวมค่าบูลีนสองค่าเข้าด้วยกัน โดยจะต้องมีอย่างน้อยหนึ่งค่าที่เป็น true เพื่อให้โค้ดทั้งหมดเป็น true ตัวอย่างเช่น `a || b` จะเป็น `true` หาก `a` หรือ `b` นั้นเป็น `true` (หรือเมื่อทั้งสองค่าเป็น `true`)</string>
+				<key>Title</key>
+				<string>ตัวดำเนินการตรรกะ OR</string>
+			</dict>
+		</dict>
+		<key>logical operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>สัญลักษณ์ต่างๆ เช่น `&amp;&amp;`, `||` หรือ `!` ที่แก้ไขหรือรวมค่าตรรกะบูลีน `true` และ `false`</string>
+				<key>Title</key>
+				<string>ตัวดำเนินการตรรกะ</string>
+			</dict>
+		</dict>
+		<key>loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>บล็อกของโค้ดที่มีการเรียกใช้ซ้ำตามจำนวนครั้งที่กำหนด (เช่น `for` loop) หรือจนกว่าจะตรงตามเงื่อนไข (เช่น `while` loop)</string>
+				<key>Title</key>
+				<string>loop</string>
+			</dict>
+		</dict>
+		<key>loop variable</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ค่าขององค์ประกอบปัจจุบันใน[คอลเลกชั่น](glossary://collection)ซึ่งก็คือค่าที่คุณ[ทำซ้ำ](glosssary://iterate)ใน [for loop](glossary://for%20loop)
+
+ตัวแปร loop จะจัดเก็บค่านี้ไว้ ทำให้คุณสามารถใช้ค่าในเนื้อหาของ `for` loop ได้ 
+
+ในตัวอย่างต่อไปนี้ `value` และ `letter` คือตัวแปร loop:
+```
+for value in 1...4 { 
+	print(value) // 1 2 3 4
+}
+
+for letter in ["c", "o", "d", "e"] { 
+	print(letter) // c o d e 
+}
+```</string>
+				<key>Title</key>
+				<string>ตัวแปร loop</string>
+			</dict>
+		</dict>
+		<key>lower bound</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ค่าที่เริ่มต้นซึ่งก็คือค่าที่เริ่มนับขึ้นใน[ช่วง](glossary://range)
+
+```
+let closedRange = 1...5 // ขอบเขตล่างคือ 1 ขอบเขตบนคือ 5
+for i in closedRange { 
+	print(i) // 1 2 3 4 5
+}
+```</string>
+				<key>Title</key>
+				<string>ขอบเขตล่าง</string>
+			</dict>
+		</dict>
+		<key>machine learning</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>วิทยาศาสตร์คอมพิวเตอร์สาขาหนึ่งที่มุ่งเน้นการพัฒนา[อัลกอริทึม](glossary://algorithm)ที่ใช้ข้อมูลจำนวนมากเพื่อสอนเครื่องเกี่ยวกับวิธีการเรียนรู้และปรับปรุงกระบวนการเฉพาะ 
+
+ตัวอย่างเช่น การสอนเครื่องให้รู้จำดอกไม้บางประเภทโดยใช้[ตัวจัดประเภท](glossary://classification)ภาพและให้ชุดข้อมูลของภาพดอกไม้จำนวนมาก</string>
+				<key>Title</key>
+				<string>การเรียนรู้ของเครื่อง</string>
+			</dict>
+		</dict>
+		<key>machine learning model</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>[โมเดลข้อมูล](glossary://data%20model)ประเภทหนึ่งที่คุณสร้างโดยการปรับใช้[อัลกอริทึม](glossary://algorithm)การเรียนรู้ของเครื่องกับ[ชุดข้อมูลการฝึก](glossary://training%20dataset) โมเดลการเรียนรู้ของเครื่องหรือโมเดล ML ใช้เพื่อสร้าง[การคาดคะเน](glossary://prediction)จากแหล่ง input</string>
+				<key>Title</key>
+				<string>โมเดลการเรียนรู้ของเครื่อง</string>
+			</dict>
+		</dict>
+		<key>magnitude</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ขนาดของค่า ไม่ว่าค่านั้นจะเป็นบวกหรือลบ ซึ่งเรียกอีกอย่างว่า[ค่าสัมบูรณ์](glossary://absolute%value)ของตัวเลข 
+
+ตัวอย่างเช่น ขนาดของทั้ง `5` และ `-5` คือ `5`</string>
+				<key>Title</key>
+				<string>ขนาด</string>
+			</dict>
+		</dict>
+		<key>memory</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ส่วนของคอมพิวเตอร์ที่จัดเก็บโค้ดสำหรับแอปพลิเคชันและข้อมูลที่ใช้ ไม่ว่าจะเป็นแบบชั่วคราวหรือแบบถาวร</string>
+				<key>Title</key>
+				<string>หน่วยความจำ</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ข้อมูลเสริมเกี่ยวกับข้อมูล ตัวอย่างเช่น รูปภาพอาจมีเมตาดาต้าเกี่ยวกับตำแหน่งที่ตั้งที่ถ่ายรูปนั้น</string>
+				<key>Title</key>
+				<string>เมตาดาต้า</string>
+			</dict>
+		</dict>
+		<key>method</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>บล็อกของโค้ดที่มีชื่อ ซึ่งจะรันเมื่อถูก[เรียกใช้](glossary://call)ตามชื่อ 
+
+วิธีการคือ[ฟังก์ชั่น](glossary://function) แต่จะถูกกำหนดอยู่ภายใน[ประเภท](glossary://type) 
+
+โค้ดนี้เรียกใช้วิธีการ `moveForward()` จาก[ชื่อแทนประเภท](glossary://instance)ที่มีชื่อว่า `byte`:
+```
+let byte = Byte()
+
+byte.moveForward()
+```</string>
+				<key>Title</key>
+				<string>วิธีการ</string>
+			</dict>
+		</dict>
+		<key>miter</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ลักษณะการต่อกันระหว่างเส้นขีดสองเส้นซึ่งมีลักษณะเป็นมุมแหลมมากกว่ามุมโค้งหรือมุมเฉียง</string>
+				<key>Title</key>
+				<string>มุมฉาก</string>
+			</dict>
+		</dict>
+		<key>modifier</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ใน SwiftUI ปุ่มปรับค่าใช้เพื่อกำหนดรูปแบบหรือลักษณะการทำงานของมุมมอง
+
+					ในโค้ดด้านล่าง ปุ่มปรับค่า `foregroundColor` จะเปลี่ยนสีของมุมมอง `Rectangle` เป็นสีน้ำเงิน
+					```
+					Rectangle()
+							.foregroundColor(.blue)
+					```
+
+					ในการทำให้ปุ่มปรับค่าอ่านง่ายขึ้น ปุ่มปรับค่าแต่ละปุ่มจะถูกวางในแต่ละบรรทัดด้านล่างมุมมองที่ถูกปรับค่าโดยปุ่มนั้น ในตัวอย่างนี้ ปุ่มปรับค่า `foregroundColor(.blue)` จะถูกปรับใช้ก่อน แล้วตามด้วย `border(.green)`
+					```
+					Rectangle()
+							.foregroundColor(.blue)
+							.border(.green)
+					```
+					
+					เนื่องจากปุ่มปรับค่าถูกปรับใช้ตามลำดับ การสลับตำแหน่งของปุ่มปรับค่าจึงอาจเปลี่ยนรูปแบบหรือลักษณะการทำงานของมุมมองผลลัพธ์ได้
+				</string>
+				<key>Title</key>
+				<string>ปุ่มปรับค่า</string>
+			</dict>
+		</dict>
+		<key>modularity</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>หลักการในการแบ่งแอปของคุณออกเป็นส่วนๆ ที่เป็นอิสระจากกัน ซึ่งแต่ละส่วนมีทุกอย่างที่จำเป็นในการขับเคลื่อนฟังก์ชั่นการทำงานส่วนหนึ่งสำหรับแอปของคุณ เช่น การแสดงส่วนหนึ่งของอินเทอร์เฟซ หรือการจัดเก็บข้อมูลแอปของคุณ
+
+สภาพโมดูลาร์เป็นหลักการสำคัญในการสร้างแอปเนื่องจากจะช่วยให้คุณเข้าใจและใช้งานฟังก์ชั่นการทำงานแต่ละส่วนได้ดียิ่งขึ้น สิ่งนี้จะช่วยให้คุณตรวจหาได้ง่ายขึ้นว่าข้อผิดพลาดเกิดขึ้นที่ใดเมื่อแอปของคุณมีบั๊ก</string>
+				<key>Title</key>
+				<string>โมดูลาร์</string>
+			</dict>
+		</dict>
+		<key>module</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>การกระจายโค้ดหนึ่งหน่วย [เฟรมเวิร์ค](glossary://framework)หรือแอปพลิเคชันที่สร้างขึ้นและจัดส่งเป็นหน่วยเดียวและสามารถนำเข้าด้วยโมดูลอื่นได้โดยใช้คำสำคัญ[นำเข้า](glossary://import)ของ Swift</string>
+				<key>Title</key>
+				<string>โมดูล</string>
+			</dict>
+		</dict>
+		<key>modulo operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>สัญลักษณ์ (`%`) ที่ส่งคืนเป็นเศษหลังจากที่หารหมายเลขหนึ่งด้วยอีกหมายเลขหนึ่ง ตัวอย่างเช่น `17 % 5` จะส่งคืนเศษ `2`</string>
+				<key>Title</key>
+				<string>ตัวดำเนินการโมดูโล</string>
+			</dict>
+		</dict>
+		<key>navigation bar</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>อินเทอร์เฟซการนำทางให้คุณสามารถเลือกได้หนึ่งตัวเลือกต่อหน้าจอจนกว่าคุณจะไปถึงปลายทาง ในการไปยังปลายทางอื่น คุณต้องย้อนรอยการนำทางของคุณหรือเริ่มต้นใหม่ตั้งแต่ต้นแล้วเลือกตัวเลือกอื่น แถบการนำทางที่ด้านบนสุดของหน้าจอจะแสดงชื่อเรื่องเพื่อช่วยให้คุณจำตำแหน่งที่คุณอยู่ได้ และมีปุ่มย้อนกลับเพื่อให้คุณสามารถกลับไปยังหน้าจอก่อนหน้าได้</string>
+				<key>Title</key>
+				<string>แถบการนำทาง</string>
+			</dict>
+		</dict>
+		<key>navigation link</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>[มุมมองในตัว](glossary://built-in%20view)ของ SwiftUI ที่นำทางไปยัง[มุมมองปลายทาง](glossary://destination%20view)เมื่อผู้ใช้แตะ ลิงก์การนำทางยังมี[ป้าย](glossary://label)ที่กำหนดรูปแบบที่มองเห็นได้ของลิงก์อีกด้วย</string>
+				<key>Title</key>
+				<string>ลิงก์การนำทาง</string>
+			</dict>
+		</dict>
+		<key>nest</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>วางบล็อกของโค้ด ตัวอย่างเช่น loop ที่ทำซ้ำรายการหนึ่งภายในอีกรายการหนึ่ง</string>
+				<key>Title</key>
+				<string>การซ้อนโค้ด</string>
+			</dict>
+		</dict>
+		<key>normalization</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>กระบวนการปรับขนาดชุดข้อมูลเพื่อให้ค่าที่ปรับแล้วมีผลลัพธ์อยู่ระหว่าง `0` ถึง `1`</string>
+				<key>Title</key>
+				<string>การปรับมาตรฐาน</string>
+			</dict>
+		</dict>
+		<key>observable object</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>เมื่อคลาส[สอดคล้อง](glossary://conform)กับโปรโตคอล `ObservableObject` การเปลี่ยนแปลงใดๆ ที่ทำกับค่าที่เผยแพร่จะทำให้มุมมองทั้งหมดที่ใช้ค่าเหล่านั้นอัปเดตโดยอัตโนมัติโดยสะท้อนให้เห็นการเปลี่ยนแปลงนั้น</string>
+				<key>Title</key>
+				<string>วัตถุที่สังเกตเห็นได้</string>
+			</dict>
+		</dict>
+		<key>observe</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ตรวจสอบ[การเปลี่ยนแปลงในสถานะ](glossary://state%20change)ของวัตถุ</string>
+				<key>Title</key>
+				<string>สังเกตการณ์</string>
+			</dict>
+		</dict>
+		<key>observed object</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ภายใน[มุมมอง](glossary://view) SwiftUI จะดูการเปลี่ยนแปลงที่เกิดขึ้นกับ[คุณสมบัติ](glossary://property)ใดๆ ที่ใช้[ตัวหุ้มคุณสมบัติ](glossary://property%20wrapper) `@ObservedObject` ถ้าค่าของคุณสมบัติเปลี่ยนไป SwiftUI จะอัปเดตมุมมอง
+
+ประเภทของคุณสมบัติวัตถุที่สังเกตการณ์จะต้อง[สอดคล้อง](glossary://conform)กับโปรโตคอล `ObservableObject`
+				</string>
+				<key>Title</key>
+				<string>วัตถุที่สังเกตการณ์</string>
+			</dict>
+		</dict>
+		<key>observer</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ในส่วนที่เกี่ยวกับ[วัตถุที่สังเกตเห็นได้](glossary://observable%20object) ตัวสังเกตการณ์คือมุมมองหรือวัตถุที่ใช้ข้อมูลของวัตถุที่สังเกตเห็นได้ เมื่อข้อมูลวัตถุที่สังเกตเห็นได้เปลี่ยนแปลง SwiftUI จะรู้จำการเปลี่ยนแปลงนั้นแล้วสั่งให้ตัวสังเกตการณ์อัปเดต</string>
+				<key>Title</key>
+				<string>ตัวสังเกตการณ์</string>
+			</dict>
+		</dict>
+		<key>operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>สัญลักษณ์ เช่น `+`, `-` หรือ `&amp;&amp;` ที่แสดงถึงการทำงานกับค่าตั้งแต่หนึ่งค่าขึ้นไป ตัวอย่างเช่น ใน `1 + 2` ตัวดำเนินการบวก (`+`) จะบวกตัวเลข `1` กับ `2`</string>
+				<key>Title</key>
+				<string>ตัวดำเนินการ</string>
+			</dict>
+		</dict>
+		<key>optional</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ประเภทที่แสดงถึงค่าที่ถูกห่อหุ้ม หรือไม่มีค่าใดๆ ประเภทแบบตัวเลือกโดยปกติจะแสดงด้วยเครื่องหมายคำถาม (`?`) ต่อท้าย
+				
+ตัวอย่างเช่น ตัวแปรประเภท `Int?` อาจมีค่า `Int` ที่ถูกห่อหุ้มเป็น `-43` หรือ `6` หรือค่าอาจเป็น `nil` ซึ่งในกรณีนี้ไม่มีค่าที่กำหนด</string>
+				<key>Title</key>
+				<string>ไม่บังคับ</string>
+			</dict>
+		</dict>
+		<key>outer loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>บล็อกของโค้ด (loop) ที่ซ้ำกัน ซึ่งมี (inner) loop อื่นอยู่ภายใน</string>
+				<key>Title</key>
+				<string>outer loop</string>
+			</dict>
+		</dict>
+		<key>overfitting</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ในการเรียนรู้ของเครื่อง คือผลผลิตของโมเดลที่มีความสอดคล้องใกล้ชิดกับชุดข้อมูลบางชุดมากเกินไป 
+
+ตัวอย่างเช่น หากโมเดลของคุณเป็น[ตัวจัดประเภท](glossary://classification)ที่ตรวจจับภาพของสัตว์เลี้ยงลูกด้วยนมและ[ชุดข้อมูลการฝึก](glossary://training%20dataset)ของคุณมีเพียงภาพของสุนัข โมเดลจะ overfit เพื่อให้รู้จำสุนัขจนละเลยสัตว์เลี้ยงลูกด้วยนมอื่นๆ เช่น กระต่ายหรือกวาง</string>
+				<key>Title</key>
+				<string>Overfitting</string>
+			</dict>
+		</dict>
+		<key>parameter</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ค่าที่ใช้เพื่อกำหนดลักษณะการทำงานของ[ฟังก์ชั่น](glossary://function) เมื่อคุณ[เรียกใช้](glossary://call)ฟังก์ชั่น คุณสามารถส่งผ่านค่าอื่นๆ เพื่อเปลี่ยนลักษณะการทำงานได้
+
+ในฟังก์ชั่นด้านล่าง `distance` คือพารามิเตอร์ที่ยอมรับค่าประเภท `Int`:
+```
+func move(distance: Int) { 
+	for i in 1...distance { 
+		moveForward()
+	}
+}
+```
+ค่าพารามิเตอร์ (`distance`) สามารถใช้ในเนื้อหาของฟังก์ชั่นเพื่อส่งผลต่อลักษณะการทำงานของฟังก์ชั่นได้ ในกรณีนี้ คุณสามารถเรียกใช้ฟังก์ชั่นนี้ด้วยค่าจำนวนเต็มอื่นๆ ได้ เช่น `move(distance: 2)` หรือ `move(distance: 5)` เพื่อไปยังระยะทางที่แตกต่างกัน</string>
+				<key>Title</key>
+				<string>พารามิเตอร์</string>
+			</dict>
+		</dict>
+		<key>pass in</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ให้ค่ากับหนึ่งใน[พารามิเตอร์](glossary://parameter)ของฟังก์ชั่น 
+
+ในตัวอย่างด้านล่าง โค้ดจะส่งผ่านค่า "สวัสดี" ไปยังพารามิเตอร์ `text`
+```
+speak(text: "สวัสดี")
+```</string>
+				<key>Title</key>
+				<string>ส่งผ่าน</string>
+			</dict>
+		</dict>
+		<key>pattern</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ชุดของข้อกำหนดหรือข้อมูลที่ซ้ำกัน</string>
+				<key>Title</key>
+				<string>รูปแบบ</string>
+			</dict>
+		</dict>
+		<key>persistence</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>กระบวนการการจัดเก็บข้อมูลผู้ใช้เพื่อให้สามารถโหลดซ้ำได้ทุกครั้งที่เปิดใช้แอป ถ้าไม่มีการเก็บรักษา สถานะและข้อมูลของแอปของคุณจะรีเซ็ตทุกครั้งที่เปิดใช้แอปใหม่</string>
+				<key>Title</key>
+				<string>การเก็บรักษา</string>
+			</dict>
+		</dict>
+		<key>pi</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>พาย (π) เป็นค่าคงตัวทางคณิตศาสตร์ที่มีค่าประมาณ 3.14 ค่านี้เป็นอัตราส่วนระหว่างเส้นรอบวงและเส้นผ่านศูนย์กลางของวงกลม</string>
+				<key>Title</key>
+				<string>พาย</string>
+			</dict>
+		</dict>
+		<key>pitch</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>การวัดการหมุนหรือความเอียงของอุปกรณ์ไปทางขวาและซ้ายเมื่ออุปกรณ์อยู่ในแนวนอน   ในทางคณิตศาสตร์ pitch คือการหมุนรอบแกน x ของอุปกรณ์ ซึ่งมีหน่วยวัดเป็นเรเดียนและมีช่วงตั้งแต่ `-π/2` ถึง `π/2`</string>
+				<key>Title</key>
+				<string>ความลาดเอียง</string>
+			</dict>
+		</dict>
+		<key>pitch audio</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ระดับเสียงสูงต่ำของเสียงขึ้นอยู่กับความถี่การสั่นของคลื่นเสียง ยิ่งมีการสร้างคลื่นเสียงระหว่างช่วงเวลาที่ระบุมากเท่าใด ระดับเสียงก็ยิ่งสูงเท่านั้น 
+					ในเพลง ระดับเสียงสูงต่ำอธิบายว่าโน้ตมีเสียง "ต่ำ" หรือ "สูง" ตัวอย่างเช่น เสียงนกร้องแสดงถึงเสียงสูง ส่วนเสียงทุ้มของสิงโตคำรามสร้างระดับเสียงต่ำ</string>
+				<key>Title</key>
+				<string>ระดับเสียงสูงต่ำ</string>
+			</dict>
+		</dict>
+		<key>placeholder view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>มุมมองที่แสดงขึ้นชั่วคราวเพื่อบ่งบอกว่าเนื้อหาสุดท้ายจะโหลดหรือป้อนที่ใด ตัวอย่างเช่น `ProgressView` ที่ใช้เพื่อแสดงภาพการโหลด หรือสี่เหลี่ยมสีเทาที่อาจมีการป้อนข้อความ</string>
+				<key>Title</key>
+				<string>มุมมองที่พัก</string>
+			</dict>
+		</dict>
+		<key>prediction</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ในการเรียนรู้ของเครื่อง การคาดคะเนคือ output ของโมเดลการเรียนรู้ของเครื่องเมื่อป้อน input
+
+ตัวอย่างเช่น โกลเด้นรีทรีฟเวอร์อาจเป็นการคาดคะเนที่ถูกต้องจากโมเดลการเรียนรู้ของเครื่องที่ได้รับการฝึกให้รู้จำสุนัขพันธุ์ต่างๆ</string>
+				<key>Title</key>
+				<string>การคาดคะเน</string>
+			</dict>
+		</dict>
+		<key>private</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>คำสำคัญ private ทำให้โค้ดใช้ได้เฉพาะภายในไฟล์ต้นทางที่เจาะจงเท่านั้น
+- callout(ตัวอย่าง):
+`private class MyApp: App { }`</string>
+				<key>Title</key>
+				<string>private</string>
+			</dict>
+		</dict>
+		<key>property</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ตัวแปร (คอนเทนเนอร์ที่มีชื่อและจัดเก็บค่า) ที่มีการกำหนดภายใน[ประเภท](glossary://type)
+
+คุณสามารถเข้าถึงคุณสมบัติได้ผ่าน[ชื่อแทนประเภท](glossary://instance)ของประเภทโดยใช้[จุด](glossary://dot%20notation) ในโค้ดด้านล่าง `isFacingHole` คือคุณสมบัติของประเภท `Hopper`
+```
+if hopper.isFacingHole { 
+	// โค้ด 
+}
+```</string>
+				<key>Title</key>
+				<string>คุณสมบัติ</string>
+			</dict>
+		</dict>
+		<key>property wrapper</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ตัวหุ้มคุณสมบัติเป็นวิธีง่ายๆ ในการปรับใช้รูปแบบการทำงานทั่วไปกับคุณสมบัติ ตัวหุ้มนี้เป็นวิธีการใส่คำอธิบายประกอบให้กับคุณสมบัติที่กำหนดวิธีการที่จะจัดเก็บหรือคำนวณคุณสมบัติเมื่ออ่าน   ตัวอย่างเช่น ตัวหุ้มคุณสมบัติ `@State` แจ้งให้ SwiftUI จัดการพื้นที่จัดเก็บข้อมูลสำหรับค่า และให้อัปเดตส่วนต่างๆ ของมุมมองที่ใช้ค่านั้น เมื่อใดก็ตามที่ค่านั้นเปลี่ยนแปลง</string>
+				<key>Title</key>
+				<string>ตัวหุ้มคุณสมบัติ</string>
+			</dict>
+		</dict>
+		<key>protocol</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ชุดของข้อกำหนด เช่น วิธีการและคุณสมบัติ ที่สามารถรับมาใช้ได้ (หรือติดตาม) โดยประเภท เช่น คลาส โครงสร้าง หรือการกำหนดตัวแปรขึ้นมาใช้เอง   เมื่อประเภทรับโปรโตคอลมาใช้ ประเภทจะระบุการใช้งานของตัวเองสำหรับข้อกำหนดของโปรโตคอล และระบุว่าสอดคล้องกับโปรโตคอลนั้น</string>
+				<key>Title</key>
+				<string>โปรโตคอล</string>
+			</dict>
+		</dict>
+		<key>pseudocode</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>คำอธิบายอัลกอริทึมที่อ่านได้ง่าย ซึ่งปกติจะเขียนโดยใช้ภาษาและโค้ดที่ใช้ในชีวิตประจำวัน</string>
+				<key>Title</key>
+				<string>ซูโดโค้ด</string>
+			</dict>
+		</dict>
+		<key>public</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>คำสำคัญ public ทำให้โค้ดใช้ได้กับทุกไฟล์ในโปรเจ็กต์ของคุณ
+                        
+- callout(ตัวอย่าง):
+`public func decorateWithSticker(space: Space) { }`
+                    </string>
+				<key>Title</key>
+				<string>public</string>
+			</dict>
+		</dict>
+		<key>publish</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ถ่ายทอดการแจ้งเตือนไปยัง[ตัวสังเกตการณ์](glossary://observer)ทั้งหมดของ[วัตถุที่สังเกตเห็นได้](glossary://observable%20object)เมื่อค่าของ[คุณสมบัติที่ถูกเผยแพร่](glossary://published%20value)ที่ระบุไว้เปลี่ยนไป</string>
+				<key>Title</key>
+				<string>เผยแพร่</string>
+			</dict>
+		</dict>
+		<key>published value</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>เพิ่ม[ตัวหุ้มคุณสมบัติ](glossary://property%20wrapper) `@Published` เพื่อประกาศคุณสมบัติที่แจ้งเตือน[ตัวสังเกตการณ์](glossary://observer)ทั้งหมดเมื่อค่ากำลังจะเปลี่ยนแปลง เมื่อค่าเปลี่ยนแปลง SwiftUI จะอัปเดตมุมมองทั้งหมดที่ใช้ข้อมูล</string>
+				<key>Title</key>
+				<string>ค่าที่เผยแพร่</string>
+			</dict>
+		</dict>
+		<key>radians</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>เรเดียนเป็นหน่วยวัดสำหรับมุมเช่นเดียวกับองศา มุมในหน่วยเรเดียนจะเท่ากับอัตราส่วนของความยาวส่วนโค้งและรัศมีของวงกลมที่วาดรอบมุมนั้น หนึ่งเรเดียนเท่ากับ 180 องศาหารด้วย[พาย](glossary://pi)</string>
+				<key>Title</key>
+				<string>เรเดียน</string>
+			</dict>
+		</dict>
+		<key>range</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ช่วงระหว่าง[ขอบเขตล่าง](glossary://lower%20bound)และ[ขอบเขตบน](glossary://upper%20bound) 
+
+การสร้างช่วงสามารถทำได้หลายวิธี ซึ่งรวมถึง[ช่วงแบบปิด](glossary://closed%20range)และ[ช่วงครึ่งเปิด](glossary://half%20open%20range)
+
+```
+let closedRange = 1...4 
+for i in closedRange { 
+	print(i) // 1 2 3 4
+}
+
+let halfOpenRange = 1..&lt;4 
+for i in halfOpenRange { 
+	print(i) // 1 2 3
+}
+```</string>
+				<key>Title</key>
+				<string>ช่วง</string>
+			</dict>
+		</dict>
+		<key>reference type</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>เมื่อคุณสร้าง[ชื่อแทนประเภท](glossary://instance)ของประเภทการอ้างอิง เช่น คลาสหรือนักแสดง ข้อมูลจะจัดเก็บอยู่ในหน่วยความจำที่ใช้ร่วมกัน ชื่อแทนประเภทจึงมีเฉพาะการอ้างอิงไปยังข้อมูลแทนที่จะมีสำเนาที่มีลักษณะเฉพาะของข้อมูลนั้น ถ้าคุณ[กำหนดค่า](glossary://assignment)ชื่อแทนประเภทไปยังตัวแปรหรือส่งผ่านเป็น[อาร์กิวเมนต์](glossary://argument)ไปยังฟังก์ชั่น Swift จะสร้างการอ้างอิงอื่นไปยังข้อมูลเดียวกัน
+
+ชื่อแทนประเภทจะถูกคัดลอกด้วยการอ้างอิงที่แสดงในตัวอย่างด้านล่าง:
+
+```
+class Bicycle {
+  var color: Color
+   init(color: Color) {
+     self.color = color
+   }
+}
+
+var redBike = Bicycle(color: .red)
+var blueBike = redBike
+blueBike.color = .blue
+print(redBike.color) // =&gt; blue
+print(blueBike.color) // =&gt; blue
+// redBike และ blueBike จะใช้การอ้างอิงร่วมกันไปยังข้อมูลเดียวกัน
+```</string>
+				<key>Title</key>
+				<string>ประเภทการอ้างอิง</string>
+			</dict>
+		</dict>
+		<key>responsive</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>โค้ดหรืออินเทอร์เฟซของคุณจะตอบสนองเร็วหากมีปฏิกิริยาตอบกลับอย่างรวดเร็วต่อ[การโต้ตอบของผู้ใช้](glossary://user%20interaction) หรือปรับตัวได้อย่างเหมาะสมต่อการเปลี่ยนแปลงในสภาพแวดล้อม เช่น การเปลี่ยนแปลงขนาดของมุมมอง</string>
+				<key>Title</key>
+				<string>ตอบสนองเร็ว</string>
+			</dict>
+		</dict>
+		<key>return</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ส่งกลับค่าไปยังผู้เรียกใช้[ฟังก์ชั่น](glossary://function) ตัวอย่างเช่น ฟังก์ชั่น `contains(3)` เมื่อรันบนอาร์เรย์ `[0,1,2]` จะคืนค่าบูลีนเป็น `false` เนื่องจากอาร์เรย์ไม่มีค่า `3`</string>
+				<key>Title</key>
+				<string>คืนค่า</string>
+			</dict>
+		</dict>
+		<key>return type</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>เมื่อคุณกำหนดฟังก์ชั่น คุณสามารถเลือกที่จะกำหนดประเภทของค่าที่ฟังก์ชั่นจะส่งกลับเป็น output เมื่อทำเสร็จได้ ซึ่งเรียกว่าประเภทของการคืนค่า</string>
+				<key>Title</key>
+				<string>ประเภทของการคืนค่า</string>
+			</dict>
+		</dict>
+		<key>reusability</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ลักษณะเฉพาะของโค้ดที่ทำให้สามารถใช้โค้ดได้ในสถานการณ์ที่แตกต่างกันภายในแอปพลิเคชัน</string>
+				<key>Title</key>
+				<string>ความสามารถในการนำมาใช้ใหม่</string>
+			</dict>
+		</dict>
+		<key>roll</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>การวัดการหมุนหรือความเอียงของอุปกรณ์ไปข้างหน้าและข้างหลังเมื่ออุปกรณ์อยู่ในแนวนอน   ในทางคณิตศาสตร์ นี่เป็นการหมุนรอบแกน y ของอุปกรณ์ ซึ่งมีหน่วยวัดเป็นเรเดียนและมีช่วงตั้งแต่ `-π` ถึง `π`</string>
+				<key>Title</key>
+				<string>roll</string>
+			</dict>
+		</dict>
+		<key>root view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>มุมมองที่มุมมองอื่นๆ ทั้งหมดถูกวางไว้ หรือที่เรียกว่า[มุมมองระดับบนสุด](glossary://top-level%20view) มุมมองนี้จะอยู่ที่ด้านบนสุดของ[ลำดับชั้นมุมมอง](glossary://view%20hierarchy)และทำหน้าที่เป็น[มุมมองคอนเทนเนอร์](glossary://container)ของ[มุมมองย่อย](glossary://subview)ทั้งหมดในลำดับชั้น</string>
+				<key>Title</key>
+				<string>มุมมองราก</string>
+			</dict>
+		</dict>
+		<key>rubber ducky method</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>วิธีการเรียนรู้ที่คุณอธิบายแนวคิดอย่างละเอียดกับวัตถุที่ไม่มีชีวิต เช่น ตุ๊กตาเป็ดยาง ในการใช้เทคนิคนี้ ให้หาวัตถุที่ไม่มีชีวิตแล้วเริ่มอธิบายแนวคิดออกมาดังๆ ตรวจสอบให้แน่ใจว่าได้ให้ข้อมูลทั้งหมดที่จำเป็นเพื่อให้เป็ดน้อยเข้าใจ ในระหว่างที่คุณอธิบาย ถ้าคุณนึกขึ้นได้ว่ามีข้อมูลที่ขาดหายไป ให้จดโน้ตไว้เพื่อค้นหาข้อมูลในภายหลัง คุณสามารถเพิ่มข้อมูลใหม่ที่คุณค้นพบในการอธิบายครั้งต่อๆ ไปกับตุ๊กตาเป็ดยางได้</string>
+				<key>Title</key>
+				<string>วิธีการตุ๊กตาเป็ดยาง</string>
+			</dict>
+		</dict>
+		<key>saturation</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ความเข้มข้นของสีสัน จากโทนสีเทาไปจนถึงเต็มไปด้วยสีสัน ความอิ่มตัวจะเป็นค่า Double (เลขทศนิยม) ตั้งแต่ `0` ถึง `1`</string>
+				<key>Title</key>
+				<string>ความอิ่มตัว</string>
+			</dict>
+		</dict>
+		<key>scope</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>พื้นที่ของโปรเจ็กต์ที่คุณสามารถเข้าถึงค่าหรือประเภทได้ แม้ว่าสัญลักษณ์ที่กำหนดที่[ขอบเขตภายนอก](glossary://global%20scope)จะสามารถเข้าถึงได้ด้วยไฟล์ใดๆ ใน[โมดูล](glossary://module) สัญลักษณ์ที่กำหนดที่[ขอบเขตภายใน](glossary://local%20scope)จะมีอยู่ในโค้ดที่ระดับขอบเขตภายในเดียวกันหรือระดับขอบเขตภายในที่ต่ำกว่า</string>
+				<key>Title</key>
+				<string>ขอบเขต</string>
+			</dict>
+		</dict>
+		<key>sensor</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>เซ็นเซอร์คืออุปกรณ์ที่ตรวจจับอีเวนต์ต่างๆ เช่น การเปลี่ยนแปลงความร้อน แสง เสียง หรือความเคลื่อนไหว และจะส่งคืนค่ากลับมา</string>
+				<key>Title</key>
+				<string>เซ็นเซอร์</string>
+			</dict>
+		</dict>
+		<key>sequence</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>รายการของค่าที่คุณสามารถข้ามผ่านได้ทีละครั้งโดยใช้[การทำซ้ำ](glossary://iteration)
+
+คุณสามารถใช้ `for`-`in` loop เพื่อทำซ้ำลำดับได้ เช่น อาร์เรย์ `healthySnacks` ในตัวอย่างต่อไปนี้:
+```
+let healthySnacks = ["apple", "pear", "banana"]
+for snack in healthySnacks {
+	eat(snack)
+}
+```</string>
+				<key>Title</key>
+				<string>ลำดับ</string>
+			</dict>
+		</dict>
+		<key>source of truth</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>อยู่ในการสร้างแอปโดยเป็นตำแหน่งที่ตั้งเดียวที่มีการแก้ไขข้อมูลทั้งหมด การเชื่อมต่ออื่นๆ ทั้งหมดกับข้อมูลนี้เป็นเพียงการอ้างอิงเท่านั้นซึ่งป้องกันการทำสำเนาข้อมูลในตำแหน่งที่ตั้งอื่น </string>
+				<key>Title</key>
+				<string>แหล่งข้อมูลจริง</string>
+			</dict>
+		</dict>
+		<key>speech synthesis</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>การสร้างเสียงด้วยคอมพิวเตอร์ที่คล้ายคลึงกับเสียงพูดของมนุษย์ ซึ่งโดยปกติสร้างขึ้นจากข้อความ</string>
+				<key>Title</key>
+				<string>การสังเคราะห์เสียงพูด</string>
+			</dict>
+		</dict>
+		<key>state</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ข้อมูลที่จัดเก็บอยู่ในตัวแปร แอปพลิเคชัน หรือระบบในเวลาที่กำหนด ตัวอย่างเช่น ถ้าตัวแปร `level` มีค่าเป็น `4` สถานะปัจจุบันของตัวแปรคือ `4`</string>
+				<key>Title</key>
+				<string>สถานะ</string>
+			</dict>
+		</dict>
+		<key>state change</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>การเปลี่ยนแปลงข้อมูลที่จัดเก็บอยู่ในตัวแปร แอปพลิเคชัน หรือระบบ ตัวอย่างเช่น ถ้าค่าของตัวแปร `level` เปลี่ยนจาก `4` เป็น `5` แสดงว่าสถานะของตัวแปรได้เปลี่ยนแปลงไป</string>
+				<key>Title</key>
+				<string>การเปลี่ยนแปลงสถานะ</string>
+			</dict>
+		</dict>
+		<key>state object</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>เพิ่ม[ตัวหุ้มคุณสมบัติ](glossary://property%20wrapper) `@StateObject` เพื่อประกาศวัตถุสถานะและระบุค่าเริ่มต้นที่สอดคล้องกับ[โปรโตคอล](glossary://protocol) `ObservableObject` SwiftUI จัดการพื้นที่จัดเก็บข้อมูลสำหรับวัตถุสถานะและอัปเดตมุมมองย่อยทั้งหมดที่ใช้ค่านั้นตลอดเวลาที่ค่าที่เผยแพร่เปลี่ยนแปลง</string>
+				<key>Title</key>
+				<string>วัตถุสถานะ</string>
+			</dict>
+		</dict>
+		<key>state property</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>เพิ่ม `@State` ก่อน[คุณสมบัติ](glossary://property)ของมุมมองเพื่อบอก SwiftUI ให้จัดการพื้นที่จัดเก็บข้อมูลสำหรับค่า เมื่อค่าเปลี่ยนแปลง SwiftUI จะอัปเดตส่วนใดๆ ของมุมมองที่ใช้ค่านั้น
+
+```
+@State var isOn = false
+```
+</string>
+				<key>Title</key>
+				<string>คุณสมบัติของค่า</string>
+			</dict>
+		</dict>
+		<key>state value</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>เพิ่ม `@State` ก่อนตัวแปรเพื่อบอก SwiftUI ให้จัดการพื้นที่จัดเก็บข้อมูลสำหรับค่า เมื่อค่าเปลี่ยนแปลง SwiftUI จะอัปเดตส่วนใดๆ ของมุมมองที่ใช้ค่านั้น</string>
+				<key>Title</key>
+				<string>ค่าสถานะ</string>
+			</dict>
+		</dict>
+		<key>statement</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>โครงสร้าง เช่น loop หรือชุดคำสั่ง `if` ที่จัดระเบียบโค้ดในแอปพลิเคชัน</string>
+				<key>Title</key>
+				<string>ชุดคำสั่ง</string>
+			</dict>
+		</dict>
+		<key>string component</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ส่วนหรือสตริงย่อยของสตริง หลังจากที่สตริงถูกแยกออกเป็นส่วนๆ ด้วยตัวแยกแล้ว ตัวอย่างเช่น ถ้าสตริง `"dog+cat+fish"` ถูกแยกออกด้วยตัวแยก `"+"` ส่วนประกอบผลลัพธ์ที่ออกมาก็จะเป็นสตริง `"dog"`, `"cat"` และ `"fish"`</string>
+				<key>Title</key>
+				<string>ส่วนประกอบสตริง</string>
+			</dict>
+		</dict>
+		<key>string concatenation</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>การปฏิบัติการของการรวมสตริงโดยการเพิ่มสตริงหนึ่งสตริงไปยังจุดสิ้นสุดของอีกสตริงหนึ่ง ตัวอย่างเช่น การเรียงต่อกันของ`"foot"` และ `"ball"` ก็คือ `"football"`</string>
+				<key>Title</key>
+				<string>การเรียงต่อกันของสตริง</string>
+			</dict>
+		</dict>
+		<key>string interpolation</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>การใช้ค่าคงที่ ตัวแปร หรือนิพจน์โค้ดภายในสตริงที่ยาวกว่านั้นก็เพื่อแทนที่ด้วยค่าปัจจุบันเมื่อประเมินสตริง ตัวอย่างเช่น ในสตริง `"Katy ate a \(fruit)."` ถ้า `fruit` คือตัวแปรของค่า `"peach"` ดังนั้น `\(fruit)` จะถูกแทนที่โดย `"peach"` เมื่อสตริงถูกหาค่า ซึ่งจะทำให้กลายเป็น `"Katy ate a peach."`</string>
+				<key>Title</key>
+				<string>การสอดแทรกสตริง</string>
+			</dict>
+		</dict>
+		<key>structure</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>โครงสร้างคือคอนเทนเนอร์สำหรับโค้ดที่ทำหน้าที่เหมือนแม่แบบสำหรับสร้าง[ชื่อแทนประเภท](glossary://instance)จำนวนมากของสิ่งของประเภทเดียวกัน เช่นเดียวกับที่พิมพ์เขียวต้องระบุคุณสมบัติและลักษณะการทำงานของวัตถุ เช่น จักรยาน โครงสร้างจะระบุสิ่งเหล่านี้เป็น[คุณสมบัติ](glossary://property)และ[วิธีการ](glossary://method)
+
+เมื่อคุณสร้างชื่อแทนประเภทของโครงสร้าง ชื่อแทนประเภทนั้นจะมีคุณสมบัติและวิธีการทั้งหมดที่กำหนดไว้ในแม่แบบของคุณ ชื่อแทนประเภททั้งหมดจะมีคุณสมบัติและวิธีการเหมือนกัน แต่คุณสามารถเปลี่ยนแปลงค่าของคุณสมบัติได้อย่างอิสระ ซึ่งทำให้คุณสามารถปรับแต่งชื่อแทนประเภทที่คุณสร้างหรือทำให้โครงสร้างเป็นชื่อแทนประเภทได้ ตัวอย่างเช่น โครงสร้างจักรยานอาจมีคุณสมบัติสี ซึ่งทำให้คุณสามารถสร้างจักรยานสีแดงหรือสีน้ำเงินได้
+
+โครงสร้างคล้ายกับ[คลาส](glossary://class) แต่จะแตกต่างกันในสองประการสำคัญ ได้แก่ โครงสร้างคือ[ประเภทค่า](glossary://value%20type)ซึ่งจะคัดลอกด้วยค่าเสมอ และโครงสร้างไม่รองรับการสืบทอดจากโครงสร้างอื่น
+
+```
+struct Bicycle { 
+	var color : Color 
+	var type : BikeCategory
+}
+```</string>
+				<key>Title</key>
+				<string>โครงสร้าง</string>
+			</dict>
+		</dict>
+		<key>subview</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>มุมมองที่มีอยู่ภายในมุมมอง[คอนเทนเนอร์](glossary://container) คอนเทนเนอร์สามารถมีมุมมองย่อยจำนวนเท่าใดก็ได้ โดยแต่ละมุมมองย่อยสามารถมีมุมมองย่อยของตัวเองได้ เป็นต้น มุมมองและโหนดลูกของมุมมองทั้งหมดประกอบขึ้นเป็น[ลำดับชั้นมุมมอง](glossary://view%20hierarchy)</string>
+				<key>Title</key>
+				<string>มุมมองย่อย</string>
+			</dict>
+		</dict>
+		<key>syntax</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>กฎสำหรับการเขียนโค้ดที่คอมพิวเตอร์สามารถเข้าใจและรันได้</string>
+				<key>Title</key>
+				<string>ไวยากรณ์</string>
+			</dict>
+		</dict>
+		<key>task</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>งานมีประโยชน์ในการจัดการหน่วยของงานที่ไม่ต่อเนื่องในแอปของคุณ เพื่อให้โค้ดของคุณสามารถทำสิ่งที่สำคัญต่อได้ เช่น การจัดการ UI เมื่อคุณสร้างงาน งานจะรันโค้ด[แบบอะซิงโครนัส](glossary://asynchronous%20process)เป็นส่วนหนึ่งของโปรแกรมของคุณ การทำเช่นนี้จะช่วยให้โค้ดที่เหลือดำเนินการอื่นต่อได้ ส่วนของโค้ดที่ต้องการข้อมูลจากงานนี้สามารถ `await` ผลของงานได้</string>
+				<key>Title</key>
+				<string>งาน</string>
+			</dict>
+		</dict>
+		<key>ternary conditional operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>วิธีทางชวเลขแบบพิเศษในการเขียนชุดคำสั่งเงื่อนไข [ตัวดำเนินการ](glossary://operator)มีสามส่วนซึ่งใช้รูปแบบ `condition ? trueValue : falseValue` ตัวดำเนินการนี้เหมือนกับ[ชุดคำสั่ง `if`](glossary://if%20statement) โดยจะคืนค่า `trueValue` หาก `condition` เป็น `true` และ `falseValue` หากเป็น `false` 
+
+ในโค้ดด้านล่าง ถ้า `isOn` เป็น `true` สี่เหลี่ยมจะเป็นสีเขียว ถ้า `isOn` เป็น `false` สี่เหลี่ยมจะเป็นสีแดง
+
+```
+Rectangle()
+     .foregroundColor(isOn ? .green : .red)
+```
+
+โค้ดด้านบนสามารถอ่านได้ว่า: ถ้าค่า `isOn` เป็น `true` จะคืนค่า `.green` ถ้าไม่ใช่ จะคืนค่า `.red`
+</string>
+				<key>Title</key>
+				<string>ตัวดำเนินการเงื่อนไขแบบสามส่วน</string>
+			</dict>
+		</dict>
+		<key>toolbar</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>แถบของไอคอนที่ใช้เพื่อดำเนินการทำงานบางอย่าง ปุ่มปรับค่าแถบเครื่องมือต้องมีคอลเลกชั่นของรายการแถบเครื่องมือที่คุณสามารถให้ได้โดยเพิ่มลงในคอลเลกชั่นของมุมมอง</string>
+				<key>Title</key>
+				<string>แถบเครื่องมือ</string>
+			</dict>
+		</dict>
+		<key>top-level view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>มุมมองที่มุมมองอื่นๆ ทั้งหมดถูกวางไว้ หรือที่เรียกว่า [มุมมองราก](glossary://root%20view) มุมมองนี้จะอยู่ที่ด้านบนสุดของ[ลำดับชั้นมุมมอง](glossary://view%20hierarchy)และทำหน้าที่เป็น[มุมมองคอนเทนเนอร์](glossary://container)ของ[มุมมองย่อย](glossary://subview)ทั้งหมดในลำดับชั้น</string>
+				<key>Title</key>
+				<string>มุมมองระดับบนสุด</string>
+			</dict>
+		</dict>
+		<key>trailing edge</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>เมื่อใช้ในการอ้างอิงถึงเนื้อหาภายในมุมมอง ขอบด้านหลังจะหมายถึงตำแหน่งในแนวนอนของจุดสิ้นสุดของเนื้อหา ตำแหน่งของขอบด้านหลังจะขึ้นอยู่กับการตั้งค่าของคุณ และโดยปกติแล้วจะอิงตามการตั้งค่าตำแหน่งที่ตั้งและภาษาของคุณ
+                    ตัวอย่างเช่น ภาษาที่อ่านจากซ้ายไปขวา เช่น อังกฤษหรือดัตช์ ขอบด้านหลังจะอยู่ทางด้านขวา ส่วนภาษาที่อ่านจากขวาไปซ้าย เช่น อาหรับหรือฮีบรู ขอบด้านหลังจะอยู่ทางด้านซ้าย</string>
+				<key>Title</key>
+				<string>ขอบด้านหลัง</string>
+			</dict>
+		</dict>
+		<key>training</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ในการเรียนรู้ของเครื่อง คือกระบวนการที่อัลกอริทึมการเรียนรู้ของเครื่องเรียนรู้จากชุดข้อมูล
+
+ในการเรียนรู้แบบมีผู้สอน โมเดลจะพยายามสร้างความสัมพันธ์ทางคณิตศาสตร์ที่แม่นยำที่สุดระหว่างคุณสมบัติข้อมูลและป้ายสำหรับข้อมูลนั้น ในการเรียนรู้แบบไม่มีผู้สอน โมเดลจะพยายามค้นหาความสัมพันธ์ระหว่างคุณสมบัติข้อมูลด้วยตัวเอง</string>
+				<key>Title</key>
+				<string>การฝึก</string>
+			</dict>
+		</dict>
+		<key>training dataset</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>คอลเลกชั่นของข้อมูลที่โมเดลการเรียนรู้ของเครื่องใช้[ฝึก](glossary://training)ตัวเองเพื่อสร้าง[การคาดคะเน](glossary://prediction)</string>
+				<key>Title</key>
+				<string>ชุดข้อมูลการฝึก</string>
+			</dict>
+		</dict>
+		<key>type</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>การจัดกลุ่มแบบมีชื่อสำหรับคุณสมบัติ (คุณสมบัติเด่น) และวิธีการ (ลักษณะการทำงาน) ของข้อมูลชนิดหนึ่ง
+
+ประเภทคือวิธีหนึ่งในการสร้างชุดของฟังก์ชั่นการทำงานที่เกี่ยวข้องกันเพื่อให้สามารถเข้าถึงได้ง่ายขึ้น
+
+```
+struct Person { 
+	var name : Int
+	var age : String 
+
+	func greet() { 
+		print("สวัสดี เพื่อน!")
+	}
+}
+```</string>
+				<key>Title</key>
+				<string>ประเภท</string>
+			</dict>
+		</dict>
+		<key>typography</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ศิลปะและเทคนิคของการจัดเรียงค่าประเภทเพื่อทำให้ภาษาที่เขียนถูกต้อง อ่านได้ และดูสวยงามเมื่อถูกแสดง</string>
+				<key>Title</key>
+				<string>ตัวพิมพ์</string>
+			</dict>
+		</dict>
+		<key>unwrap</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>แยกค่าที่ถูกห่อหุ้มจาก[ชื่อแทนประเภท](glossary://instance)ของประเภท[แบบตัวเลือก](glossary://optional) 
+				
+วิธีทั่วไปในการคลายค่าในรายการแบบตัวเลือกคือการใช้ `if`-`let`:
+```
+var count: Int? = 48
+if let unwrappedCount = count {
+	print(unwrappedCount)
+} else {
+	print("count has no value")
+}
+```</string>
+				<key>Title</key>
+				<string>คลาย</string>
+			</dict>
+		</dict>
+		<key>upper bound</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ค่าสุดท้ายที่นับขึ้นไปถึงใน[ช่วง](glossary://range%20value)
+
+```
+let closedRange = 1...5 // ขอบเขตล่างคือ 1 ขอบเขตบนคือ 5
+for i in closedRange { 
+	print(i) // 1 2 3 4 5
+}
+```</string>
+				<key>Title</key>
+				<string>ขอบเขตบน</string>
+			</dict>
+		</dict>
+		<key>user</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ผู้ที่ใช้แอปของคุณ</string>
+				<key>Title</key>
+				<string>ผู้ใช้</string>
+			</dict>
+		</dict>
+		<key>user input</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ข้อมูลที่แอปพลิเคชันได้รับจากการปฏิสัมพันธ์กับผู้ใช้ เช่น จากการที่ผู้ใช้แตะหน้าจอ ป้อนข้อความด้วยแป้นพิมพ์ หรือพูดเข้าไปในไมโครโฟน 
+</string>
+				<key>Title</key>
+				<string>input ของผู้ใช้</string>
+			</dict>
+		</dict>
+		<key>user interaction</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>การทำงานที่[ผู้ใช้](glossary://user)ทำโดยใช้แอปของคุณ การแตะปุ่ม การปัดไปทางซ้ายบนหน้าจอ การหมุนอุปกรณ์ การเลือกสีจาก `ColorPicker` และการป้อนอักขระลงในช่องข้อความต่างก็เป็นตัวอย่างของการโต้ตอบของผู้ใช้</string>
+				<key>Title</key>
+				<string>การโต้ตอบของผู้ใช้</string>
+			</dict>
+		</dict>
+		<key>user interface</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>วิธีการที่ผู้ใช้ควบคุมแอป ซึ่งเรียกอีกอย่างว่า "UI" คำนี้มักใช้เพื่ออ้างอิงถึงส่วนที่มองเห็นได้ของแอปที่ผู้ใช้โต้ตอบด้วย โดยมีองค์ประกอบต่างๆ เช่น ภาพ ข้อความ ปุ่ม แถบเลื่อน มุมมองแถบเลื่อน และอื่นๆ</string>
+				<key>Title</key>
+				<string>อินเทอร์เฟซผู้ใช้</string>
+			</dict>
+		</dict>
+		<key>validation dataset</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ตัวอย่างของข้อมูลที่ระงับจาก[ชุดข้อมูลการฝึก](glossary://training%20dataset)ของโมเดลการเรียนรู้ของเครื่องของคุณ โมเดลจะใช้ชุดข้อมูลการตรวจสอบเพื่อประเมินว่าการคาดคะเนแม่นยำเพียงใด</string>
+				<key>Title</key>
+				<string>ชุดข้อมูลการตรวจสอบ</string>
+			</dict>
+		</dict>
+		<key>value type</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>เมื่อคุณสร้าง[ชื่อแทนประเภท](glossary://instance)ของประเภทค่า เช่น [โครงสร้าง](glossary://structure) ข้อมูลของชื่อแทนประเภทจะจัดเก็บอยู่ในชื่อแทนประเภท ถ้าคุณ[กำหนดค่า](glossary://assignment)ชื่อแทนประเภทไปยังตัวแปรหรือส่งผ่านเป็น[อาร์กิวเมนต์](glossary://argument)ไปยังฟังก์ชั่น Swift จะสร้างชื่อแทนประเภทใหม่ที่มีสำเนาอิสระของข้อมูลดังกล่าว
+
+ชื่อแทนประเภทจะถูกคัดลอกด้วยค่าที่แสดงในตัวอย่างด้านล่าง:
+
+```
+struct Bicycle {
+  var color: Color
+}
+
+var redBike = Bicycle(color: .red)
+var blueBike = redBike
+blueBike.color = .blue
+print(redBike.color) // =&gt; red
+print(blueBike.color) // =&gt; blue
+// redBike และ blueBike ต่างก็มีสำเนาข้อมูลของตัวเอง
+```</string>
+				<key>Title</key>
+				<string>ประเภทค่า</string>
+			</dict>
+		</dict>
+		<key>variable</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>คอนเทนเนอร์ที่มีชื่อและจัดเก็บค่าที่สามารถเปลี่ยนแปลงได้
+
+ตัวแปรสามารถจัดเก็บค่า[ประเภท](glossary://type)ต่างๆ ได้ เช่น [จำนวนเต็ม](glossary://Int) [สตริง](glossary://String) และ[ช่วง](glossary://range) 
+```
+var favoriteNumber = 7 // จัดเก็บจำนวนเต็ม
+var greeting = "Hello" // จัดเก็บสตริง
+var repetitions = 1...5 // จัดเก็บช่วง
+```
+</string>
+				<key>Title</key>
+				<string>ตัวแปร</string>
+			</dict>
+		</dict>
+		<key>velocity</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ความเร็วของสิ่งใดสิ่งหนึ่งในทิศทางที่กำหนด</string>
+				<key>Title</key>
+				<string>อัตราเร็ว</string>
+			</dict>
+		</dict>
+		<key>view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>มุมมองเป็นองค์ประกอบหลักของอินเทอร์เฟซผู้ใช้ของแอปของคุณ และแสดงถึงส่วนที่มองเห็นได้ที่[สอดคล้อง](glossary://conform)กับ[โปรโตคอล](glossary://protocol) `View`
+
+ตัวอย่างส่วนหนึ่งของมุมมองใน SwiftUI ได้แก่ มุมมองข้อความ มุมมองภาพ แถบเลื่อน ตาราง ปุ่ม และรูปร่าง</string>
+				<key>Title</key>
+				<string>มุมมอง</string>
+			</dict>
+		</dict>
+		<key>view hierarchy</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>โครงสร้างที่กำหนดเค้าโครงของมุมมองที่สัมพันธ์กับมุมมองอื่น ซึ่งอ้างอิงถึงชื่อแทนประเภทของมุมมองระดับบนสุดที่อยู่ด้านบนสุดของลำดับชั้น มุมมองระดับบนสุดอาจมีมุมมองย่อยจำนวนเท่าใดก็ได้ โดยแต่ละมุมมองอาจมีมุมมองรายการย่อยของตัวเอง เป็นต้น</string>
+				<key>Title</key>
+				<string>ลำดับชั้นมุมมอง</string>
+			</dict>
+		</dict>
+		<key>volume</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>ระดับเสียงคือความดังของเสียงที่ตรวจพบโดย[เซ็นเซอร์](glossary://sensor) มีช่วงอยู่ที่ระหว่าง 0 ถึง 1</string>
+				<key>Title</key>
+				<string>ระดับเสียง</string>
+			</dict>
+		</dict>
+		<key>while loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>บล็อกของโค้ดที่จะรันตราบใดที่เงื่อนไขที่กำหนดเป็น `true` เมื่อเงื่อนไขเปลี่ยนเป็น `false` แล้ว loop นั้นจะหยุดรัน</string>
+				<key>Title</key>
+				<string>while loop</string>
+			</dict>
+		</dict>
+		<key>wireframe</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>เค้าโครงของวัตถุ เช่น เพชร สวิตช์ หรือบล็อก ในโลกปริศนา โดยจะมีการใช้ไวร์เฟรมเพื่อระบุความเป็นไปได้ที่วัตถุจะแสดงในลักษณะสุ่มทุกๆ ครั้งที่มีการรันปริศนา</string>
+				<key>Title</key>
+				<string>ไวร์เฟรม</string>
+			</dict>
+		</dict>
+		<key>yaw</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>การวัดการหมุนรอบจุดศูนย์กลางของอุปกรณ์เมื่ออุปกรณ์วางอยู่บนพื้นผิวที่เรียบ   ในทางคณิตศาสตร์ นี่เป็นการหมุนรอบแกน z ของอุปกรณ์ ซึ่งมีหน่วยวัดเป็นเรเดียนและมีช่วงตั้งแต่ `-π` ถึง `π`</string>
+				<key>Title</key>
+				<string>yaw</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

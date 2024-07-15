@@ -1,0 +1,2676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>Alpha</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Alpha hoặc *kênh alpha*, liên quan đến độ mờ của một màu sắc, có giá trị từ `0` (trong suốt hoàn toàn) đến `1` (mờ hoàn toàn). Dữ liệu alpha là một double (số thập phân) có giá trị từ 0 đến 1.</string>
+				<key>Title</key>
+				<string>alpha</string>
+			</dict>
+		</dict>
+		<key>Boolean</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một kiểu có giá trị là `true` hoặc `false`. Ví dụ: `9 &lt; 7` trả về giá trị Boolean là `false` vì `9` không nhỏ hơn `7`.
+```
+var isRunning = false
+```</string>
+				<key>Title</key>
+				<string>Boolean</string>
+			</dict>
+		</dict>
+		<key>Double</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một kiểu chứa các số có thành phần phân số; ví dụ 3,14.</string>
+				<key>Title</key>
+				<string>Double</string>
+			</dict>
+		</dict>
+		<key>ForEach</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một cấu trúc [lặp lại](glossary://iteration) trên một [tập hợp](glossary://collection) dữ liệu (ví dụ như một dãy) để tạo ra các chế độ xem cho từng phần tử trong tập hợp. 
+
+Cấu trúc `ForEach` yêu cầu rằng mỗi phần tử cung cấp một `id`, hoặc là tường minh trong [trình khởi tạo](glossary://initialization) `ForEach` hoặc là bằng cách tuân theo giao thức `Identifiable`. Việc này cho phép SwiftUI nhận dạng và cập nhật từng chế độ xem được tạo từ `ForEach` độc lập với nhau.
+
+```
+ForEach(symbols) { symbol in 
+    Text(symbol.name)
+}
+```
+</string>
+				<key>Title</key>
+				<string>ForEach</string>
+			</dict>
+		</dict>
+		<key>Int</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một kiểu chứa số nguyên — một số nguyên vẹn, ví dụ như `10` hoặc `-42`.</string>
+				<key>Title</key>
+				<string>Int</string>
+			</dict>
+		</dict>
+		<key>String</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một kiểu chứa một loạt các ký tự, ví dụ như `"hello, world"` hoặc `"dancing kittens"`.</string>
+				<key>Title</key>
+				<string>Chuỗi</string>
+			</dict>
+		</dict>
+		<key>Swift</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Ngôn ngữ lập trình của Apple, được sử dụng để viết các ứng dụng dành cho iPhone, iPad, máy Mac, Apple Watch và Apple TV.</string>
+				<key>Title</key>
+				<string>Swift</string>
+			</dict>
+		</dict>
+		<key>SwiftUI</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>SwiftUI là một cách hiện đại để khai báo các giao diện người dùng cho bất kỳ nền tảng Apple nào. Công cụ này cung cấp các chế độ xem, điều khiển và cấu trúc bố cục để khai báo giao diện người dùng cho ứng dụng của bạn. Chương trình khung cung cấp các trình xử lý sự kiện để phân phối các thao tác chạm, cử chỉ và các kiểu đầu vào khác đến ứng dụng của bạn, cũng như các công cụ để quản lý luồng dữ liệu từ các mô hình của ứng dụng đến chế độ xem và các điều khiển mà người dùng sẽ nhìn thấy và tương tác.</string>
+				<key>Title</key>
+				<string>SwiftUI</string>
+			</dict>
+		</dict>
+		<key>absolute value</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Giá trị không dấu của một số. Ví dụ: giá trị tuyệt đối của -12 là 12 và giá trị tuyệt đối của 23,4 là 23,4.</string>
+				<key>Title</key>
+				<string>giá trị tuyệt đối</string>
+			</dict>
+		</dict>
+		<key>abstraction</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một phiên bản được đơn giản hóa của một thứ phức tạp hơn.   Trừu tượng hóa ẩn đi các chi tiết để bạn có thể suy nghĩ và kết hợp các đoạn mã của mình dễ dàng hơn.   Ví dụ: một [kiểu](glossary://type) là một sự trừu tượng hóa ẩn đi việc thiết lập, thuộc tính và các phương thức của một thể hiện của kiểu đó.</string>
+				<key>Title</key>
+				<string>trừu tượng hóa</string>
+			</dict>
+		</dict>
+		<key>accelerometer</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một cảm biến đo gia tốc của thiết bị theo ba chiều: lên và xuống, tiến và lùi, trái và phải.
+
+Khi thiết bị của bạn được đặt trên một bề mặt phẳng theo hướng ngang, các chuyển động lên và xuống đo gia tốc trên trục z, các chuyển động phải và trái đo gia tốc trên trục y và chuyển động tiến và lùi đo gia tốc trên trục x.</string>
+				<key>Title</key>
+				<string>gia tốc kế</string>
+			</dict>
+		</dict>
+		<key>adopt</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Để chấp nhận một giao thức, một kiểu cung cấp một nhóm các triển khai riêng theo yêu cầu của giao thức, ví dụ như các phương thức và thuộc tính được liệt kê.</string>
+				<key>Title</key>
+				<string>chấp nhận</string>
+			</dict>
+		</dict>
+		<key>algorithm</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một nhóm bao gồm các hướng dẫn từng bước hoặc quy tắc để giải quyết vấn đề. Ví dụ: một danh sách các bước được sử dụng để pha một ly trà có thể được coi là một thuật toán.</string>
+				<key>Title</key>
+				<string>thuật toán</string>
+			</dict>
+		</dict>
+		<key>append</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Để thêm vào cuối của một thứ gì đó. Ví dụ: bạn có thể nối một chuỗi vào cuối một chuỗi khác hoặc nối một mục vào một dãy mục.
+</string>
+				<key>Title</key>
+				<string>nối</string>
+			</dict>
+		</dict>
+		<key>application</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Phần mềm, được tạo thành từ mã, cho phép bạn thực hiện các tác vụ cụ thể. Ví dụ: bạn sử dụng ứng dụng Tin nhắn để gửi và nhận tin nhắn.</string>
+				<key>Title</key>
+				<string>ứng dụng</string>
+			</dict>
+		</dict>
+		<key>argument</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một giá trị đầu vào được chuyển vào một hàm để tùy chỉnh hoạt động của hàm. Ví dụ: trong hàm gọi `move(distance: 3)`, số `3` là một đối số chỉ định số lượng khoảng trống sẽ di chuyển.</string>
+				<key>Title</key>
+				<string>đối số</string>
+			</dict>
+		</dict>
+		<key>arithmetic operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một ký hiệu, ví dụ như `+`, `-`, `*` hoặc `/`, thực hiện một phép toán cơ bản trên một hoặc nhiều số. Ví dụ: `42 / 7` và `17 - 5` sử dụng các toán tử số học.</string>
+				<key>Title</key>
+				<string>toán tử số học</string>
+			</dict>
+		</dict>
+		<key>array</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một tập hợp chứa một danh sách có thứ tự gồm các mục cùng kiểu. Cùng một mục có thể xuất hiện nhiều lần tại các vị trí khác nhau. 
+
+Trong mã bên dưới: `highScores` là một dãy gồm các [số nguyên](glossary://Int) và `greetings` là một dãy gồm các [chuỗi](glossary://String).
+```
+let highScores = [37, 34, 29, 29, 26]
+let greetings = ["hi", "bye", "good day"]
+```</string>
+				<key>Title</key>
+				<string>dãy</string>
+			</dict>
+		</dict>
+		<key>aspect ratio</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Tỷ lệ giữa chiều rộng với chiều cao của hình ảnh hoặc màn hình.
+
+Ví dụ: một hình ảnh có tỷ lệ khung hình là 2:1 có chiều rộng gấp hai lần chiều cao. Một hình ảnh có tỷ lệ khung hình là 1:1 có chiều rộng và chiều cao bằng nhau.</string>
+				<key>Title</key>
+				<string>tỷ lệ khung hình</string>
+			</dict>
+		</dict>
+		<key>asset</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Tài sản là các hình ảnh, âm thanh và các mục khác mà ứng dụng của bạn sử dụng. Bạn có thể nhập các tài sản vào Swift Playgrounds từ các ứng dụng khác, ví dụ như Tệp và Ảnh.</string>
+				<key>Title</key>
+				<string>tài sản</string>
+			</dict>
+		</dict>
+		<key>assignment</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một hành động đặt giá trị của một biến hoặc hằng số.</string>
+				<key>Title</key>
+				<string>gán</string>
+			</dict>
+		</dict>
+		<key>assignment operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Ký hiệu `=` được sử dụng để đặt giá trị của một biến. Ví dụ: `greeting = "hello"` đặt giá trị của `greeting` thành `"hello"`.</string>
+				<key>Title</key>
+				<string>toán tử gán</string>
+			</dict>
+		</dict>
+		<key>asynchronous process</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một khối mã có thể chạy trong khi phần còn lại trong ứng dụng hoặc chương trình của bạn tiếp tục thực thi. Trái ngược với quy trình đồng bộ ngăn cản chương trình thực thi đến khi hoàn tất, quy trình không đồng bộ có thể chạy đồng thời với phần còn lại trong mã ứng dụng của bạn.</string>
+				<key>Title</key>
+				<string>quy trình không đồng bộ</string>
+			</dict>
+		</dict>
+		<key>asynchronous stream</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một [trình tự](glossary://sequence) có các giá trị không có sẵn tất cả cùng lúc, nhưng được tạo ra vào các khoảng thời gian dưới dạng một luồng giá trị. Để lặp lại trên một luồng không đồng bộ, bạn phải đợi từng giá trị mới trước khi thực hiện các thao tác trên đó.
+				
+Một luồng không đồng bộ thường được sử dụng cho dữ liệu đến theo thời gian, ví dụ như các rung chấn trái đất hoặc khung hình video.</string>
+				<key>Title</key>
+				<string>luồng không đồng bộ</string>
+			</dict>
+		</dict>
+		<key>binding</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Thêm [trình đóng gói thuộc tính](glossary://property%20wrapper) `@Binding` để tạo ra một kết nối hai chiều giữa một thuộc tính lưu trữ dữ liệu với một chế độ xem hiển thị và thay đổi dữ liệu. Một ràng buộc kết nối một thuộc tính với một nguồn chân lý được lưu trữ ở đâu đó, thay vì lưu trữ dữ liệu trực tiếp. 
+
+Ví dụ: một nút chuyển đổi giữa phát và tạm dừng có thể tạo ra một ràng buộc đến thuộc tính của [chế độ xem bộ chứa](glossary://container) bằng cách sử dụng trình đóng gói thuộc tính `@Binding`.
+</string>
+				<key>Title</key>
+				<string>ràng buộc</string>
+			</dict>
+		</dict>
+		<key>body</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Phần thân của một [chế độ xem](glossary://view) là nơi mà bạn cung cấp nội dung của chế độ xem, bao gồm tối thiểu một [chế độ xem tích hợp](glossary://built-in%20view) mà SwiftUI cung cấp hoặc bất kỳ [chế độ xem tổ hợp](glossary://composed%20view) nào mà bạn đã tạo.</string>
+				<key>Title</key>
+				<string>phần thân</string>
+			</dict>
+		</dict>
+		<key>bounds</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Trong một dãy, phạm vi của các giá trị mà một chỉ mục đến dãy có thể có. Ví dụ: dãy `[17, 42, 95]` có thể có các giá trị chỉ mục từ 0 đến 2. Kiểm tra giới hạn là quá trình xác minh rằng giá trị chỉ mục nằm trong giới hạn của một dãy.</string>
+				<key>Title</key>
+				<string>giới hạn</string>
+			</dict>
+		</dict>
+		<key>brightness</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Lượng ánh sáng đi vào camera, có phạm vi từ `0` (không có ánh sáng) đến `1` (đầy đủ ánh sáng). Độ sáng là một [Double](glossary://Double) (số thập phân) từ `0` đến `1`.</string>
+				<key>Title</key>
+				<string>độ sáng</string>
+			</dict>
+		</dict>
+		<key>bug</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một lỗi trong mã ngăn cản ứng dụng chạy như dự kiến. 
+</string>
+				<key>Title</key>
+				<string>lỗi</string>
+			</dict>
+		</dict>
+		<key>built-in view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một [chế độ xem](glossary://view) được cung cấp bởi chương trình khung [SwiftUI](glossary://SwiftUI), ví dụ như chế độ xem `Button`, `Text` hoặc `Image`. Các chế độ xem tích hợp được sử dụng như các khối xây dựng để tạo ra các [chế độ xem tổ hợp](glossary://composed%20view) phức tạp hơn trong [giao diện người dùng](glossary://user%20interface) của bạn.</string>
+				<key>Title</key>
+				<string>chế độ xem tích hợp</string>
+			</dict>
+		</dict>
+		<key>bundle</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một ứng dụng lưu trữ mã của chính nó, cùng với bất kỳ tài nguyên nào cần thiết – tệp dữ liệu, hình ảnh, âm thanh – trong một gói. Mỗi ứng dụng có một gói chính và có thể có nhiều gói có tên khác. Một gói là một thư mục trên ổ đĩa và tài nguyên bên trong đó được sắp xếp thành các thư mục con được định nghĩa rõ ràng. Cấu trúc của gói thay đổi tùy theo nền tảng và kiểu của gói.</string>
+				<key>Title</key>
+				<string>gói</string>
+			</dict>
+		</dict>
+		<key>call</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Gọi một hàm trong mã chính là chỉ dẫn cho hàm đó chạy, thực hiện các hành động được định nghĩa bên trong hàm.</string>
+				<key>Title</key>
+				<string>gọi</string>
+			</dict>
+		</dict>
+		<key>callback</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Thỉnh thoảng, một hàm hoặc đối tượng có thể cần gọi bạn lại để cung cấp dữ liệu hoặc để cho bạn biết rằng có điều gì đó quan trọng đã xảy ra trong khi chạy. Bạn làm cho việc này khả thi bằng cách chuyển một hàm hoặc một đối tượng [ủy quyền](glossary://delegate), qua đó hàm có thể thực hiện gọi lại.
+
+Gọi lại là một công cụ thường được sử dụng để xử lý các quy trình [không đồng bộ](glossary://asynchronous%20process).</string>
+				<key>Title</key>
+				<string>gọi lại</string>
+			</dict>
+		</dict>
+		<key>chaining</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một kỹ thuật để [gọi](glossary://call) một loạt các [hàm](glossary://function) trong đó mỗi hàm trả về một đối tượng, sau đó đối tượng được sử dụng bởi hàm tiếp theo. Các lệnh gọi hàm được móc nối cùng nhau trong một câu lệnh duy nhất. 
+				
+Ví dụ: bạn có thể móc nối các [trình sửa đổi](glossary://modifier) của SwiftUI, vì một trình sửa đổi là một [phương thức](glossary://method) sử dụng một [chế độ xem](glossary://view), áp dụng một số thay đổi và trả về một chế độ xem khác.</string>
+				<key>Title</key>
+				<string>móc nối</string>
+			</dict>
+		</dict>
+		<key>class</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Lớp là một bộ chứa cho mã đóng vai trò như một bản thiết kế để tạo ra nhiều [thể hiện](glossary://instance) của cùng một kiểu sản phẩm. Cũng giống như một bản thiết kế có thể xác định các tính năng và hoạt động của một đồ vật, ví dụ như một chiếc xe đạp, lớp xác định chúng là các [thuộc tính](glossary://property) và [phương thức](glossary://method) của đồ vật đó.
+
+Khi bạn tạo ra một thể hiện của lớp, thể hiện đó chứa tất cả các thuộc tính và phương thức được xác định trong bản thiết kế của bạn. Mỗi thể hiện chia sẻ cùng các thuộc tính và phương thức, nhưng bạn có thể thay đổi độc lập giá trị của các thuộc tính, cho phép tùy chỉnh từng thể hiện mà bạn tạo ra — hay khởi tạo — từ lớp. Ví dụ: một lớp xe đạp có thể có thuộc tính màu sắc, cho phép bạn tạo ra một chiếc xe đạp màu đỏ hoặc màu lam.
+
+Lớp giống với [cấu trúc](glossary://structure), nhưng khác biệt ở hai điểm quan trọng: lớp là một [kiểu tham chiếu](glossary://reference%20type) — lớp luôn được sao chép bởi tham chiếu và lớp có thể kế thừa định nghĩa từ một lớp khác.</string>
+				<key>Title</key>
+				<string>lớp</string>
+			</dict>
+		</dict>
+		<key>classification</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Trong công nghệ học máy, phân loại là một thuật toán có khả năng học từ một tập dữ liệu được gắn nhãn và sử dụng những gì học được để phân loại các quan sát mới.
+
+Ví dụ: một bộ phân loại giống chó huấn luyện dựa trên các hình ảnh có nhãn về các giống chó. Nếu bạn hiển thị cho bộ phân loại này hình ảnh mới về một chú chó thì bộ phân loại có thể phân loại đầu vào này là một trong những giống chó đó.</string>
+				<key>Title</key>
+				<string>phân loại</string>
+			</dict>
+		</dict>
+		<key>closed range</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một khoảng từ biên dưới lên đến và bao gồm biên trên.
+
+Trong Swift, giá trị của phạm vi 1-3 có thể được viết là 1...3. Trong trường hợp này, phạm vi sẽ bao gồm biên dưới là 1 và đếm đến biên trên là 3.
+```
+let closedRange = 1...3
+for i in closedRange { 
+	print(i) // 1 2 3
+}
+```</string>
+				<key>Title</key>
+				<string>phạm vi đóng</string>
+			</dict>
+		</dict>
+		<key>closure</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bao đóng là các [hàm](glossary://function) chạy tại vị trí mà không cần có tên.
+					
+```
+scene.setOnStartHandler {
+    // Phần thân của bao đóng
+}
+```
+                    
+Bao đóng có thể ghi lại và lưu trữ các tham chiếu đến bất kỳ hằng số và biến nào từ ngữ cảnh mà chúng được định nghĩa. Đây được gọi là đóng trên các hằng số và biến đó.</string>
+				<key>Title</key>
+				<string>bao đóng</string>
+			</dict>
+		</dict>
+		<key>code comment</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Chú thích mã là một cách để các lập trình viên cung cấp tài liệu cho mã của họ.   Bạn có thể bắt đầu chú thích một dòng duy nhất với hai dấu gạch chéo xuôi, tiếp theo là một dấu cách; ví dụ: "// Đây là chú thích của tôi.".   Khi bạn chạy mã của mình, các chú thích mã không thực thi.</string>
+				<key>Title</key>
+				<string>chú thích mã</string>
+			</dict>
+		</dict>
+		<key>code expression</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một đoạn mã có thể được đánh giá để trả về một giá trị. Ví dụ: nếu `months` là một dãy chứa 12 mục thì biểu thức mã `months.count - 1` trả về giá trị là `11`.</string>
+				<key>Title</key>
+				<string>biểu thức mã</string>
+			</dict>
+		</dict>
+		<key>coding</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Hành động biên soạn các lệnh, cấu trúc mã và thuật toán để tạo ra một ứng dụng.</string>
+				<key>Title</key>
+				<string>viết mã</string>
+			</dict>
+		</dict>
+		<key>collection</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một cấu trúc dữ liệu, ví dụ như một [dãy](glossary://array) hoặc [phạm vi](glossary://range) được sử dụng để lưu trữ nhiều đoạn dữ liệu. 
+```
+let heights = [1, 5, 7]
+let closedRange = 1...8
+```</string>
+				<key>Title</key>
+				<string>tập hợp</string>
+			</dict>
+		</dict>
+		<key>command</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Mã yêu cầu một ứng dụng thực hiện một hành động cụ thể. </string>
+				<key>Title</key>
+				<string>lệnh</string>
+			</dict>
+		</dict>
+		<key>comment out</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Để ngăn không cho một dòng mã chạy bằng cách biến dòng mã đó thành một [chú thích mã](glossary://code%20comment). Bạn có thể thực hiện việc này bằng cách thêm `//` trước bất kỳ dòng mã nào. Ví dụ:
+                
+`// level.run()`</string>
+				<key>Title</key>
+				<string>chú thích</string>
+			</dict>
+		</dict>
+		<key>comparison operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một ký hiệu, ví dụ như `==`, `!=`, `&lt;`, `&gt;`, `&lt;=` hoặc `&gt;=`, được sử dụng để so sánh hai giá trị. Một toán tử so sánh có thể được sử dụng trong điều kiện của câu lệnh `if` hoặc vòng lặp `while` để trả về một giá trị Boolean cho biết liệu phép so sánh có phải là `true` không. Ví dụ: `6 &gt; 8` so sánh `6` với `8` và trả về `false`.</string>
+				<key>Title</key>
+				<string>toán tử so sánh</string>
+			</dict>
+		</dict>
+		<key>compiler error</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Lỗi trình biên dịch là do những sai sót trong mã. Bạn nhìn thấy lỗi này dưới dạng một dấu chấm màu đỏ ở lề trái và trong thanh công cụ.</string>
+				<key>Title</key>
+				<string>lỗi trình biên dịch</string>
+			</dict>
+		</dict>
+		<key>composed view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một [chế độ xem](glossary://view) được tạo ra bằng cách kết hợp một hoặc nhiều chế độ xem [tích hợp](glossary://built-in%20view) hoặc chế độ xem tổ hợp.
+</string>
+				<key>Title</key>
+				<string>chế độ xem tổ hợp</string>
+			</dict>
+		</dict>
+		<key>composition</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Quá trình kết hợp các phần nhỏ của một ứng dụng để tạo thành các phần lớn hơn để giúp làm việc và tìm hiểu trở nên đơn giản hơn.</string>
+				<key>Title</key>
+				<string>tổ hợp</string>
+			</dict>
+		</dict>
+		<key>compound assignment operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một toán tử kết hợp việc gán (đặt giá trị của một biến) với một phép toán khác, ví dụ như cộng hoặc trừ. Ví dụ: nếu giá trị hiện tại của `a` là `1`, sử dụng `a += 3` sẽ cộng `3` vào `1` và chỉ định kết quả cho `a`, sao cho giá trị của `a` bây giờ là `4`.</string>
+				<key>Title</key>
+				<string>toán tử gán kép</string>
+			</dict>
+		</dict>
+		<key>computed property</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Thay vì lưu trữ trực tiếp một giá trị, thuộc tính được tính toán sẽ tính giá trị dựa trên trạng thái hiện tại của các giá trị liên quan khác khi được truy xuất.
+
+Trong ví dụ bên dưới, area là thuộc tính được tính toán, trong khi `width` và `height` là các thuộc tính được lưu trữ:
+
+```
+struct RectangleCalculator { 
+    var width = 10.0
+    var height = 10.0
+    
+    var area : Double { 
+        return width * height
+    }
+} 
+```</string>
+				<key>Title</key>
+				<string>thuộc tính được tính toán</string>
+			</dict>
+		</dict>
+		<key>condition</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Trong một khối [mã điều kiện](glossary://conditional%20code) ví dụ như [câu lệnh if](glossary://if%20statement), điều kiện là một giá trị [Boolean](glossary://Boolean) xác định xem mã bên trong khối có chạy hay không. 
+
+Nếu điều kiện là `true` thì khối mã sẽ chạy. Nếu điều kiện là `false` thì mã điều kiện sẽ được bỏ qua.
+```
+let x = 4
+
+if x &lt; 5 { 
+	// Điều kiện là true, mã trong khối if chạy. 
+}
+
+if x &gt; 5 { 
+	// Điều kiện là false, mã trong khối if không chạy. 
+}
+```</string>
+				<key>Title</key>
+				<string>điều kiện</string>
+			</dict>
+		</dict>
+		<key>conditional code</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Mã chỉ chạy khi đáp ứng các điều kiện cụ thể. Ví dụ: [câu lệnh if](glossary://if%20statement) và [vòng lặp while](glossary://while%20loop) chứa mã điều kiện chỉ chạy nếu hoặc trong khi điều kiện là `true`.
+```
+if x &gt; 5 { 
+	// Mã chỉ chạy nếu x lớn hơn 5
+}
+```</string>
+				<key>Title</key>
+				<string>mã điều kiện</string>
+			</dict>
+		</dict>
+		<key>confidence</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Trong học máy, độ tin cậy là xác suất của một [dự đoán](glossary://prediction) của mô hình học máy. Độ tin cậy của một dự đoán cung cấp thông tin chi tiết về hiệu quả của mô hình học máy.</string>
+				<key>Title</key>
+				<string>độ tin cậy</string>
+			</dict>
+		</dict>
+		<key>conform</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một kiểu được coi là tuân thủ một giao thức khi cung cấp cách triển khai của riêng mình theo yêu cầu của giao thức đó.</string>
+				<key>Title</key>
+				<string>tuân thủ</string>
+			</dict>
+		</dict>
+		<key>console</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một nơi mà bạn có thể xem đầu ra gỡ lỗi từ mã của mình trong khi đang chạy. Khi bạn gọi `print(_:)` trong mã của mình, giá trị mà bạn chuyển vào được hiển thị trong bảng điều khiển.</string>
+				<key>Title</key>
+				<string>bảng điều khiển</string>
+			</dict>
+		</dict>
+		<key>constant</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một bộ chứa có tên, lưu trữ một giá trị không thể thay đổi được.</string>
+				<key>Title</key>
+				<string>hằng số</string>
+			</dict>
+		</dict>
+		<key>container</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một bộ chứa là một chế độ xem lưu giữ các chế độ xem khác ở bên trong nó.</string>
+				<key>Title</key>
+				<string>bộ chứa</string>
+			</dict>
+		</dict>
+		<key>coordinates</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một nhóm các số xác định duy nhất một vị trí trong một không gian. Ví dụ: (100, -200) là các tọa độ cho một điểm trong một không gian 2D, trong đó tọa độ x là 100 và tọa độ y là -200.</string>
+				<key>Title</key>
+				<string>tọa độ</string>
+			</dict>
+		</dict>
+		<key>data</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Thông tin được xử lý hoặc lưu trữ bởi một máy tính và khác với mã hoạt động trên dữ liệu đó.</string>
+				<key>Title</key>
+				<string>dữ liệu</string>
+			</dict>
+		</dict>
+		<key>data cleaning</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Quá trình xem lại một tập dữ liệu và xóa hoặc sửa đổi bất kỳ dữ liệu nào không đúng, không hoàn chỉnh, trùng lặp hoặc được định dạng không đúng cách.
+
+Làm sạch dữ liệu có thể cải thiện độ chính xác mô hình học máy bằng cách đảm bảo rằng mô hình chỉ [huấn luyện](glossary://training) dựa trên dữ liệu đúng nhất và liên quan nhất có sẵn.</string>
+				<key>Title</key>
+				<string>làm sạch dữ liệu</string>
+			</dict>
+		</dict>
+		<key>data flow</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Sự chuyển động của dữ liệu thông qua ứng dụng của bạn và các thay đổi trong dữ liệu đó dẫn đến những thay đổi như thế nào đối với trạng thái hoặc giao diện người dùng của ứng dụng.</string>
+				<key>Title</key>
+				<string>luồng dữ liệu</string>
+			</dict>
+		</dict>
+		<key>data model</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một cách trình bày bằng mã của dữ liệu được sử dụng trong ứng dụng của bạn, phản ánh tổ chức của dữ liệu. [Giao diện người dùng](glossary://user%20interface) của bạn có thể hiển thị dữ liệu từ mô hình dữ liệu và có thể tương tác với mô hình để sửa đổi dữ liệu. Mô hình dữ liệu của bạn đóng vai trò là [nguồn chân lý](glossary://source%20of%20truth) cho ứng dụng của bạn.</string>
+				<key>Title</key>
+				<string>mô hình dữ liệu</string>
+			</dict>
+		</dict>
+		<key>data separation</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Quan niệm cho rằng [mô hình dữ liệu](glossary://data%20model) của một ứng dụng phải được định nghĩa tách biệt với [giao diện người dùng](glossary://user%20interface) được sử dụng để hiển thị và tương tác với dữ liệu đó. Tách dữ liệu cho phép bạn sửa đổi mô hình dữ liệu và giao diện người dùng độc lập với nhau, giúp việc tìm hiểu xem ứng dụng của bạn hoạt động như thế nào trở nên dễ dàng hơn và cải thiện khả năng kiểm tra của ứng dụng.</string>
+				<key>Title</key>
+				<string>tách dữ liệu</string>
+			</dict>
+		</dict>
+		<key>debug</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Để tìm và sửa các lỗi trong mã ngăn cản một ứng dụng chạy đúng cách. </string>
+				<key>Title</key>
+				<string>gỡ lỗi</string>
+			</dict>
+		</dict>
+		<key>declaration</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một đoạn mã tạo ra thứ gì đó mới trong ứng dụng của bạn, ví dụ như một hàm, biến hoặc kiểu tùy chỉnh. Ví dụ: `let planet = "Earth"` khai báo một hằng số mới, `planet`, và cung cấp một giá trị là `"Earth"`.
+
+Mã bên dưới khai báo một biến, `data`, thuộc kiểu `AppData`, nhưng không cung cấp giá trị ban đầu.
+
+```
+var data : AppData
+```</string>
+				<key>Title</key>
+				<string>khai báo</string>
+			</dict>
+		</dict>
+		<key>decode</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Để chuyển đổi dữ liệu từ một định dạng tiết kiệm dung lượng, như JSON, thành một định dạng dễ làm việc hơn trong mã.</string>
+				<key>Title</key>
+				<string>giải mã</string>
+			</dict>
+		</dict>
+		<key>decomposition</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Quá trình phân chia một vấn đề lớn thành các phần nhỏ hơn, dễ quản lý hơn.</string>
+				<key>Title</key>
+				<string>chia nhỏ</string>
+			</dict>
+		</dict>
+		<key>decrement</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Giảm một số theo một giá trị số nguyên, thường là 1.</string>
+				<key>Title</key>
+				<string>giảm dần</string>
+			</dict>
+		</dict>
+		<key>define</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Để cung cấp giá trị hoặc hoạt động tường minh của một đoạn mã mới được tạo, ví dụ như một hàm, biến hoặc kiểu tùy chỉnh. Ví dụ: bạn định nghĩa một hàm bằng cách cung cấp một nhóm các lệnh bên trong hàm để cho hàm đó biết cần làm gì.</string>
+				<key>Title</key>
+				<string>định nghĩa</string>
+			</dict>
+		</dict>
+		<key>delegate</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một đối tượng đặc biệt được cung cấp cho một đối tượng khác để thông báo với bạn khi các sự kiện quan trọng xảy ra. Đối tượng ủy quyền thường tuân thủ một [giao thức](glossary://protocol), với các hàm có thể được gọi để liên lạc lại với mã của bạn. Khi một hàm ủy quyền được gọi, hàm đó được coi là [gọi lại](glossary://callback) ủy quyền.
+
+Ủy quyền mà kiểu phổ biến được sử dụng để liên lạc giữa các đối tượng, đặc biệt là trong các quy trình [không đồng bộ](glossary://asynchronous%20process).</string>
+				<key>Title</key>
+				<string>ủy quyền</string>
+			</dict>
+		</dict>
+		<key>destination view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Chế độ xem được hiển thị sau khi một [người dùng](glossary://user) đã bấm hoặc chạm vào một `NavigationLink` bên trong một `NavigationStack` hoặc `NavigationSplitView`.</string>
+				<key>Title</key>
+				<string>chế độ xem đích</string>
+			</dict>
+		</dict>
+		<key>dot notation</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một dạng cú pháp được sử dụng để truy cập các thuộc tính hoặc gọi các phương thức của một thể hiện. Ví dụ: `expert.toggleSwitch()` gọi phương thức `toggleSwitch()` trên thể hiện `expert`.</string>
+				<key>Title</key>
+				<string>ký pháp dấu chấm</string>
+			</dict>
+		</dict>
+		<key>edge case</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một tình huống, được dự đoán hoặc không được dự đoán, xảy ra trong các trường hợp hiếm gặp hoặc ở cực hạn của một tham số hoạt động. 
+
+Ví dụ: khi xây dựng một ứng dụng cho iPad, ứng dụng của bạn gặp sự cố khi bạn cập nhật ngôn ngữ của thiết bị thành một ngôn ngữ sử dụng hệ chữ viết từ phải sang trái, như Tiếng Ả Rập. </string>
+				<key>Title</key>
+				<string>trường hợp hóc búa</string>
+			</dict>
+		</dict>
+		<key>efficiency</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một số đo về mức độ hiệu quả trong việc thực thi nhanh mục đích dự kiến của một đoạn mã, trong khi sử dụng ít tài nguyên nhất có thể – ví dụ như bộ nhớ hoặc năng lượng.</string>
+				<key>Title</key>
+				<string>hiệu suất</string>
+			</dict>
+		</dict>
+		<key>element</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một mục trong một [tập hợp](glossary://collection), ví dụ như một [dãy](glossary:///array) hoặc [phạm vi](glossary://range).
+
+```
+let letters = ["a", "b", "c"] // "a" là phần tử đầu tiên, "b" là phần tử thứ hai, "c" là phần tử thứ ba. 
+```</string>
+				<key>Title</key>
+				<string>phần tử</string>
+			</dict>
+		</dict>
+		<key>else block</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Khối mã cuối cùng trong câu lệnh `if`. Khối `else` chạy nếu tất cả các điều kiện khác trong câu lệnh `if` là `false`.
+
+```
+if hopper.isFacingStep { 
+	// khối if
+} else if hopper.isFacingUpdraft { 
+	// khối else if
+} else { 
+	// khối else
+}
+```</string>
+				<key>Title</key>
+				<string>khối else</string>
+			</dict>
+		</dict>
+		<key>else if block</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một khối mã trong câu lệnh `if`, được sử dụng để kiểm tra một điều kiện không được kiểm tra bởi [khối if](glossary://if%20block) hoặc bất kỳ khối `else if` nào khác.
+
+```
+if hopper.isFacingStep { 
+	// khối if
+} else if hopper.isFacingUpdraft { 
+	// khối else if
+} else { 
+	// khối else
+}
+``</string>
+				<key>Title</key>
+				<string>khối else if</string>
+			</dict>
+		</dict>
+		<key>encode</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Để chuyển đổi dữ liệu từ một định dạng dễ làm việc trong mã thành một định dạng tiết kiệm dung lượng, như JSON.</string>
+				<key>Title</key>
+				<string>mã hóa</string>
+			</dict>
+		</dict>
+		<key>enumeration</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một kiểu định nghĩa một nhóm các giá trị liên quan được gọi là *trường hợp*.
+
+ Ví dụ: bảng liệt kê `Direction` định nghĩa các trường hợp cho từng hướng: `north`, `south`, `east` và `west`. 
+```
+enum Direction { 
+	case north, south, east, west
+}
+```
+ Khi [chuyển vào](glossary://pass%20in) một giá trị bảng liệt kê, bạn chỉ luôn lựa chọn một trong các trường hợp, ví dụ:
+ ```
+ moveIn(direction: .north)
+```</string>
+				<key>Title</key>
+				<string>bảng liệt kê</string>
+			</dict>
+		</dict>
+		<key>environment</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một môi trường của chế độ xem cung cấp quyền truy cập vào một tập hợp giá trị đã định nghĩa. Một số giá trị trong này tự động phản ánh trạng thái hệ thống, cài đặt của người dùng hoặc trạng thái xem. Các ví dụ bao gồm bảng màu, kiểu văn bản hoặc trạng thái tập trung của chế độ xem. Các môi trường khác cung cấp các giá trị mặc định hữu ích, như giới hạn dòng cho các trường văn bản. Bạn có thể đọc các giá trị môi trường bằng cách truy cập chúng thông qua [trình đóng gói thuộc tính](glossary://property%20wrapper) `@Environment`. Bạn có thể tìm thấy danh sách đầy đủ các giá trị môi trường [tại đây](doc://com.apple.documentation/documentation/swiftui/environmentvalues).</string>
+				<key>Title</key>
+				<string>môi trường</string>
+			</dict>
+		</dict>
+		<key>environment object</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Thêm [trình đóng gói thuộc tính](glossary://property%20wrapper) `@EnvironmentObject` để khai báo một thuộc tính đối tượng có thể quan sát được cung cấp bởi một chế độ xem bộ chứa hoặc cấp cao. Nếu bạn khai báo một thuộc tính là đối tượng môi trường thì hãy đảm bảo đặt một thể hiện mô hình tương ứng trên một chế độ xem cấp cao bằng cách gọi trình sửa đổi `environmentObject(_:)`.</string>
+				<key>Title</key>
+				<string>đối tượng môi trường</string>
+			</dict>
+		</dict>
+		<key>event</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một hành động có thể được phát hiện bằng một ứng dụng máy tính. Đầu vào, ví dụ như nhấn một nút hoặc xoay màn hình, kích hoạt sự kiện.</string>
+				<key>Title</key>
+				<string>sự kiện</string>
+			</dict>
+		</dict>
+		<key>event handler</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một hàm được gọi sau khi một sự kiện xảy ra để xử lý sự kiện.</string>
+				<key>Title</key>
+				<string>trình xử lý sự kiện</string>
+			</dict>
+		</dict>
+		<key>extension</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một cách để thêm chức năng mới vào một [kiểu](glossary://type) hiện có, ví dụ như một [lớp](glossary://class), [cấu trúc](glossary://structure), [bảng liệt kê](glossary://enumeration) hoặc [giao thức](glossary://protocol).
+
+Phần mở rộng cho phép bạn thêm các [phương thức](glossary://method) và [thuộc tính](glossary://property) vào một kiểu hiện có. Mã bên dưới thêm phương thức `cubed()` và thuộc tính `isOdd` vào kiểu `Int`:
+
+```
+extension Int { 
+	func cubed() -&gt; Int { 
+        return self * self * self
+    }
+    
+    var isOdd : Bool { 
+        return self % 2 == 1
+    }
+}
+
+let two : Int = 2
+print(two.cubed()) // 8
+print(two.isOdd) // false
+```</string>
+				<key>Title</key>
+				<string>phần mở rộng</string>
+			</dict>
+		</dict>
+		<key>filtering</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Quá trình xử lý dữ liệu trong một tập hợp hoặc cấu trúc dữ liệu để tạo ra một nhóm dữ liệu mới.</string>
+				<key>Title</key>
+				<string>lọc</string>
+			</dict>
+		</dict>
+		<key>focus state</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một giá trị biểu thị tính khả dụng của chế độ xem trong việc nhận đầu vào của người dùng, ví dụ như nhập liệu vào trường văn bản. Sử dụng [trình đóng gói thuộc tính](glossary://property%20wrapper) `@FocusState` cùng với các trình sửa đổi `focused(_:equals:)` và `focused(_:)` để tạo ra một chế độ xem có giá trị tập trung cập nhật tự động dựa trên tương tác của người dùng và cũng có thể được tập trung hoặc hủy tập trung theo chương trình vào một thời gian cụ thể.</string>
+				<key>Title</key>
+				<string>trạng thái tập trung</string>
+			</dict>
+		</dict>
+		<key>font</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một nhóm ký tự văn bản có kiểu thiết kế, độ đậm và kích cỡ cụ thể. Kiểu thiết kế của phông chữ được gọi là *kiểu chữ* và các biến thể của thiết kế này tạo thành *bộ* kiểu chữ. Ví dụ: HelveticaNeue là một kiểu chữ và HelveticaNeue-Bold 10 điểm là một phông chữ.</string>
+				<key>Title</key>
+				<string>phông chữ</string>
+			</dict>
+		</dict>
+		<key>for loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một khối mã được lặp lại chạy một số lần nhất định.
+
+Vòng lặp có thể [lặp lại](glossary://iterate) trên bất kỳ [tập hợp](glossary://collection) dữ liệu nào, ví dụ như [Phạm vi](glossary://range%20value) hoặc [Dãy](glossary://array), chạy khối vòng lặp cho từng phần tử trong tập hợp.
+
+Trong ví dụ bên dưới, vòng lặp xác định một biến vòng lặp, `value`, cung cấp cho bạn quyền truy cập vào giá trị của phần tử hiện tại trong tập hợp:
+```
+for value in 1...4 { 
+	byte.moveForward()
+	byte.jump(height: value)
+}
+```</string>
+				<key>Title</key>
+				<string>cho vòng lặp</string>
+			</dict>
+		</dict>
+		<key>framework</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một chương trình khung là một thư mục chứa các tài nguyên được chia sẻ. Những tài nguyên này có thể bao gồm các tệp nguồn, tệp hình ảnh, chuỗi được bản địa hóa, tài liệu tham khảo, v.v. trong một gói duy nhất. Nhiều ứng dụng có thể sử dụng tất cả những tài nguyên này đồng thời. Hệ thống tải chúng vào bộ nhớ khi cần và chia sẻ một bản sao của tài nguyên trong tất cả các ứng dụng bất kỳ lúc nào có thể.</string>
+				<key>Title</key>
+				<string>chương trình khung</string>
+			</dict>
+		</dict>
+		<key>full function name</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Tên đầy đủ của một hàm, bao gồm các tên của các tham số được phân tách bằng dấu hai chấm (`:`); ví dụ: `move(to:duration:)`.</string>
+				<key>Title</key>
+				<string>tên hàm đầy đủ</string>
+			</dict>
+		</dict>
+		<key>function</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một khối mã có tên sẽ chạy khi được [gọi](glossary://call) bằng tên. Một hàm có thể được chuyển dữ liệu vào bằng hình thức [tham số](glossary://parameter) và có thể tùy ý [trả về](glossary://return) dữ liệu khi mã của hàm chạy xong. Một hàm được định nghĩa bên trong một kiểu được gọi là một [phương thức](glossary://method).
+
+Bên dưới là một ví dụ về định nghĩa hàm cho `turnRight()`. Bạn có thể gọi hàm này bằng cách viết `turnRight()`; sau đó, mã sẽ thực thi, chạy `turnLeft()` ba lần.
+
+```
+func turnRight() { 
+	turnLeft()
+	turnLeft()
+	turnLeft()
+}
+```</string>
+				<key>Title</key>
+				<string>hàm</string>
+			</dict>
+		</dict>
+		<key>function definition</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Định nghĩa hàm mô tả chức năng của hàm, đầu vào mà hàm dự kiến sẽ nhận được và kết quả mà hàm sẽ trả về khi hoàn tất.</string>
+				<key>Title</key>
+				<string>định nghĩa hàm</string>
+			</dict>
+		</dict>
+		<key>fuzzy autocomplete</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một phương thức để tự động hoàn thành mã sử dụng một lệnh tìm kiếm chuỗi mờ để tìm các biến, hằng số, kiểu và các ký hiệu phù hợp khác. Lệnh tìm kiếm chuỗi mờ không chính xác, nhưng tìm thấy các kết quả phù hợp dựa trên các ký tự mà bạn nhập. 
+
+Ví dụ: nếu bạn đang tìm kiếm [trình sửa đổi chế độ xem](glossary://modifier) có thể thực hiện việc gì đó với "scale" thì bạn chỉ cần bắt đầu nhập `.scale`, việc này sẽ trả về cho bạn các tùy chọn tự động hoàn thành bắt đầu bằng `.scale`, như `.scaledToFill` và `.scaleEffect`, nhưng cũng có các kết quả 'mờ' khác như `.imageScale` và `.grayscale`.
+</string>
+				<key>Title</key>
+				<string>tự động hoàn thành mờ</string>
+			</dict>
+		</dict>
+		<key>g</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Đơn vị đo lường cho gia tốc hoặc lực trên mỗi đơn vị khối lượng. Một g hay lực g bằng với gia tốc của trọng lực trên Trái Đất hoặc bằng khoảng 9,8 mét trên giây bình phương.</string>
+				<key>Title</key>
+				<string>g</string>
+			</dict>
+		</dict>
+		<key>global function</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một hàm có thể được truy cập từ bất kỳ tệp nào trong dự án của bạn.</string>
+				<key>Title</key>
+				<string>hàm toàn cục</string>
+			</dict>
+		</dict>
+		<key>global scope</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Các ký hiệu có thể truy cập được từ mã trong bất kỳ tệp nguồn nào trong cùng một [mô-đun](glossary://module). Bất kỳ thể hiện, kiểu hoặc hàm nào được định nghĩa ở cấp cao nhất của một tệp nguồn đều có phạm vi toàn cục theo mặc định. </string>
+				<key>Title</key>
+				<string>phạm vi toàn cục</string>
+			</dict>
+		</dict>
+		<key>global variable</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string></string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một biến có thể được truy cập từ bất kỳ tệp nào trong dự án của bạn.</string>
+				<key>Title</key>
+				<string>biến toàn cục</string>
+			</dict>
+		</dict>
+		<key>grayscale</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một phạm vi các sắc thái màu xám, từ trắng đến đen.</string>
+				<key>Title</key>
+				<string>thang độ xám</string>
+			</dict>
+		</dict>
+		<key>gyroscope</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một cảm biến đo hướng của thiết bị của bạn theo ba chiều: độ nghiêng từ trước ra sau, độ nghiêng từ trái sang phải và chuyển động xoay xung quanh tâm.</string>
+				<key>Title</key>
+				<string>con quay hồi chuyển</string>
+			</dict>
+		</dict>
+		<key>half open range</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một khoảng nửa mở từ biên dưới lên đến, nhưng không bao gồm biên trên.
+
+Trong Swift, giá trị của phạm vi 1-3 có thể được viết là 1…&lt;4. Trong trường hợp này, phạm vi sẽ bao gồm biên dưới là 1 và đếm lên đến, nhưng không bao gồm giá trị 4.
+```
+let halfOpenRange = 1..&lt;4
+for i in halfOpenRange { 
+	print(i) // 1 2 3
+}
+```</string>
+				<key>Title</key>
+				<string>phạm vi nửa mở</string>
+			</dict>
+		</dict>
+		<key>hertz</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Hertz (Hz) là một chu kỳ mỗi giây. Khi được áp dụng cho rung động âm thanh, 1 Hz là một sóng âm mỗi giây. Con người có thể nghe thấy âm thanh trong phạm vi từ 20 Hz đến 16.000 Hz.</string>
+				<key>Title</key>
+				<string>hertz</string>
+			</dict>
+		</dict>
+		<key>hue</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Sắc thái của một màu trên bánh xe màu. Đây là một double (số thập phân) nằm trong phạm vi từ `0` đến `1`.</string>
+				<key>Title</key>
+				<string>sắc độ</string>
+			</dict>
+		</dict>
+		<key>if block</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Khối mã đầu tiên trong câu lệnh `if`. Khối `if` chạy nếu điều kiện trong câu lệnh `if` là `true`. 
+```
+if blu.isFacingStep { 
+	blu.jump()
+}
+```</string>
+				<key>Title</key>
+				<string>khối if</string>
+			</dict>
+		</dict>
+		<key>if statement</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một cấu trúc mã được sử dụng để chạy mã dựa trên giá trị của một hoặc nhiều điều kiện. Khối đầu tiên của mã trong một câu lệnh `if` là khối `if`. 
+```
+if blu.isFacingStep { 
+	blu.jump()
+}
+```
+Một câu lệnh `if` cũng có thể chứa các khối khác cung cấp các kiểm tra bổ sung, ví dụ như khối `else` và khối `else if`.
+```
+if blu.isFacingStep { 
+	blu.jump()
+} else if blu.isFacingHole { 
+	blu.shapeShift(into: .bridge)
+} else { 
+	blu.moveForward()
+}
+```</string>
+				<key>Title</key>
+				<string>câu lệnh if</string>
+			</dict>
+		</dict>
+		<key>import</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Trong Swift, một [khai báo](glossary://declaration) `import` cho phép bạn truy cập các ký hiệu — ví dụ như loại, hàm, thuộc tính và phương thức — được định nghĩa bên ngoài tệp hiện tại. Bạn có thể nhập ký hiệu trong một [mô-đun](glossary://module) hoặc [chương trình khung](glossary://framework) như [SwiftUI](doc://com.apple.documentation/documentation/swiftui) hoặc [CoreMotion](doc://com.apple.documentation/documentation/coremotion). Ví dụ: để sử dụng chương trình khung SwiftUI, bạn đặt khai báo sau đây ở trên cùng của tệp: 
+
+```
+import SwiftUI
+```
+</string>
+				<key>Title</key>
+				<string>nhập</string>
+			</dict>
+		</dict>
+		<key>increment</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Tăng một số theo một giá trị số nguyên, thường là 1.</string>
+				<key>Title</key>
+				<string>tăng dần</string>
+			</dict>
+		</dict>
+		<key>index</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một số biểu thị vị trí của một mục trong một [dãy](glossary://array).</string>
+				<key>Title</key>
+				<string>chỉ mục</string>
+			</dict>
+		</dict>
+		<key>index out of range error</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một lỗi xảy ra khi cố gắng truy cập vào một dãy bằng một chỉ mục ở bên ngoài phạm vi của dãy đó. Ví dụ: chỉ mục `2` ở bên ngoài phạm vi của dãy sau đây: `[17, 42]`.</string>
+				<key>Title</key>
+				<string>lỗi chỉ mục ngoài phạm vi</string>
+			</dict>
+		</dict>
+		<key>initialization</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Hành động tạo một thể hiện mới của một kiểu, bao gồm việc đặt các giá trị ban đầu cho bất kỳ thuộc tính nào của kiểu.</string>
+				<key>Title</key>
+				<string>khởi tạo</string>
+			</dict>
+		</dict>
+		<key>initializer</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Gọi một trình khởi tạo để tạo ra một [thể hiện](glossary://instance) mới của một kiểu. Trình khởi tạo phải đảm bảo rằng các thuộc tính của kiểu đều có giá trị ban đầu và thường chứa mã thiết lập khác.</string>
+				<key>Title</key>
+				<string>trình khởi tạo</string>
+			</dict>
+		</dict>
+		<key>inner loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một khối mã lặp lại (một vòng lặp) được lồng bên trong một vòng lặp khác (bên ngoài).</string>
+				<key>Title</key>
+				<string>vòng lặp bên trong</string>
+			</dict>
+		</dict>
+		<key>instance</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một giá trị của một [kiểu](glossary://type) cụ thể. Ví dụ: trong `let motion = MotionSensor()`, `motion` là một thể hiện của kiểu `MotionSensor`.</string>
+				<key>Title</key>
+				<string>thể hiện</string>
+			</dict>
+		</dict>
+		<key>integer</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một số nguyên vẹn, ví dụ như `2` hoặc `-5`.</string>
+				<key>Title</key>
+				<string>số nguyên</string>
+			</dict>
+		</dict>
+		<key>iterate</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Để lặp lại một khối mã cho mỗi [phần tử](glossary://element) trong một [tập hợp](glossary://collection), ví dụ như một dãy hoặc một phạm vi.
+
+Trong ví dụ bên dưới, vòng lặp for lặp lại thông qua dãy `days`, in một ngày trong tuần mỗi lần:
+```
+let days = ["Monday", "Tuesday", "Wednesday"]
+
+for value in days { 
+	print(value)
+}
+
+// Lần lặp lại thứ nhất: in "Monday"
+// Lần lặp lại thứ hai: in "Tuesday"
+// Lần lặp lại thứ ba: in "Wednesday"
+```</string>
+				<key>Title</key>
+				<string>lặp lại</string>
+			</dict>
+		</dict>
+		<key>iteration</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Hành động lặp lại một quy trình, ví dụ như thực hiện cùng một tác vụ trên từng mục trong một dãy.</string>
+				<key>Title</key>
+				<string>lặp lại</string>
+			</dict>
+		</dict>
+		<key>label</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Sự biểu thị bằng hình ảnh của một phần tử giao diện người dùng, được tạo dưới dạng một [chế độ xem](glossary://view).
+
+Nhiều [chế độ xem tích hợp](glossary://built-in%20view) của SwiftUI có cả nhãn (một sự biểu thị bằng hình ảnh) cũng như một số điểm tùy chỉnh khác, ví dụ như một [chế độ xem đích](glossary://destination%20view) cho `NavigationLink` hoặc một tác vụ [gọi lại](glossary://callback) cho một `Button`.</string>
+				<key>Title</key>
+				<string>nhãn</string>
+			</dict>
+		</dict>
+		<key>lag</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một sự suy giảm trong tốc độ hoặc mức độ phản hồi của ứng dụng do kết quả của nhu cầu xử lý, công suất xử lý hoặc cả hai.</string>
+				<key>Title</key>
+				<string>lag</string>
+			</dict>
+		</dict>
+		<key>leading edge</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Mép trước, khi được sử dụng liên quan đến nội dung bên trong một chế độ xem, đề cập đến vị trí theo chiều ngang mà nội dung bắt đầu. Vị trí của mép trước phụ thuộc vào tùy chọn của bạn và thường dựa trên cài đặt vùng và ngôn ngữ của bạn.
+                    Ví dụ: với các ngôn ngữ đọc từ trái sang phải, như Tiếng Anh hoặc Tiếng Hà Lan, mép trước nằm ở bên trái. Với các ngôn ngữ đọc từ phải sang trái, như Tiếng Ả Rập hoặc Tiếng Do Thái, mép trước nằm ở bên phải.</string>
+				<key>Title</key>
+				<string>mép trước</string>
+			</dict>
+		</dict>
+		<key>literal</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Chuỗi ký tự cung cấp cho bạn khả năng nhúng các hình ảnh và màu trực tiếp vào mã bằng cách sử dụng thư viện hình ảnh hoặc bộ chọn màu. Chuỗi ký tự là các giá trị thực của dữ liệu được biểu thị bằng định dạng tự nhiên của chúng, trực tiếp bên trong trình sửa.</string>
+				<key>Title</key>
+				<string>chuỗi ký tự</string>
+			</dict>
+		</dict>
+		<key>local scope</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một phạm vi cục bộ được hình thành ở từng cấp mới của tổ chức mã bên dưới [phạm vi toàn cục](glossary://global%20scope). Ví dụ: một [kiểu](glossary://type) mới hình thành một phạm vi cục bộ mới, cũng như các hàm và khối mã bên trong kiểu đó hình thành mức [phạm vi](glossary://scope) của riêng chúng. Dựa trên nơi ký hiệu được khai báo, ký hiệu đó chỉ có thể truy cập được từ mã ở cùng mức phạm vi hoặc thấp hơn.
+
+Ví dụ: nếu biến được định nghĩa bên trong một kiểu thì biến đó có thể truy cập được trong tất cả các hàm và khối mã bên trong kiểu. Tuy nhiên, một hằng số được định nghĩa bên trong một phương thức chỉ có thể truy cập được bên trong định nghĩa phương thức.</string>
+				<key>Title</key>
+				<string>phạm vi cục bộ</string>
+			</dict>
+		</dict>
+		<key>logical AND operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một ký hiệu (`&amp;&amp;`) kết hợp hai giá trị Boolean, trong đó cả hai giá trị phải là true để mã tổng thể là true. Ví dụ: `a &amp;&amp; b` chỉ là true khi `a` và `b` là `true`.</string>
+				<key>Title</key>
+				<string>toán tử lô-gic AND</string>
+			</dict>
+		</dict>
+		<key>logical NOT operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một ký hiệu (`!`) đảo ngược giá trị Boolean của một đoạn mã. Ví dụ: nếu `a` là `true`, thì `!a` là `false`.</string>
+				<key>Title</key>
+				<string>toán tử lô-gic NOT</string>
+			</dict>
+		</dict>
+		<key>logical OR operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một ký hiệu (`||`) kết hợp hai giá trị Boolean, trong đó chỉ một giá trị phải là true để mã tổng thể là true. Ví dụ: `a || b` là true khi `a` hoặc `b` là `true` (hoặc khi cả hai là `true`).</string>
+				<key>Title</key>
+				<string>toán tử lô-gic OR</string>
+			</dict>
+		</dict>
+		<key>logical operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một ký hiệu, ví dụ như `&amp;&amp;`, `||` hoặc `!`, sửa đổi hoặc kết hợp các giá trị lô-gic Boolean `true` và `false`.</string>
+				<key>Title</key>
+				<string>toán tử lô-gic</string>
+			</dict>
+		</dict>
+		<key>loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một khối mã được lặp lại một số lần nhất định (ví dụ: một vòng lặp `for`) hoặc đến khi một điều kiện được đáp ứng (ví dụ: một vòng lặp `while`).</string>
+				<key>Title</key>
+				<string>vòng lặp</string>
+			</dict>
+		</dict>
+		<key>loop variable</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Trong một [vòng lặp for](glossary://for%20loop), giá trị của phần tử hiện tại trong [tập hợp](glossary://collection) mà bạn đang [lặp lại](glosssary://iterate) trên đó.
+
+Một biến vòng lặp lưu trữ giá trị này, cho phép bạn sử dụng giá trị trong phần thân của vòng lặp `for`. 
+
+Trong các ví dụ sau đây, `value` và `letter` là các biến vòng lặp:
+```
+for value in 1...4 { 
+	print(value) // 1 2 3 4
+}
+
+for letter in ["c", "o", "d", "e"] { 
+	print(letter) // c o d e 
+}
+```</string>
+				<key>Title</key>
+				<string>biến vòng lặp</string>
+			</dict>
+		</dict>
+		<key>lower bound</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Trong một [phạm vi](glossary://range), giá trị bắt đầu được đếm lên.
+
+```
+let closedRange = 1...5 // Biên dưới là 1, biên trên là 5
+for i in closedRange { 
+	print(i) // 1 2 3 4 5
+}
+```</string>
+				<key>Title</key>
+				<string>biên dưới</string>
+			</dict>
+		</dict>
+		<key>machine learning</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một nhánh của ngành khoa học máy tính tập trung vào việc phát triển các [thuật toán](glossary://algorithm) sử dụng lượng lớn dữ liệu để dạy cho máy cách học và cải thiện một quy trình cụ thể. 
+
+Ví dụ: dạy cho máy cách nhận biết một loại hoa cụ thể bằng cách sử dụng một [bộ phân loại](glossary://classification) hình ảnh và cung cấp một tập dữ liệu lớn các hình ảnh về hoa.</string>
+				<key>Title</key>
+				<string>học máy</string>
+			</dict>
+		</dict>
+		<key>machine learning model</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một loại [mô hình dữ liệu](glossary://data%20model) mà bạn tạo ra bằng cách áp dụng một [thuật toán](glossary://algorithm) học máy cho một [tập dữ liệu huấn luyện](glossary://training%20dataset). Các mô hình học máy, hay các mô hình ML, được sử dụng để tạo ra các [dự đoán](glossary://prediction) từ một nguồn đầu vào.</string>
+				<key>Title</key>
+				<string>mô hình học máy</string>
+			</dict>
+		</dict>
+		<key>magnitude</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Quy mô của một giá trị bất kể giá trị đó là dương hay âm. Đây cũng được gọi là [giá trị tuyệt đối](glossary://absolute%value) của một số. 
+
+Ví dụ: độ lớn của `5` và `-5` đều là `5`.</string>
+				<key>Title</key>
+				<string>độ lớn</string>
+			</dict>
+		</dict>
+		<key>memory</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bộ phận của máy tính lưu trữ mã cho ứng dụng và dữ liệu mà ứng dụng đó sử dụng, tạm thời hoặc vĩnh viễn.</string>
+				<key>Title</key>
+				<string>bộ nhớ</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Thông tin bổ sung về dữ liệu. Ví dụ: một bức ảnh có thể chứa siêu dữ liệu về vị trí mà bức ảnh được chụp.</string>
+				<key>Title</key>
+				<string>siêu dữ liệu</string>
+			</dict>
+		</dict>
+		<key>method</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một khối mã có tên sẽ chạy khi được [gọi](glossary://call) bằng tên. 
+
+Phương thức là một [hàm](glossary://function), nhưng được định nghĩa bên trong một [kiểu](glossary://type). 
+
+Mã này gọi phương thức, `moveForward()` từ một [thể hiện](glossary://instance) được gọi là `byte`:
+```
+let byte = Byte()
+
+byte.moveForward()
+```</string>
+				<key>Title</key>
+				<string>phương thức</string>
+			</dict>
+		</dict>
+		<key>miter</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một kiểu nối giữa hai đường nét liền trong đó các góc sắc nét, thay vì được bo tròn hoặc vát cạnh.</string>
+				<key>Title</key>
+				<string>ghép chéo</string>
+			</dict>
+		</dict>
+		<key>modifier</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Trong SwiftUI, trình sửa đổi được sử dụng để tùy chỉnh giao diện và hoạt động của một chế độ xem.
+
+					Trong mã bên dưới, trình sửa đổi `foregroundColor` thay đổi màu của chế độ xem `Rectangle` thành màu lam.
+					```
+					Rectangle()
+							.foregroundColor(.blue)
+					```
+
+					Để làm cho các trình sửa đổi dễ đọc hơn, mỗi trình sửa đổi được đặt trên một dòng riêng biệt bên dưới chế độ xem sẽ sửa đổi. Trong ví dụ này, trình sửa đổi `foregroundColor(.blue)` sẽ được áp dụng đầu tiên, tiếp theo là `border(.green)`.
+					```
+					Rectangle()
+							.foregroundColor(.blue)
+							.border(.green)
+					```
+					
+					Vì các trình sửa đổi được áp dụng theo thứ tự nên việc hoán đổi vị trí của chúng có thể thay đổi giao diện và hoạt động của chế độ xem kết quả. 
+				</string>
+				<key>Title</key>
+				<string>trình sửa đổi</string>
+			</dict>
+		</dict>
+		<key>modularity</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Nguyên tắc chia tách ứng dụng của bạn thành các đoạn độc lập, mỗi đoạn trong đó chứa mọi thứ mà phần đó cần để thực hiện một đoạn chức năng duy nhất cho ứng dụng của bạn, ví dụ như hiển thị một phần duy nhất của giao diện hoặc lưu trữ dữ liệu ứng dụng của bạn.
+
+Tính mô-đun là một nguyên tắc quan trọng trong việc tạo các ứng dụng vì nó cho phép bạn hiểu và làm việc tốt hơn với các đoạn chức năng riêng lẻ. Việc này cho phép bạn phát hiện dễ dàng hơn nơi đã xảy ra sự cố khi ứng dụng của bạn có lỗi.</string>
+				<key>Title</key>
+				<string>theo mô-đun</string>
+			</dict>
+		</dict>
+		<key>module</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một đơn vị phân phối mã đơn nhất — một [chương trình khung](glossary://framework) hoặc ứng dụng được xây dựng và chuyển giao dưới dạng một đơn vị đơn nhất và có thể được nhập bởi một mô-đun khác bằng từ khóa [nhập](glossary://import) của Swift.</string>
+				<key>Title</key>
+				<string>mô-đun</string>
+			</dict>
+		</dict>
+		<key>modulo operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một ký hiệu (`%`) trả về phần dư sau khi chia một số cho một số khác. Ví dụ: `17 % 5` trả về `2`.</string>
+				<key>Title</key>
+				<string>toán tử chia lấy dư</string>
+			</dict>
+		</dict>
+		<key>navigation bar</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một giao diện điều hướng cho phép bạn đưa ra một lựa chọn trên mỗi màn hình đến khi bạn đến đích. Để đi tới một đích khác, bạn phải dò ngược các bước đi của mình hoặc bắt đầu lại từ đầu và đưa ra các lựa chọn khác. Thanh điều hướng ở đầu màn hình hiển thị một tiêu đề để giúp bạn nhớ vị trí của mình và cung cấp một nút quay lại để bạn có thể quay trở về màn hình trước đó.</string>
+				<key>Title</key>
+				<string>thanh điều hướng</string>
+			</dict>
+		</dict>
+		<key>navigation link</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một [chế độ xem tích hợp](glossary://built-in%20view) của SwiftUI giúp điều hướng đến một [chế độ xem đích](glossary://destination%20view) khi được người dùng chạm vào. Liên kết điều hướng cũng có một [nhãn](glossary://label) xác định giao diện hình ảnh của liên kết.</string>
+				<key>Title</key>
+				<string>liên kết điều hướng</string>
+			</dict>
+		</dict>
+		<key>nest</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Đặt một khối mã lặp lại, ví dụ như một vòng lặp, bên trong một khối mã khác.</string>
+				<key>Title</key>
+				<string>lồng</string>
+			</dict>
+		</dict>
+		<key>normalization</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Quá trình định tỷ lệ một nhóm dữ liệu sao cho các giá trị được định tỷ lệ kết quả nằm trong phạm vi từ `0` đến `1`.</string>
+				<key>Title</key>
+				<string>chuẩn hóa</string>
+			</dict>
+		</dict>
+		<key>observable object</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Khi một lớp [tuân thủ](glossary://conform) giao thức `ObservableObject`, bất kỳ thay đổi nào đối với các giá trị đã đăng đều sẽ khiến tất cả các chế độ xem đang sử dụng những giá trị đó tự động cập nhật, phản ánh các thay đổi.</string>
+				<key>Title</key>
+				<string>đối tượng có thể quan sát</string>
+			</dict>
+		</dict>
+		<key>observe</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Theo dõi một đối tượng để phát hiện sự [thay đổi trạng thái](glossary://state%20change).</string>
+				<key>Title</key>
+				<string>quan sát</string>
+			</dict>
+		</dict>
+		<key>observed object</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bên trong một [chế độ xem](glossary://view), SwiftUI theo dõi các thay đổi đối với bất kỳ [thuộc tính nào](glossary://property) sử dụng [trình đóng gói thuộc tính](glossary://property%20wrapper) `@ObservedObject`. Nếu giá trị của thuộc tính thay đổi, SwiftUI cập nhật chế độ xem.
+
+Kiểu của thuộc tính đối tượng được quan sát phải [tuân thủ](glossary://conform) giao thức `ObservableObject`.
+				</string>
+				<key>Title</key>
+				<string>đối tượng được quan sát</string>
+			</dict>
+		</dict>
+		<key>observer</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Đối với một [đối tượng có thể quan sát](glossary://observable%20object), trình quan sát là bất kỳ chế độ xem hay đối tượng nào sử dụng dữ liệu của đối tượng có thể quan sát. Khi dữ liệu của đối tượng có thể quan sát thay đổi, SwiftUI nhận biết sự thay đổi và thông báo cho trình quan sát cập nhật.</string>
+				<key>Title</key>
+				<string>trình quan sát</string>
+			</dict>
+		</dict>
+		<key>operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một ký hiệu, ví dụ như `+`, `-` hoặc `&amp;&amp;`, biểu thị một tác vụ trên một hoặc nhiều giá trị. Ví dụ: trong `1 + 2`, toán tử phép cộng (`+`) cộng các số `1` và `2`.</string>
+				<key>Title</key>
+				<string>toán tử</string>
+			</dict>
+		</dict>
+		<key>optional</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một kiểu biểu thị một giá trị được đóng gói hoặc không có giá trị. Một kiểu tùy chọn thường được ký hiệu với một dấu chấm hỏi ở đuôi (`?`).
+				
+Ví dụ: một biến thuộc kiểu `Int?` có thể chứa một giá trị `Int` được đóng gói là `-43` hay `6` hoặc giá trị của biến có thể là `nil`, trong trường hợp đó biến không được gán giá trị.</string>
+				<key>Title</key>
+				<string>tùy chọn</string>
+			</dict>
+		</dict>
+		<key>outer loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một khối mã lặp lại (một vòng lặp) chứa một vòng lặp khác (bên trong).</string>
+				<key>Title</key>
+				<string>vòng lặp bên ngoài</string>
+			</dict>
+		</dict>
+		<key>overfitting</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Trong học máy, quá trình tạo ra một mô hình tương ứng quá chặt chẽ với một tập dữ liệu cụ thể. 
+
+Ví dụ: nếu mô hình của bạn là một [bộ phân loại](glossary://classification) có nhiệm vụ phát hiện hình ảnh về các loài động vật có vú và [tập dữ liệu huấn luyện](glossary://training%20dataset) của bạn chỉ bao gồm các hình ảnh về chó thì mô hình sẽ quá khớp để chỉ nhận ra loài chó trong khi bỏ qua các loài động vật có vú khác, ví dụ như thỏ hoặc hươu.</string>
+				<key>Title</key>
+				<string>quá khớp</string>
+			</dict>
+		</dict>
+		<key>parameter</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một giá trị được sử dụng để tùy chỉnh cách hoạt động của một [hàm](glossary://function). Khi [gọi](glossary://call) hàm, bạn có thể chuyển vào các giá trị khác nhau để thay đổi hoạt động của hàm.
+
+Trong hàm bên dưới, `distance` là một tham số chấp nhận giá trị của kiểu `Int`:
+```
+func move(distance: Int) { 
+	for i in 1...distance { 
+		moveForward()
+	}
+}
+```
+Giá trị của tham số (`distance`) có thể được sử dụng trong phần thân của hàm để tác động đến cách hoạt động của hàm. Trong trường hợp này, bạn có thể gọi hàm này với các giá trị số nguyên khác nhau, ví dụ như `move(distance: 2)` hoặc `move(distance: 5)` để di chuyển các khoảng cách khác nhau.</string>
+				<key>Title</key>
+				<string>tham số</string>
+			</dict>
+		</dict>
+		<key>pass in</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Để cung cấp giá trị cho một trong các [tham số](glossary://parameter) của hàm. 
+
+Trong ví dụ bên dưới, mã chuyển vào giá trị "Hello" cho tham số `text`.
+```
+speak(text: "Hello")
+```</string>
+				<key>Title</key>
+				<string>chuyển vào</string>
+			</dict>
+		</dict>
+		<key>pattern</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một nhóm trường hợp hoặc dữ liệu lặp lại.</string>
+				<key>Title</key>
+				<string>khuôn mẫu</string>
+			</dict>
+		</dict>
+		<key>persistence</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Quá trình lưu trữ dữ liệu người dùng sao cho dữ liệu có thể được tải lại mỗi lần ứng dụng khởi chạy. Nếu không có tính bền bỉ, trạng thái và dữ liệu của ứng dụng sẽ đặt lại mỗi lần ứng dụng của bạn khởi chạy lại.</string>
+				<key>Title</key>
+				<string>tính bền bỉ</string>
+			</dict>
+		</dict>
+		<key>pi</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Pi (π) là một hằng số toán học xấp xỉ bằng 3,14. Đó là tỷ lệ giữa chu vi và đường kính của hình tròn.</string>
+				<key>Title</key>
+				<string>pi</string>
+			</dict>
+		</dict>
+		<key>pitch</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Số đo của phép quay hoặc nghiêng của một thiết bị về bên phải và bên trái khi thiết bị ở hướng ngang.   Về mặt toán học, góc chúc là phép quay xung quanh trục x của thiết bị. Giá trị này được đo bằng radian và có phạm vi từ `-π/2` đến `π/2`.</string>
+				<key>Title</key>
+				<string>góc chúc</string>
+			</dict>
+		</dict>
+		<key>pitch audio</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Cao độ của âm thanh phụ thuộc vào tần số rung của các sóng âm thanh. Càng nhiều sóng âm thanh được tạo ra trong một khoảng thời gian cụ thể thì cao độ càng cao. 
+
+					Trong âm nhạc, cao độ mô tả một nốt có âm thanh "thấp" hoặc "cao". Ví dụ: tiếng chim hót có quãng âm ở cao độ cao và tiếng gầm trầm của sư tử tạo ra âm thanh ở cao độ thấp.</string>
+				<key>Title</key>
+				<string>cao độ</string>
+			</dict>
+		</dict>
+		<key>placeholder view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một chế độ xem được hiển thị tạm thời để cho biết nơi mà nội dung cuối cùng sẽ được tải hay nhập. Một ví dụ là `ProgressView` được sử dụng để cho biết một Hình ảnh đang tải hoặc một hình chữ nhật màu xám là nơi có thể nhập văn bản.</string>
+				<key>Title</key>
+				<string>chế độ xem trình giữ chỗ</string>
+			</dict>
+		</dict>
+		<key>prediction</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Trong học máy, dự đoán là đầu ra của một mô hình học máy khi được cung cấp đầu vào. 
+
+Ví dụ: golden retriever có thể là một dự đoán hợp lệ từ một mô hình học máy đã được huấn luyện để nhận ra các giống chó khác nhau.</string>
+				<key>Title</key>
+				<string>dự đoán</string>
+			</dict>
+		</dict>
+		<key>private</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Từ khóa riêng tư làm cho mã chỉ khả dụng bên trong tệp nguồn cụ thể đó.
+- callout(Ví dụ):
+`private class MyApp: App { }`</string>
+				<key>Title</key>
+				<string>riêng tư</string>
+			</dict>
+		</dict>
+		<key>property</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một biến (một bộ chứa có tên lưu trữ một giá trị) được định nghĩa bên trong một [kiểu](glossary://type).
+
+Thuộc tính có thể được truy cập thông qua một [thể hiện](glossary://instance) của kiểu bằng cách sử dụng [ký pháp dấu chấm](glossary://dot%20notation). Trong bảng bên dưới, `isFacingHole` là một thuộc tính của kiểu `Hopper`.
+```
+if hopper.isFacingHole { 
+	// code 
+}
+```</string>
+				<key>Title</key>
+				<string>thuộc tính</string>
+			</dict>
+		</dict>
+		<key>property wrapper</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Trình đóng gói thuộc tính là một cách đơn giản để áp dụng một khuôn mẫu hoạt động chung cho một thuộc tính. Trình đóng gói này là một cách ghi chú thuộc tính xác định cách lưu trữ hoặc tính toán thuộc tính khi đọc.   Ví dụ: trình đóng gói thuộc tính `@State` yêu cầu SwiftUI quản lý việc lưu trữ cho một giá trị, đồng thời cập nhật bất kỳ phần nào của một chế độ xem sử dụng giá trị đó bất kỳ lúc nào giá trị đó thay đổi.</string>
+				<key>Title</key>
+				<string>trình đóng gói thuộc tính</string>
+			</dict>
+		</dict>
+		<key>protocol</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một nhóm các yêu cầu, ví dụ như các phương thức và thuộc tính, có thể được chấp nhận (hoặc theo dõi) bằng một kiểu, ví dụ như một lớp, cấu trúc hoặc bảng liệt kê.   Khi một kiểu chấp nhận một giao thức, kiểu đó cung cấp cách triển khai của riêng mình theo các yêu cầu của giao thức và được coi là tuân thủ giao thức đó.</string>
+				<key>Title</key>
+				<string>giao thức</string>
+			</dict>
+		</dict>
+		<key>pseudocode</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một phần mô tả dễ đọc của một thuật toán, thường được viết bằng cách kết hợp ngôn ngữ hàng ngày và mã.</string>
+				<key>Title</key>
+				<string>mã giả</string>
+			</dict>
+		</dict>
+		<key>public</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Từ khóa công khai làm cho mã khả dụng đối với bất kỳ tệp nào trong dự án của bạn.
+                        
+- callout(Ví dụ):
+`public func decorateWithSticker(space: Space) { }`
+                    </string>
+				<key>Title</key>
+				<string>công khai</string>
+			</dict>
+		</dict>
+		<key>publish</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Phát một thông báo đến tất cả các [trình quan sát](glossary://observer) của một [đối tượng có thể quan sát](glossary://observable%20object) khi giá trị của một [thuộc tính đã đăng](glossary://published%20value) được chỉ định thay đổi.</string>
+				<key>Title</key>
+				<string>đăng</string>
+			</dict>
+		</dict>
+		<key>published value</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Thêm [trình đóng gói thuộc tính](glossary://property%20wrapper) `@Published` để khai báo một thuộc tính có nhiệm vụ thông báo cho tất cả các [trình quan sát](glossary://observer) khi giá trị của thuộc tính sắp thay đổi. Khi giá trị thay đổi, SwiftUI cập nhật tất cả các chế độ xem sử dụng dữ liệu của thuộc tính.</string>
+				<key>Title</key>
+				<string>giá trị đã đăng</string>
+			</dict>
+		</dict>
+		<key>radians</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Radian là một đơn vị đo góc, giống như độ. Góc tính bằng radian bằng với tỷ lệ giữa độ dài cung và bán kính của hình tròn được vẽ quanh góc đó. Một radian bằng với 180 độ chia cho [pi](glossary://pi).</string>
+				<key>Title</key>
+				<string>radian</string>
+			</dict>
+		</dict>
+		<key>range</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một khoảng ở giữa một [biên dưới](glossary://lower%20bound) và một [biên trên](glossary://upper%20bound). 
+
+Có nhiều cách để tạo ra một phạm vi, bao gồm [phạm vi đóng](glossary://closed%20range) và [phạm vi nửa mở](glossary://half%20open%20range).
+
+```
+let closedRange = 1...4 
+for i in closedRange { 
+	print(i) // 1 2 3 4
+}
+
+let halfOpenRange = 1..&lt;4 
+for i in halfOpenRange { 
+	print(i) // 1 2 3
+}
+```</string>
+				<key>Title</key>
+				<string>phạm vi</string>
+			</dict>
+		</dict>
+		<key>reference type</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Khi bạn tạo ra một [thể hiện](glossary://instance) của một kiểu tham chiếu — ví dụ như một lớp hoặc trình thực thi — dữ liệu của thể hiện đó được lưu trữ trong bộ nhớ được chia sẻ. Kết quả là, thể hiện chỉ chứa một tham chiếu đến dữ liệu thay vì bản sao duy nhất của riêng mình. Nếu bạn [gán](glossary://assignment) thể hiện cho một biến hoặc chuyển vào dưới dạng [đối số](glossary://argument) cho một hàm thì Swift tạo ra một tham chiếu khác đến cùng dữ liệu đó.
+
+Thể hiện được sao chép bởi tham chiếu như được minh họa trong ví dụ bên dưới:
+
+```
+class Bicycle {
+  var color: Color
+   init(color: Color) {
+     self.color = color
+   }
+}
+
+var redBike = Bicycle(color: .red)
+var blueBike = redBike
+blueBike.color = .blue
+print(redBike.color) // =&gt; blue
+print(blueBike.color) // =&gt; blue
+// redBike và blueBike chia sẻ tham chiếu đến cùng một dữ liệu
+```</string>
+				<key>Title</key>
+				<string>kiểu tham chiếu</string>
+			</dict>
+		</dict>
+		<key>responsive</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Mã hoặc giao diện người dùng của bạn phản hồi nếu phản ứng nhanh với [tương tác của người dùng](glossary://user%20interaction) hoặc thích ứng phù hợp với các thay đổi trong môi trường, ví dụ như thay đổi trong kích cỡ của một chế độ xem.</string>
+				<key>Title</key>
+				<string>phản hồi</string>
+			</dict>
+		</dict>
+		<key>return</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Gửi lại một giá trị cho trình gọi của một [hàm](glossary://function). Ví dụ: hàm `contains(3)`, khi được chạy trên dãy `[0,1,2]` trả về một giá trị Boolean là `false`, vì dãy đó không chứa giá trị `3`.</string>
+				<key>Title</key>
+				<string>trả về</string>
+			</dict>
+		</dict>
+		<key>return type</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Khi bạn định nghĩa một hàm, bạn có thể tùy ý định nghĩa một kiểu giá trị mà hàm đó chuyển trở lại dưới dạng đầu ra khi hoàn tất, được gọi là kiểu trả về của hàm.</string>
+				<key>Title</key>
+				<string>kiểu trả về</string>
+			</dict>
+		</dict>
+		<key>reusability</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một đặc điểm của mã cho phép mã được sử dụng trong nhiều tình huống khác nhau bên trong một ứng dụng.</string>
+				<key>Title</key>
+				<string>khả năng tái sử dụng</string>
+			</dict>
+		</dict>
+		<key>roll</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Số đo của phép quay hoặc nghiêng của một thiết bị về phía trước và phía sau khi thiết bị ở hướng ngang.   Về mặt toán học, đây là phép quay xung quanh trục y của thiết bị. Giá trị này được đo bằng radian và có phạm vi từ `-π` đến `π`.</string>
+				<key>Title</key>
+				<string>góc nghiêng</string>
+			</dict>
+		</dict>
+		<key>root view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một chế độ xem mà tất cả các chế độ xem khác được đặt bên trong đó. Cũng được gọi là [chế độ xem cấp cao nhất](glossary://top-level%20view), chế độ xem này nằm ở trên cùng của một [phân cấp xem](glossary://view%20hierarchy) và đóng vai trò là [chế độ xem bộ chứa](glossary://container) cho tất cả các [chế độ xem phụ](glossary://subview) trong phân cấp.</string>
+				<key>Title</key>
+				<string>chế độ xem gốc</string>
+			</dict>
+		</dict>
+		<key>rubber ducky method</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một phương thức học tập, trong đó bạn giải thích một khái niệm với chi tiết tường tận cho một đồ vật vô tri vô giác, ví dụ như một chú vịt cao su. Để thực hiện kỹ thuật này, hãy kiếm một đồ vật vô tri vô giác và bắt đầu giải thích khái niệm một cách to rõ ràng, đảm bảo bao gồm tất cả thông tin cần thiết để chú vịt có thể hiểu được. Trong quá trình giải thích, nếu bạn nhận ra rằng mình bị thiếu thông tin, hãy ghi chú để nghiên cứu sau đó. Bạn có thể bao gồm những phát hiện mới của mình trong các lần giải thích tiếp theo với chú vịt cao su.</string>
+				<key>Title</key>
+				<string>phương thức vịt cao su</string>
+			</dict>
+		</dict>
+		<key>saturation</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Cường độ của sắc độ, từ một tông màu xám đến màu sắc đầy đủ. Độ bão hòa là một double (số thập phân) nằm trong phạm vi từ `0` đến `1`.</string>
+				<key>Title</key>
+				<string>độ bão hòa</string>
+			</dict>
+		</dict>
+		<key>scope</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Các khu vực trong dự án của bạn mà bạn có thể truy cập một giá trị hoặc kiểu từ đó. Trong khi các ký hiệu được định nghĩa ở [phạm vi toàn cục](glossary://global%20scope) có thể được truy cập bởi bất kỳ tệp nào trong [mô-đun](glossary://module) thì các ký hiệu được định nghĩa ở [phạm vi cục bộ](glossary://local%20scope) khả dụng trong mã ở cùng mức phạm vi cục bộ hoặc thấp hơn.</string>
+				<key>Title</key>
+				<string>phạm vi</string>
+			</dict>
+		</dict>
+		<key>sensor</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Cảm biến là một thiết bị phát hiện các sự kiện — ví dụ như một sự thay đổi về nhiệt, ánh sáng, âm thanh hoặc chuyển động — và trả về một giá trị.</string>
+				<key>Title</key>
+				<string>cảm biến</string>
+			</dict>
+		</dict>
+		<key>sequence</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một danh sách các giá trị mà bạn có thể đi qua lần lượt, sử dụng [lặp lại](glossary://iteration).
+
+Bạn có thể sử dụng một vòng lặp `for`-`in` để lặp lại trên một trình tự như dãy `healthySnacks` trong ví dụ sau đây:
+```
+let healthySnacks = ["apple", "pear", "banana"]
+for snack in healthySnacks {
+	eat(snack)
+}
+```</string>
+				<key>Title</key>
+				<string>trình tự</string>
+			</dict>
+		</dict>
+		<key>source of truth</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Trong quá trình dựng ứng dụng, một vị trí duy nhất mà tất cả dữ liệu được sửa đổi. Tất cả các kết nối khác đến dữ liệu này chỉ là tham chiếu, ngăn chặn việc nhân bản thông tin trong các vị trí khác. </string>
+				<key>Title</key>
+				<string>nguồn chân lý</string>
+			</dict>
+		</dict>
+		<key>speech synthesis</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Quá trình tạo âm thanh của máy tính giống với tiếng nói của con người, thường được tạo từ văn bản.</string>
+				<key>Title</key>
+				<string>tổng hợp tiếng nói</string>
+			</dict>
+		</dict>
+		<key>state</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Thông tin được lưu trữ trong một biến, ứng dụng hoặc hệ thống tại một thời điểm cho trước. Ví dụ: nếu biến `level` chứa một giá trị là `4` thì trạng thái hiện tại của biến là `4`.</string>
+				<key>Title</key>
+				<string>trạng thái</string>
+			</dict>
+		</dict>
+		<key>state change</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một thay đổi trong thông tin được lưu trữ trong một biến, ứng dụng hoặc hệ thống. Ví dụ: nếu giá trị của biến `level` thay đổi từ `4` thành `5` thì trạng thái của biến đã thay đổi.</string>
+				<key>Title</key>
+				<string>thay đổi trạng thái</string>
+			</dict>
+		</dict>
+		<key>state object</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Thêm [trình đóng gói thuộc tính](glossary://property%20wrapper) `@StateObject` để khai báo đối tượng trạng thái và cung cấp giá trị ban đầu tuân thủ [giao thức](glossary://protocol) của `ObservableObject`. SwiftUI quản lý việc lưu trữ cho đối tượng trạng thái và cập nhật tất cả các chế độ xem phụ sử dụng giá trị đó bất kỳ lúc nào các giá trị đã đăng thay đổi.</string>
+				<key>Title</key>
+				<string>đối tượng trạng thái</string>
+			</dict>
+		</dict>
+		<key>state property</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Thêm `@State` vào trước một [thuộc tính](glossary://property) của một chế độ xem để yêu cầu SwiftUI quản lý việc lưu trữ cho giá trị. Khi giá trị thay đổi, SwiftUI cập nhật bất kỳ phần nào của chế độ xem sử dụng giá trị đó.
+
+```
+@State var isOn = false
+```
+</string>
+				<key>Title</key>
+				<string>thuộc tính trạng thái</string>
+			</dict>
+		</dict>
+		<key>state value</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Thêm `@State` vào trước một biến để yêu cầu SwiftUI quản lý việc lưu trữ cho giá trị. Khi giá trị thay đổi, SwiftUI cập nhật bất kỳ phần nào của chế độ xem sử dụng giá trị đó.</string>
+				<key>Title</key>
+				<string>giá trị trạng thái</string>
+			</dict>
+		</dict>
+		<key>statement</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một cấu trúc, ví dụ như một vòng lặp hoặc câu lệnh `if`, sắp xếp mã trong một ứng dụng.</string>
+				<key>Title</key>
+				<string>câu lệnh</string>
+			</dict>
+		</dict>
+		<key>string component</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một phần — hay chuỗi con — của một chuỗi, sau khi chuỗi được chia thành các phần bởi một dấu phân cách. Ví dụ: nếu chuỗi `"dog+cat+fish"` được chia bằng dấu phân cách `"+"` thì các thành phần kết quả là các chuỗi `"dog"`, `"cat"` và `"fish"`.</string>
+				<key>Title</key>
+				<string>thành phần chuỗi</string>
+			</dict>
+		</dict>
+		<key>string concatenation</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Thao tác nối các chuỗi bằng cách thêm một chuỗi vào cuối một chuỗi khác. Ví dụ: ghép nối của `"foot"` và `"ball"` là `"football"`.</string>
+				<key>Title</key>
+				<string>ghép nối chuỗi</string>
+			</dict>
+		</dict>
+		<key>string interpolation</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Việc sử dụng các hằng số, biến và biểu thức mã bên trong một chuỗi dài hơn, sẽ được thay thế bằng các giá trị hiện tại của chúng khi đánh giá chuỗi. Ví dụ: trong chuỗi `"Katy ate a \(fruit)."`, nếu `fruit` là một biến có giá trị là `"peach"` thì `\(fruit)` được thay thế bởi `"peach"` khi chuỗi đó được đánh giá, trở thành `"Katy ate a peach."`</string>
+				<key>Title</key>
+				<string>nội suy chuỗi</string>
+			</dict>
+		</dict>
+		<key>structure</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Cấu trúc là một bộ chứa cho mã đóng vai trò như một bản thiết kế để tạo ra nhiều [thể hiện](glossary://instance) của cùng một kiểu sản phẩm. Cũng giống như một bản thiết kế có thể xác định các tính năng và hoạt động của một đồ vật, ví dụ như một chiếc xe đạp, cấu trúc xác định chúng là các [thuộc tính](glossary://property) và [phương thức](glossary://method) của đồ vật đó.
+
+Khi bạn tạo ra một thể hiện của cấu trúc, thể hiện đó chứa tất cả các thuộc tính và phương thức được xác định trong bản thiết kế của bạn. Mỗi thể hiện chia sẻ cùng các thuộc tính và phương thức, nhưng bạn có thể thay đổi độc lập giá trị của các thuộc tính, cho phép tùy chỉnh từng thể hiện mà bạn tạo ra — hay khởi tạo — từ cấu trúc. Ví dụ: một cấu trúc xe đạp có thể có thuộc tính màu sắc, cho phép bạn tạo ra một chiếc xe đạp màu đỏ hoặc màu lam.
+
+Cấu trúc giống với [lớp](glossary://class), nhưng khác biệt ở hai điểm quan trọng: cấu trúc là một [kiểu giá trị](glossary://value%20type) — cấu trúc luôn được sao chép bởi giá trị và cấu trúc không hỗ trợ kế thừa từ một cấu trúc khác.
+
+```
+struct Bicycle { 
+	var color : Color 
+	var type : BikeCategory
+}
+```</string>
+				<key>Title</key>
+				<string>cấu trúc</string>
+			</dict>
+		</dict>
+		<key>subview</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một chế độ xem được chứa bên trong một chế độ xem [bộ chứa](glossary://container). Một bộ chứa có thể có bất kỳ số lượng chế độ xem phụ nào, mỗi chế độ xem phụ đó đều có thể chứa các chế độ xem phụ của chính mình, v.v. Một chế độ xem và tất cả các hậu duệ của nó tạo thành một [phân cấp xem](glossary://view%20hierarchy).</string>
+				<key>Title</key>
+				<string>chế độ xem phụ</string>
+			</dict>
+		</dict>
+		<key>syntax</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Các quy tắc để viết mã mà máy tính có thể hiểu và chạy.</string>
+				<key>Title</key>
+				<string>cú pháp</string>
+			</dict>
+		</dict>
+		<key>task</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Tác vụ có vai trò hữu ích trong việc xử lý các đơn vị công việc riêng biệt trong ứng dụng của bạn, sao cho mã của bạn có thể tiếp tục thực hiện những việc quan trọng như xử lý giao diện người dùng. Khi bạn tạo ra một tác vụ, tác vụ đó chạy mã của mình [không đồng bộ](glossary://asynchronous%20process) như một phần trong chương trình của bạn. Việc này cho phép phần còn lại trong mã của bạn tiếp tục thực hiện các việc khác. Các phần trong mã của bạn cần dữ liệu từ tác vụ này có thể `await` kết quả của tác vụ.</string>
+				<key>Title</key>
+				<string>tác vụ</string>
+			</dict>
+		</dict>
+		<key>ternary conditional operator</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một cách ngắn gọn đặc biệt để viết câu lệnh điều kiện. [Toán tử](glossary://operator) có ba phần, có dạng `condition ? trueValue : falseValue`. Đó giống như một [câu lệnh `if`](glossary://if%20statement), trả về `trueValue` nếu `condition` là `true` và `falseValue` nếu `false`. 
+
+Trong mã bên dưới, nếu `isOn` là `true` thì hình chữ nhật có màu lục. Nếu `isOn` là `false` thì hình chữ nhật có màu đỏ.
+
+```
+Rectangle()
+     .foregroundColor(isOn ? .green : .red)
+```
+
+Mã trên có thể được đọc thành: nếu giá trị `isOn` là `true` thì trả về giá trị `.green`, ngược lại, trả về giá trị `.red`.
+</string>
+				<key>Title</key>
+				<string>toán tử điều kiện tam phân</string>
+			</dict>
+		</dict>
+		<key>toolbar</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một dải các biểu tượng được sử dụng để thực hiện các chức năng nhất định. Trình sửa đổi thanh công cụ dự kiến một tập hợp các mục thanh công cụ mà bạn có thể cung cấp bằng cách thêm một tập hợp các chế độ xem.</string>
+				<key>Title</key>
+				<string>thanh công cụ</string>
+			</dict>
+		</dict>
+		<key>top-level view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một chế độ xem mà tất cả các chế độ xem khác được đặt bên trong đó. Cũng được gọi là [chế độ xem gốc](glossary://root%20view), chế độ xem này nằm ở trên cùng của một [phân cấp xem](glossary://view%20hierarchy) và đóng vai trò là [chế độ xem bộ chứa](glossary://container) cho tất cả các [chế độ xem phụ](glossary://subview) trong phân cấp.</string>
+				<key>Title</key>
+				<string>chế độ xem cấp cao nhất</string>
+			</dict>
+		</dict>
+		<key>trailing edge</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Mép sau, khi được sử dụng liên quan đến nội dung bên trong một chế độ xem, đề cập đến vị trí theo chiều ngang mà nội dung kết thúc. Vị trí của mép sau phụ thuộc vào tùy chọn của bạn và thường dựa trên cài đặt vùng và ngôn ngữ của bạn.
+                    Ví dụ: với các ngôn ngữ đọc từ trái sang phải, như Tiếng Anh hoặc Tiếng Hà Lan, mép sau nằm ở bên phải. Với các ngôn ngữ đọc từ phải sang trái, như Tiếng Ả Rập hoặc Tiếng Do Thái, mép sau nằm ở bên trái.</string>
+				<key>Title</key>
+				<string>mép sau</string>
+			</dict>
+		</dict>
+		<key>training</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Trong học máy, quá trình mà một thuật toán học máy học từ một tập dữ liệu.
+
+Trong quá trình học được giám sát, mô hình cố gắng tạo ra mối quan hệ toán học chính xác nhất giữa các tính năng dữ liệu và nhãn cho dữ liệu đó. Trong quá trình học không được giám sát, mô hình cố gắng tìm mối quan hệ giữa chính các tính năng dữ liệu.</string>
+				<key>Title</key>
+				<string>huấn luyện</string>
+			</dict>
+		</dict>
+		<key>training dataset</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Tập hợp dữ liệu mà một mô hình học máy sử dụng để [huấn luyện](glossary://training) chính mình nhằm tạo ra các [dự đoán](glossary://prediction).</string>
+				<key>Title</key>
+				<string>tập dữ liệu huấn luyện</string>
+			</dict>
+		</dict>
+		<key>type</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một nhóm các thuộc tính (tính năng) và phương thức (hoạt động) có tên của một loại dữ liệu.
+
+Kiểu là một cách để tạo ra một nhóm chức năng liên quan sao cho có thể truy cập dễ dàng hơn.
+
+```
+struct Person { 
+	var name : Int
+	var age : String 
+
+	func greet() { 
+		print("Hello, friend!")
+	}
+}
+```</string>
+				<key>Title</key>
+				<string>kiểu</string>
+			</dict>
+		</dict>
+		<key>typography</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Nghệ thuật và kỹ thuật sắp xếp kiểu chữ để làm cho ngôn ngữ viết rõ ràng, dễ đọc và thu hút khi được hiển thị.</string>
+				<key>Title</key>
+				<string>sắp chữ</string>
+			</dict>
+		</dict>
+		<key>unwrap</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Trích xuất giá trị được đóng gói từ một [thể hiện](glossary://instance) của một kiểu [tùy chọn](glossary://optional). 
+				
+Một cách phổ biến để mở gói giá trị thuộc kiểu tùy chọn là sử dụng `if`-`let`:
+```
+var count: Int? = 48
+if let unwrappedCount = count {
+	print(unwrappedCount)
+} else {
+	print("count has no value")
+}
+```</string>
+				<key>Title</key>
+				<string>mở gói</string>
+			</dict>
+		</dict>
+		<key>upper bound</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Trong một [phạm vi](glossary://range%20value), giá trị kết thúc được đếm lên.
+
+```
+let closedRange = 1...5 // Biên dưới là 1, biên trên là 5
+for i in closedRange { 
+	print(i) // 1 2 3 4 5
+}
+```</string>
+				<key>Title</key>
+				<string>biên trên</string>
+			</dict>
+		</dict>
+		<key>user</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một người nào đó sử dụng ứng dụng của bạn.</string>
+				<key>Title</key>
+				<string>người dùng</string>
+			</dict>
+		</dict>
+		<key>user input</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Thông tin mà một ứng dụng nhận được từ việc tương tác với người dùng, ví dụ như từ việc người dùng chạm vào màn hình, nhập văn bản bằng bàn phím hoặc nói vào micrô. 
+</string>
+				<key>Title</key>
+				<string>đầu vào của người dùng</string>
+			</dict>
+		</dict>
+		<key>user interaction</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một tác vụ được thực hiện bởi [người dùng](glossary://user) bằng ứng dụng của bạn. Chạm vào một nút, vuốt sang trái trên màn hình, xoay thiết bị, chọn một màu từ `ColorPicker` và nhập các ký tự vào một trường văn bản đều là các ví dụ về tương tác của người dùng.</string>
+				<key>Title</key>
+				<string>tương tác của người dùng</string>
+			</dict>
+		</dict>
+		<key>user interface</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Các phương tiện mà người dùng sử dụng để điều khiển ứng dụng. Cũng được gọi là “UI”, thuật ngữ này thường được sử dụng để đề cập tới phần hình ảnh của một ứng dụng mà người dùng tương tác, với các phần tử bao gồm hình ảnh, văn bản, nút, thanh trượt, chế độ xem cuộn, v.v.</string>
+				<key>Title</key>
+				<string>giao diện người dùng</string>
+			</dict>
+		</dict>
+		<key>validation dataset</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một mẫu dữ liệu được giữ lại từ [tập dữ liệu huấn luyện](glossary://training%20dataset) trong mô hình học máy của bạn. Mô hình sử dụng tập dữ liệu xác thực để đánh giá độ chính xác của các dự đoán.</string>
+				<key>Title</key>
+				<string>tập dữ liệu xác thực</string>
+			</dict>
+		</dict>
+		<key>value type</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Khi bạn tạo ra một [thể hiện](glossary://instance) của một kiểu giá trị — ví dụ như một [cấu trúc](glossary://structure), dữ liệu được lưu trữ trong chính thể hiện đó. Nếu bạn [gán](glossary://assignment) thể hiện cho một biến hoặc chuyển vào dưới dạng một [đối số](glossary://argument) cho một hàm, Swift tạo ra một thể hiện mới với bản sao độc lập của dữ liệu.
+
+Thể hiện đó được sao chép bởi giá trị như được minh họa trong ví dụ bên dưới:
+
+```
+struct Bicycle {
+  var color: Color
+}
+
+var redBike = Bicycle(color: .red)
+var blueBike = redBike
+blueBike.color = .blue
+print(redBike.color) // =&gt; red
+print(blueBike.color) // =&gt; blue
+// redBike và blueBike đều có bản sao dữ liệu riêng
+```</string>
+				<key>Title</key>
+				<string>kiểu giá trị</string>
+			</dict>
+		</dict>
+		<key>variable</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một bộ chứa có tên lưu trữ một giá trị có thể thay đổi được.
+
+Biến có thể lưu trữ các [kiểu](glossary://type) giá trị khác nhau, ví dụ như [số nguyên](glossary://Int), [chuỗi](glossary://String) và [phạm vi](glossary://range).  
+```
+var favoriteNumber = 7 // Lưu trữ một số nguyên
+var greeting = "Hello" // Lưu trữ một chuỗi
+var repetitions = 1...5 // Lưu trữ một phạm vi
+```
+</string>
+				<key>Title</key>
+				<string>biến</string>
+			</dict>
+		</dict>
+		<key>velocity</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Tốc độ của một thứ gì đó theo một hướng cho trước.</string>
+				<key>Title</key>
+				<string>vận tốc</string>
+			</dict>
+		</dict>
+		<key>view</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một chế độ xem là khối xây dựng trong giao diện người dùng của ứng dụng và biểu thị bất kỳ phần tử hình ảnh nào [tuân thủ](glossary://conform) [giao thức](glossary://protocol) `View`.
+
+Một số ví dụ về chế độ xem trong SwiftUI là chế độ xem văn bản, chế độ xem hình ảnh, thanh trượt, lưới, nút và hình dạng.</string>
+				<key>Title</key>
+				<string>chế độ xem</string>
+			</dict>
+		</dict>
+		<key>view hierarchy</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một cấu trúc xác định bố cục của các chế độ xem tương quan với các chế độ xem khác, với một tham chiếu đến thể hiện chế độ xem cấp cao nhất ở trên cùng của phân cấp. Chế độ xem cấp cao nhất có thể chứa bất kỳ số lượng chế độ xem phụ nào, mỗi chế độ xem phụ có thể chứa các chế độ xem phụ riêng, v.v.</string>
+				<key>Title</key>
+				<string>phân cấp xem</string>
+			</dict>
+		</dict>
+		<key>volume</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Âm lượng là độ lớn của âm thanh được phát hiện bởi [cảm biến](glossary://sensor). Giá trị nằm trong phạm vi từ 0 đến 1.</string>
+				<key>Title</key>
+				<string>âm lượng</string>
+			</dict>
+		</dict>
+		<key>while loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Một khối mã chạy miễn là một điều kiện cho trước là `true`. Khi điều kiện thay đổi thành `false`, vòng lặp dừng chạy.</string>
+				<key>Title</key>
+				<string>vòng lặp while</string>
+			</dict>
+		</dict>
+		<key>wireframe</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Đường viền của một mục, ví dụ như một viên ngọc, công tắc hay hình khối, trong thế giới hình ghép. Một khung dây được sử dụng để biểu thị khả năng mà mục có thể xuất hiện ngẫu nhiên mỗi lần hình ghép được chạy.</string>
+				<key>Title</key>
+				<string>khung dây</string>
+			</dict>
+		</dict>
+		<key>yaw</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Số đo của phép quay xung quanh tâm của một thiết bị khi được đặt trên một bề mặt phẳng.   Về mặt toán học, đây là phép quay xung quanh trục z của thiết bị. Giá trị này được đo bằng radian và có phạm vi từ `-π` đến `π`.</string>
+				<key>Title</key>
+				<string>góc đảo</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
